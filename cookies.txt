@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+razonartificial.com	TRUE	/	FALSE	1999999999	240planBAK	R2339332640
+razonartificial.com	TRUE	/	FALSE	1999999999	240plan	R3762817618
+
