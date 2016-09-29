@@ -1,5 +1,5 @@
 body {	
-	font: 14px/24px 'Lato', Arial, Helvetica, sans-serif;
+	font: 14px/24px Verdana, Geneva, sans-serif;
 	color: #303030;
 	background: #fff;
 }
@@ -252,6 +252,8 @@ h6 { font-size: 18px; }
 	background-color: #222;
 	border: solid #222;
 	border-width: 1px 0 0 0;
+	font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
 }	
 	.main-menu .navbar-collapse {
 		padding-left: 0;
@@ -270,28 +272,33 @@ h6 { font-size: 18px; }
 		}
 		.main-menu .navbar-nav > li > a .fa {
 			margin-left: 8px;
-			font-size: 18px;
+			/*font-size: 18px;*/
+    		font-size: 15px;
 		}
 		.main-menu .dropdown-menu {
-			background-color: #ea4d35;
+			background-color: #222;
 			border: none;
 		}
 			.main-menu .dropdown-menu > li > a {
 				padding: 7px 16px;
 				color: #fff;
-				font-size: 13px;
+				/*font-size: 13px;*/
 				font-weight: bold;
 				line-height: normal;
+    			font-size: 15px;
 			}
 			.main-menu .dropdown-menu > li > a .fa {
 				margin-right: 5px;
-				font-size: 16px;
+				/*font-size: 16px;*/
+
+				font-family: Verdana, Geneva, sans-serif;
+    			font-size: 15px;
 			}
 			.main-menu .dropdown-menu > li:hover > a, 
 			.main-menu .dropdown-menu > li > a:hover, 
 			.main-menu .dropdown-menu > li > a:focus, 
 			.main-menu .dropdown-menu > li.active > a {
-				background-color: #ca402b;
+				background-color: #0CF;
 			}
 
 /* Search Section Styles Starts */
@@ -300,6 +307,7 @@ h6 { font-size: 18px; }
 	padding-top: 30px;
 	padding-bottom: 150px;
 	background-image: url(../images/section-bg2.jpg);
+	margin-bottom: 30px;
 }
 .search-area.condensed {
 	padding-top: 50px;
@@ -765,6 +773,7 @@ h6 { font-size: 18px; }
 		.news-event-teaser h5, 
 		.news-event-teaser h6 {
 			margin-bottom: 0;
+			padding: 0px 20px;
 		}
 		.news-event-teaser h1, 
 		.news-event-teaser h2, 
@@ -775,11 +784,13 @@ h6 { font-size: 18px; }
 		.news-event-teaser h2, 
 		.news-event-teaser h5, 
 		.news-event-teaser h6 {
-			color: #cf3d27;
+			color: #0CF;
 		}
 	.news-block p {
 		margin-top: 20px;
 		color: #787878;
+		text-align: justify;
+		padding: 20px 20px;
 	}
 	.news-block .btn-secondary {
 		margin-top: 10px;
@@ -2129,4 +2140,9 @@ h6 { font-size: 18px; }
 }
 .text-tittle{
 	color: white;
+	font-family: Verdana, Geneva, sans-serif;
+    font-size: 60px;
+}
+.navbarbarra {
+  border-left: 5px solid #0CF;
 }

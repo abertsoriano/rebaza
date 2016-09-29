@@ -59,10 +59,10 @@
 		transform: rotate(20deg);
 	}
 	.news-event-teaser h6 {
-		margin-top: 20px;
-		width: 73%;
+		margin-top: 0px;
+		width: 100%;
 		float: right;
-		font-size: 20px;
+		font-size: 30px;
 		line-height: 26px;
 	}
 	
