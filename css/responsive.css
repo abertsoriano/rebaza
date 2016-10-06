@@ -58,12 +58,22 @@
 		background-color: #cf3d27;
 		transform: rotate(20deg);
 	}
+
+	.news-event-teaser h5 {
+		margin-top: 0px;
+		width: 100%;
+		float: right;
+		font-size: 20px;
+		line-height: 26px;
+		font-style: italic;
+	}
 	.news-event-teaser h6 {
 		margin-top: 0px;
 		width: 100%;
 		float: right;
-		font-size: 30px;
+		font-size: 21px;
 		line-height: 26px;
+		font-family: verdana-bold;
 	}
 	.news-event-teaser h4 {
 		margin-top: 0px;
@@ -71,6 +81,10 @@
 		float: right;
 		font-size: 20px;
 		line-height: 26px;
+	}
+
+	.lema {
+		padding-top: 60px;
 	}
 /* Download App Section Styles Starts */
 
@@ -299,7 +313,7 @@
 	}	
 		.main-menu .navbar-nav > li > a .fa {
 			margin-left: 3px;
-			font-size: 15px;
+			font-size: 12px;
 		}
 		.main-menu .dropdown:hover .dropdown-menu {
 			display: block;
