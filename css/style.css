@@ -6,7 +6,7 @@ body {
 
 /* Standard Styles Starts */
 
-a { color: #0CF; }
+a { color: #36A9E1; }
 a:hover, 
 a:focus {
 	color: #b4321e;
@@ -142,7 +142,7 @@ h6 { font-size: 18px; }
 }
 
 .btn-secondary {
-	background-color: #0CF;
+	background-color: #36A9E1;
 }
 .btn-secondary:hover, 
 .btn-secondary:focus,
@@ -217,7 +217,7 @@ h6 { font-size: 18px; }
 			padding-left: 15px;
 		}
 			.top-links li a {
-				color: #0CF;
+				color: #36A9E1;
 			}
 			
 /* Order Info Styles Starts */
@@ -269,7 +269,7 @@ h6 { font-size: 18px; }
 		.main-menu .navbar-nav > li > a:hover, 
 		.main-menu .navbar-nav > li > a:focus, 
 		.main-menu .navbar-nav > li.active > a {
-			background-color: #0CF;
+			background-color: #36A9E1;
 		}
 		.main-menu .navbar-nav > li > a .fa {
 			margin-left: 8px;
@@ -299,7 +299,7 @@ h6 { font-size: 18px; }
 			.main-menu .dropdown-menu > li > a:hover, 
 			.main-menu .dropdown-menu > li > a:focus, 
 			.main-menu .dropdown-menu > li.active > a {
-				background-color: #0CF;
+				background-color: #36A9E1;
 			}
 
 /* Search Section Styles Starts */
@@ -785,12 +785,12 @@ h6 { font-size: 18px; }
 		.news-event-teaser h2, 
 		.news-event-teaser h5, 
 		.news-event-teaser h6 {
-			color: #0CF;
+			color: #36A9E1;
 		}
 		.news-event-teaser h4 {
 			font-size: 2.2em;
-			font-style: italic;
-			color: #5a5a5a;
+			color: #36A9E1;
+			padding: 1px 20px;
 		}
 		.news-event-teaser h4 span{
 			font-size: .7em;
@@ -2160,7 +2160,7 @@ h6 { font-size: 18px; }
     border-bottom: 1px solid #fff
 }
 .navbarbarra {
-  border-left: 3px solid #0CF;
+  border-left: 3px solid #36A9E1;
 }
 
 .fix-bg {
