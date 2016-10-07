@@ -18,7 +18,8 @@ $(function() {
 			autoPlay: 3000, //Set AutoPlay to 3 seconds
 			slideSpeed: 300,
 			paginationSpeed : 400,
-			singleItem : true
+			singleItem : true,
+			stopOnHover : false,
 		});
 	}
 
