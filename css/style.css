@@ -220,7 +220,7 @@ h6 { font-size: 18px; }
 		}
 			.top-links li a {
 				color: #36A9E1;
-			    font-size: 14px;
+			    font-size: 13px;
     			font-family: verdana;
 			}
 			
@@ -255,7 +255,7 @@ h6 { font-size: 18px; }
 	margin-bottom: 0;
 	background-color: #030305;
 	border: solid #030305;
-	border-width: 1px 0 0 0;
+	border-width: 0 0 0 0;
 	font-family: Verdana;
     font-size: 14px;
     height: 41px;
@@ -266,14 +266,15 @@ h6 { font-size: 18px; }
 		padding-right: 0;
 	}
 		.main-menu .navbar-nav > li > a {
-			padding: 10px 20px;
+			padding: 10px 23px;
 			color: #fff;
 		}
 		.main-menu .navbar-nav > li:hover > a, 
 		.main-menu .navbar-nav > li > a:hover, 
 		.main-menu .navbar-nav > li > a:focus, 
 		.main-menu .navbar-nav > li.active > a {
-			background-color: #36A9E1;
+			background-color: #030305;
+			color: #36A9E1;
 		}
 		.main-menu .navbar-nav > li > a .fa {
 			margin-left: 8px;
@@ -288,9 +289,10 @@ h6 { font-size: 18px; }
 				padding: 7px 16px;
 				color: #fff;
 				/*font-size: 13px;*/
-				font-weight: bold;
+				/*font-weight: bold;*/
 				line-height: normal;
-    			font-size: 15px;
+    			font-size: 13px;
+    			border-bottom:1px #908f91 solid;
 			}
 			.main-menu .dropdown-menu > li > a .fa {
 				margin-right: 5px;
@@ -303,7 +305,8 @@ h6 { font-size: 18px; }
 			.main-menu .dropdown-menu > li > a:hover, 
 			.main-menu .dropdown-menu > li > a:focus, 
 			.main-menu .dropdown-menu > li.active > a {
-				background-color: #36A9E1;
+				background-color: #030305;
+				color: #36A9E1;
 			}
 
 /* Search Section Styles Starts */
@@ -774,6 +777,7 @@ h6 { font-size: 18px; }
 		}
 		.news-event-teaser h2 {
 			margin-bottom: 0;
+			    font-size: 11px;
 		}
 		.news-event-teaser h5, 
 		.news-event-teaser h6 {
@@ -2176,4 +2180,28 @@ h6 { font-size: 18px; }
 }
 .color-gray-light {
 	color: #ccc;
+}
+
+
+
+
+	
+#columna_premios{
+	height:100px;
+	margin-top:40px;
+	float: right;
+	width:200px;}
+
+#columna_premios a{
+	opacity:0.0;
+	position:absolute;
+	margin-left:30px;
+}
+
+#columna_premios a.active {
+    z-index:10;
+    opacity:1.0;
+}
+#columna_premios a.last-active {
+    z-index:9;
 }
