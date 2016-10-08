@@ -262,11 +262,11 @@ h6 { font-size: 18px; }
     padding-top: 10px;
 }
 	.main-menu .navbar-collapse {
-		padding-left: 0;
-		padding-right: 0;
+		padding-left: auto;
+		padding-right: auto;
 	}
 		.main-menu .navbar-nav > li > a {
-			padding: 10px 23px;
+			padding: 10px 35.1px;
 			color: #fff;
 		}
 		.main-menu .navbar-nav > li:hover > a,
@@ -778,6 +778,7 @@ h6 { font-size: 18px; }
 		.news-event-teaser h2 {
 			margin-bottom: 0;
 			    font-size: 11px;
+			    line-height: 2;
 		}
 		.news-event-teaser h5,
 		.news-event-teaser h6 {
