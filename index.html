@@ -20,6 +20,7 @@
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/responsive.css" rel="stylesheet">
 		<link href="js/plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/animate.css">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,7 +40,7 @@
 	</head>
 	<body>
 	<!-- Header Starts -->
-		<header class="main-header">
+		<header class="main-header header-overlay">
 		<!-- Nested Container Starts -->
 			<div class="container text-center-xs">
 			<!-- Nested Row Starts -->
@@ -48,12 +49,12 @@
 					<div class="col-sm-12 col-xs-12">
 					<!-- Top Links Starts -->
 						<ul class="list-unstyled list-inline top-links text-right-lg text-right-md text-right-sm">
-							<li><a href="#">English Version</a></li>
+							<li data-scroll-reveal="enter left and move 50px over 1.8s" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true"><a href="#">English Version</a></li>
 						</ul>
 					</div>
 					<div class="col-sm-12 col-xs-12 text-center center-block">
 					<!-- Logo Starts -->
-						<img src="images/logo.png" alt="Rebaza, Alcázar &amp; De Las Casas" class="img-responsive img-center-sm img-center-xs">
+						<a href="index.html"><img src="images/logo.png" alt="Rebaza, Alcázar &amp; De Las Casas" class="img-responsive img-center-sm img-center-xs"></a>
 					<!-- Logo Ends -->
 					</div>
 
@@ -121,19 +122,20 @@
 		<!-- Nested Container Ends -->
 		</nav>
 	<!-- Main Menu Ends -->
+
+
 	<!-- Search Section Starts -->
 		<section class="search-area fix-bg">
 		</section>
 	<!-- Search Section Ends -->
 	<!-- News & Events Section Starts -->
-		<section class="news-event-teaser section text-center-xs">
+		<section class="wow news-event-teaser section text-center-xs">
 		<!-- Nested Container Starts -->
 			<div class="container small">
-
 			<!-- Nested Row Starts -->
-				<div class="row">
+				<div class="row wow bounceInUp">
 					<div class="col-sm-9">
-						<div class="row">
+						<div class="row wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s">
 							<div class="col-sm-6 col-xs-12">
 								<article class="news-block">
 									<h6 class="text-normal text-bold">Experiencia reciente</h6>
@@ -162,7 +164,7 @@
 						</div>
 					</div>
 					<div class="col-sm-2 col-sm-offset-1">
-						<div class="col-sm-12">
+						<div class="col-sm-12 food-menu-grid" >
 							<h2 class="text-center small text-bold">Galería de Arte<br>RSE<br>RAD Login</h2>
 							<article class="news-block">
 								<img src="images/latin.png" alt="FoodBingo" class="img-responsive img-center-sm img-center-xs">
@@ -262,6 +264,10 @@
 	<script src="js/jquery-migrate-1.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/plugins/owl-carousel/owl.carousel.js"></script>
+	<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 	<!--<script src="js/plugins/bootstrap-filestyle/bootstrap-filestyle.min.js"></script>
 	<script src="js/plugins/datepicker/bootstrap-datepicker.js"></script>
 	<script src="js/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
