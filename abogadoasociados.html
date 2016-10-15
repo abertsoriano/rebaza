@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	
-<!-- Mirrored from ecommerceforest.com/wrap/FoodBingo/V1.1/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 27 Sep 2016 21:05:43 GMT -->
 <head>
-
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,19 +12,16 @@
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 
-		<!-- Google Web Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
-		
+		<!-- Google Web Fonts
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css"> -->
+
 		<!-- Template CSS Files  -->
 		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-		<!--<link href="js/plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
-		<link href="js/plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
-		<link href="js/plugins/owl-carousel/owl.theme.css" rel="stylesheet">
-		<link href="js/plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
-		<link href="js/plugins/datepicker/datepicker.css" rel="stylesheet">-->
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/responsive.css" rel="stylesheet">
-		
+		<link href="js/plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/animate.css">
+
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -42,11 +36,11 @@
 		<link rel="apple-touch-icon-precomposed" href="images/fav-57.html">
 		<link rel="shortcut icon" href="images/fav.html">
 		<link rel="shortcut icon" type="images/ico" href="images/favicon.ico">
-		
+
 	</head>
 	<body>
 	<!-- Header Starts -->
-		<header class="main-header">
+		<header class="main-header header-overlay">
 		<!-- Nested Container Starts -->
 			<div class="container text-center-xs">
 			<!-- Nested Row Starts -->
@@ -54,21 +48,13 @@
 
 					<div class="col-sm-12 col-xs-12">
 					<!-- Top Links Starts -->
-						<ul class="list-unstyled list-inline top-links text-right-lg text-right-md text-right-sm text-bold">
-							<li><a href="#">English Version</a></li>
+						<ul class="list-unstyled list-inline top-links text-right-lg text-right-md text-right-sm">
+							<li data-scroll-reveal="enter left and move 50px over 1.8s" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true"><a href="#">English Version</a></li>
 						</ul>
 					</div>
-					<!-- Top Links Ends -->
-					<!-- Starts -->
-						<!--ul class="list-unstyled list-inline text-right-lg text-right-md text-right-sm order-info">
-							<li class="lead"><i class="fa fa-phone"></i> Call : 001 9876 543 210</li>
-							<li class="hidden-xs">&nbsp;</li>
-							<li><a href="#" class="btn btn-light animation">Order Food Online!</a></li>
-						</ul-->
-					<!-- Ends -->					
-					<div class="col-sm-12 col-xs-12 text-center">
+					<div class="col-sm-12 col-xs-12 text-center center-block">
 					<!-- Logo Starts -->
-						<h1 class="text-light text-tittle">Rebaza, Alcázar &amp; De Las Casas </h1>
+						<a href="index.html"><img src="images/logo.png" alt="Rebaza, Alcázar &amp; De Las Casas" class="img-responsive img-center-sm img-center-xs"></a>
 					<!-- Logo Ends -->
 					</div>
 
@@ -94,16 +80,16 @@
 				<div class="collapse navbar-collapse navbar-cat-collapse">
 					<ul class="nav navbar-nav">
 						<li class="dropdown">
-							<a href="estudio.html" class="dropdown-toggle" data-toggle="dropdown"> El Estudio</a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"> El Estudio</a>
 							<ul class="dropdown-menu flat pull-right-md pull-right-sm">
-								<li class=""><a tabindex="-1" href="#"></i> Presentacion</a></li>
-								<li><a tabindex="-1" href="#"></i> ¿Que nos diferencia?</a></li>
+								<li class="#"><a tabindex="-1" href="estudio.html"></i> Presentación</a></li>
+								<li><a tabindex="-1" style="border:none;" href="diferencia.html"></i> ¿Qué nos diferencia?</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Áreas </a>
 							<ul class="dropdown-menu flat pull-right-md pull-right-sm">
-								<li class=""><a tabindex="-1" href="#"></i> Fusiones y Adquisiciones</a></li>
+								<li class=""><a tabindex="-1" href="#" data-toggle="modal"></i> Fusiones y Adquisiciones</a></li>
 								<li><a tabindex="-1" href="#"></i> Mercado de Valores</a></li>
 								<li><a tabindex="-1" href="#"></i> Reestructuración e Insolvencias Empresariales</a></li>
 								<li><a tabindex="-1" href="#"></i> Regulación Financiera</a></li>
@@ -116,26 +102,27 @@
 								<li><a tabindex="-1" href="#"></i> Propiedad Intelectual</a></li>
 								<li><a tabindex="-1" href="#"></i> Minería</a></li>
 								<li><a tabindex="-1" href="#"></i> Private Clients</a></li>
+								<li><a tabindex="-1" style="border:none;" href="#"></i> Corporativo</a></li>
 							</ul>
 						</li>
-						<li class="dropdown">
+						<li class="dropdown active">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Abogados </a>
 							<ul class="dropdown-menu flat pull-right-md pull-right-sm">
-								<li class=""><a tabindex="-1" href="#"></i> Socios</a></li>
+								<li class=""><a tabindex="-1" href="socios.html"></i> Socios</a></li>
 								<li><a tabindex="-1" href="#"></i> Asociados</a></li>
-								<li><a tabindex="-1" href="#"></i> Consultores</a></li>
+								<li><a tabindex="-1" style="border:none;" href="#"></i> Consultores</a></li>
 							</ul>
 						</li>
-						<li><a href="#">Reconocimientos y Noticias</a></li>
-						<li><a href="#">Oficinas</a></li>
-						<li><a href="#">Trabaja con Nosotros</a></li>
+						<li><a href="reconocimiento.html">Reconocimientos y Noticias</a></li>
+						<li><a href="oficinas.html">Oficinas</a></li>
+						<li><a href="trabaja.html">Trabaja con Nosotros</a></li>
 					</ul>
 				</div>
 			<!-- Navbar Cat collapse Ends -->
 			</div>
 		<!-- Nested Container Ends -->
 		</nav>
-	<!-- Main Menu Ends -->
+	<!-- Main Menu Ends -->	
 	<!-- Search Section Starts -->
 		<section class="search-area fix-bg">
 		</section>
@@ -159,50 +146,108 @@
 							<div class="col-sm-9 col-xs-12">
 								<article class="news-block">
 									<h6 class="text-normal text-bold">Abogados</h6>
-									<h4 class="text-normal text-bold">Socios</h4>
-									<lu>
-									<li>Alberto Rebaza</li>
-									alberto.rebaza@rebaza-alcazar.com
-									<li>Alexandra Orbezo</li>
-									alexandra.orbezo@rebaza-alcazar.com
-									<li>Augusto Loli</li>
-									augusto.loli@rebaza-alcazar.com
-
-									<li>Camilo Maruy</li>
-									camilo.maruy@rebaza-alcazar.com
-
-									<li>Felipe Boisset</li>
-									felipe.boisset@rebaza-alcazar.com
-
-									<li>Gonzalo De las Casas</li>
-									gonzalo.delascasas@rebaza-alcazar.com
-
-									<li>José Antonio Jiménez</li>
-									jose.jimenez@rebaza-alcazar.com
-
-									<li>José Francisco Zaragozá </li>
-									jose.zaragoza@rebaza-alcazar.com
-
-									<li>Juan José Cárdenas</li>
-									juanjose.cardenas@rebaza-alcazar.com
-
-									<li>Luis Miguel Elías</li>
-									luismiguel.elias@rebaza-alcazar.com
-
-									<li>María Haydée Zegarra</li>
-									mariahaydee.zegarra@rebaza-alcazar.com
-
-									<li>María Luisa Peña</li>
-									marialuisa.pena@rebaza-alcazar.com
-
-									<li>Percy García Cavero</li>
-									percy.garcia@rebaza-alcazar.com
-
-									<li>Rafael Alcázar</li>
-									rafael.alcazar@rebaza-alcazar.com
-
+									<h4 class="text-wnormal text-bold"><a class="abogados" href="socios.html">Socios</a> Asociados <a class="abogados" href="consultores.html">Consultores</a></h4>
 								</article>
 							</div>
+							<div class="col-sm-4 col-xs-12">
+								<article class="news-block">
+								<lu>
+										<li>Alejandro Chinguel</li>
+										<p class="paboga">alejandro.chinguel@rebaza-alcazar.com</p>
+										<li>Alma Jimenez</li>
+										<p class="paboga">alma.jimenez@rebaza-alcazar.com</p>
+										<li>Álvaro Castro</li>
+										<p class="paboga">alvaro.castro@rebaza-alcazar.com</p>
+										<li>Andres Gjurinovic</li>
+										<p class="paboga">Andres.Gjurinovic@rebaza-alcazar.com</p>
+										<li>Bettina  Gorra</li>
+										<p class="paboga">bettina.gorra@rebaza-alcazar.com</p>
+										<li>Carla Carranza</li>
+										<p class="paboga">carla.carranza@rebaza-alcazar.com</p>
+										<li>César Pantoja Carrera</li>
+										<p class="paboga">cesar.pantoja@rebaza-alcazar.com</p>
+										<li>Cinthia Cánepa</li>
+										<p class="paboga">cinthia.canepa@rebaza-alcazar.com</p>
+										<li>Claudia Ausejo</li>
+										<p class="paboga">claudia.ausejo@rebaza-alcazar.com</p>
+										<li>Cristina Florindez</li>
+										<p class="paboga">cristina.florindez@rebaza-alcazar.com</p>
+										<li>Cynthia Rebaza</li>
+										<p class="paboga">cynthia.rebaza@rebaza-alcazar.com</p>
+										<li>Daniel Gonzales</li>
+										<p class="paboga">daniel.gonzales@rebaza-alcazar.com</p>
+										<li>Daniela Urquiza</li>
+										<p class="paboga">daniela.urquiza@rebaza-alcazar.com</p>
+										<li>Diana Tassara</li>
+										<p class="paboga">diana.tassara@rebaza-alcazar.com</p>
+										<li>Diana Gárate</li>
+										<p class="paboga">diana.garate@rebaza-alcazar.com</p>
+										<li>Elizene Vasquez de Velasco</li>
+										<p class="paboga">elizene.vasquezdevelasco@rebaza-alcazar.com</p>
+										<li>Fiorella Atoche</li>
+										<p class="paboga">fiorella.atoche@rebaza-alcazar.com</p>
+										<li>Gonzalo Soriano</li>
+										<p class="paboga">gonzalo.soriano@rebaza-alcazar.com</p>
+										<li>Gustavo Tarazona</li>
+										<p class="paboga">gustavo.tarazona@rebaza-alcazar.com</p>
+										<li>Hugo Marticorena</li>
+										<p class="paboga">hugo.marticorena@rebaza-alcazar.com</p>
+										<li>Ingrid  Medina</li>
+										<p class="paboga">ingrid.medina@rebaza-alcazar.com</p>
+										<li>Janett Burga</li>
+										<p class="paboga">janett.burga@rebaza-alcazar.com</p>
+								</lu>
+								</article>
+							</div>
+							<div class="col-sm-4 col-xs-12">
+								<article class="news-block">
+								<lu>
+										<li>Juan Astocondor</li>
+										<p class="paboga">juan.astocondor@rebaza-alcazar.com</p>
+										<li>Julio Morales</li>
+										<p class="paboga">julio.morales@rebaza-alcazar.com</p>
+										<li>Kristel Uceda</li>
+										<p class="paboga">kristel.uceda@rebaza-alcazar.com</p>
+										<li>Maite Colmenter</li>
+										<p class="paboga">maite.colmenter@rebaza-alcazar.com</p>
+										<li>Manuel Ferreyros</li>
+										<p class="paboga">manuel.ferreyros@rebaza-alcazar.com</p>
+										<li>Marcia Arellano </li>
+										<p class="paboga">marcia.arellano@rebaza-alcazar.com</p>
+										<li>María del Carmen Bedoya</li>
+										<p class="paboga">mariadelcarmen.bedoya@rebaza-alcazar.com</p>
+										<li>María del Pilar Sanchez</li>
+										<p class="paboga">mariadelpilar.sanchez@rebaza-alcazar.com</p>
+										<li>María Fernanda Gadea</li>
+										<p class="paboga">mariafernanda.gadea@rebaza-alcazar.com</p>
+										<li>Melisa Bush</li>
+										<p class="paboga">melisa.bush@rebaza-alcazar.com</p>
+										<li>Mirko Medic</li>
+										<p class="paboga">mirko.medic@rebaza-alcazar.com</p>
+										<li>Natalia Gallardo</li>
+										<p class="paboga">natalia.gallardo@rebaza-alcazar.com</p>
+										<li>Omar Díaz</li>
+										<p class="paboga">omar.diaz@rebaza-alcazar.com</p>
+										<li>Pamela Arce</li>
+										<p class="paboga">pamela.arce@rebaza-alcazar.com</p>
+										<li>Pedro Díaz Medina</li>
+										<p class="paboga">pedro.diaz@rebaza-alcazar.com</p>
+										<li>Pilar Huamán De Los Heros</li>
+										<p class="paboga">pilar.huamandelosheros@rebaza-alcazar.com</p>
+										<li>Rafael  Lulli</li>
+										<p class="paboga">Rafael.lulli@rebaza-alcazar.com</p>
+										<li>Ricardo Carrillo</li>
+										<p class="paboga">ricardo.carrillo@rebaza-alcazar.com</p>
+										<li>Ricardo Cárdenas</li>
+										<p class="paboga">ricardo.cardenas@rebaza-alcazar.com</p>
+										<li>Sebastian De La Puente</li>
+										<p class="paboga">sebastian.delapuente@rebaza-alcazar.com</p>
+										<li>Sofía Briceño</li>
+										<p class="paboga">sofia.briceño@rebaza-alcazar.com</p>
+								</lu>
+								</article>
+							</div>
+
 						</div>
 					</div>
 					<!-- News #1 Teaser Starts -->
