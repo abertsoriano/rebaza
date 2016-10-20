@@ -843,6 +843,15 @@ h6 { font-size: 18px; }
 		.news-event-teaser .navbarbarra {
 			height: 410px;
 		}
+		.news-event-teaser .txtblue {
+			color: #36A9E1;
+		}
+		.news-event-teaser .sinespacio {
+		line-height: 1.1;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+		}
+
 	.news-block p {
 		margin-top: 10px;
 		text-align: justify;
@@ -2244,6 +2253,15 @@ h6 { font-size: 18px; }
 	margin-bottom: 20px;
 }
 #columna_premios .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+#columna_quota {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#columna_quota .item img{
 	display: block;
 	width: 100%;
 	height: auto;

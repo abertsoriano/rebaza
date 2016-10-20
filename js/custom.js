@@ -23,6 +23,20 @@ $(function() {
 		});
 	}
 
+
+	// Special Offers Carousel
+	var $carouselEspecial = $("#columna_quota");
+	if ($carouselEspecial.length) {
+		$carouselEspecial.owlCarousel({
+			navigation : false,
+			autoPlay: 12000, //Set AutoPlay to 3 seconds
+			slideSpeed: 300,
+			paginationSpeed : 400,
+			singleItem : true,
+			stopOnHover : false,
+		});
+	}
+
 	//MAGNIFIC POPUP
 	var $galleryGrid = $(".gallery-grid");
 	if ($galleryGrid.length) {
