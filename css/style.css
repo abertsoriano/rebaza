@@ -2266,3 +2266,114 @@ h6 { font-size: 18px; }
 	width: 100%;
 	height: auto;
 }
+
+
+
+
+
+/*----------Acordeon--- pagina rebaza------*/
+.pageContent { 
+	width: 200px;
+}
+.accordion { 
+	list-style-type: none; 
+	padding: 0; 
+	margin: 0 0 30px; 
+}
+.accordion ul { 
+	padding: 0; 
+	margin: 0; 
+	float: left; 
+	display: block; 
+	width: 200px; 
+}
+.accordion li { 
+	cursor: pointer; 
+	list-style-type: none; 
+	padding:5px 0 5px 0;
+	/*padding:5px 0 5px 15px;
+	background:url(../images/flecha_abogados.gif) no-repeat 2px 9px;*/
+	font-size:15px;
+	color:#000;
+	font-family:Verdana, Geneva, sans-serif; 
+	margin: 0; 
+	float: left; 
+	display: block; 
+	width:235px;
+}
+
+.accordion li:hover{
+	/*background:url(../images/flecha_abogados_act.gif) no-repeat 0 11px;*/
+	 }
+	
+.accordion li.active>a {
+}
+
+.accordion li div { 
+	padding: 10px 0 10px 20px; 
+	display: block;
+	color:#515151;
+	font-size:13px;
+	font-family:Verdana, Geneva, sans-serif; 
+	clear: both; 
+	float: left; 
+	width:215px;}
+
+.accordion a { 
+	text-decoration: none;
+	color:#000;
+	display: block; 
+	cursor: pointer;
+	background:url(../images/flecha_abogados.gif) no-repeat 2px 4px;
+	padding-left:15px;
+}
+
+.accordion a:hover { 
+	background:url(../images/flecha_abogados_act.gif) no-repeat 0 6px;}
+
+
+a.nohover,a.nohover:hover { 
+	text-decoration: none;
+	color:#000;
+	display: block; 
+	cursor: pointer;
+	background:url(../images/flecha_abogados.gif) no-repeat 2px 4px;
+	padding-left:15px;
+}
+
+
+
+.info_secretaria{
+	margin:2px 0 0 20px;
+	font-size:11px;}
+	
+.accordion>ul>li div a{
+	display:block;
+	margin-bottom:5px;
+	padding-left:8px;
+	background:url(../images/bullet_abogados.gif) no-repeat 0 6px;}
+ 
+.bloqueMostrar ul {display:block!important;list-style:none;padding:0;margin:0;}
+.bloqueMostrar li {font-size:13px;line-height:14px;padding:0 0 0 15px!important;margin:0 5px 2px 0;width:200px;
+	background:url(../images/flecha_abogados.gif) no-repeat 2px 4px;
+}
+
+
+.bloqueMostrar li a { 
+	text-decoration: none;
+	color:#000;
+	display: block; 
+	cursor: pointer;
+	background:none;
+	padding-left:0px;
+}
+
+.bloqueMostrar li a:hover { 
+	background:none;}
+
+/*.bloqueMostrar li:hover{background:url(../images/flecha_abogados.gif) no-repeat 0 6px;}*/
+
+
+/* ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg*/
+
+
