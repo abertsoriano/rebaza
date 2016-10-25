@@ -770,7 +770,7 @@ h6 { font-size: 18px; }
 }
 	.news-block {
 		margin-top: 20px;
-	}	
+	}
 		.news-event-teaser .oficina {
 			margin-top: 50px;
 		}
@@ -835,7 +835,7 @@ h6 { font-size: 18px; }
 		.news-event-teaser .abogados {
 			color: #9D9D9C;
 			text-decoration: none;
-		}  
+		}
 		.news-event-teaser h5 span{
 			font-size: 15px;
 			color: #9D9D9C;
@@ -843,7 +843,7 @@ h6 { font-size: 18px; }
 		.news-event-teaser .navbarbarra {
 			height: 260px;
 		}
-		.news-event-teaser .txtblue {
+		.txtblue {
 			color: #36A9E1;
 		}
 		.news-event-teaser .sinespacio {
@@ -889,10 +889,12 @@ h6 { font-size: 18px; }
 	.news-block p {
 		margin-top: 10px;
 		text-align: justify;
-		padding: 0px 20px;
 		margin-bottom: 0px;
 		line-height: 1.6;
-		}
+	}
+	.modal .panel-title p {
+		margin-top: 0 !important;
+	}
 	.news-block p  span{
 		font-size: 10px;
 		color: #999999;
@@ -2306,70 +2308,70 @@ h6 { font-size: 18px; }
 
 
 /*----------Acordeon--- pagina rebaza------*/
-.pageContent { 
+.pageContent {
 	width: 200px;
 }
-.accordion { 
-	list-style-type: none; 
-	padding: 0; 
-	margin: 0 0 30px; 
+.accordion {
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 30px;
 }
-.accordion ul { 
-	padding: 0; 
-	margin: 0; 
-	float: left; 
-	display: block; 
-	width: 200px; 
+.accordion ul {
+	padding: 0;
+	margin: 0;
+	float: left;
+	display: block;
+	width: 200px;
 }
-.accordion li { 
-	cursor: pointer; 
-	list-style-type: none; 
+.accordion li {
+	cursor: pointer;
+	list-style-type: none;
 	padding:5px 0 5px 0;
 	/*padding:5px 0 5px 15px;
 	background:url(../images/flecha_abogados.gif) no-repeat 2px 9px;*/
 	font-size:15px;
 	color:#000;
-	font-family:Verdana, Geneva, sans-serif; 
-	margin: 0; 
-	float: left; 
-	display: block; 
+	font-family:Verdana, Geneva, sans-serif;
+	margin: 0;
+	float: left;
+	display: block;
 	width:235px;
 }
 
 .accordion li:hover{
 	/*background:url(../images/flecha_abogados_act.gif) no-repeat 0 11px;*/
 	 }
-	
+
 .accordion li.active>a {
 }
 
-.accordion li div { 
-	padding: 10px 0 10px 20px; 
+.accordion li div {
+	padding: 10px 0 10px 20px;
 	display: block;
 	color:#515151;
 	font-size:13px;
-	font-family:Verdana, Geneva, sans-serif; 
-	clear: both; 
-	float: left; 
+	font-family:Verdana, Geneva, sans-serif;
+	clear: both;
+	float: left;
 	width:215px;}
 
-.accordion a { 
+.accordion a {
 	text-decoration: none;
 	color:#000;
-	display: block; 
+	display: block;
 	cursor: pointer;
 	background:url(../images/flecha_abogados.gif) no-repeat 2px 4px;
 	padding-left:15px;
 }
 
-.accordion a:hover { 
+.accordion a:hover {
 	background:url(../images/flecha_abogados_act.gif) no-repeat 0 6px;}
 
 
-a.nohover,a.nohover:hover { 
+a.nohover,a.nohover:hover {
 	text-decoration: none;
 	color:#000;
-	display: block; 
+	display: block;
 	cursor: pointer;
 	background:url(../images/flecha_abogados.gif) no-repeat 2px 4px;
 	padding-left:15px;
@@ -2380,29 +2382,29 @@ a.nohover,a.nohover:hover {
 .info_secretaria{
 	margin:2px 0 0 20px;
 	font-size:11px;}
-	
+
 .accordion>ul>li div a{
 	display:block;
 	margin-bottom:5px;
 	padding-left:8px;
 	background:url(../images/bullet_abogados.gif) no-repeat 0 6px;}
- 
+
 .bloqueMostrar ul {display:block!important;list-style:none;padding:0;margin:0;}
 .bloqueMostrar li {font-size:13px;line-height:14px;padding:0 0 0 15px!important;margin:0 5px 2px 0;width:200px;
 	background:url(../images/flecha_abogados.gif) no-repeat 2px 4px;
 }
 
 
-.bloqueMostrar li a { 
+.bloqueMostrar li a {
 	text-decoration: none;
 	color:#000;
-	display: block; 
+	display: block;
 	cursor: pointer;
 	background:none;
 	padding-left:0px;
 }
 
-.bloqueMostrar li a:hover { 
+.bloqueMostrar li a:hover {
 	background:none;}
 
 /*.bloqueMostrar li:hover{background:url(../images/flecha_abogados.gif) no-repeat 0 6px;}*/
