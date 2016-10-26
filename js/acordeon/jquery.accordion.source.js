@@ -54,9 +54,9 @@ $(document).ready(function () {
 
 				var active = (location.hash)?$ul.find('a[href=' + location.hash + ']')[0]:$ul.find('li.current a')[0];
 
-				if(active){
+			/*	if(active){
 					activate(active, false);
-				}
+				}*/
 				
 				function activate(el,effect){
 					
