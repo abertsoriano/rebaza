@@ -22,13 +22,6 @@
 		<link href="js/plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/animate.css">
 
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
-
 		<!-- Fav and touch icons -->
 		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/fav-144.html">
 		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/fav-114.html">
@@ -129,14 +122,14 @@
 		</section>
 	<!-- Search Section Ends -->
 	<!-- News & Events Section Starts -->
-		<section class="news-event-teaser section text-center-xs">
+		<section class="wow news-event-teaser section text-center-xs">
 		<!-- Nested Container Starts -->
 			<div class="container small">
 
 			<!-- Nested Row Starts -->
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="row">
+				<div class="row wow bounceInUp">
+					<div class="col-sm-12 wow slideInLeft invisible" data-wow-duration="2s" data-wow-delay="5s" >
+						<div class="row wow bounceInUp">
 							<div class="col-sm-3 col-xs-12">
 								<article class="news-block ">
 					<!-- img estudio -->
@@ -144,7 +137,7 @@
 					<!-- img estudio Ends -->
 								</article>
 							</div>
-							<div class="col-sm-9 col-xs-12">
+							<div class="col-sm-9 col-xs-12 row">
 								<article class="news-block">
 									<h6 class="text-normal text-bold">El Estudio</h6>
 									<h4 class="text-normal text-bold">Presentación</h4>
@@ -256,7 +249,11 @@
 	<script src="js/plugins/datepicker/bootstrap-datepicker.js"></script>
 	<script src="js/plugins/owl-carousel/owl.carousel.js"></script>
 	<script src="js/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?v=3&amp;sensor=false"></script>	
+	<script src="https://maps.googleapis.com/maps/api/js?v=3&amp;sensor=false"></script>
+	<script src="js/wow.js"></script>
+	<script>
+		new WOW().init();
+	</script>		
 	<script src="js/custom.js"></script>	
 	</body>
 
