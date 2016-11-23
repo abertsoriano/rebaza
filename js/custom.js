@@ -77,4 +77,23 @@ $(function() {
 		google.maps.event.addDomListener(window, 'load', initialize);
 	}
 
+	var $slickGallery = $('div.slick-gallery');
+	if ($slickGallery.length) {
+		$slickGallery.slick({
+			infinite: true,
+			slidesToShow: 7,
+			slidesToScroll: 1,
+			focusOnSelect: true,
+			centerMode: true
+		});
+		$slickGallery.on('afterChange', function(e, v) {
+			var $image = $(v.$slides.get(v.getCurrent())).children();
+			var src = $image.prop('src');
+			var $bgImage = $('img.bg-gallery');
+
+			$bgImage.prop('src', src);
+		});
+	}
+
+	$('div.overlay-gallery').css('height', ($(window).height() - 175) + 'px');
 });

@@ -767,6 +767,7 @@ h6 { font-size: 18px; }
 /* News & Event Section Styles Starts */
 
 .news-event-teaser {
+	position: relative;
 }
 	.news-block {
 		margin-top: 20px;
@@ -865,7 +866,7 @@ h6 { font-size: 18px; }
 		margin-top: 11px;
 		text-align: justify;
 		padding: 0px 0px;
-		margin-bottom: 0px;	
+		margin-bottom: 0px;
 	    font-size: 11px;
 	    line-height: 1.6;
 	font-family: Verdana, Geneva, sans-serif;
@@ -2354,7 +2355,8 @@ h6 { font-size: 18px; }
 	font-family:Verdana, Geneva, sans-serif;
 	clear: both;
 	float: left;
-	width:215px;}
+	width:215px;
+}
 
 .accordion a {
 	text-decoration: none;
@@ -2409,12 +2411,42 @@ a.nohover,a.nohover:hover {
 .bloqueMostrar li a:hover {
 	background:none;}
 
-/*.bloqueMostrar li:hover{background:url(../images/flecha_abogados.gif) no-repeat 0 6px;}*/
-
-
-/* ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg*/
-
-
 .pull-left {
 	margin-left: 32px;
+}
+
+.bg-gallery {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+}
+.overlay-gallery {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	height: 100%;
+	background: url(../images/sombra_galeria);
+}
+.slick-gallery {
+	margin-top: 290px;
+	z-index: 1;
+	margin-bottom: 120px !important;
+}
+
+.slick-slide {
+	margin: 10px;
+	opacity: .7;
+}
+.slick-slide.slick-center {
+	-moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    opacity: 1;
+    transform: scale(1.25);
 }
