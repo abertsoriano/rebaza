@@ -159,7 +159,19 @@ $(function() {
 			slidesToShow: 7,
 			slidesToScroll: 1,
 			focusOnSelect: true,
-			centerMode: true
+			centerMode: true,
+			responsive: [{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 5
+				}
+			},
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 1
+				}
+			}]
 		});
 		$slickGallery.on('afterChange', function(e, v) {
 			var position = v.getCurrent();
