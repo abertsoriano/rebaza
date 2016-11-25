@@ -201,7 +201,7 @@ h6 { font-size: 18px; }
 
 .main-header {
 	padding-top: 15px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	background-color: #030305;
 }
 	.logo {
@@ -258,8 +258,7 @@ h6 { font-size: 18px; }
 	border-width: 0 0 0 0;
 	font-family: Verdana;
     font-size: 14px;
-    height: 41px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 	.main-menu .navbar-collapse {
 		padding-left: auto;
