@@ -2,17 +2,11 @@
 
 @media (min-width: 1200px) {
 
-/* Main Menu Styles Starts */
+	/* Menu Card Section Styles Starts */
 
-	.main-menu .dropdown:hover .dropdown-menu {
-		display: block;
+	.menu-card {
+		padding-bottom: 100px;
 	}
-
-/* Menu Card Section Styles Starts */
-
-.menu-card {
-	padding-bottom: 100px;
-}
 	.menu-card .owl-carousel .owl-buttons .owl-prev,
 	.menu-card .owl-carousel .owl-buttons .owl-next {
 		position: absolute;
@@ -24,7 +18,7 @@
 			right: 10%;
 		}
 
-/* Special Offers Section Styles Starts */
+	/* Special Offers Section Styles Starts */
 
 	.special-offers .owl-carousel .owl-prev,
 	.special-offers .owl-carousel .owl-next {
@@ -41,7 +35,7 @@
 			font-size: 48px;
 		}
 
-/* News & Event Section Styles Starts */
+	/* News & Event Section Styles Starts */
 
 	.news-event-teaser .news-meta {
 		width: 25%;
@@ -124,9 +118,6 @@
 		padding-left: 15px;
 		padding-right: 15px;
 	}
-		.main-menu .dropdown:hover .dropdown-menu {
-			display: block;
-		}
 
 /* Welcome Section Styles Starts */
 
@@ -290,7 +281,11 @@
 }
 
 /* Small Devices Styles Starts */
-
+@media (min-width: 768px) {
+	.main-menu .dropdown:hover .dropdown-menu {
+		display: block;
+	}
+}
 @media (min-width: 768px) and (max-width: 991px) {
 
 /* Heading Styles Starts */
@@ -316,9 +311,6 @@
 		.main-menu .navbar-nav > li > a .fa {
 			margin-left: 3px;
 			font-size: 12px;
-		}
-		.main-menu .dropdown:hover .dropdown-menu {
-			display: block;
 		}
 
 /* Main Banner Section Styles Starts */
@@ -522,11 +514,6 @@
 @media (max-width: 767px) {
 
 /* Heading Styles Starts */
-
-	.main-header {
-		position: fixed;
-		top: 0;
-	}
 	.main-heading-1 .btn-main {
 		margin-top: 15px;
 		margin-left: 0;
@@ -539,6 +526,9 @@
 		margin-bottom: 15px;
 	}
 
+.main-menu .navbar-nav > li > a {
+	padding-left: 4px;
+}
 /* Main Menu Styles Starts */
 
 	.main-menu .navbar-collapse {
@@ -573,7 +563,6 @@
 .search-area {
 	padding-top: 70px;
 	padding-bottom: 100px;
-	margin-top: 162px;
 }
 	.top-search .input-group-md,
 	.top-search .input-group .form-control,

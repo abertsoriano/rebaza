@@ -196,5 +196,5 @@ $(function() {
 		setLegend(0);
 	}
 
-	$('div.overlay-gallery').css('height', ($(window).height() - 175) + 'px');
+	$('div.overlay-gallery').css('height', ($(document).outerHeight(true) - 155) + 'px');
 });
