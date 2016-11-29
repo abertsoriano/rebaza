@@ -534,9 +534,9 @@
 	.main-menu .navbar-collapse {
 		padding-left: 15px;
 		padding-right: 15px;
-		-webkit-box-shadow: inset 0 1px 0 #ea4d35;
-		   -moz-box-shadow: inset 0 1px 0 #ea4d35;
-				box-shadow: inset 0 1px 0 #ea4d35;
+		-webkit-box-shadow: inset 0 1px 0 #36A9E1;
+		   -moz-box-shadow: inset 0 1px 0 #36A9E1;
+				box-shadow: inset 0 1px 0 #36A9E1;
 	}
 		.main-menu .navbar-toggle {
 			padding: 5px 10px;
@@ -544,7 +544,7 @@
 		}
 		.main-menu .navbar-toggle:hover,
 		.main-menu .navbar-toggle:focus {
-			background-color: #ea4d35;
+			background-color: #36A9E1;
 			outline: none;
 		}
 
