@@ -310,12 +310,12 @@ h6 { font-size: 18px; }
 
 /* Search Section Styles Starts */
 
-.search-area {
+/*.search-area {
 	padding-top: 30px;
 	padding-bottom: 60px;
 	background-image: url(../images/section-bg2.jpg);
 	margin-bottom: 30px;
-}
+}*/
 .search-area.condensed {
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -2277,11 +2277,11 @@ h6 { font-size: 18px; }
   border-left: 3px solid #36A9E1;
 }
 
-.fix-bg {
+/*.fix-bg {
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-}
+}*/
 .color-gray-light {
 	color: #ccc;
 }
@@ -2476,7 +2476,7 @@ a.nohover,a.nohover:hover {
 
 #contenido_int .item strong{
 	display:block;}
-	
+
 #contenido_int .item{
 	font-size:12px;
 	width:345px;
@@ -2494,13 +2494,13 @@ a.nohover,a.nohover:hover {
 
 #contenido_int .item:hover{
 	font-size:12px;
-	color:#00ccff;  
+	color:#00ccff;
 	-webkit-transition:all 0.5s ease-out;
 	-o-transition:all 0.5s ease-out;
 	-moz-transition:all 0.5s ease-out;
 	-ms-transition:all 0.5s ease-out;
 	transition:all 0.5s ease-out;}
-	
+
 .columna strong{
 	display:block;}
 
@@ -2535,7 +2535,7 @@ a.nohover,a.nohover:hover {
 
 #contenido_int .pagina .item strong{
 	display:block;}
-	
+
 #contenido_int .pagina .item{
 	font-size:12px;
 	width:325px;
@@ -2554,7 +2554,7 @@ a.nohover,a.nohover:hover {
 
 #contenido_int .pagina .item:hover{
 	font-size:12px;
-	color:#00ccff;  
+	color:#00ccff;
 	-webkit-transition:all 0.5s ease-out;
 	-o-transition:all 0.5s ease-out;
 	-moz-transition:all 0.5s ease-out;
@@ -2583,7 +2583,7 @@ a.nohover,a.nohover:hover {
 	border-top:1px solid #666;
 	background:url(../images/fondo_pie.png) repeat-x 0 -8px;
 	background-color:#fff;}
-	
+
 
 #pie{
 	margin:0 auto;
@@ -2608,7 +2608,17 @@ a.nohover,a.nohover:hover {
 	font-weight:bold;
 	color:#000;}
 
-
+.banners {
+	width: 100%;
+	height: 80px !important;
+	margin: 0;
+}
+.bg-uno {
+	background: url('../images/section-bg2.jpg');
+}
+.bg-dos {
+	background: url('../images/arte_01.jpg');
+}
 
 
 .btn_mediano{

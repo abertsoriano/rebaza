@@ -197,4 +197,14 @@ $(function() {
 	}
 
 	$('div.overlay-gallery').css('height', ($(document).outerHeight(true) - 155) + 'px');
+
+	$('section.search-area').slick({
+		infinite: true,
+		speed: 500,
+		fade: true,
+		cssEase: 'linear',
+		dots: false,
+		autoplay: true,
+		arrows: false
+	});
 });
