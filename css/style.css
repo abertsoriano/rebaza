@@ -2607,3 +2607,86 @@ a.nohover,a.nohover:hover {
 #pie_der a{
 	font-weight:bold;
 	color:#000;}
+
+
+
+
+.btn_mediano{
+	background:url(../images/btn_grande_fondo.png) no-repeat;
+	text-align:center;
+	font-size:10px;
+	color:#4c4c4c;
+	display:block;
+	width:105px;
+	height:18px;
+	float:left;
+	-webkit-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	transition:all 1s ease;
+	margin-right:5px;}
+.btn_mediano:hover{
+	color:#00ccff;}
+.btn_grande{
+	background:url(../images/btn_grande_fondo.png) no-repeat;
+	text-align:center;
+	font-size:10px;
+	color:#4c4c4c;
+	display:block;
+	width:164px;
+	padding-top:3px;
+	height:18px;
+	float:left;
+	-webkit-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	transition:all 1s ease;
+	margin-right:5px;}
+.btn_grande:hover{
+	color:#00ccff;}
+.btn_der{
+	float:right;
+	margin:0 0 0 5px;}
+.btn_centrar{
+	margin:0 auto;}
+
+/*--------------------------------formularios--------------------------------*/
+ /*----------------------------------------------------------------*/
+
+.titulo{
+	text-align:right;
+	vertical-align:top;
+	font-size:12px;
+	padding-top:5px;}
+
+.campo{
+	border:none;
+	background:#d7d7d7;
+	width:250px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;}
+
+.areadetexto{
+	border:none;
+	background:#d7d7d7;
+	padding:5px;
+	width:250px;
+	height:150px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;}
+.error{
+	background:url(../imagenes/x.png) no-repeat 0 2px;
+	padding-left:15px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color:#00ccff;}
+
+.nota{
+	background:url(../imagenes/asterisco.png) no-repeat 0 2px;
+	padding-left:15px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color:#737373;}
+/*--------------------------------Fin--------------------------------*/
