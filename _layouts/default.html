@@ -49,7 +49,9 @@
 					<div class="navbar-header">
 						<button type="button" class="btn btn-navbar navbar-toggle flat animation" data-toggle="collapse" data-target=".navbar-cat-collapse">
 							<span class="sr-only">Toggle Navigation</span>
-							<i class="fa fa-bars"></i>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
 						</button>
 					</div>
 					<div class="collapse navbar-collapse navbar-cat-collapse">
@@ -100,12 +102,23 @@
 			<div class="banners bg-dos"></div>
 		</section>
 		{{ content }}
-		<section class="news-event-teaser section text-center-xs">
-			<div id="pie">
-		     <div id="pie_izq"><div style="float:left;padding-top:6px">Copyright © Todos los Derechos Reservados&nbsp;&nbsp;&nbsp;&nbsp;</div><div style="float:left"><a href="https://www.linkedin.com/company/rebaza-alcazar-&-de-las-casas-abogados-financieros?trk=biz-companies-cym" target="_blank"><img src="images/logo_linkedin.png" style="width: 20px;height: 20px;"></a></div></div>
-		    <div id="pie_der" style="padding-top:6px">Diseñado por <a href="http://www.agenciacranium.com/" target="_blank">Agencia Cranium</a></div>
+		<footer class="news-event-teaser text-center-xs">
+			<div class="container">
+				<div class="col-sm-12" id="pie">
+					<div id="pie_izq" class="col-sm-6">
+						<span>
+							Copyright © Todos los Derechos Reservados
+							<a href="https://www.linkedin.com/company/rebaza-alcazar-&-de-las-casas-abogados-financieros?trk=biz-companies-cym" target="_blank">
+								<img src="images/logo_linkedin.png" style="width: 20px;height: 20px;">
+							</a>
+						</span>
+					</div>
+					<div id="pie_der" class="col-sm-6">
+						<span>Diseñado por <a href="http://www.agenciacranium.com/" target="_blank">Agencia Cranium</a></span>
+					</div>
+				</div>
 			</div>
-		</section>
+		</footer>
 		<script src="js/jquery-1.11.3.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/plugins/owl-carousel/owl.carousel.js"></script>

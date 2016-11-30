@@ -285,23 +285,26 @@
 	.main-menu .dropdown:hover .dropdown-menu {
 		display: block;
 	}
+	#pie_der {
+		text-align: right;
+	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
 
-/* Heading Styles Starts */
+	/* Heading Styles Starts */
 
 	.main-heading-1 .btn-main {
 		margin-top: 15px;
 		margin-left: 0;
 	}
 
-/* Header Styles Starts */
+	/* Header Styles Starts */
 
 	.logo {
 		margin-top: 21px;
 	}
 
-/* Main Menu Styles Starts */
+	/* Main Menu Styles Starts */
 
 	.main-menu .navbar-nav > li > a {
 		padding-left: 6px;
@@ -313,14 +316,14 @@
 			font-size: 12px;
 		}
 
-/* Main Banner Section Styles Starts */
+	/* Main Banner Section Styles Starts */
 
-.main-banner {
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
+	.main-banner {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 
-/* Order Info Styles Starts */
+	/* Order Info Styles Starts */
 
 	.order-info li.lead {
 		margin-bottom: 0;
@@ -331,7 +334,7 @@
 			font-size: 18px;
 		}
 
-/* Welcome Section Styles Starts */
+	/* Welcome Section Styles Starts */
 
 	.welcome-box {
 		padding: 5px 25px 25px;
@@ -513,23 +516,28 @@
 
 @media (max-width: 767px) {
 
-/* Heading Styles Starts */
+	/* Heading Styles Starts */
 	.main-heading-1 .btn-main {
 		margin-top: 15px;
 		margin-left: 0;
 	}
 
-/* Header Styles Starts */
+	#pie_der {
+		text-align: center;
+		padding-top: 15px;
+	}
+
+	/* Header Styles Starts */
 
 	.logo {
 		margin-top: 15px;
 		margin-bottom: 15px;
 	}
 
-.main-menu .navbar-nav > li > a {
-	padding-left: 4px;
-}
-/* Main Menu Styles Starts */
+	.main-menu .navbar-nav > li > a {
+		padding-left: 4px;
+	}
+	/* Main Menu Styles Starts */
 
 	.main-menu .navbar-collapse {
 		padding-left: 15px;
@@ -541,6 +549,13 @@
 		.main-menu .navbar-toggle {
 			padding: 5px 10px;
 			color: #fff;
+		}
+		.main-menu .navbar-toggle {
+			padding: 8px 10px;
+			border: 1px solid #fff;
+		}
+		.navbar-toggle .icon-bar {
+			background-color: #fff;
 		}
 		.main-menu .navbar-toggle:hover,
 		.main-menu .navbar-toggle:focus {
@@ -559,11 +574,6 @@
 	}
 
 /* Search Section Styles Starts */
-
-.search-area {
-	padding-top: 70px;
-	padding-bottom: 100px;
-}
 	.top-search .input-group-md,
 	.top-search .input-group .form-control,
 	.top-search .input-group-addon,
@@ -657,8 +667,8 @@
 /* News & Event Section Styles Starts */
 
 .news-event-teaser {
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
 	.news-block {
 		margin-top: 0;
@@ -824,7 +834,10 @@
 		   -moz-border-radius: 0;
 				border-radius: 0;
 	}
-
+	footer .container {
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 
 /* Extremely Small Devices Styles Starts */

@@ -2585,28 +2585,12 @@ a.nohover,a.nohover:hover {
 	background-color:#fff;}
 
 
-#pie{
-	margin:0 auto;
-	width:950px;
-	background:url(../images/fondo_pie_sup.png) no-repeat;
-	height:40px;
+#pie {
+	background:url(../images/fondo_pie_sup.png) no-repeat top center;
 	font-family:Verdana, Geneva, sans-serif;
-	font-size:9px;}
-
-#pie_izq{
-	float:left;
-	margin:5px;}
-#pie_der{
-	float:right;
-	margin:5px;}
-
-#pie_cent{
-	float:left;
-	margin-left:385px;
-	margin-top:8px;}
-#pie_der a{
-	font-weight:bold;
-	color:#000;}
+	font-size:10px;
+	padding: 10px 5px;
+}
 
 .banners {
 	width: 100%;
