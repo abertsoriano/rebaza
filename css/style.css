@@ -212,6 +212,7 @@ h6 { font-size: 18px; }
 
 	.top-links {
 		margin-bottom: 20px;
+		float: right;
 	}
 		.top-links li + li {
 			padding-left: 15px;
@@ -845,6 +846,10 @@ h6 { font-size: 18px; }
 		.news-event-teaser .navbarbarra {
 			height: 310px;
 		}
+		.news-event-teaser .navbarbarraen {
+			height: 370px;
+		}
+
 		.txtblue {
 			color: #36A9E1;
 		}
