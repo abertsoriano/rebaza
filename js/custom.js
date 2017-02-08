@@ -176,7 +176,7 @@ $(function() {
 		$slickGallery.on('afterChange', function(e, v) {
 			var position = v.getCurrent();
 			var $image = $(v.$slides.get(position)).children();
-			var src = 'images/gallery/' + $image.prop('src').split('/').pop();
+			var src = location.origin + '/images/gallery/' + $image.prop('src').split('/').pop();
 			var $bgImage = $('img.bg-gallery');
 			var $modalImage = $('img.modal-img-gallery');
 
