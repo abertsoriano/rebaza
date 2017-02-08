@@ -2,6 +2,11 @@ $(function() {
 
     "use strict";
 
+    // Nombre de la carpeta donde esta alojada la web (Solo pruebas)
+    // si se coloca en la misma public_html deberia ir vacio ''
+    var ALT_PATH = '/rebaza';
+
+
 	// REMOVE # FROM URL
 	$( 'a[href="#"]' ).click( function(e) {
 		e.preventDefault();
@@ -176,7 +181,7 @@ $(function() {
 		$slickGallery.on('afterChange', function(e, v) {
 			var position = v.getCurrent();
 			var $image = $(v.$slides.get(position)).children();
-			var src = location.origin + '/images/gallery/' + $image.prop('src').split('/').pop();
+			var src = location.origin + ALT_PATH + '/images/gallery/' + $image.prop('src').split('/').pop();
 			var $bgImage = $('img.bg-gallery');
 			var $modalImage = $('img.modal-img-gallery');
 
