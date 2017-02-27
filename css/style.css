@@ -278,7 +278,6 @@ h6 { font-size: 18px; }
 		}
 		.main-menu .navbar-nav > li > a .fa {
 			margin-left: 8px;
-			/*font-size: 18px;*/
     		font-size: 15px;
 		}
 		.main-menu .dropdown-menu {
@@ -286,18 +285,14 @@ h6 { font-size: 18px; }
 			border: none;
 		}
 			.main-menu .dropdown-menu > li > a {
-				padding: 7px 16px;
+				padding: 5px 12px 5px 42px !important;
 				color: #fff;
-				/*font-size: 13px;*/
-				/*font-weight: bold;*/
 				line-height: normal;
     			font-size: 13px;
     			border-bottom:1px #908f91 solid;
 			}
 			.main-menu .dropdown-menu > li > a .fa {
 				margin-right: 5px;
-				/*font-size: 16px;*/
-
 				font-family: Verdana, Geneva, sans-serif;
     			font-size: 15px;
 			}
