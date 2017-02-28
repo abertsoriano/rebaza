@@ -2585,12 +2585,11 @@ a.nohover,a.nohover:hover {
 
 
 
-#contenido_int h2{
+#cont_contenido h2{
 	color:#00ccff;
 	font-weight:normal;
-	font-size:24px;
-	padding:0px;
-	margin:0 0 20px 0;}
+	font-size:26px;
+	margin-bottom: 50px;}
 
 
 #cont_pie{
