@@ -174,10 +174,6 @@ class WelcomeController extends Controller {
 
 		Cache::forever('locale', $locale, 7200);
 
-		if ($locale === 'en') {
-			$redirect = $locale;
-		}
-
-		return redirect('/' . $redirect);
+		return redirect()->back();
 	}
 }

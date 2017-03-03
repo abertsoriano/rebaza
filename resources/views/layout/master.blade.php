@@ -63,42 +63,44 @@ if (Cache::has('locale')) {
 					<div class="collapse navbar-collapse navbar-cat-collapse">
 						<ul class="nav navbar-nav">
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"> El Estudio</a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">{{ trans('links.nav_1') }}</a>
 								<ul class="dropdown-menu">
-									<li class="#"><a style="border:none;" href="{{ route('estudiopresentacion') }}"></i> Presentación</a></li>
+									<li class="#">
+										<a style="border:none;" href="{{ route('estudiopresentacion') }}">{{ trans('links.sub_1') }}</a>
+									</li>
 								</ul>
 							</li>
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Áreas</a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">{{ trans('links.nav_2') }}</a>
 								<ul class="dropdown-menu">
-									<li><a href="{{ route('areafunciones') }}">Fusiones y Adquisiciones</a></li>
-									<li><a href="{{ route('areamercado') }}">Mercado de Valores</a></li>
-									<li><a href="{{ route('arearestructuracion') }}">Reestructuración e Insolvencias Empresariales</a></li>
-									<li><a href="{{ route('arearegulacion') }}">Regulación Financiera</a></li>
-									<li><a href="{{ route('areafinanciamientos') }}">Financiamientos</a></li>
-									<li><a href="{{ route('areaconseciones') }}">Proyectos e Infraestructura</a></li>
-									<li><a href="{{ route('arealitigios') }}">Litigios Corporativos</a></li>
-									<li><a href="{{ route('areatributario') }}">Tributario</a></li>
-									<li><a href="{{ route('arealaboral') }}">Laboral</a></li>
-									<li><a href="{{ route('arealibre') }}">Libre Competencia y Competencia Desleal</a></li>
-									<li><a href="{{ route('areapropiedad') }}">Propiedad Intelectual</a></li>
-									<li><a href="{{ route('areamineria') }}">Minería</a></li>
-									<li><a href="{{ route('areaprivate') }}">Private Clients</a></li>
-									<li><a href="{{ route('areacorporativo') }}">Corporativo</a></li>
-									<li><a style="border:none;" href="{{ route('areawhitecollarcrime') }}"></i> White Collar Crime</a></li>
+									<li><a href="{{ route('areafunciones') }}">{{ trans('links.sub_2_1') }}</a></li>
+									<li><a href="{{ route('areamercado') }}">{{ trans('links.sub_2_2') }}</a></li>
+									<li><a href="{{ route('arearestructuracion') }}">{{ trans('links.sub_2_3') }}</a></li>
+									<li><a href="{{ route('arearegulacion') }}">{{ trans('links.sub_2_4') }}</a></li>
+									<li><a href="{{ route('areafinanciamientos') }}">{{ trans('links.sub_2_5') }}</a></li>
+									<li><a href="{{ route('areaconseciones') }}">{{ trans('links.sub_2_6') }}</a></li>
+									<li><a href="{{ route('arealitigios') }}">{{ trans('links.sub_2_7') }}</a></li>
+									<li><a href="{{ route('areatributario') }}">{{ trans('links.sub_2_8') }}</a></li>
+									<li><a href="{{ route('arealaboral') }}">{{ trans('links.sub_2_9') }}</a></li>
+									<li><a href="{{ route('arealibre') }}">{{ trans('links.sub_2_10') }}</a></li>
+									<li><a href="{{ route('areapropiedad') }}">{{ trans('links.sub_2_11') }}</a></li>
+									<li><a href="{{ route('areamineria') }}">{{ trans('links.sub_2_12') }}</a></li>
+									<li><a href="{{ route('areaprivate') }}">{{ trans('links.sub_2_13') }}</a></li>
+									<li><a href="{{ route('areacorporativo') }}">{{ trans('links.sub_2_14') }}</a></li>
+									<li><a style="border:none;" href="{{ route('areawhitecollarcrime') }}">{{ trans('links.sub_2_15') }}</a></li>
 								</ul>
 							</li>
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Abogados </a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">{{ trans('links.nav_3') }}</a>
 								<ul class="dropdown-menu">
-									<li><a href="{{ route('abogadosocios') }}"></i> Socios</a></li>
-									<li><a href="{{ route('abogadoasociados') }}"></i> Asociados</a></li>
-									<li><a style="border:none;" href="{{ route('abogadoconsultores') }}"></i> Consultores</a></li>
+									<li><a href="{{ route('abogadosocios') }}">{{ trans('links.sub_3_1') }}</a></li>
+									<li><a href="{{ route('abogadoasociados') }}">{{ trans('links.sub_3_2') }}</a></li>
+									<li><a style="border:none;" href="{{ route('abogadoconsultores') }}">{{ trans('links.sub_3_3') }}</a></li>
 								</ul>
 							</li>
-							<li><a href="{{ route('reconocimiento') }}">Reconocimientos y Noticias</a></li>
-							<li><a href="{{ route('oficinas') }}">Oficinas</a></li>
-							<li><a href="{{ route('trabaja') }}">Trabaja con Nosotros</a></li>
+							<li><a href="{{ route('reconocimiento') }}">{{ trans('links.nav_4') }}</a></li>
+							<li><a href="{{ route('oficinas') }}">{{ trans('links.nav_5') }}</a></li>
+							<li><a href="{{ route('trabaja') }}">{{ trans('links.nav_6') }}</a></li>
 						</ul>
 					</div>
 				</div>
