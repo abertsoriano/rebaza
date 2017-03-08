@@ -49,7 +49,9 @@ Route::get('trabaja', ['as' => 'trabaja', 'uses' => 'WelcomeController@trabaja']
 Route::get('trabajaformulario', ['as' => 'trabajaformulario', 'uses' => 'WelcomeController@trabajaformulario']);
 
 
-Route::get('home', 'HomeController@index');
+Route::get('home', ['as' => 'home', 'uses' => 'HomeController@index']);
+Route::get('add-article', ['as' => 'addArticle', 'uses' => 'HomeController@add']);
+Route::post('add-article', ['as' => 'storeArticle', 'uses' => 'HomeController@store']);
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

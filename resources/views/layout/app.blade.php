@@ -56,7 +56,27 @@
 	@yield('content')
 
 	<!-- Scripts -->
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<script src="{{ asset('js/jquery-1.11.3.min.js') }}"></script>
+	<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+	<script src="{{ asset('js/tinymce.min.js') }}"></script>
+	<script type="text/javascript">
+	    tinymce.DOM.addClass(tinymce.DOM.select('table'), 'table table-bordered');
+	    tinymce.init({
+			selector: '#paq_descripcion',
+	        height: 400,
+			plugins: 'preview table lists textcolor code',
+	        toolbar: 'undo redo | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | forecolor | preview code',
+	        content_css: '/css/tinymce-custom.css',
+	        init_instance_callback: function (editor) {
+	            editor.on('BeforeSetContent', function (e) {
+	                if (e.content.match('table')) {
+	                    e.content = '<div class="table-responsive"><table class="mce-item-table table table-bordered">' + $(e.content).html() + '</table></table>';
+					} else {
+	                    e.content = e.content + '';
+					}
+	            });
+	        }
+		});
+	</script>
 </body>
 </html>

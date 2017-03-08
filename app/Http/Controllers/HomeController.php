@@ -1,5 +1,8 @@
 <?php namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
+use App\Article;
+
 class HomeController extends Controller {
 
 	/*
@@ -30,7 +33,21 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('home');
+		$articles = Article::where('');
+		return view('admin.home');
+	}
+
+
+	public function add()
+	{
+		return view('admin.add');
+	}
+
+	public function store(Request $request)
+	{
+		Article::create($request->all());
+
+		return redirect()->route('home');
 	}
 
 }
