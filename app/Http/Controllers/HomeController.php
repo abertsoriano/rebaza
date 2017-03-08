@@ -16,6 +16,7 @@ class HomeController extends Controller {
 	|
 	*/
 
+	const image = 'imagen';
 	/**
 	 * Create a new controller instance.
 	 *
@@ -33,8 +34,8 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
-		$articles = Article::where('');
-		return view('admin.home');
+		$articles = Article::paginate(20);
+		return view('admin.home', compact('articles'));
 	}
 
 
@@ -43,11 +44,24 @@ class HomeController extends Controller {
 		return view('admin.add');
 	}
 
+
 	public function store(Request $request)
 	{
-		Article::create($request->all());
+	    $params = $request->all();
 
-		return redirect()->route('home');
+	    if ($request->hasFile(self::image)) {
+	        $file = $request->file(self::image);
+
+	        $newName = str_replace(' ', '_', $file->getClientOriginalName());
+	        $file->move('images/articles', $newName);
+
+	        $params['imagen'] = $newName;
+            Article::create($params);
+
+            return redirect()->route('home');
+        } else {
+	        return redirect()->back()->with('error', 'No se ha subido imagen alguna');
+        }
 	}
 
 }
