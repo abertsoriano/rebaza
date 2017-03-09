@@ -18,89 +18,94 @@
 					</div>
 				  	<div class="navbarbarra col-sm-6 col-xs-12">
 					    <article class="news-block">
-					      <h6 class="text-normal text-bold sinespacioti">{{ trans('index.title2') }}</h6>
-					      <p class="sinespacio">{{ trans('index.messageRight1') }}</p>
-					      <p class="sinespacio">{{ trans('index.messageRight2') }}</p>
-					      <p class="sinespacio">{{ trans('index.messageRight3') }}</p>
-					      <p class="sinespacio">{{ trans('index.messageRight4') }}</p>
-					      <p class="sinespacio">{{ trans('index.messageRight5') }}</p>
+					        <h6 class="text-normal text-bold sinespacioti">{{ trans('index.title2') }}</h6>
+                            @foreach($articles as $article)
+                                <div class="seccion-row">
+                                    <h6>{{ $article['title' . $locale] }}</h6>
+                                    <div class="content-text">
+                                        <p class="sinespacio">{!! str_limit(strip_tags($article['desc' . $locale]), 98) !!}</p>
+                                    </div>
+                                </div>
+                            @endforeach
 					    </article>
 				  	</div>
-					<div class="lema" id="columna_quota">
-						<div class="item">
-							<article class="news-block col-sm-12">
-						    	<h5 class="text-justify">
-						    	{{ trans('index.quota1.message') }}
-						    	<br>{{ trans('index.quota1.name') }} <span>{{ trans('index.quota1.alter') }}</span>
-								</h5>
-							</article>
-						</div>
-						<div class="item">
-						<article class="news-block col-sm-12">
-						  <h5 class="text-justify">
-						  	{{ trans('index.quota2.message') }}
-						    <br>{{ trans('index.quota2.name') }} <span>{{ trans('index.quota2.alter') }}</span>
-						  </h5>
-						</article>
-						</div>
-				  <div class="item">
-				    <article class="news-block col-sm-12">
-				      <h5 class="text-justify">
-				      		{{ trans('index.quota3.message') }}
-						    <br>{{ trans('index.quota3.name') }} <span>{{ trans('index.quota3.alter') }}</span>
-				      </h5>
-				    </article>
-				  </div>
-				  <div class="item">
-				    <article class="news-block col-sm-12">
-				      <h5 class="text-justify">
-				      		{{ trans('index.quota4.message') }}
-						    <br>{{ trans('index.quota4.name') }} <span>{{ trans('index.quota4.alter') }}</span>
-				      </h5>
-				    </article>
-				  </div>
-				  <div class="item">
-				    <article class="news-block col-sm-12">
-				      <h5 class="text-justify">
-				        	{{ trans('index.quota5.message') }}
-						    <br>{{ trans('index.quota5.name') }} <span>{{ trans('index.quota5.alter') }}</span>
-				      </h5>
-				    </article>
-				  </div>
-				  <div class="item">
-				    <article class="news-block col-sm-12">
-				      <h5 class="text-justify">
-				        	{{ trans('index.quota6.message') }}
-						    <br>{{ trans('index.quota6.name') }} <span>{{ trans('index.quota6.alter') }}</span>
-				      </h5>
-				    </article>
-				  </div>
-				  <div class="item">
-				    <article class="news-block col-sm-12">
-				      <h5 class="text-justify">
-				        	{{ trans('index.quota7.message') }}
-						    <br>{{ trans('index.quota7.name') }} <span>{{ trans('index.quota7.alter') }}</span>
-				      </h5>
-				    </article>
-				  </div>
-				  <div class="item">
-				    <article class="news-block col-sm-12">
-				      <h5 class="text-justify">
-				        	{{ trans('index.quota8.message') }}
-						    <br>{{ trans('index.quota8.name') }} <span>{{ trans('index.quota8.alter') }}</span>
-				      </h5>
-				    </article>
-				  </div>
-				  <div class="item">
-				    <article class="news-block col-sm-12">
-				      <h5 class="text-justify">
-				      	{{ trans('index.quota9.message') }}
-						    <br>{{ trans('index.quota9.name') }} <span>{{ trans('index.quota9.alter') }}</span>
-				      </h5>
-				    </article>
-				  </div>
-				</div>
-			</div>
+			    </div>
+                <div class="row">
+                    <div class="lema" id="columna_quota">
+                        <div class="item">
+                            <article class="news-block col-sm-12">
+                                <h5 class="text-justify">
+                                    {{ trans('index.quota1.message') }}
+                                    <br>{{ trans('index.quota1.name') }} <span>{{ trans('index.quota1.alter') }}</span>
+                                </h5>
+                            </article>
+                        </div>
+                        <div class="item">
+                            <article class="news-block col-sm-12">
+                                <h5 class="text-justify">
+                                    {{ trans('index.quota2.message') }}
+                                    <br>{{ trans('index.quota2.name') }} <span>{{ trans('index.quota2.alter') }}</span>
+                                </h5>
+                            </article>
+                        </div>
+                        <div class="item">
+                            <article class="news-block col-sm-12">
+                                <h5 class="text-justify">
+                                    {{ trans('index.quota3.message') }}
+                                    <br>{{ trans('index.quota3.name') }} <span>{{ trans('index.quota3.alter') }}</span>
+                                </h5>
+                            </article>
+                        </div>
+                        <div class="item">
+                            <article class="news-block col-sm-12">
+                                <h5 class="text-justify">
+                                    {{ trans('index.quota4.message') }}
+                                    <br>{{ trans('index.quota4.name') }} <span>{{ trans('index.quota4.alter') }}</span>
+                                </h5>
+                            </article>
+                        </div>
+                        <div class="item">
+                            <article class="news-block col-sm-12">
+                                <h5 class="text-justify">
+                                    {{ trans('index.quota5.message') }}
+                                    <br>{{ trans('index.quota5.name') }} <span>{{ trans('index.quota5.alter') }}</span>
+                                </h5>
+                            </article>
+                        </div>
+                        <div class="item">
+                            <article class="news-block col-sm-12">
+                                <h5 class="text-justify">
+                                    {{ trans('index.quota6.message') }}
+                                    <br>{{ trans('index.quota6.name') }} <span>{{ trans('index.quota6.alter') }}</span>
+                                </h5>
+                            </article>
+                        </div>
+                        <div class="item">
+                            <article class="news-block col-sm-12">
+                                <h5 class="text-justify">
+                                    {{ trans('index.quota7.message') }}
+                                    <br>{{ trans('index.quota7.name') }} <span>{{ trans('index.quota7.alter') }}</span>
+                                </h5>
+                            </article>
+                        </div>
+                        <div class="item">
+                            <article class="news-block col-sm-12">
+                                <h5 class="text-justify">
+                                    {{ trans('index.quota8.message') }}
+                                    <br>{{ trans('index.quota8.name') }} <span>{{ trans('index.quota8.alter') }}</span>
+                                </h5>
+                            </article>
+                        </div>
+                        <div class="item">
+                            <article class="news-block col-sm-12">
+                                <h5 class="text-justify">
+                                    {{ trans('index.quota9.message') }}
+                                    <br>{{ trans('index.quota9.name') }} <span>{{ trans('index.quota9.alter') }}</span>
+                                </h5>
+                            </article>
+                        </div>
+                    </div>
+                </div>
 		</div>
 		<div class="col-sm-2 col-sm-offset-1">
 			<div class="col-sm-12" >
@@ -145,6 +150,7 @@
 			</div>
 		</div>
 	</div>
+    </div>
 </section>
 
 @endsection

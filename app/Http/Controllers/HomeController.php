@@ -29,12 +29,10 @@ class HomeController extends Controller {
 		return view('admin.home', compact('articles'));
 	}
 
-
 	public function add()
 	{
 		return view('admin.add');
 	}
-
 
 	public function store(Request $request)
 	{
@@ -47,12 +45,13 @@ class HomeController extends Controller {
 	        $file->move('images/articles', $newName);
 
 	        $params['imagen'] = $newName;
-            Article::create($params);
-
-            return redirect()->route('home');
         } else {
-	        return redirect()->back()->with('error', 'No se ha subido imagen alguna');
+            $params['imagen'] = '';
         }
+
+        Article::create($params);
+
+        return redirect()->route('home');
 	}
 
 }

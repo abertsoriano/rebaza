@@ -66,17 +66,6 @@
 		</div>
 	</div>
 </section>
-<section class="dowload-app text-center-sm text-center-xs">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 col-xs-12">
-				<div class="content">
-					<h5></h5>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 
 <div class="modal fade" id="alexandraorbe" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
 	<div class="modal-dialog modal-lg">
@@ -170,7 +159,7 @@
 				<div class="modal-body">
 					<div class="col-sm-4 col-xs-12">
 						<article class="news-socios">
-							<img src="images/socios/AugustoLoli2.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/socios/AugustoLoli2.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Descargar Bio</a></p><br>
 						</article>
 					</div>
@@ -251,7 +240,7 @@
 				<div class="modal-body">
 					<div class="col-sm-4 col-xs-12">
 						<article class="news-socios">
-							<img src="images/socios/camilo.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/socios/camilo.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Descargar Bio</a></p><br>
 						</article>
 					</div>
@@ -423,7 +412,7 @@
 				<div class="modal-body">
 					<div class="col-sm-4 col-xs-12">
 						<article class="news-socios">
-							<img src="images/socios/Felipe-Boisset.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/socios/Felipe-Boisset.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Descargar Bio</a></p><br>
 						</article>
 					</div>
@@ -592,7 +581,7 @@
 				<div class="modal-body">
 					<div class="col-sm-4 col-xs-12">
 						<article class="news-socios">
-							<img src="images/socios/GDC.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/socios/GDC.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Descargar Bio</a></p><br>
 						</article>
 					</div>
@@ -770,7 +759,7 @@
 				<div class="modal-body">
 					<div class="col-sm-4 col-xs-12">
 						<article class="news-socios">
-							<img src="images/socios/nuevaJJCHfoto.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/socios/nuevaJJCHfoto.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Descargar Bio</a></p><br>
 
 						</article>
@@ -904,7 +893,7 @@
 					<div class="modal-body">
 						<div class="col-sm-4 col-xs-12">
 							<article class="news-socios">
-								<img src="images/socios/JFZ.jpg" alt="Image" class="img-responsive img-center-xs">
+								<img src="images/socios/JFZ.jpg" alt="Image" class="img-responsive">
 								<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Descargar Bio</a></p><br>
 							</article>
 						</div>
@@ -1226,7 +1215,7 @@
 				<div class="modal-body">
 					<div class="col-sm-4 col-xs-12">
 						<article class="news-socios">
-							<img src="images/socios/Juanjo.JPG" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/socios/Juanjo.JPG" alt="Image" class="img-responsive">
 						</article>
 					</div>
 					<div class="col-sm-4 col-xs-12">
@@ -1396,7 +1385,7 @@
 				<div class="modal-body">
 					<div class="col-sm-4 col-xs-12">
 						<article class="news-socios">
-							<img src="images/socios/LEM.JPG" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/socios/LEM.JPG" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Descargar Bio</a></p><br>
 						</article>
 					</div>
@@ -1557,7 +1546,7 @@
 				<div class="modal-body">
 					<div class="col-sm-4 col-xs-12">
 						<article class="news-socios">
-							<img src="images/socios/MariaHaydee.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/socios/MariaHaydee.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Descargar Bio</a></p><br>
 						</article>
 					</div>
@@ -1642,7 +1631,7 @@
 				<div class="modal-body">
 					<div class="col-sm-4 col-xs-12">
 						<article class="news-socios">
-							<img src="images/socios/Malu.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/socios/Malu.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Descargar Bio</a></p><br>
 						</article>
 					</div>
@@ -1714,7 +1703,7 @@
 				<div class="modal-body">
 					<div class="col-sm-4 col-xs-12">
 						<article class="news-socios">
-							<img src="images/socios/Rafael-Alcazar.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/socios/Rafael-Alcazar.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Descargar Bio</a></p><br>
 						</article>
 					</div>
@@ -2029,7 +2018,7 @@
 			<div class="modal-body">
 				<div class="col-sm-4 col-xs-12">
 					<div class="news-socios">
-						<img src="images/socios/alberto.jpg" alt="Image" class="img-responsive img-center-xs">
+						<img src="images/socios/alberto.jpg" alt="Image" class="img-responsive">
 						<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Descargar Bio</a></p><br>
 					</div>
 				</div>

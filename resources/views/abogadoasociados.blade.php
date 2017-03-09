@@ -10,7 +10,7 @@
 				<div class="row">
 					<div class="col-sm-3 col-xs-12">
 						<article class="news-block">
-				<img src="images/abogados.jpg" alt="FoodBingo" class="logo img-responsive img-center-xs">
+				<img src="images/abogados.jpg" alt="FoodBingo" class="logo img-responsive">
 						</article>
 					</div>
 					<div class="col-sm-9 col-xs-12">
@@ -131,17 +131,6 @@
 		</div>
 	</div>
 </section>
-<section class="dowload-app text-center-sm text-center-xs">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 col-xs-12">
-				<div class="content">
-					<h5></h5>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 
 
 <div class="modal fade" id="alejandrag" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
@@ -156,7 +145,7 @@
 		<div class="modal-body">
 			<div class="col-sm-4 col-xs-12">
 				<article class="news-socios">
-					<img src="images/asociados/AlejandraGalvez.jpg" alt="Image" class="img-responsive img-center-xs">
+					<img src="images/asociados/AlejandraGalvez.jpg" alt="Image" class="img-responsive">
 					<p class="txtblue text-bold">Descargar Bio</p>
 					</article>
 				</div>
@@ -219,7 +208,7 @@
 			<div class="modal-body">
 				<div class="col-sm-4 col-xs-12">
 					<article class="news-socios">
-						<img src="images/asociados/alejandrochinguel.jpg" alt="Image" class="img-responsive img-center-xs">
+						<img src="images/asociados/alejandrochinguel.jpg" alt="Image" class="img-responsive">
 						<p class="txtblue text-bold">Descargar Bio</p>
 					</article>
 				</div>
@@ -292,7 +281,7 @@
 			<div class="modal-body">
 				<div class="col-sm-4 col-xs-12">
 					<article class="news-socios">
-						<img src="images/asociados/Alma.jpg" alt="Image" class="img-responsive img-center-xs">
+						<img src="images/asociados/Alma.jpg" alt="Image" class="img-responsive">
 						<p class="txtblue text-bold">Descargar Bio</p>
 					</article>
 				</div>
@@ -357,7 +346,7 @@
 			<div class="modal-body">
 				<div class="col-sm-4 col-xs-12">
 					<article class="news-socios">
-						<img src="images/asociados/Alvaro-Castro.jpg" alt="Image" class="img-responsive img-center-xs">
+						<img src="images/asociados/Alvaro-Castro.jpg" alt="Image" class="img-responsive">
 						<p class="txtblue text-bold">Descargar Bio</p>
 					</article>
 				</div>
@@ -477,7 +466,7 @@
 			<div class="modal-body">
 				<div class="col-sm-4 col-xs-12">
 					<article class="news-socios">
-						<img src="images/asociados/andreaRieckhof.jpg" alt="Image" class="img-responsive img-center-xs">
+						<img src="images/asociados/andreaRieckhof.jpg" alt="Image" class="img-responsive">
 						<p class="txtblue text-bold">Download Bio</p>
 					</article>
 				</div>

@@ -44,17 +44,6 @@
 		</div>
 	</div>
 </section>
-<section class="dowload-app text-center-sm text-center-xs">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 col-xs-12">
-				<div class="content">
-					<h5></h5>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 <div class="modal fade" id="carlosaval" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content row">

@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 use Cache;
-use App;
+use App\Article;
 
 class WelcomeController extends Controller {
 
@@ -17,14 +17,29 @@ class WelcomeController extends Controller {
 	|
 	*/
 
-	/**
+	const fields = ['title', 'title_en', 'imagen', 'desc', 'desc_en'];
+
+	private $locale = 'es';
+
+	public function __construct()
+    {
+        if (Cache::has('locale')) {
+            $this->locale = Cache::get('locale') == 'en' ? '_' . Cache::get('locale') : '';
+        }
+    }
+
+    /**
 	 * Show the application welcome screen to the user.
 	 *
 	 * @return Response
 	 */
 	public function index()
 	{
-		return view('index');
+	    $articles = Article::where('status', 1)->latest()->get(self::fields)->take(4)->toArray();
+
+	    $locale = $this->locale;
+
+		return view('index', compact('articles', 'locale'));
 	}
 
 	public function abogadoasociados()
@@ -139,7 +154,11 @@ class WelcomeController extends Controller {
 
 	public function reconocimiento()
 	{
-		return view('reconocimiento');
+        $articles = Article::where('status', 1)->latest()->paginate(12, self::fields);
+
+        $locale = $this->locale;
+
+		return view('reconocimiento', compact('articles', 'locale'));
 	}
 
 	public function responsabilidadsocial()
@@ -160,7 +179,6 @@ class WelcomeController extends Controller {
 	public function changeLocale(Request $request)
 	{
 		$locale = $request->input('locale');
-		$redirect = '';
 
 		Cache::forever('locale', $locale, 7200);
 
