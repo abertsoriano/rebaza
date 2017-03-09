@@ -17,21 +17,30 @@
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <input type="hidden" value="1" name="status">
                         <div class="form-group">
-                            <label for="title" class="control-label">Titulo</label>
-                            <div class="controls">
-                                <input type="text" name="title" id="title" class="form-control">
-                            </div>
-                        </div>
-                        <div class="form-group">
                             <label for="imagen" class="control-label">Imagen</label>
                             <div class="controls">
                                 <input type="file" name="imagen" id="imagem" class="form-control">
                             </div>
                         </div>
                         <div class="form-group">
+                            <label for="title" class="control-label">Titulo</label>
                             <div class="controls">
-                            	<textarea name="desc" id="paq_descripcion"></textarea>
+                                <input type="text" name="title" id="title" class="form-control" placeholder="En Español">
+                            </div>
+                            <div class="controls">
+                                <input type="text" name="title_en" class="form-control" placeholder="En Inglés">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <h4>En Español</h4>
+                            <div class="controls">
+                            	<textarea name="desc" class="paq_descripcion"></textarea>
 							</div>
+                            <hr>
+                            <h4>En Inglés</h4>
+                            <div class="controls">
+                                <textarea name="desc_en" class="paq_descripcion"></textarea>
+                            </div>
                         </div>
                         <div class="form-group">
                             <a href="{{ route('home') }}" class="btn btn-danger">Cancelar</a>

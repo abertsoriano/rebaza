@@ -70,7 +70,7 @@
 	<script type="text/javascript">
 	    tinymce.DOM.addClass(tinymce.DOM.select('table'), 'table table-bordered');
 	    tinymce.init({
-			selector: '#paq_descripcion',
+			selector: '.paq_descripcion',
 	        height: 400,
 			plugins: 'preview table lists textcolor code',
 	        toolbar: 'undo redo | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | forecolor | preview code',
