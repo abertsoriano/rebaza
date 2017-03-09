@@ -20,6 +20,9 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin'], function ($route) 
     $route->get('add-article', ['as' => 'addArticle', 'uses' => 'HomeController@add']);
     $route->post('add-article', ['as' => 'storeArticle', 'uses' => 'HomeController@store']);
 
+    $route->get('edit-article/{id}', ['as' => 'editArticle', 'uses' => 'HomeController@edit']);
+    $route->post('update-article/{id}', ['as' => 'updateArticle', 'uses' => 'HomeController@update']);
+
 });
 
 $locale = 'es';

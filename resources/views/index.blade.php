@@ -23,7 +23,7 @@
                                 <div class="seccion-row">
                                     <h6>{{ $article['title' . $locale] }}</h6>
                                     <div class="content-text">
-                                        <p class="sinespacio">{!! str_limit(strip_tags($article['desc' . $locale]), 98) !!}</p>
+                                        <p class="sinespacio">{!! strip_tags($article['desc' . $locale]) !!}</p>
                                     </div>
                                 </div>
                             @endforeach

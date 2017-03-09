@@ -710,12 +710,7 @@ a.nohover, a.nohover:hover {
 	font-size:11px;
 	color:#737373;}
 
-.seccion-row + .seccion-row {
-    border-top: 1px solid #ccc;
-    padding-top: 10px;
-    margin-top: 15px;
-}
-.seccion-row h6 {
+.seccion-row h6, .content-articles h6 {
     margin-bottom: 2px;
     font-weight: bold;
     font-size: 1.1em;

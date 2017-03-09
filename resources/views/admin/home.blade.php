@@ -20,6 +20,9 @@
                                 </div>
                                 <div class="col-sm-12">
                                     {!! $article->desc !!}
+                                    <div>
+                                        <a href="{{ route('editArticle', $article->id) }}" class="btn btn-success btn-sm">Editar</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
