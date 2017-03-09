@@ -11,30 +11,24 @@
 				<div class="row">
 					<div class="col-sm-3 col-xs-12">
 						<article class="news-block">
-							<img src="images/oficinas.jpg" alt="FoodBingo" class="logo img-responsive img-center-xs">
+							<img src="images/oficinas.jpg" alt="Oficinas" class="logo img-responsive">
 						</article>
 					</div>
 					<div class="col-sm-9 col-xs-12">
 						<article class="nes-block">
-							<h4 class="text-wnormal text-bold titu">Oficinas</h4>
+							<h4 class="text-bold titu">{{ trans('oficinas.title') }}</h4>
 						</article>
 					</div>
 					<div class="col-sm-4 col-xs-12">
 						<article class="news-block oficina">
 							<p class="text-bold">Lima</p>
-							<p>Canaval y Moreyra 452 pisos 9, 14, 15 y 17
-								<br>San Isidro - Lima 27
-								<br>Teléfono (511) 442-5100
-								<br>Fax (511) 442-5100 - 237</p>
+							{!! trans('oficinas.lima') !!}
 						</article>
 					</div>
 					<div class="col-sm-4 col-xs-12">
 						<article class="news-block oficina">
 							<p class="text-bold">Santiago</p>
-							<p>Av. Apoquindo 3600, Piso 5
-								<br>Los Condes
-								<br>Santiago de Chile
-								<br>Telefax (56-2) 2244-68432</p>
+							{!! trans('oficinas.santiago') !!}
 						</article>
 						<article class="news-block">
 							<ul class="bullet">

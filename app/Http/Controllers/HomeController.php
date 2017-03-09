@@ -28,7 +28,7 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
-		$articles = Article::paginate(20);
+		$articles = Article::latest()->paginate(20);
 		return view('admin.home', compact('articles'));
 	}
 

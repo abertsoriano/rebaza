@@ -71,8 +71,8 @@
 	    tinymce.init({
 			selector: '.paq_descripcion',
 	        height: 400,
-			plugins: 'preview table lists textcolor code',
-	        toolbar: 'undo redo | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | forecolor | preview code',
+			plugins: 'preview table lists textcolor code link',
+	        toolbar: 'undo redo | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | forecolor link | preview code',
 	        content_css: '/css/tinymce-custom.css',
 	        init_instance_callback: function (editor) {
 	            editor.on('BeforeSetContent', function (e) {

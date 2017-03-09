@@ -19,7 +19,11 @@
                             <label for="imagen" class="control-label">Imagen</label>
                             <div class="row">
                                 <div class="col-sm-4">
+                                @if ($article->imagen != '')
                                     <img src="{{ asset('images/articles/' . $article->imagen) }}" alt="{{ $article->imagen }}" class="img-responsive">
+                                @else
+                                    <img src="{{ asset('images/not-pictured.jpg') }}" alt="not picture" class="img-responsive">
+                                @endif
                                 </div>
                                 <div class="col-sm-8">
                                     <input type="file" name="imagen" id="imagem" class="form-control">
