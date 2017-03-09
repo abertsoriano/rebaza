@@ -11,6 +11,16 @@
 |
 */
 
+Route::get('/login', 'Auth\AuthController@showLoginForm');
+Route::post('login', 'Auth\AuthController@login');
+
+Route::group(['middleware' => ['auth'], 'prefix' => 'admin'], function ($route) {
+
+    $route->get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
+    $route->get('add-article', ['as' => 'addArticle', 'uses' => 'HomeController@add']);
+    $route->post('add-article', ['as' => 'storeArticle', 'uses' => 'HomeController@store']);
+
+});
 
 $locale = 'es';
 if (Cache::has('locale')) {
@@ -47,13 +57,3 @@ Route::get('reconocimiento', ['as' => 'reconocimiento', 'uses' => 'WelcomeContro
 Route::get('responsabilidadsocial', ['as' => 'responsabilidadsocial', 'uses' => 'WelcomeController@responsabilidadsocial']);
 Route::get('trabaja', ['as' => 'trabaja', 'uses' => 'WelcomeController@trabaja']);
 Route::get('trabajaformulario', ['as' => 'trabajaformulario', 'uses' => 'WelcomeController@trabajaformulario']);
-
-
-Route::get('home', ['as' => 'home', 'uses' => 'HomeController@index']);
-Route::get('add-article', ['as' => 'addArticle', 'uses' => 'HomeController@add']);
-Route::post('add-article', ['as' => 'storeArticle', 'uses' => 'HomeController@store']);
-
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
