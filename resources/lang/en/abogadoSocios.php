@@ -1,86 +1,76 @@
----
-layout: default_en
----
-<section class="news-event-teaser section text-center-xs">
-	<div class="container small">
+<?php
+/**
+ * Created by PhpStorm.
+ * User: oscarlarriega
+ * Date: 12/03/17
+ * Time: 5:33 PM
+ */
 
-		<div class="row">
-			<div class="col-sm-12">
-				<div class="row">
-					<div class="col-sm-3 col-xs-12">
-						<article class="news-block">
-				<img src="../images/abogados.jpg" alt="FoodBingo" class="logo img-responsive img-center-xs">
-						</article>
-					</div>
-					<div class="col-sm-9 col-xs-12">
-						<article class="news-block">
-							<h6 class="text-normal text-bold">Lawyers</h6>
-							<h4 class="text-wnormal text-bold">Partners <a class="abogados" href="abogadoasociados.html"> Associates</a> <a class="abogados" href="abogadoconsultores.html"> Counsel</a></h4>
-						</article>
-					</div>
-					<div class="col-sm-4 col-xs-12">
-						<article class="news-block">
-							<ul>
-							<li><a tabindex="-1" href="#terminos" data-toggle="modal"></i>Alberto Rebaza</a></li>
+return [
+    'title' => 'Lawyers',
+    'sub_title' => 'Partners
+                    <a class="abogados" href="abogadoasociados">Associates</a>
+                    <a class="abogados" href="abogadoconsultores">Counsel</a>',
 
-							<p class="paboga">alberto.rebaza@rebaza-alcazar.com</p>
-							<li><a tabindex="-1" href="#alexandraorbe" data-toggle="modal"></i>Alexandra Orbezo</a></li>
-							<p class="paboga">alexandra.orbezo@rebaza-alcazar.com</p>
-							<li><a tabindex="-1" href="#augustololi" data-toggle="modal"></i>Augusto Loli</a></li>
-							<p class="paboga">augusto.loli@rebaza-alcazar.com</p>
-							<li><a tabindex="-1" href="#camilomaru" data-toggle="modal"></i>Camilo Maruy</a></li>
-							<p class="paboga">camilo.maruy@rebaza-alcazar.com</p>
-							<li><a tabindex="-1" href="#felipebois" data-toggle="modal"></i>Felipe Boisset</a></li>
-							<p class="paboga">felipe.boisset@rebaza-alcazar.com</p>
-							<li><a tabindex="-1" href="#gonzalodela" data-toggle="modal"></i>Gonzalo De las Casas</a></li>
-							<p class="paboga">gonzalo.delascasas@rebaza-alcazar.com</p>
-							<li><a tabindex="-1" href="#joseanto" data-toggle="modal"></i>José Antonio Jiménez</a></li>
-							<p class="paboga">jose.jimenez@rebaza-alcazar.com</p>
-							</ul>
-						</article>
-					</div>
-					<div class="col-sm-4 col-xs-12">
-						<article class="news-block">
-						<ul>
-							<li><a tabindex="-1" href="#josefran" data-toggle="modal"></i>José Francisco Zaragozá</a></li>
-							<p class="paboga">jose.zaragoza@rebaza-alcazar.com</p>
-							<li><a tabindex="-1" href="#juancard" data-toggle="modal"></i>Juan José Cárdenas</a></li>
-							<p class="paboga">juanjose.cardenas@rebaza-alcazar.com</p>
-							<li><a tabindex="-1" href="#luiselia" data-toggle="modal"></i>Luis Miguel Elías</a></li>
-							<p class="paboga">luismiguel.elias@rebaza-alcazar.com</p>
-							<li><a tabindex="-1" href="#mariazega" data-toggle="modal"></i>María Haydée Zegarra</a></li>
-							<p class="paboga">mariahaydee.zegarra@rebaza-alcazar.com</p>
-							<li><a tabindex="-1" href="#mariapena" data-toggle="modal"></i>María Luisa Peña</a></li>
-							<p class="paboga">marialuisa.pena@rebaza-alcazar.com</p>
-							<li><a tabindex="-1" href="#rafaelalca" data-toggle="modal"></i>Rafael Alcázar</a></li>
-							<p class="paboga">rafael.alcazar@rebaza-alcazar.com</p>
-						</ul>
-						</article>
-					</div>
+    'list_1' => '<li>
+                    <a href="#terminos" data-toggle="modal">Alberto Rebaza</a>
+                    <div>alberto.rebaza@rebaza-alcazar.com</div>
+                </li>
+                <li>
+                    <a href="#alexandraorbe" data-toggle="modal">Alexandra Orbezo</a>
+                    <div>alexandra.orbezo@rebaza-alcazar.com</div>
+                </li>
+                <li>
+                    <a href="#augustololi" data-toggle="modal">Augusto Loli</a>
+                    <div>augusto.loli@rebaza-alcazar.com</div>
+                </li>
+                <li>
+                    <a href="#camilomaru" data-toggle="modal">Camilo Maruy</a>
+                    <div>camilo.maruy@rebaza-alcazar.com</div>
+                </li>
+                <li>
+                    <a href="#felipebois" data-toggle="modal">Felipe Boisset</a>
+                    <div>felipe.boisset@rebaza-alcazar.com</div>
+                </li>
+                <li>
+                    <a href="#gonzalodela" data-toggle="modal">Gonzalo De las Casas</a>
+                    <div>gonzalo.delascasas@rebaza-alcazar.com</div>
+                </li>
+                <li>
+                    <a href="#joseanto" data-toggle="modal">José Antonio Jiménez</a>
+                    <div>jose.jimenez@rebaza-alcazar.com</div>
+                </li>',
 
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+    'list_2' => '<li>
+                    <a href="#josefran" data-toggle="modal">José Francisco Zaragozá</a>
+                    <div>jose.zaragoza@rebaza-alcazar.com</div>
+                </li>
+                <li>
+                    <a href="#juancard" data-toggle="modal">Juan José Cárdenas</a>
+                    <div>juanjose.cardenas@rebaza-alcazar.com</div>
+                </li>
+                <li>
+                    <a href="#luiselia" data-toggle="modal">Luis Miguel Elías</a>
+                    <div>luismiguel.elias@rebaza-alcazar.com</div>
+                </li>
+                <li>
+                    <a href="#mariazega" data-toggle="modal">María Haydée Zegarra</a>
+                    <div>mariahaydee.zegarra@rebaza-alcazar.com</div>
+                </li>
+                <li>
+                    <a href="#mariapena" data-toggle="modal">María Luisa Peña</a>
+                    <div>marialuisa.pena@rebaza-alcazar.com</div>
+                </li>
+                <li>
+                    <a href="#rafaelalca" data-toggle="modal">Rafael Alcázar</a>
+                    <div>rafael.alcazar@rebaza-alcazar.com</div>
+                </li>',
 
-<div class="modal fade" id="alexandraorbe" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content row">
-			<div class="modal-header">
-				<h6 class="sinespacio pull-left">Alexandra&nbsp;Orbezo <small>Partner</small></h6>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<div class="col-sm-4 col-xs-12">
-						<article class="news-socios">
-							<img src="../images/socios/Ale2.jpg" alt="Image" class="img-responsive img-center-xs">
-							<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Download Bio</a></p>
-						</article>
-					</div>
-					<div class="col-sm-4">
+    'type' => 'Partner',
+    'type_alter' => 'Socio Principal',
+    'download' => 'Download Bio',
+
+    'modal_1' => '<div class="col-sm-4">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
@@ -138,29 +128,9 @@ layout: default_en
                             <p>She is a member of the Bar in Lima and New York.</p>
                             <p>She is fluent in Spanish, English and German.</p>
 						</article>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+					</div>',
 
-	<div class="modal fade" id="augustololi" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content row">
-				<div class="modal-header">
-					<h6 class="sinespacio pull-left">Augusto Loli <small>Partner</small></h6>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<div class="col-sm-4">
-						<article class="news-socios">
-							<img src="../images/socios/AugustoLoli2.jpg" alt="Image" class="img-responsive img-center-xs">
-							<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Download Bio</a></p><br>
-						</article>
-					</div>
-					<div class="col-sm-4">
+    'modal_2' => '<div class="col-sm-4">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
@@ -213,30 +183,9 @@ layout: default_en
 						<p>He was an associate at Estudio Benites, Forno & Ugaz (1999-2003), initially being part of the Social Area, and afterwards in the Criminal Law area. He was a Founding Partner of the law firm Loli & Garcia Cavero Abogados.  In his professional practice he specialized in matters pertaining to White-collar Criminal Law and in criminal matters that involve public administrations.  He has successfully intervened in the design and implementation of defense strategies in several criminal cases with both public and economic relevance for the country in the last few years, representing  important companies from Peru, the US and Europe. He is currently a professor of Criminal Law at the Universidad de Piura.</p>
 						<p>Has been recognized by the british magazine Chambers and Partners  as a leading lawyer in white-collar crime in Peru.</p>
 						</article>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+					</div>',
 
-
-	<div class="modal fade" id="camilomaru" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content row">
-				<div class="modal-header">
-					<h6 class="sinespacio pull-left">Camilo&nbsp;Maruy <small>Partner</small></h6>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<div class="col-sm-4 col-xs-12">
-						<article class="news-socios">
-							<img src="../images/socios/camilo.jpg" alt="Image" class="img-responsive img-center-xs">
-							<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Download Bio</a></p><br>
-						</article>
-					</div>
-					<div class="col-sm-8">
+    'modal_3' => '<div class="col-sm-8">
 						<article class="news-socios">
 							<p class="txtblue text-bold">Lima Office</p>
 							<p class="sinespacio">T: 4425100<br />F: 4425100 A: 250<br />
@@ -355,29 +304,9 @@ layout: default_en
                                 <p>He speaks fluently Spanish and English.</p>
                             </div>
 						</article>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+					</div>',
 
-	<div class="modal fade" id="felipebois" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content row">
-				<div class="modal-header">
-					<h6 class="sinespacio pull-left">Felipe Boisset <small>Partner</small></h6>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<div class="col-sm-4 col-xs-12">
-						<article class="news-socios">
-							<img src="../images/socios/Felipe-Boisset.jpg" alt="Image" class="img-responsive img-center-xs">
-							<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Download Bio</a></p><br>
-						</article>
-					</div>
-					<div class="col-sm-4">
+    'modal_4' => '<div class="col-sm-4">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
@@ -519,29 +448,9 @@ layout: default_en
                                 <p align="justify">	He speaks fluently Spanish and English.</p>
                             </div>
 						</article>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+					</div>',
 
-	<div class="modal fade" id="gonzalodela" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content row">
-				<div class="modal-header">
-					<h6 class="sinespacio pull-left">Gonzalo De Las Casas <small>Partner</small></h6>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<div class="col-sm-4 col-xs-12">
-						<article class="news-socios">
-							<img src="../images/socios/GDC.jpg" alt="Image" class="img-responsive img-center-xs">
-							<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Download Bio</a></p><br>
-						</article>
-					</div>
-					<div class="col-sm-4 col-xs-12">
+    'modal_5' => '<div class="col-sm-4 col-xs-12">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
@@ -660,30 +569,9 @@ layout: default_en
                                 <p>He is fluent in English and Spanish.</p>
                             </div>
 						</article>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+					</div>',
 
-	<div class="modal fade" id="joseanto" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content row">
-				<div class="modal-header">
-					<h6 class="sinespacio pull-left">Jos&eacute; Antonio Jim&eacute;nez <small>Partner</small></h6>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<div class="col-sm-4 col-xs-12">
-						<article class="news-socios">
-							<img src="../images/socios/nuevaJJCHfoto.jpg" alt="Image" class="img-responsive img-center-xs">
-							<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Download Bio</a></p><br>
-
-						</article>
-					</div>
-					<div class="col-sm-4">
+    'modal_6' => '<div class="col-sm-4">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
@@ -786,29 +674,9 @@ layout: default_en
                                 <p>He is fluent in English and Spanish.</p>
                             </div>
 						</article>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+					</div>',
 
-	<div class="modal fade" id="josefran" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content row">
-				<div class="modal-header">
-					<h6 class="sinespacio pull-left">José Francisco Zaragozá <small>Partner</small></h6>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-					<div class="modal-body">
-						<div class="col-sm-4 col-xs-12">
-							<article class="news-socios">
-								<img src="../images/socios/JFZ.jpg" alt="Image" class="img-responsive img-center-xs">
-								<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Download Bio</a></p><br>
-							</article>
-						</div>
-						<div class="col-sm-4">
+    'modal_7' => '<div class="col-sm-4">
 							<ul class="accordion">
 								<li class="current"><a href="#">Practices</a>
 						            <div class="bloqueMostrar">
@@ -855,191 +723,171 @@ layout: default_en
 								</li>
 							</ul>
 						</div>
-						<div class="col-sm-8">
-							<article class="news-socios">
-								<p class="txtblue text-bold">Lima Office</p>
-								<p class="sinespacio">T: 4425100<br />F: 4425100 A: 247<br />
-								<a href="mailto:jose.zaragoza@rebaza-alcazar.com" class="correo">jose.zaragoza@rebaza-alcazar.com</a>
-								<p class="txtblue text-bold">Secretary</p>
-								<p class="sinespacio">Cyntia Cevasco<br>
-								<a href="mailto:cyntia.cevasco@rebaza-alcazar.com" class="correo">cyntia.cevasco@rebaza-alcazar.com</a><br>
-								T: 4425100 A: 247
-								</p>
-							</article>
-						</div>
-						<div class="col-sm-12">
-							<article class="news-socios">
-								<p>Jos&eacute; Francisco Zaragoz&aacute; is a graduate lawyer from Pontificia Universidad Cat&oacute;lica del Per&uacute; (PUCP) and holds a Master&rsquo;s Degree in Corporate Law from the Universidad Pompeu Fabra (Barcelona-Spain). He has taken post graduate courses at Universidad de Salamanca (Spain) and&nbsp;in the Intellectual Property and Antitrust Master&rsquo;s Degree program at Universidad Cat&oacute;lica del Per&uacute;. Addittionally, Jose Francisco has taken specialization courses in litigation and national and international arbitration, such as the Advance PIDA Training on International Commercial Arbitration from the International Chamber of Commerce (ICC).</p>
-								<p>Jos&eacute; Francisco Zaragoza is an expert lawyer in corporate reorganization and bankruptcy (portfolio acquisition, total and partial liability assignment and takeover of bankruptcy related assets), intellectual property, antitrust law, and free and unfair competition administrative proceedings.</p>
-								<p>He has participated in various transactions, such as:</p>
-                                <br>
-                                <div class="panel-group" role="tablist" aria-multiselectable="true" id="jose-francisco">
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab" id="collapse-5">
-                                            <h4 class="panel-title">
-                                                <a role="button" data-toggle="collapse" data-parent="#jose-francisco" href="#josefran1" aria-expanded="true" aria-controls="fusiones">
-                                                <p class="txtblue text-bold">BANKRUPTCY PROCEEDING</a>
-                                            </h4>
-                                        </div>
-                                        <div class="panel-collapse collapse in" id="josefran1" role="tabpanel" aria-labelledby="collapse-5">
-                                            <div class="panel-body">
-                                                <ul>
-                                                    <li>Legal counsel to&nbsp;Surpapel Per&uacute; S.A.C.&nbsp;in the bankruptcy related assets takeover of Trupal S.A. and its subsequent sale to Grupo Gloria.</li>
-                                                    <li>Legal counsel to&nbsp;Transportes Flores S.R.L. in the bankruptcy related assets takeover of Empresa de Transportes San Martin S.A.</li>
-                                                    <li>Legal counsel to Glencore Per&uacute; S.A.C. in Doe Run Per&uacute; S.R.L.&rsquo;s creditors committee.</li>
-                                                    <li>Legal counsel to Baruch Ivcher Bronstein in the acknowledgement of his credits in Mendel and Samuel Winter Zuzunaga&rsquo;s bankruptcy proceedings.</li>
-                                                    <li>Legal counsel to the board of Lima Caucho S.A. in the bankruptcy proceedings of Comercializadora Llandas Unidas, Lima Caucho S.A.&rsquo;s main shareholder, in Cali, Colombia.</li>
-                                                    <li>Legal Counsel to the main creditor of TeleCable Siglo XXI S.A. in their start of a reorganization proceeding from a bankruptcy proceeding.</li>
-                                                </ul>
-                                            </div>
+                    <div class="col-sm-8">
+                        <article class="news-socios">
+                            <p class="txtblue text-bold">Lima Office</p>
+                            <p class="sinespacio">T: 4425100<br />F: 4425100 A: 247<br />
+                            <a href="mailto:jose.zaragoza@rebaza-alcazar.com" class="correo">jose.zaragoza@rebaza-alcazar.com</a>
+                            <p class="txtblue text-bold">Secretary</p>
+                            <p class="sinespacio">Cyntia Cevasco<br>
+                            <a href="mailto:cyntia.cevasco@rebaza-alcazar.com" class="correo">cyntia.cevasco@rebaza-alcazar.com</a><br>
+                            T: 4425100 A: 247
+                            </p>
+                        </article>
+                    </div>
+                    <div class="col-sm-12">
+                        <article class="news-socios">
+                            <p>Jos&eacute; Francisco Zaragoz&aacute; is a graduate lawyer from Pontificia Universidad Cat&oacute;lica del Per&uacute; (PUCP) and holds a Master&rsquo;s Degree in Corporate Law from the Universidad Pompeu Fabra (Barcelona-Spain). He has taken post graduate courses at Universidad de Salamanca (Spain) and&nbsp;in the Intellectual Property and Antitrust Master&rsquo;s Degree program at Universidad Cat&oacute;lica del Per&uacute;. Addittionally, Jose Francisco has taken specialization courses in litigation and national and international arbitration, such as the Advance PIDA Training on International Commercial Arbitration from the International Chamber of Commerce (ICC).</p>
+                            <p>Jos&eacute; Francisco Zaragoza is an expert lawyer in corporate reorganization and bankruptcy (portfolio acquisition, total and partial liability assignment and takeover of bankruptcy related assets), intellectual property, antitrust law, and free and unfair competition administrative proceedings.</p>
+                            <p>He has participated in various transactions, such as:</p>
+                            <br>
+                            <div class="panel-group" role="tablist" aria-multiselectable="true" id="jose-francisco">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="collapse-5">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#jose-francisco" href="#josefran1" aria-expanded="true" aria-controls="fusiones">
+                                            <p class="txtblue text-bold">BANKRUPTCY PROCEEDING</a>
+                                        </h4>
+                                    </div>
+                                    <div class="panel-collapse collapse in" id="josefran1" role="tabpanel" aria-labelledby="collapse-5">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>Legal counsel to&nbsp;Surpapel Per&uacute; S.A.C.&nbsp;in the bankruptcy related assets takeover of Trupal S.A. and its subsequent sale to Grupo Gloria.</li>
+                                                <li>Legal counsel to&nbsp;Transportes Flores S.R.L. in the bankruptcy related assets takeover of Empresa de Transportes San Martin S.A.</li>
+                                                <li>Legal counsel to Glencore Per&uacute; S.A.C. in Doe Run Per&uacute; S.R.L.&rsquo;s creditors committee.</li>
+                                                <li>Legal counsel to Baruch Ivcher Bronstein in the acknowledgement of his credits in Mendel and Samuel Winter Zuzunaga&rsquo;s bankruptcy proceedings.</li>
+                                                <li>Legal counsel to the board of Lima Caucho S.A. in the bankruptcy proceedings of Comercializadora Llandas Unidas, Lima Caucho S.A.&rsquo;s main shareholder, in Cali, Colombia.</li>
+                                                <li>Legal Counsel to the main creditor of TeleCable Siglo XXI S.A. in their start of a reorganization proceeding from a bankruptcy proceeding.</li>
+                                            </ul>
                                         </div>
                                     </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab">
-                                            <h4 class="panel-title">
-                                                <a role="button" data-toggle="collapse" data-parent="#alberto-collapse" href="#josefran2" aria-expanded="true" aria-controls="fusiones">
-                                                    <p class="txtblue text-bold">CORPORATE REORGANIZATIONS</p>
-                                                </a>
-                                            </h4>
-                                        </div>
-                                        <div class="panel-collapse collapse" id="josefran2">
-                                            <div class="panel-body">
-                                                <ul>
-                                                    <li>Legal counsel and drafting of the Debt Reorganization Plan of Continental S.A.C. and supervision of its completion, as well as Continental S.A.C.&rsquo;s exit from their reorganization proceedings after 12 years.</li>
-                                                    <li>Legal counsel to Grupo La Rep&uacute;blica in the purchase of insolvency credits from Compa&ntilde;&iacute;a Peruana de Radiodifusi&oacute;n S.A. &ndash;Channel 4; in the takeover of the creditor committee, and the drafting of the Debt Reorganization Plan.</li>
-                                                    <li>Legal counsel and drafting of the Debt Reorganization Plan of&nbsp;Empresa&nbsp;Pesquera Hayduk S.A. and of Fibras Marinas S.A. A restructured debt of approximately US $ 100 million.</li>
-                                                    <li>Legal counsel and drafting of the amendment of the Debt Reorganization Plan of Vera Guti&eacute;rrez S.A. (VEGSA). A restructured debt of approximately US $ 16 million.</li>
-                                                    <li>Legal counsel and drafting of the amendment of the Debt Reorganization Plan for Compa&ntilde;&iacute;a Minera Sayapullo. A restructures debt of&nbsp;US $ 14.4 million.</li>
-                                                    <li>Legal counsel and drafting of the Debt Reorganization Plan of&nbsp;FIJESA S.A.C., a restructured debt of&nbsp;US $ 7.5 million; and, counsel to the subsequent dissolution and liquidation of the company.</li>
-                                                    <li>Legal counsel and drafting of the Debt Reorganization Plan for Electro Sur Medio S.A.A., a restructured debt of&nbsp;US $ 44.6 million.</li>
-                                                    <li>Legal counsel and drafting of the Debt Reorganization Plan for Corporaci&oacute;n Stewart S.A.C. (COSTESAC).</li>
-                                                    <li>Legal counsel and drafting of the Debt Reorganization Plan and its subsequent amendments for AGP Industrias S.A.</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab">
-                                            <h4 class="panel-title">
-                                                <a role="button" data-toggle="collapse" data-parent="#alberto-collapse" href="#josefran3" aria-expanded="true" aria-controls="fusiones">
-                                                    <p class="txtblue text-bold">PREVENTIVE BANKRUPTCY PROCEEDING</p>
-                                                </a>
-                                            </h4>
-                                        </div>
-                                        <div class="panel-collapse collapse" id="josefran3">
-                                            <div class="panel-body">
-                                                <ul>
-                                                    <li>Negotiation and drafting of the Global Debt Reorganization Agreement for&nbsp;Empresas Sider&uacute;rgica del Per&uacute; S.A.A. (SiderPer&uacute;). More than&nbsp;US $ 115 million in restructured debt. Legal counsel in the bankrupcy related credits takeover of Colcarbon, main creditor of SiderPer&uacute;, and subsequent sale to the Brazilian company, Gerdau.</li>
-                                                    <li>Negotiation and drafting of the Global Debt Reorganization Agreement for&nbsp;Carbol&aacute;n S.A., a restructured debt of US $ 13.</li>
-                                                    <li>Negotiation and drafting of the Global Debt Reorganization Agreement for&nbsp;ARAMSA Contratistas Generales.&nbsp;A restructured dent of US $ 10 million.</li>
-                                                    <li>Legal Counsel to Sociedad Francesa de Beneficencia, manager of the Maison de Sant&eacute; S.A. hospitals network, in its preventive bankruptcy proceedings.</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab">
-                                            <h4 class="panel-title">
-                                                <a role="button" data-toggle="collapse" data-parent="#alberto-collapse" href="#josefran4" aria-expanded="true" aria-controls="fusiones">
-                                                    <p class="txtblue text-bold">CREDITOR MEETING&acute;S AGREEMENT IMPEACHMENTS AND OTHER BANKRUPTCY PROCEEDINGS</p>
-                                                </a>
-                                            </h4>
-                                        </div>
-                                        <div class="panel-collapse collapse" id="josefran4">
-                                            <div class="panel-body">
-                                                <ul>
-                                                    <li>Impeachment of the Global Debt Reorganization Agreement of Pesquera Austral S.A.A., on behalf of&nbsp;Corporaci&oacute;n Andina de Fomento (CAF).</li>
-                                                    <li>Impeachment of the Global Debt Reorganization Agreement&nbsp;of Textil San Crist&oacute;bal S.A.,&nbsp;on behalf of&nbsp;Banco Standard Chartered.</li>
-                                                    <li>Administrative sanctioning procedure against ALADEM E.I.R.L., in liquidation, for violation of the bankruptcy law.</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab">
-                                            <h4 class="panel-title">
-                                                <a role="button" data-toggle="collapse" data-parent="#alberto-collapse" href="#josefran5" aria-expanded="true" aria-controls="fusiones">
-                                                    <p class="txtblue text-bold">FREE AND UNFAIR COMPETITION, AND INTELLECTUAL PROPERTY</p>
-                                                </a>
-                                            </h4>
-                                        </div>
-                                        <div class="panel-collapse collapse" id="josefran5">
-                                            <div class="panel-body">
-                                                <ul>
-                                                    <li>Legal defense of Quimpac S.A. in the free competition proceedings started by Gromul S.R.L. and Dispra S.R.L.</li>
-                                                    <li>Legal defense of Compa&ntilde;&iacute;a de Seguros Rimac in the unfair competition proceedings started by the Unfair Competition Commission of Indecopi.</li>
-                                                    <li>Legal defense of Messer Gases del Per&uacute; S.A. in the unfair competition proceedings started by the Unfair Competition Commission of Indecopi, for violation of free and unfair competition law in the form of geographic distribution of medicinal oxygen market, in the public tender executed by Essalud.</li>
-                                                    <li>Participation in an internal investigation for the placement of a transnational company in a clemency proceeding before the Free Competition Commission of Indecopi.</li>
-                                                    <li>Legal defense of MacCann Erikson Corp.&rsquo;s advertising campaign for Coca Cola in Cannes Festival and Festival El Sol.&nbsp;</li>
-                                                    <li>Legal defense of Agreselva in the unfair competition proceedings, for acts of confusion, started by P&amp;H.</li>
-                                                    <li>Legal defense of Agreselva in the unfair competition proceedings, for abuse of legal action, started against P&amp;H.</li>
-                                                    <li>Legal defense of OOBK S.A. in the unfair competition proceedings, for denigration acts, started against OBC Occidental Business Corporation S.A.C.</li>
-                                                    <li>Legal defense of Compa&ntilde;&iacute;a Industrial Montesol S.R.L. in the unfair competition proceedings, started by Sociedad Nacional de Industrias.</li>
-                                                    <li>Legal defense of Pandero S.A. EAFC in the complaint made against Caja Maynas for trademark infringement.</li>
-                                                    <li>Legal defense of H&amp;A Trading S.R.L. in the unfair competition proceedings, for deception and corporate sabotage, started against SPL Per&uacute; S.A.C. (now K+S Per&uacute; S.A.C.).</li>
-                                                    <li>Legal defense of Cooperativa de Servicios Educacionales Abraham Lincoln in the complaint made by ex-associates for violation of consumer rights before Consumer Rights Commission of Indecopi.&nbsp;</li>
-                                                    <li>Legal Defense of Premium Brands S.A.C. in the complaint made by Ron Varela Hermanos for infringement of property rights.</li>
-                                                    <li>Legal counsel to&nbsp;Compa&ntilde;&iacute;a Peruana de Radiodifusi&oacute;n S.A.- Channel 4&nbsp;in various proceedings, as plaintiffs and as defendants, against the Unfair Competition Commission of Indecopi.</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab">
-                                            <h4 class="panel-title">
-                                                <a role="button" data-toggle="collapse" data-parent="#alberto-collapse" href="#josefran6" aria-expanded="true" aria-controls="fusiones">
-                                                    <p class="txtblue text-bold">CORPORATE STRATEGIES, CONFLICT RESOLUTION AND ARBITRATION</p>
-                                                </a>
-                                            </h4>
-                                        </div>
-                                        <div class="panel-collapse collapse" id="josefran6">
-                                            <div class="panel-body">
-                                                <ul>
-                                                    <li>Legal defense of Quimpac in the judicial proceedings against F&aacute;brica de Productos Lave S.R.L. &ndash; for US$ 1&rsquo;750,000.00 in damages compensation for unfair competition acts.</li>
-                                                    <li>Legal defense of Quimpac in the judicial proceedings against Indecopi for the annulment of an administrative decision which fined Quimpac for the violation of free competition regulations.</li>
-                                                    <li>Legal defense of Winter Capital S.A.C. in the judicial proceedings against Lusta S.A. and Guillermo Dasso to set aside a share transfer to a third party and formalize it in favor of Winter Capital.</li>
-                                                    <li>Legal defense of Grupo El Comercio in the judicial proceedings against PUBLICAT Publicidad &amp; Marketing E.I.R.L. to declare the ineffectiveness of a legal action.</li>
-                                                    <li>Legal defense of Blue Orbis Limited and Season Group S.A.C. in the arbitration against Comercializadora Llantas Unidas S.A.C. to declare the ineffectiveness of a legal action and for damages compensation, achieving the restitution of the Shareholders Agreement and the payment of an important sum of money for damages compensation; and, legal defense in the judicial proceedings started by Comercializadora Llantas Unidas for the annulment of the arbitral award.</li>
-                                                    <li>Legal defense of Perubar S.A. member company of the Glencore Group, in the arbitration against Taim Weser for breach of contract totaling US$ 5 million.</li>
-                                                    <li>Legal defense of Sigma Safi S.A. in the arbitration against Epromin S.A. for breach of contract totaling US$200,000.00.</li>
-                                                    <li>Legal defense of OOBK S:A. in the arbitration against OBC Occidental Business corporation S.A.C. for breach of contract totaling US$50,000.00.</li>
-                                                    <li>Legal defense of Nova Per&uacute; S.A.C. in the arbitration against Dexim S.R.L. for liquidated damages totaling US$ 500,000.00.</li>
-                                                    <li>Legal defense of Cooperativa de Servicios Educacionales Abraham Lincoln Ltda. in the arbitration against Complex Edificaciones S.A.C. for breach of contract totaling US$ 300,000.00.</li>
-                                                    <li>Legal defense of Cooperativa de Servicios Educacionales Abraham Lincoln Ltda. in the judicial proceedings started by ex-associates, for being expelled of the Assembly.</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p>Jos&eacute; Francisco Zaragoza is an arbitrator in the Chamber of Commerce of Lima.</p>
-                                    <p>Currently he is a professor of the Bankruptcy Law course of the Business Law Master Program at Universidad de Lima and he has been a member of its curriculum reform committee. Also, he has been a professor at the Litigation Law Master Program at Universidad Nacional Mayor de San Marcos and, in the Bussiness Law Master Program at the Universidad San Mart&iacute;n de Porres.</p>
-                                    <p>Additionally, Jose Francisco has been a member of the Intellectual Property commission of the&nbsp;Alca-Per&uacute; group and has published various articles in several specialized law review magazines.&nbsp;</p>
-                                    <p>He is a former partner of the Banking, Finance and Corporate Reorganization area at Benites, De las Casas, Forno &amp; Ugaz Abogados law firm.</p>
-                                    <p>He speaks fluently Spanish and English.</p>
                                 </div>
-							</article>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#alberto-collapse" href="#josefran2" aria-expanded="true" aria-controls="fusiones">
+                                                <p class="txtblue text-bold">CORPORATE REORGANIZATIONS</p>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="josefran2">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>Legal counsel and drafting of the Debt Reorganization Plan of Continental S.A.C. and supervision of its completion, as well as Continental S.A.C.&rsquo;s exit from their reorganization proceedings after 12 years.</li>
+                                                <li>Legal counsel to Grupo La Rep&uacute;blica in the purchase of insolvency credits from Compa&ntilde;&iacute;a Peruana de Radiodifusi&oacute;n S.A. &ndash;Channel 4; in the takeover of the creditor committee, and the drafting of the Debt Reorganization Plan.</li>
+                                                <li>Legal counsel and drafting of the Debt Reorganization Plan of&nbsp;Empresa&nbsp;Pesquera Hayduk S.A. and of Fibras Marinas S.A. A restructured debt of approximately US $ 100 million.</li>
+                                                <li>Legal counsel and drafting of the amendment of the Debt Reorganization Plan of Vera Guti&eacute;rrez S.A. (VEGSA). A restructured debt of approximately US $ 16 million.</li>
+                                                <li>Legal counsel and drafting of the amendment of the Debt Reorganization Plan for Compa&ntilde;&iacute;a Minera Sayapullo. A restructures debt of&nbsp;US $ 14.4 million.</li>
+                                                <li>Legal counsel and drafting of the Debt Reorganization Plan of&nbsp;FIJESA S.A.C., a restructured debt of&nbsp;US $ 7.5 million; and, counsel to the subsequent dissolution and liquidation of the company.</li>
+                                                <li>Legal counsel and drafting of the Debt Reorganization Plan for Electro Sur Medio S.A.A., a restructured debt of&nbsp;US $ 44.6 million.</li>
+                                                <li>Legal counsel and drafting of the Debt Reorganization Plan for Corporaci&oacute;n Stewart S.A.C. (COSTESAC).</li>
+                                                <li>Legal counsel and drafting of the Debt Reorganization Plan and its subsequent amendments for AGP Industrias S.A.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#alberto-collapse" href="#josefran3" aria-expanded="true" aria-controls="fusiones">
+                                                <p class="txtblue text-bold">PREVENTIVE BANKRUPTCY PROCEEDING</p>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="josefran3">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>Negotiation and drafting of the Global Debt Reorganization Agreement for&nbsp;Empresas Sider&uacute;rgica del Per&uacute; S.A.A. (SiderPer&uacute;). More than&nbsp;US $ 115 million in restructured debt. Legal counsel in the bankrupcy related credits takeover of Colcarbon, main creditor of SiderPer&uacute;, and subsequent sale to the Brazilian company, Gerdau.</li>
+                                                <li>Negotiation and drafting of the Global Debt Reorganization Agreement for&nbsp;Carbol&aacute;n S.A., a restructured debt of US $ 13.</li>
+                                                <li>Negotiation and drafting of the Global Debt Reorganization Agreement for&nbsp;ARAMSA Contratistas Generales.&nbsp;A restructured dent of US $ 10 million.</li>
+                                                <li>Legal Counsel to Sociedad Francesa de Beneficencia, manager of the Maison de Sant&eacute; S.A. hospitals network, in its preventive bankruptcy proceedings.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#alberto-collapse" href="#josefran4" aria-expanded="true" aria-controls="fusiones">
+                                                <p class="txtblue text-bold">CREDITOR MEETING&acute;S AGREEMENT IMPEACHMENTS AND OTHER BANKRUPTCY PROCEEDINGS</p>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="josefran4">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>Impeachment of the Global Debt Reorganization Agreement of Pesquera Austral S.A.A., on behalf of&nbsp;Corporaci&oacute;n Andina de Fomento (CAF).</li>
+                                                <li>Impeachment of the Global Debt Reorganization Agreement&nbsp;of Textil San Crist&oacute;bal S.A.,&nbsp;on behalf of&nbsp;Banco Standard Chartered.</li>
+                                                <li>Administrative sanctioning procedure against ALADEM E.I.R.L., in liquidation, for violation of the bankruptcy law.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#alberto-collapse" href="#josefran5" aria-expanded="true" aria-controls="fusiones">
+                                                <p class="txtblue text-bold">FREE AND UNFAIR COMPETITION, AND INTELLECTUAL PROPERTY</p>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="josefran5">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>Legal defense of Quimpac S.A. in the free competition proceedings started by Gromul S.R.L. and Dispra S.R.L.</li>
+                                                <li>Legal defense of Compa&ntilde;&iacute;a de Seguros Rimac in the unfair competition proceedings started by the Unfair Competition Commission of Indecopi.</li>
+                                                <li>Legal defense of Messer Gases del Per&uacute; S.A. in the unfair competition proceedings started by the Unfair Competition Commission of Indecopi, for violation of free and unfair competition law in the form of geographic distribution of medicinal oxygen market, in the public tender executed by Essalud.</li>
+                                                <li>Participation in an internal investigation for the placement of a transnational company in a clemency proceeding before the Free Competition Commission of Indecopi.</li>
+                                                <li>Legal defense of MacCann Erikson Corp.&rsquo;s advertising campaign for Coca Cola in Cannes Festival and Festival El Sol.&nbsp;</li>
+                                                <li>Legal defense of Agreselva in the unfair competition proceedings, for acts of confusion, started by P&amp;H.</li>
+                                                <li>Legal defense of Agreselva in the unfair competition proceedings, for abuse of legal action, started against P&amp;H.</li>
+                                                <li>Legal defense of OOBK S.A. in the unfair competition proceedings, for denigration acts, started against OBC Occidental Business Corporation S.A.C.</li>
+                                                <li>Legal defense of Compa&ntilde;&iacute;a Industrial Montesol S.R.L. in the unfair competition proceedings, started by Sociedad Nacional de Industrias.</li>
+                                                <li>Legal defense of Pandero S.A. EAFC in the complaint made against Caja Maynas for trademark infringement.</li>
+                                                <li>Legal defense of H&amp;A Trading S.R.L. in the unfair competition proceedings, for deception and corporate sabotage, started against SPL Per&uacute; S.A.C. (now K+S Per&uacute; S.A.C.).</li>
+                                                <li>Legal defense of Cooperativa de Servicios Educacionales Abraham Lincoln in the complaint made by ex-associates for violation of consumer rights before Consumer Rights Commission of Indecopi.&nbsp;</li>
+                                                <li>Legal Defense of Premium Brands S.A.C. in the complaint made by Ron Varela Hermanos for infringement of property rights.</li>
+                                                <li>Legal counsel to&nbsp;Compa&ntilde;&iacute;a Peruana de Radiodifusi&oacute;n S.A.- Channel 4&nbsp;in various proceedings, as plaintiffs and as defendants, against the Unfair Competition Commission of Indecopi.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#alberto-collapse" href="#josefran6" aria-expanded="true" aria-controls="fusiones">
+                                                <p class="txtblue text-bold">CORPORATE STRATEGIES, CONFLICT RESOLUTION AND ARBITRATION</p>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="josefran6">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>Legal defense of Quimpac in the judicial proceedings against F&aacute;brica de Productos Lave S.R.L. &ndash; for US$ 1&rsquo;750,000.00 in damages compensation for unfair competition acts.</li>
+                                                <li>Legal defense of Quimpac in the judicial proceedings against Indecopi for the annulment of an administrative decision which fined Quimpac for the violation of free competition regulations.</li>
+                                                <li>Legal defense of Winter Capital S.A.C. in the judicial proceedings against Lusta S.A. and Guillermo Dasso to set aside a share transfer to a third party and formalize it in favor of Winter Capital.</li>
+                                                <li>Legal defense of Grupo El Comercio in the judicial proceedings against PUBLICAT Publicidad &amp; Marketing E.I.R.L. to declare the ineffectiveness of a legal action.</li>
+                                                <li>Legal defense of Blue Orbis Limited and Season Group S.A.C. in the arbitration against Comercializadora Llantas Unidas S.A.C. to declare the ineffectiveness of a legal action and for damages compensation, achieving the restitution of the Shareholders Agreement and the payment of an important sum of money for damages compensation; and, legal defense in the judicial proceedings started by Comercializadora Llantas Unidas for the annulment of the arbitral award.</li>
+                                                <li>Legal defense of Perubar S.A. member company of the Glencore Group, in the arbitration against Taim Weser for breach of contract totaling US$ 5 million.</li>
+                                                <li>Legal defense of Sigma Safi S.A. in the arbitration against Epromin S.A. for breach of contract totaling US$200,000.00.</li>
+                                                <li>Legal defense of OOBK S:A. in the arbitration against OBC Occidental Business corporation S.A.C. for breach of contract totaling US$50,000.00.</li>
+                                                <li>Legal defense of Nova Per&uacute; S.A.C. in the arbitration against Dexim S.R.L. for liquidated damages totaling US$ 500,000.00.</li>
+                                                <li>Legal defense of Cooperativa de Servicios Educacionales Abraham Lincoln Ltda. in the arbitration against Complex Edificaciones S.A.C. for breach of contract totaling US$ 300,000.00.</li>
+                                                <li>Legal defense of Cooperativa de Servicios Educacionales Abraham Lincoln Ltda. in the judicial proceedings started by ex-associates, for being expelled of the Assembly.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Jos&eacute; Francisco Zaragoza is an arbitrator in the Chamber of Commerce of Lima.</p>
+                                <p>Currently he is a professor of the Bankruptcy Law course of the Business Law Master Program at Universidad de Lima and he has been a member of its curriculum reform committee. Also, he has been a professor at the Litigation Law Master Program at Universidad Nacional Mayor de San Marcos and, in the Bussiness Law Master Program at the Universidad San Mart&iacute;n de Porres.</p>
+                                <p>Additionally, Jose Francisco has been a member of the Intellectual Property commission of the&nbsp;Alca-Per&uacute; group and has published various articles in several specialized law review magazines.&nbsp;</p>
+                                <p>He is a former partner of the Banking, Finance and Corporate Reorganization area at Benites, De las Casas, Forno &amp; Ugaz Abogados law firm.</p>
+                                <p>He speaks fluently Spanish and English.</p>
+                            </div>
+                        </article>
+                    </div>',
 
-
-	<div class="modal fade" id="juancard" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content row">
-				<div class="modal-header">
-					<h6 class="sinespacio pull-left">Juan José Cárdenas <small>Partner</small></h6>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<div class="col-sm-4 col-xs-12">
-						<article class="news-socios">
-							<img src="../images/socios/Juanjo.JPG" alt="Image" class="img-responsive img-center-xs">
-						</article>
-					</div>
-					<div class="col-sm-4">
+    'modal_8' => '<div class="col-sm-4">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
@@ -1092,8 +940,6 @@ layout: default_en
 							<a href="mailto:andrea.lietzenmayer@rebaza-alcazar.com" class="correo">andrea.lietzenmayer@rebaza-alcazar.com</a><br>
 							T: 4425100 A: 264
 							</p>
-							<br>
-							<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Download Bio</a></p>
 						</article>
 					</div>
 					<div class="col-sm-12">
@@ -1117,30 +963,9 @@ layout: default_en
                             </ul>
 						    <p>He speaks fluently Spanish and English.</p><br>
 						</article>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</section>
+					</div>',
 
-	<div class="modal fade" id="luiselia" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content row">
-				<div class="modal-header">
-					<h6 class="sinespacio pull-left">Luis Miguel Elías <small>Partner</small></h6>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<div class="col-sm-4 col-xs-12">
-						<article class="news-socios">
-							<img src="../images/socios/LEM.JPG" alt="Image" class="img-responsive img-center-xs">
-							<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Download Bio</a></p><br>
-						</article>
-					</div>
-					<div class="col-sm-4">
+    'modal_9' => '<div class="col-sm-4">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
@@ -1187,30 +1012,9 @@ layout: default_en
 							<p>Luis Miguel El&iacute;as was an intern at Estudio Rubio, Legu&iacute;a, Normand &amp; Asociados.</p>
 							<p>He is fluent in Spanish and English.</p>
 						</article>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</section>
+					</div>',
 
-	<div class="modal fade" id="mariazega" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content row">
-				<div class="modal-header">
-					<h6 class="sinespacio pull-left">María Haydée Zegarra <small>Partner</small></h6>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<div class="col-sm-4 col-xs-12">
-						<article class="news-socios">
-							<img src="../images/socios/MariaHaydee.jpg" alt="Image" class="img-responsive img-center-xs">
-							<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Download Bio</a></p><br>
-						</article>
-					</div>
-					<div class="col-sm-4">
+    'modal_10' => '<div class="col-sm-4">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
@@ -1262,29 +1066,9 @@ layout: default_en
 							<p>Currently, Maria Haydee Zegarra is a professor of Labor Law at Universidad Peruana de Ciencias Aplicadas.&nbsp; She has also been assistant professor of the Labor Law Seminar at the Master Program in Corporate Law from Pontificia Universidad Cat&oacute;lica del Per&uacute;.</p>
 							<p>She is a former member of the law firm Benites, Forno &amp; Ugaz Abogados, where she led the Labor &amp; Employment area. She is also a former member of the law firm Laos, Aguilar &amp; Limas.</p>
 						</article>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+					</div>',
 
-	<div class="modal fade" id="mariapena" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content row">
-				<div class="modal-header">
-					<h6 class="sinespacio pull-left">María Luisa Peña <small>Partner</small></h6>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<div class="col-sm-4 col-xs-12">
-						<article class="news-socios">
-							<img src="../images/socios/Malu.jpg" alt="Image" class="img-responsive img-center-xs">
-							<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Download Bio</a></p><br>
-						</article>
-					</div>
-					<div class="col-sm-4">
+    'modal_11' => '<div class="col-sm-4">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
@@ -1332,29 +1116,9 @@ layout: default_en
 							<p>She is a former Consultant of Maldonado Asociados firm, a Deputy General Manager of Compa&ntilde;iaTransmisoraNorperuana (subsidiary of Gold Fields Ltd.), Senior Associate of Hernandez &amp; Cia. Abogados law firm and Senior Manager of the Advisory Division of KPMG Asesores.&nbsp;</p>
 							<p>He speaks fluently Spanish and English.</p>
 						</article>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+					</div>',
 
-	<div class="modal fade" id="rafaelalca" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content row">
-				<div class="modal-header">
-					<h6 class="sinespacio pull-left">Rafael Alcázar <small>Partner</small></h6>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<div class="col-sm-4 col-xs-12">
-						<article class="news-socios">
-							<img src="../images/socios/Rafael-Alcazar.jpg" alt="Image" class="img-responsive img-center-xs">
-							<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Download Bio</a></p><br>
-						</article>
-					</div>
-					<div class="col-sm-4">
+    'modal_12' => '<div class="col-sm-4">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
@@ -1632,29 +1396,9 @@ layout: default_en
                                 <p>He speaks fluently spanish and english.</p>
                             </div>
 						</article>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+					</div>',
 
-<div class="modal fade" id="terminos" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content row">
-			<div class="modal-header">
-				<h6 class="sinespacio pull-left">Alberto Rebaza <small>Partner</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<div class="news-socios">
-						<img src="../images/socios/alberto.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold"><a target="_blank" href="../images/cv/">Download Bio</a></p><br>
-					</div>
-				</div>
-				<div class="col-sm-4">
+    'modal_13' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -1700,151 +1444,148 @@ layout: default_en
 						</li>
 					</ul>
 				</div >
-				<div class="col-sm-8">
-					<article class="news-socios">
-						<p class="txtblue text-bold">Lima Office</p>
-						<p class="sinespacio">T: 4425100<br>
-						F: 4425100 A: 224<br>
-						<a href="mailto:alberto.rebaza@rebaza-alcazar.com" class="correo">alberto.rebaza@rebaza-alcazar.com</a></p>
-						<p class="txtblue text-bold">Secretary</p>
-						<p class="sinespacio">Rocio Paredes<br>
-						<a href="mailto:rocio.paredes@rebaza-alcazar.com" class="correo">rocio.paredes@rebaza-alcazar.com</a><br>
-						T: 4425100 A: 224</p>
-					</article>
-				</div>
-				<div class="col-sm-12">
-					<article class="news-socios">
-						<p>Alberto Rebaza is founding partner and managing partner of Rebaza, Alcazar & De Las Casas law firm. Partner leads to mergers and acquisitions and corporate areas. In addition to his masters, he has studies at Georgetown University and England.</p>
-						<p>Alberto has been consistently considered by legal rankings as a leading lawyer in M&A, Banking and Finance. These publications include Chambers & Partners, IFRL 1000, Who's Who Legal and LatinLawyer, among others. LatinLawyer included Alberto in 2004 in its "Top 20 under 40" list of lawyers under 40 who enjoy the highest recognition. Also, Chambers & Partners called him "as the leading voice for large financial transactions and M&A".</p>
-						<p>He has been a speaker at different conferences of the International Bar Association – IBA in Dublin, San Paulo, Bogotá, Panamá; LatinLaywer in Barcelona, NYC, México, Bogota, Dublin, Singapur.</p>
-						<p>Very much involved in the arts world, Alberto is a board member of the Museum of Art of Lima, and is chair of the Acquisition Committee of Contemporary Art (CAAC MALI) and Artecho.</p>
-						<br>
-						<div class="panel-group" role="tablist" aria-multiselectable="true" id="alberto-rebaza">
-							<div class="panel panel-default">
-								<div class="panel-heading" role="tab" id="collapse-7">
-									<h4 class="panel-title">
-										<a role="button" data-toggle="collapse" data-parent="#alberto-rebaza" href="#fusiones" aria-expanded="true" aria-controls="fusiones">
-										<p class="txtblue text-bold">MERGERS AND ACQUISITIONS</p>
-										</a>
-									</h4>
-								</div>
-								<div class="panel-collapse collapse in" id="fusiones" role="tabpanel" aria-labelledby="collapse-7">
-									<div class="panel-body">
-										<ul>
-											<li>Sale of a strategic shareholding package in en Hermes Transportes Blindados S.A. in favor of The Carlyle Group.</li>
-                                            <li>Sale of the safety companies J&V Resguardo, J&V Resguardo Selva y J&V Alarmas in favor of The Carlyle Group.</li>
-                                            <li>Sale of Ambev’s assets related to the business of non-alcoholic beverages in Peru, including a production plant located in the north of the country, to the Guatemala based group CBC.</li>
-                                            <li>Sale of a majority shareholding package in the insurance company Protecta S.A. in favor of Chilean based Grupo Security.</li>
-                                            <li>Acquisition of a stake in Peruvian pipeline operator Transportadora de Gas del Perú (TGP) and a deal with Canada Pension Plan Investment Board (TGP’s largest shareholder) in a deal totaling US$ 481 million.</li>
-                                            <li>Acquisition of Nextel Peru for US$ 400 million.</li>
-                                            <li>Acquisition of BBVA Horizonte.</li>
-                                            <li>Acquisition of La Curacao (Total Artefactos) for US$ 150 million.</li>
-                                            <li>Sale of a majority shareholding package in InVita Life Insurance in favor of Grupo Sura by US$ 3,600 million.</li>
-                                            <li>Sale of Soldexa S.A. (a Brescia Group company) in favor of Colfax Corpor for US$235 million.</li>
-                                            <li>Sale of a shareholding package in AFP Integra S.A. and ING Wealth Management S.A. to ING Group for US$ 55 million.</li>
-                                            <li>Acquisition for Profuturo AFP (Pension Fund) for US$ 40 million.</li>
-                                            <li>Sale of 100% of shares of Farmacias Peruanas S.A. (FASA) and Drogueria La Victoria S.A.C.</li>
-                                            <li>Sale of 51% stake in Condor Travel S.A. </li>
-                                            <li>Sale of 100% stake of Clinica El Golf in favor of Pacificos Seguros S.A. – Entidad Prestadora de Salud.</li>
-                                            <li>Acquisition of Farmacias Ahumada in Mexico, Peru, Brazil and Chile for the amount of US$ 637 million.</li>
-                                            <li>Sale of a package of shares, representing 55% of the holding company owner of Laboratorios Clinico Roe and a majority shareholding of Clinica</li>
-                                            <li>San Felipe S.A., in favor of the Chilean company Banmédica Foundation.</li>
-                                            <li>Sale of 100% stake in Bembos S.A. in favor of Nexus Group.</li>
-                                            <li>Sale of 100% stake in Peru Alert in favor of NG Restaurants SA (an Interbank Group member company).</li>
-                                            <li>Acquisition of 25% stake in Kallpa Generacion S.A. for US$ 85 million.</li>
-                                            <li>Acquisition of a package of shares of ONCOSALUD S.A.C.</li>
-                                            <li>Acquisition of a package of shares of Cementos de Lima S.A.A. (Celima).</li>
-                                            <li>Acquisition of 46% shares of Neptunia S.A., property of Ultramar Agencia Maritima Interncional S.A. (Chile).</li>
-                                            <li>Acquisition of Chevron Texaco Petroleum Company (Chevron Texaco). The value of the transaction was US$ 11,850,000.</li>
-                                            <li>Acquisition of Corporacion Jose R. Lindley (JRL), Inka Cola bottler for US$ 132 million.</li>
-                                            <li>Sale of Pesquera Alexandra S.A.C., Empresa Pesquera Flor De Ilo S.R.L and Pesquera Victor S.A.C. in favor of China Fishery Group Limited.</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-
-							<div class="panel panel-default">
-								<div class="panel-heading" role="tab">
-									<h4 class="panel-title">
-										<a role="button" data-toggle="collapse" data-parent="#alberto-collapse" href="#compras-fuera" aria-expanded="true" aria-controls="compras-fuera">
-											<p class="txtblue text-bold">PURCHASES OUT OF PERU</p>
-										</a>
-									</h4>
-								</div>
-								<div class="panel-collapse collapse" id="compras-fuera">
-									<div class="panel-body">
-										<ul>
-                                            <li>Acquisition of Coney Island &ndash; Divertronica Medellin S.A. in Colombia by Peruvian editorial group Grupo El Comercio.</li>
-                                            <li>Acquisition of Coney Island &ndash; YUKIDS in Chile by Peruvian editorial group Grupo El Comercio.</li>
-                                            <li>Acquisition of Lafarge cement company in Chile (today Melon) in the amount of US$ 555 million.</li>
-                                            <li>Acquisition of three foreign welding companies (Colombia and Venezuela) in the amount US$ 97 million.</li>
-                                            <li>Acquisition of 100% shares of PROQUIMSA, Ecuadorian company engaged in the manufacture of salt and caustic soda.</li>
-                                            <li>Acquisition of 47% of shares of the Sociedad Boliviana de Cementos (Soboce), largest cement company in Bolivia.</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-
-							<div class="panel panel-default">
-								<div class="panel-heading" role="tab">
-									<h4 class="panel-title">
-										<a role="button" data-toggle="collapse" data-parent="#alberto-collapse" href="#financiamiento" aria-expanded="true" aria-controls="financiamiento">
-											<p class="txtblue text-bold">FINANCING</p>
-										</a>
-									</h4>
-								</div>
-								<div class="panel-collapse collapse" id="financiamiento">
-									<div class="panel-body">
-										<ul>
-											<li>Funding to Canadian company HudBay by BNP Paribas for US$150 million for its copper mine Constancia in the south east of Per&uacute;.</li>
-                                            <li>Funding to Peruana de Combustibles S.A. (Pecsa) by Darby (Mezzanine Fund).</li>
-                                            <li>Funding to Andino Investment Holding (AIH) by Goldman Sachs Credit Partners for US$ 85 million.</li>
-                                            <li>Financing to Cemento Yura S.A. by JP Morgan for the acquisition of Sociedad Boliviana de Cementos (Soboce), largest cement company in Bolivia.</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-
-							<div class="panel panel-default">
-								<div class="panel-heading" role="tab">
-									<h4 class="panel-title">
-										<a role="button" data-toggle="collapse" data-parent="#alberto-collapse" href="#estrategias" aria-expanded="true" aria-controls="estrategias">
-											<p class="txtblue text-bold">CORPORATE STRATEGIES AND CONFLICTS</p>
-										</a>
-									</h4>
-								</div>
-								<div class="panel-collapse collapse" id="estrategias">
-									<div class="panel-body">
-										<ul>
-											<li>Advice to Empresas Polar in its conflict with Bavaria of Colombia and the Cisneros Group for the acquisition of shares in UCP Backus, which led to a settlement between the three companies.</li>
-	                                        <li>Advice to Milpo Mining Company in defending its hostile takeover by Cia. Minera Atacocha against the National Supervisory Commission for Companies and Securities (CONASEV).</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-
-							<div class="panel panel-default">
-								<div class="panel-heading" role="tab">
-									<h4 class="panel-title">
-										<a role="button" data-toggle="collapse" data-parent="#alberto-collapse" href="#emisiones" aria-expanded="true" aria-controls="emisiones">
-											<p class="txtblue text-bold">BOND ISSUES</p>
-										</a>
-									</h4>
-								</div>
-								<div class="panel-collapse collapse" id="emisiones">
-									<div class="panel-body">
-										<ul>
-                                            <li>AAdvice to JP Morgan Chase as Structuring Bank in the first sovereign bonds issues denominated in Euros, carried out in the Republic of Peru, for the amount of &euro; 650 million.</li>
-                                            <li>Advice to International Finance Corporation (IFC) in the first issue of bonds carried out in the Peruvian capital market in the amount of US$ 15 million.</li>
-                                            <li>Advice to the Republic of Peru in the first Sovereign Bond issues made &#8203;&#8203;in the international market for over US$ 2,000 million.</li>
-									    </ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+                    <div class="col-sm-8">
+                        <article class="news-socios">
+                            <p class="txtblue text-bold">Lima Office</p>
+                            <p class="sinespacio">T: 4425100<br>
+                            F: 4425100 A: 224<br>
+                            <a href="mailto:alberto.rebaza@rebaza-alcazar.com" class="correo">alberto.rebaza@rebaza-alcazar.com</a></p>
+                            <p class="txtblue text-bold">Secretary</p>
+                            <p class="sinespacio">Rocio Paredes<br>
+                            <a href="mailto:rocio.paredes@rebaza-alcazar.com" class="correo">rocio.paredes@rebaza-alcazar.com</a><br>
+                            T: 4425100 A: 224</p>
+                        </article>
+                    </div>
+                    <div class="col-sm-12">
+                        <article class="news-socios">
+                            <p>Alberto Rebaza is founding partner and managing partner of Rebaza, Alcazar & De Las Casas law firm. Partner leads to mergers and acquisitions and corporate areas. In addition to his masters, he has studies at Georgetown University and England.</p>
+                            <p>Alberto has been consistently considered by legal rankings as a leading lawyer in M&A, Banking and Finance. These publications include Chambers & Partners, IFRL 1000, Who\'s Who Legal and LatinLawyer, among others. LatinLawyer included Alberto in 2004 in its "Top 20 under 40" list of lawyers under 40 who enjoy the highest recognition. Also, Chambers & Partners called him "as the leading voice for large financial transactions and M&A".</p>
+                            <p>He has been a speaker at different conferences of the International Bar Association – IBA in Dublin, San Paulo, Bogotá, Panamá; LatinLaywer in Barcelona, NYC, México, Bogota, Dublin, Singapur.</p>
+                            <p>Very much involved in the arts world, Alberto is a board member of the Museum of Art of Lima, and is chair of the Acquisition Committee of Contemporary Art (CAAC MALI) and Artecho.</p>
+                            <br>
+                            <div class="panel-group" role="tablist" aria-multiselectable="true" id="alberto-rebaza">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="collapse-7">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#alberto-rebaza" href="#fusiones" aria-expanded="true" aria-controls="fusiones">
+                                            <p class="txtblue text-bold">MERGERS AND ACQUISITIONS</p>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div class="panel-collapse collapse in" id="fusiones" role="tabpanel" aria-labelledby="collapse-7">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>Sale of a strategic shareholding package in en Hermes Transportes Blindados S.A. in favor of The Carlyle Group.</li>
+                                                <li>Sale of the safety companies J&V Resguardo, J&V Resguardo Selva y J&V Alarmas in favor of The Carlyle Group.</li>
+                                                <li>Sale of Ambev’s assets related to the business of non-alcoholic beverages in Peru, including a production plant located in the north of the country, to the Guatemala based group CBC.</li>
+                                                <li>Sale of a majority shareholding package in the insurance company Protecta S.A. in favor of Chilean based Grupo Security.</li>
+                                                <li>Acquisition of a stake in Peruvian pipeline operator Transportadora de Gas del Perú (TGP) and a deal with Canada Pension Plan Investment Board (TGP’s largest shareholder) in a deal totaling US$ 481 million.</li>
+                                                <li>Acquisition of Nextel Peru for US$ 400 million.</li>
+                                                <li>Acquisition of BBVA Horizonte.</li>
+                                                <li>Acquisition of La Curacao (Total Artefactos) for US$ 150 million.</li>
+                                                <li>Sale of a majority shareholding package in InVita Life Insurance in favor of Grupo Sura by US$ 3,600 million.</li>
+                                                <li>Sale of Soldexa S.A. (a Brescia Group company) in favor of Colfax Corpor for US$235 million.</li>
+                                                <li>Sale of a shareholding package in AFP Integra S.A. and ING Wealth Management S.A. to ING Group for US$ 55 million.</li>
+                                                <li>Acquisition for Profuturo AFP (Pension Fund) for US$ 40 million.</li>
+                                                <li>Sale of 100% of shares of Farmacias Peruanas S.A. (FASA) and Drogueria La Victoria S.A.C.</li>
+                                                <li>Sale of 51% stake in Condor Travel S.A. </li>
+                                                <li>Sale of 100% stake of Clinica El Golf in favor of Pacificos Seguros S.A. – Entidad Prestadora de Salud.</li>
+                                                <li>Acquisition of Farmacias Ahumada in Mexico, Peru, Brazil and Chile for the amount of US$ 637 million.</li>
+                                                <li>Sale of a package of shares, representing 55% of the holding company owner of Laboratorios Clinico Roe and a majority shareholding of Clinica</li>
+                                                <li>San Felipe S.A., in favor of the Chilean company Banmédica Foundation.</li>
+                                                <li>Sale of 100% stake in Bembos S.A. in favor of Nexus Group.</li>
+                                                <li>Sale of 100% stake in Peru Alert in favor of NG Restaurants SA (an Interbank Group member company).</li>
+                                                <li>Acquisition of 25% stake in Kallpa Generacion S.A. for US$ 85 million.</li>
+                                                <li>Acquisition of a package of shares of ONCOSALUD S.A.C.</li>
+                                                <li>Acquisition of a package of shares of Cementos de Lima S.A.A. (Celima).</li>
+                                                <li>Acquisition of 46% shares of Neptunia S.A., property of Ultramar Agencia Maritima Interncional S.A. (Chile).</li>
+                                                <li>Acquisition of Chevron Texaco Petroleum Company (Chevron Texaco). The value of the transaction was US$ 11,850,000.</li>
+                                                <li>Acquisition of Corporacion Jose R. Lindley (JRL), Inka Cola bottler for US$ 132 million.</li>
+                                                <li>Sale of Pesquera Alexandra S.A.C., Empresa Pesquera Flor De Ilo S.R.L and Pesquera Victor S.A.C. in favor of China Fishery Group Limited.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#alberto-collapse" href="#compras-fuera" aria-expanded="true" aria-controls="compras-fuera">
+                                                <p class="txtblue text-bold">PURCHASES OUT OF PERU</p>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="compras-fuera">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>Acquisition of Coney Island &ndash; Divertronica Medellin S.A. in Colombia by Peruvian editorial group Grupo El Comercio.</li>
+                                                <li>Acquisition of Coney Island &ndash; YUKIDS in Chile by Peruvian editorial group Grupo El Comercio.</li>
+                                                <li>Acquisition of Lafarge cement company in Chile (today Melon) in the amount of US$ 555 million.</li>
+                                                <li>Acquisition of three foreign welding companies (Colombia and Venezuela) in the amount US$ 97 million.</li>
+                                                <li>Acquisition of 100% shares of PROQUIMSA, Ecuadorian company engaged in the manufacture of salt and caustic soda.</li>
+                                                <li>Acquisition of 47% of shares of the Sociedad Boliviana de Cementos (Soboce), largest cement company in Bolivia.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#alberto-collapse" href="#financiamiento" aria-expanded="true" aria-controls="financiamiento">
+                                                <p class="txtblue text-bold">FINANCING</p>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="financiamiento">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>Funding to Canadian company HudBay by BNP Paribas for US$150 million for its copper mine Constancia in the south east of Per&uacute;.</li>
+                                                <li>Funding to Peruana de Combustibles S.A. (Pecsa) by Darby (Mezzanine Fund).</li>
+                                                <li>Funding to Andino Investment Holding (AIH) by Goldman Sachs Credit Partners for US$ 85 million.</li>
+                                                <li>Financing to Cemento Yura S.A. by JP Morgan for the acquisition of Sociedad Boliviana de Cementos (Soboce), largest cement company in Bolivia.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#alberto-collapse" href="#estrategias" aria-expanded="true" aria-controls="estrategias">
+                                                <p class="txtblue text-bold">CORPORATE STRATEGIES AND CONFLICTS</p>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="estrategias">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>Advice to Empresas Polar in its conflict with Bavaria of Colombia and the Cisneros Group for the acquisition of shares in UCP Backus, which led to a settlement between the three companies.</li>
+                                                <li>Advice to Milpo Mining Company in defending its hostile takeover by Cia. Minera Atacocha against the National Supervisory Commission for Companies and Securities (CONASEV).</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#alberto-collapse" href="#emisiones" aria-expanded="true" aria-controls="emisiones">
+                                                <p class="txtblue text-bold">BOND ISSUES</p>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="emisiones">
+                                        <div class="panel-body">
+                                            <ul>
+                                                <li>Advice to JP Morgan Chase as Structuring Bank in the first sovereign bonds issues denominated in Euros, carried out in the Republic of Peru, for the amount of &euro; 650 million.</li>
+                                                <li>Advice to International Finance Corporation (IFC) in the first issue of bonds carried out in the Peruvian capital market in the amount of US$ 15 million.</li>
+                                                <li>Advice to the Republic of Peru in the first Sovereign Bond issues made &#8203;&#8203;in the international market for over US$ 2,000 million.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>'
+];

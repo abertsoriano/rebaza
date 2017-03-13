@@ -216,34 +216,28 @@ h6 { font-size: 18px; }
 	.news-socios p {
 		margin-top: 11px;
 		text-align: justify;
-		padding: 0px 0px;
+		padding: 0px;
 		margin-bottom: 0px;
 	    font-size: 11px;
 	    line-height: 1.6;
 	    font-family: Verdana, Geneva, sans-serif;
-		text-decoration: none;
     }
 	.news-socios p  span{
 		font-size: 11px;
 		color: #999999;
 		}
 	.news-socios li {
-	    list-style: none;
-	    padding-left: 30px;
 	    font-size: 11px;
 	    color: #212121;
 	    margin-top: 3px;
-	    background: url(../images/bullet.gif) no-repeat 9px 9px;
-	    	text-decoration: none;
-		}
-
-
+	    list-style-image: url(../images/bullet.gif);
+    }
 
 	.news-block-mar h6 {
-		    margin-top: 17px;
-			margin-bottom: 14px;
-			padding: 1px 0px;
-		}
+        margin-top: 17px;
+        margin-bottom: 14px;
+        padding: 1px 0px;
+    }
 	.news-block p {
 		margin-top: 10px;
 		text-align: justify;
@@ -264,14 +258,11 @@ h6 { font-size: 18px; }
 		padding:0px;
 		}
 	.news-block li {
-		text-align: left;
-	    list-style: none;
-	    padding-left: 20px;
 	    font-size: 15px;
 	    color: #474747;
-	    margin-top: 3px;
-	    background: url(../images/bullet.gif) no-repeat 9px 9px;
-		}
+        list-style: url(../images/bullet.gif);
+        margin-bottom: 12px;
+	}
 
 	.news-block  a:hover,
 	.news-block li a:hover,
@@ -279,9 +270,9 @@ h6 { font-size: 18px; }
 	.news-block li a:hover,
 	.news-block li a:focus,
 	.news-block li a:active {
-					color: #36A9E1;
-					    text-decoration: none;
-				}
+		color: #36A9E1;
+        text-decoration: none;
+    }
 
 	.news-block .der{
 		text-align:right;
