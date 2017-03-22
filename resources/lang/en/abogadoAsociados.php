@@ -1,157 +1,24 @@
----
-layout: default_en
----
-<section class="news-event-teaser section text-center-xs">
-	<div class="container small">
-		<div class="row">
-			<div class="col-sm-12">
-				<div class="row">
-					<div class="col-sm-3 col-xs-12">
-						<article class="news-block">
-				<img src="../images/abogados.jpg" alt="FoodBingo" class="logo img-responsive img-center-xs">
-						</article>
-					</div>
-					<div class="col-sm-9 col-xs-12">
-						<article class="news-block">
-							<h6 class="text-normal text-bold">Lawyers</h6>
-							<h4 class="text-wnormal text-bold"><a class="abogados" href="abogadosocios.html">Partners</a> Associates <a class="abogados" href="abogadoconsultores.html">Counsel</a></h4>
-						</article>
-					</div>
-					<div class="col-sm-4 col-xs-12">
-						<article class="news-block">
-						<lu>
-								<!-- li><a tabindex="-1" href="#alejandrochin" data-toggle="modal"></i>Alejandro Chinguel</a></li>
-								<p class="paboga">alejandro.chinguel@rebaza-alcazar.com</p -->
-								<li><a tabindex="-1" href="#alejandrag" data-toggle="modal"></i>Alejandra Galvez</a></li>
-								<p class="paboga">alejandra.galvez@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#almajime" data-toggle="modal"></i>Alma Jimenez</a></li>
-								<p class="paboga">alma.jimenez@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#alvarocast" data-toggle="modal"></i>Álvaro Castro</a></li>
-								<p class="paboga">alvaro.castro@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#andresgjur" data-toggle="modal"></i>Andres Gjurinovic</a></li>
-								<p class="paboga">alvaro.castro@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#andrearie" data-toggle="modal"></i>Andrea Rieckhof</a></li>
-								<p class="paboga">andrea.rieckhof@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#bettinagorr" data-toggle="modal"></i>Bettina  Gorra</a></li>
-								<p class="paboga">bettina.gorra@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#carlosnoza" data-toggle="modal"></i>Carlos Espinoza</a></li>
-								<p class="paboga">carlos.espinoza@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#cesarpant" data-toggle="modal"></i>César Pantoja Carrera</a></li>
-								<p class="paboga">cesar.pantoja@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#cinthiacane" data-toggle="modal"></i>Cinthia Cánepa</a></li>
-								<p class="paboga">cinthia.canepa@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#claudiaause" data-toggle="modal"></i>Claudia Ausejo</a></li>
-								<p class="paboga">claudia.ausejo@rebaza-alcazar.com</p>
-								<!--li><a tabindex="-1" href="#cristinaflor" data-toggle="modal"></i>Cristina Florindez</a></li>
-								<p class="paboga">cristina.florindez@rebaza-alcazar.com</p-->
-								<li><a tabindex="-1" href="#cynthiareba" data-toggle="modal"></i>Cynthia Rebaza</a></li>
-								<p class="paboga">cynthia.rebaza@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#danielgonz" data-toggle="modal"></i>Daniel Gonzales</a></li>
-								<p class="paboga">daniel.gonzales@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#danielchanca" data-toggle="modal"></i>Daniel Chancafe</a></li>
-								<p class="paboga">daniel.chancafe@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#danielaurqu" data-toggle="modal"></i>Daniela Urquiza</a></li>
-								<p class="paboga">daniela.urquiza@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#dianatass" data-toggle="modal"></i>Diana Tassara</a></li>
-								<p class="paboga">diana.tassara@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#dianagara" data-toggle="modal"></i>Diana Gárate</a></li>
-								<p class="paboga">diana.garate@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#elizenevasq" data-toggle="modal"></i>Elizene Vasquez de Velasco</a></li>
-								<p class="paboga">elizene.vasquezdevelasco@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#fiorellaatoc" data-toggle="modal"></i>Fiorella Atoche</a></li>
-								<p class="paboga">fiorella.atoche@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#gonzalosori" data-toggle="modal"></i>Gonzalo Soriano</a></li>
-								<p class="paboga">gonzalo.soriano@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#gustavotara" data-toggle="modal"></i>Gustavo Tarazona</a></li>
-								<p class="paboga">gustavo.tarazona@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#hugomart" data-toggle="modal"></i>Hugo Marticorena</a></li>
-								<p class="paboga">hugo.marticorena@rebaza-alcazar.com</p>
-								<!--li>Ingrid  Medina</li>
-								<p class="paboga">ingrid.medina@rebaza-alcazar.com</p-->
-								<li><a tabindex="-1" href="#janettburg" data-toggle="modal"></i>Janett Burga</a></li>
-								<p class="paboga">janett.burga@rebaza-alcazar.com</p>
-						</lu>
-						</article>
-					</div>
-					<div class="col-sm-4 col-xs-12">
-						<article class="news-block">
-						<lu>
-								<li><a tabindex="-1" href="#juanasto" data-toggle="modal"></i>Juan Astocondor</a></li>
-								<p class="paboga">juan.astocondor@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#juliomora" data-toggle="modal"></i>Julio Morales</a></li>
-								<p class="paboga">julio.morales@rebaza-alcazar.com</p>
-								<!-- li></i>Kristel Uceda</li>
-								<p class="paboga">kristel.uceda@rebaza-alcazar.com</p -->
-								<li><a tabindex="-1" href="#maitecolm" data-toggle="modal"></i>Maite Colmenter</a></li>
-								<p class="paboga">maite.colmenter@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#manuelferr" data-toggle="modal"></i>Manuel Ferreyros</a></li>
-								<p class="paboga">manuel.ferreyros@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#marciaarel" data-toggle="modal"></i>Marcia Arellano </a></li>
-								<p class="paboga">marcia.arellano@rebaza-alcazar.com</p>
-								<li><a tabindex="Andrea  Rieckho-1" href="#mariabedo" data-toggle="modal"></i>María del Carmen Bedoya</a></li>
-								<p class="paboga">mariadelcarmen.bedoya@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#mariasanc" data-toggle="modal"></i>María del Pilar Sanchez</a></li>
-								<p class="paboga">mariadelpilar.sanchez@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#mariagade" data-toggle="modal"></i>María Fernanda Gadea</a></li>
-								<p class="paboga">mariafernanda.gadea@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#martinlaros" data-toggle="modal"></i>Martín La Rosa</a></li>
-								<p class="paboga">martin.larosa@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#melisabush" data-toggle="modal"></i>Melisa Bush</a></li>
-								<p class="paboga">melisa.bush@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#mirkomedi" data-toggle="modal"></i>Mirko Medic</a></li>
-								<p class="paboga">mirko.medic@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#nataliagall" data-toggle="modal"></i>Natalia Gallardo</a></li>
-								<p class="paboga">natalia.gallardo@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#omardiaz" data-toggle="modal"></i>Omar Díaz</a></li>
-								<p class="paboga">omar.diaz@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#pamelaarce" data-toggle="modal"></i>Pamela Arce</a></li>
-								<p class="paboga">pamela.arce@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#pedrodiaz" data-toggle="modal"></i>Pedro Díaz Medina</a></li>
-								<p class="paboga">pedro.diaz@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#pilarhuam" data-toggle="modal"></i>Pilar Huamán De Los Heros</a></li>
-								<p class="paboga">pilar.huamandelosheros@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#rafaelrull" data-toggle="modal"></i>Rafael  Lulli</a></li>
-								<p class="paboga">Rafael.lulli@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#ricardocarr" data-toggle="modal"></i>Ricardo Carrillo</a></li>
-								<p class="paboga">ricardo.carrillo@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#ricardocard" data-toggle="modal"></i>Ricardo Cárdenas</a></li>
-								<p class="paboga">ricardo.cardenas@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#sebastiandela" data-toggle="modal"></i>Sebastian De La Puente</a></li>
-								<p class="paboga">sebastian.delapuente@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#sofiabrice" data-toggle="modal"></i>Sofía Briceño</a></li>
-								<p class="paboga">sofia.briceño@rebaza-alcazar.com</p>
-						</lu>
-						</article>
-					</div>
+<?php
+/**
+ * Created by PhpStorm.
+ * User: oscarlarriega
+ * Date: 21/03/17
+ * Time: 10:54 PM
+ */
+ return [
+     'title' => 'Lawyers',
+     'sub_title' => '<a class="abogados" href="abogadosocios">Partners</a> Associates <a class="abogados" href="abogadoconsultores">Counsel</a>',
 
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+     'modal_title' => 'Associate',
+     'modal_title_2' => 'Senior Associate',
+     'download_bio' => 'Download Bio',
 
-<div class="modal fade" id="alejandrochin" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Alejandro Chinguel <small>Asociado</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/alejandrochinguel.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_1' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="arealitigios.html">Strategies and Conflict Resolution</a>
+									 <a class="nohover" href="arealitigios">Strategies and Conflict Resolution</a>
 								</ul>
 				            </div>
 				        </li>
@@ -173,7 +40,7 @@ layout: default_en
 							</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -182,10 +49,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Irma Noriega<br>
 						<a href="mailto:irma.noriega@rebaza-alcazar.com" class="correo">irma.noriega@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 277
+							<br>T: 4425100 A: 277</p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>Alejandro Ignacio Chinguel Rivera es licenciado en Derecho por la Universidad de Piura.</p>
 						<p>Su especialidad es el asesoramiento a empresas en litigios de toda clase, y en particular procedimientos administrativos sancionadores y procesos penales.</p>
@@ -194,37 +61,15 @@ layout: default_en
 						<p>Ha desempe&ntilde;ado pr&aacute;cticas pre-profesionales en el Consultorio Jur&iacute;dico Gratuito de la Universidad de Piura, en el Instituto Nacional de Defensa de la Competencia y de la Protecci&oacute;n de la Propiedad Intelectual (INDECOPI), en el Estudio Caro &amp; Asociados y en la Corte Superior de Justicia de Piura.</p>
 						<p>Alejandro ha sido miembro de la Asociaci&oacute;n Civil sin fines de lucro ITA IUS ESTO, Revista de Estudiantes de la Facultad de Derecho de la Universidad de Piura y de los talleres de Derecho Administrativo y Derecho Penal de la misma facultad. Adem&aacute;s ha sido subdelegado de su clase durante el per&iacute;odo 2011-2012 y coordinador principal del &ldquo;Congreso Internacional de Derecho Administrativo &ndash; III Encuentro Peruano &ndash; Brasile&ntilde;o de profesores de Derecho Administrativo&rdquo; organizado por la Facultad de Derecho de la Universidad de Piura (Per&uacute;).</p>
 						<p>Asimismo, form&oacute; parte del equipo FUMUS BONI IURIS que obtuvo el reconocimiento del mejor informe escrito en el MOOT LIMA 2011 organizado por la fundaci&oacute;n EEA del Estudio Echecopar.</p>
-						<p>&nbsp;</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-
-<div class="modal fade" id="alejandrag" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Alejandra Galvez <small>Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-					<img src="../images/asociados/AlejandraGalvez.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_2' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areaconseciones.html">Concessions and Project Finance.</a>
+									 <a class="nohover" href="areaconseciones">Concessions and Project Finance.</a>
 								</ul>
 				            </div>
 				        </li>
@@ -246,7 +91,7 @@ layout: default_en
 						</li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -255,10 +100,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Andrea Lietzenmayer<br>
 						<a href="mailto:andrea.lietzenmayer@rebaza-alcazar.com" class="correo">andrea.lietzenmayer@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 264<br>
+							<br>T: 4425100 A: 264<br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Alejandra Galvez is a graduate lawyer from Universidad de Lima, and was ranked in the top fifth of the Law School.</p>
@@ -266,259 +111,165 @@ layout: default_en
 							<p>Alejandra has worked as an intern in the Regulatory Area of Estudio Echecopar and in Rebaza, Alcázar & De las Casas Abogados Financieros. Furthermore, as a student Alejandra was President of the Board of Directors of ADV Editores, which edits and publishes the legal magazine ADVOCATUS.
 							</p>
 							<p>She speaks fluidly Spanish and English.</p>
-						<p>&nbsp;</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
+     'modal_3' => '<div class="col-sm-4">
+                            <ul class="accordion">
+                                <li class="current"><a href="#">Practices</a>
+                                    <div class="bloqueMostrar">
+                                        <ul style="">
+                                            <a class="nohover" href="areamercado">Capital Markets</a>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Education</a>
+                                    <div class="bloqueMostrar"><ul>
+                                        <li>
+                                            <p>
+                                                Bachelor degree in Law from Universidad de Piura, 2014.</p>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Distinctions</a>
+                                    <div class="bloqueMostrar"></div></li>
+                                <li><a href="#">Languages</a>
+                                    <div class="bloqueMostrar"><ul>
+                                        <li>
+                                            Spanish</li>
+                                    </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                <div class="col-sm-8">
+                    <article class="news-socios">
+                        <p class="txtblue text-bold">Lima Office</p>
+                        <p class="sinespacio">T: 4425100<br>
+                            F: 4425100 A: 268<br>
+                            <a href="mailto:alma.jimenez@rebaza-alcazar.com" class="correo">alma.jimenez@rebaza-alcazar.com</a></p>
+                        <p class="txtblue text-bold">Secretary</p>
+                        <p class="sinespacio">Nella Pacchioni<br>
+                            <a href="mailto:nella.pacchioni@rebaza-alcazar.com" class="correo">nella.pacchioni@rebaza-alcazar.com</a>
+                            <br>T: 4425100 A: 263<br></p>
+                    </article>
+                </div>
+                <div class="col-sm-12">
+                    <article class="news-socios">
+                        <p>
+                            Alma Jim&eacute;nez has a Bachelor degree in Law from Universidad de Piura and ranked top five in the Law School.<br />
+                            <br />
+                            Her practice is focused on regulatory advice on capital market, has participated in financing operations, primary public offerings, regulatory advice to companies managing investment funds; and proceedings before the Superintendence of the Securities Market.<br />
+                            <br />
+                            In addition, She has also participated in authorization procedures of Organization and Operation, Adjustment to companies issuing electronic money and others before the Superintendence of Banking, Insurance and Private Pension Funds Administrators; as well as corporate and regulatory advice to companies in the financial system and system insurance issues of local and foreign.<br />
+                            <br />
+                            Alma Jim&eacute;nez has been member of the Civil Association ITA IUS ESTO, a legal magazine of Universidad de Piura.<br />
+                            <br />
+                            Alma Jim&eacute;nez has been intern in Rebaza, Alc&aacute;zar &amp; De las Casas Abogados Financieros.</p>
+                    </article>
+                </div>',
 
-<div class="modal fade" id="almajime" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Alma Jimenez <small>Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/Alma.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
-					<ul class="accordion">
-						<li class="current"><a href="#">Practices</a>
-				            <div class="bloqueMostrar">
-				            	<ul style="">
-									 <a class="nohover" href="areamercado.html">Capital Markets</a>
+     'modal_4' => '<div class="col-sm-4">
+						<ul class="accordion">
+							<li class="current"><a href="#">Practices</a>
+								<div class="bloqueMostrar">
+									<ul style="">
+										<a class="nohover" href="areamercado">Capital Markets</a>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#">Education</a>
+								<div class="bloqueMostrar"><ul>
+									<li>
+										Juris Doctor by Universidad de Piura Law School</li>
+									<li>
+										Post-degree en Finance and Business Law by ESAN University, 2005</li>
 								</ul>
-				            </div>
-				        </li>
-						<li><a href="#">Education</a>
-				        <div class="bloqueMostrar"><ul>
-					<li>
-						<p>
-							Bachelor degree in Law from Universidad de Piura, 2014.</p>
-					</li>
-				</ul>
-				</div></li>
-						<li><a href="#">Distinctions</a>
-				        <div class="bloqueMostrar"></div></li>
-						<li><a href="#">Languages</a>
-				        <div class="bloqueMostrar"><ul>
-					<li>
-						Spanish</li>
-				</ul>
-							</div>
-						</li>
-					</ul>
-				</div >
-				<div class="col-sm-8 col-xs-12">
-					<article class="news-socios">
-						<p class="txtblue text-bold">Lima Office</p>
-						<p class="sinespacio">T: 4425100<br>
-						F: 4425100 A: 268<br>
-						<a href="mailto:alma.jimenez@rebaza-alcazar.com" class="correo">alma.jimenez@rebaza-alcazar.com</a></p>
-						<p class="txtblue text-bold">Secretary</p>
-						<p class="sinespacio">Nella Pacchioni<br>
-						<a href="mailto:nella.pacchioni@rebaza-alcazar.com" class="correo">nella.pacchioni@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 263<br>
-					</article>
-				</div>
-				<div class="col-sm-12 col-xs-12">
-					<article class="news-socios">
-						<p>
-							Alma Jim&eacute;nez has a Bachelor degree in Law from Universidad de Piura and ranked top five in the Law School.<br />
-							<br />
-							Her practice is focused on regulatory advice on capital market, has participated in financing operations, primary public offerings, regulatory advice to companies managing investment funds; and proceedings before the Superintendence of the Securities Market.<br />
-							<br />
-							In addition, She has also participated in authorization procedures of Organization and Operation, Adjustment to companies issuing electronic money and others before the Superintendence of Banking, Insurance and Private Pension Funds Administrators; as well as corporate and regulatory advice to companies in the financial system and system insurance issues of local and foreign.<br />
-							<br />
-							Alma Jim&eacute;nez has been member of the Civil Association ITA IUS ESTO, a legal magazine of Universidad de Piura.<br />
-							<br />
-							Alma Jim&eacute;nez has been intern in Rebaza, Alc&aacute;zar &amp; De las Casas Abogados Financieros.</p>
-						</p>
-
-						<p>&nbsp;</p>
-					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-
-<div class="modal fade" id="alvarocast" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Álvaro&nbsp;Castro <small>Senior Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/Alvaro-Castro.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
-					<ul class="accordion">
-						<li class="current"><a href="#">Practices</a>
-				            <div class="bloqueMostrar">
-				            	<ul style="">
-									 <a class="nohover" href="areamercado.html">Capital Markets</a>
+								</div></li>
+							<li><a href="#">Distinctions</a>
+								<div class="bloqueMostrar"><ul>
+									<li>
+										Professor of Capital Markets, Universidad de Piura Law School</li>
 								</ul>
-				            </div>
-				        </li>
-						<li><a href="#">Education</a>
-				        <div class="bloqueMostrar"><ul>
-					<li>
-						Juris Doctor by Universidad de Piura Law School</li>
-					<li>
-						Post-degree en Finance and Business Law by ESAN University, 2005</li>
-				</ul>
-				</div></li>
-						<li><a href="#">Distinctions</a>
-				        <div class="bloqueMostrar"><ul>
-					<li>
-						Professor of Capital Markets, Universidad de Piura Law School</li>
-				</ul>
-				</div></li>
-						<li><a href="#">Languages</a>
-				        <div class="bloqueMostrar"><ul>
-					<li>
-						Spanish and English.</li>
-				</ul>
-							</div>
-						</li>
-					</ul>
-				</div >
-				<div class="col-sm-8 col-xs-12">
-					<article class="news-socios">
-						<p class="txtblue text-bold">Lima Office</p>
-						<p class="sinespacio">T: 4425100<br>
-						F: 4425100 A: 230<br>
-						<a href="mailto:alvaro.castro@rebaza-alcazar.com" class="correo">alvaro.castro@rebaza-alcazar.com</a></p>
-						<p class="txtblue text-bold">Secretary</p>
-						<p class="sinespacio">Nella Pacchioni<br>
-						<a href="mailto:nella.pacchioni@rebaza-alcazar.com" class="correo">nella.pacchioni@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 263<br><br>
-					</article>
-				</div>
-				<div class="col-sm-12 col-xs-12">
-					<article class="news-socios">
-						<p>
-							&Aacute;lvaro Castro is a specialist in Finance and Business Law from the Escuela de Administraci&oacute;n de Negocios (ESAN). He is graduate lawyer from Universidad de Piura.</p>
-						<p>
-							Lawyer specialized in stock market regulation, financial law and corporate law, with solid knowledge in bankruptcy law and infrastructure projects, with significant experience in structuring and financing issues at local and in operations subject to foreign law.</p>
-						<p>
-							&Aacute;lvaro has been associate in the Capital Markets and Financing Law Area of Delmar Ugarte Abogados, and in the Corporate and Financial Law area of Rossell&oacute; Abogados. He has been also lawyer of CAVALI S.A. ICLV (the Peruvian Clearing House) and junior associate in the Capital Markets area of Rodrigo, El&iacute;as and Medrano Abogados.</p>
-						<p>
-							Within the major transactions in which &Aacute;lvaro Castro has been involved recently, we may mention the following ones:</p>
-						<ul>
-							<li style="margin-left: 15.85pt;">Asesor&iacute;a a Corporaci&oacute;n Pesquera Inca S.A.C. en la operaci&oacute;n de reapertura y emisi&oacute;n internacional de los instrumentos Global Senior Notes por un valor total de US$ 75 millones, bajo la Regla 144A y Regulation S (Ley de Nueva York), operaci&oacute;n en que intervinieron Banco BTG Pactual S.A. - CaymanBranch (Celfin Capital) y Santander InvestmentSecuritiescomounderwriters, bookrunnersyjoint lead managers, CreditSuissecomoco-manager, y Deutsche Bank Trust CompanyAmericascomo agente de pago.</li>
+								</div></li>
+							<li><a href="#">Languages</a>
+								<div class="bloqueMostrar"><ul>
+									<li>
+										Spanish and English.</li>
+								</ul>
+								</div>
+							</li>
 						</ul>
-						<ul>
-							<li style="margin-left: 15.85pt;">
-								Legal advisor to Coroporaci&oacute;nPesquera Inca S.A.C. in the reopening operation and international emission of Global Senior Notes for a total amount of US$ 75 million, under Rule 144A and Regulation S, operation that involved Banco BTG Pactual SA - CaymanBranch (Celfin Capital) and Santander InvestmentSecurities as underwriters, bookrunnersy joint lead managers, co-manager CreditSuissecomo, and Deutsche Bank Trust CompanyAmericas as paying agent.</li>
-						</ul>
-						<ul>
-							<li style="margin-left: 15.85pt;">
-								Legal advisor to Capeinca ASA in the process of takeover bid made simultaneously in Olso Stock Exchange and the Lima Stock Exchange, by China Fishery Group Ltd., and the competing offer made &#8203;&#8203;by Cermaq ASA, for the 100% of Copeinca ASA&rsquo;s shares.</li>
-						</ul>
-						<ul>
-							<li style="margin-left: 15.85pt;">
-								Member of the team that advised General Atlantic (Sura Group) in an acquisition operation of Grupo ING investments in Latin America, for an amount of US$ 3,800 million. <strong>Deal of the Year 2011, in the category M &amp; A, as ranked by Latin Lawyer Magazine.</strong></li>
-						</ul>
-						<ul>
-							<li style="margin-left: 15.85pt;">
-								Member of the team that advised Inter-American Development Bank; US Exim Bank, IFC; Export-Import Bank of Korea, SACE, Societ&eacute;General&eacute;, BBVA, Calyon, Sumitomo, ING, Mizuho and Tokyo-Mitsubish Bank (creditors of Peru LNG for a loan of US$ 2,250 million) in the Peru LNG bond issuance program up to $ 200 million.</li>
-						</ul>
-						<ul>
-							<li style="margin-left: 15.85pt;">
-								Member of the team that advised Standard Bank (England)- as arranger, administrative agent and security agent- and Banco de Bogota; Bancolombia; BNP Paribas; ExportDevelopmentCanada; Royal Bank of Canada; SocieteGenerale and Bank Plc, as financers, on a revolving line of financing for US$ 250 million given to a group of international mining companies.</li>
-						</ul>
-						<ul>
-							<li style="margin-left: 15.85pt;">
-								Legal advisor to Concesionario Vial del Sol S.A, concessionaire of the Autopistadel Sol Trujillo Tramo Tranche - Sullana in the financing to the implementation of project works. The financing was structured by BNP Paribas through the issuance of debt instruments at international level by an amount of US$ 250 million.</li>
-						</ul>
-						<ul>
-							<li style="margin-left: 15.85pt;">
-								Member of the team that advised EstrellaPetrolera del Peru S.A.C. in a syndicated loan up to US$ 80 million granted by Credit Suisse AG and a group of foreign banks in favor of EstrellaOverseasLimited (BVI) and EstrellaPetrolera del Peru S.A.C., for the purchase of a new drilling rig in Colombia and the development of its exploration and exploitation activities in Colombia and Peru.</li>
-						</ul>
-						<ul>
-							<li style="margin-left: 15.85pt;">
-								Member of the team that advised APM Terminals in the international public bidding for the granting of the concession of the Specialized Container Terminal and General Cargo of Puerto Cortes (Honduras).</li>
-						</ul>
-						<ul>
-							<li style="margin-left: 15.85pt;">
-								Advisoryto a major Peruvian mining company, as creditor in the bankruptcy proceedings of Doe Run Peru (considered the largest bankruptcy proceedings in recent years locally), participating in the negotiation of agreements the creditors&#39; meeting.</li>
-						</ul>
-						<ul>
-							<li style="margin-left: 15.85pt;">
-								Member of the CAVALI&rsquo;s team that provided integral advisory to CEVALDOM - Central Securities Depository of the Dominican Republic.</li>
-						</ul>
-						<ul>
-							<li style="margin-left: 15.85pt;">
-								Member of the team that developed the registry mechanism before CAVALI of the Recognition Bond Registration issued by the ONP (the Pension Funds Governmental Office).</li>
-						</ul>
-						<ul>
-							<li style="margin-left: 15.85pt;">
-								Member of the team conformed by different public and private institutions responsible for preparing the CONASEV&rsquo;s (the Capital Markets Supervisor) Regulation for the register of the &ldquo;mortgage security&rdquo;.</li>
-						</ul>
-						<ul>
-							<li style="margin-left: 15.85pt;">
-								Responsible for the application procedure of CAVALI (the Peruvian Clearing House) as participant of CDS - Clearing and Depositary Services (Clearing House of Canada).</li>
-						</ul>
-						<ul>
-							<li style="margin-left: 15.85pt;">
-								Member of the working team in charge of the implementation of the Delivery system Versus Payment (DVP) in the process of clearing and settlement of government bonds which are traded in the financial markets DATATEC system.</li>
-						</ul>
-						<p>
-							In addition, its common practice consists in regulatory advice to companies managing investment funds, banks, stock brokerage firms and issuers listed on the Lima Stock Exchange. He has also advised several foreign investment funds in their registration procedures before the Superintendence of Banking and Insurance, in order to be considered as &quot;Eligible Investment Instrument&quot; by the AFPs.</p>
-						<p>
-							In the academic field, since 2007Alvaro is professor of Capital Markets Law at the Universidad de Piura Law School. Also, between 2005 and 2006 he was professor of Bankruptcy Law at the Law School of the Universidad de Piura. Furthermore, he has been professor in a post-degree program in Business Law organized by Universidad Cat&oacute;lica Santo Toribio de Mogrovejo. He is a usual speaker in courses and seminars on subjects concerning capital markets and banking regulation.</p>
-						<p>
-							He speaks fluently Spanish and English.</p>
-					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+					</div >
+					<div class="col-sm-8">
+						<article class="news-socios">
+							<p class="txtblue text-bold">Lima Office</p>
+							<p class="sinespacio">T: 4425100<br>
+								F: 4425100 A: 230<br>
+								<a href="mailto:alvaro.castro@rebaza-alcazar.com" class="correo">alvaro.castro@rebaza-alcazar.com</a></p>
+							<p class="txtblue text-bold">Secretary</p>
+							<p class="sinespacio">Nella Pacchioni<br>
+								<a href="mailto:nella.pacchioni@rebaza-alcazar.com" class="correo">nella.pacchioni@rebaza-alcazar.com</a>
+								<br>T: 4425100 A: 263<br><br></p>
+						</article>
+					</div>
+					<div class="col-sm-12">
+						<article class="news-socios">
+							<p>
+								&Aacute;lvaro Castro is a specialist in Finance and Business Law from the Escuela de Administraci&oacute;n de Negocios (ESAN). He is graduate lawyer from Universidad de Piura.</p>
+							<p>
+								Lawyer specialized in stock market regulation, financial law and corporate law, with solid knowledge in bankruptcy law and infrastructure projects, with significant experience in structuring and financing issues at local and in operations subject to foreign law.</p>
+							<p>
+								&Aacute;lvaro has been associate in the Capital Markets and Financing Law Area of Delmar Ugarte Abogados, and in the Corporate and Financial Law area of Rossell&oacute; Abogados. He has been also lawyer of CAVALI S.A. ICLV (the Peruvian Clearing House) and junior associate in the Capital Markets area of Rodrigo, El&iacute;as and Medrano Abogados.</p>
+							<p>
+								Within the major transactions in which &Aacute;lvaro Castro has been involved recently, we may mention the following ones:</p>
+							<ul>
+								<li>Asesor&iacute;a a Corporaci&oacute;n Pesquera Inca S.A.C. en la operaci&oacute;n de reapertura y emisi&oacute;n internacional de los instrumentos Global Senior Notes por un valor total de US$ 75 millones, bajo la Regla 144A y Regulation S (Ley de Nueva York), operaci&oacute;n en que intervinieron Banco BTG Pactual S.A. - CaymanBranch (Celfin Capital) y Santander InvestmentSecuritiescomounderwriters, bookrunnersyjoint lead managers, CreditSuissecomoco-manager, y Deutsche Bank Trust CompanyAmericascomo agente de pago.</li>
+								<li>
+									Legal advisor to Coroporaci&oacute;nPesquera Inca S.A.C. in the reopening operation and international emission of Global Senior Notes for a total amount of US$ 75 million, under Rule 144A and Regulation S, operation that involved Banco BTG Pactual SA - CaymanBranch (Celfin Capital) and Santander InvestmentSecurities as underwriters, bookrunnersy joint lead managers, co-manager CreditSuissecomo, and Deutsche Bank Trust CompanyAmericas as paying agent.</li>
+								<li>
+									Legal advisor to Capeinca ASA in the process of takeover bid made simultaneously in Olso Stock Exchange and the Lima Stock Exchange, by China Fishery Group Ltd., and the competing offer made &#8203;&#8203;by Cermaq ASA, for the 100% of Copeinca ASA&rsquo;s shares.</li>
+								<li>
+									Member of the team that advised General Atlantic (Sura Group) in an acquisition operation of Grupo ING investments in Latin America, for an amount of US$ 3,800 million. <strong>Deal of the Year 2011, in the category M &amp; A, as ranked by Latin Lawyer Magazine.</strong></li>
+								<li>
+									Member of the team that advised Inter-American Development Bank; US Exim Bank, IFC; Export-Import Bank of Korea, SACE, Societ&eacute;General&eacute;, BBVA, Calyon, Sumitomo, ING, Mizuho and Tokyo-Mitsubish Bank (creditors of Peru LNG for a loan of US$ 2,250 million) in the Peru LNG bond issuance program up to $ 200 million.</li>
+								<li>
+									Member of the team that advised Standard Bank (England)- as arranger, administrative agent and security agent- and Banco de Bogota; Bancolombia; BNP Paribas; ExportDevelopmentCanada; Royal Bank of Canada; SocieteGenerale and Bank Plc, as financers, on a revolving line of financing for US$ 250 million given to a group of international mining companies.</li>
+								<li>
+									Legal advisor to Concesionario Vial del Sol S.A, concessionaire of the Autopistadel Sol Trujillo Tramo Tranche - Sullana in the financing to the implementation of project works. The financing was structured by BNP Paribas through the issuance of debt instruments at international level by an amount of US$ 250 million.</li>
+								<li>
+									Member of the team that advised EstrellaPetrolera del Peru S.A.C. in a syndicated loan up to US$ 80 million granted by Credit Suisse AG and a group of foreign banks in favor of EstrellaOverseasLimited (BVI) and EstrellaPetrolera del Peru S.A.C., for the purchase of a new drilling rig in Colombia and the development of its exploration and exploitation activities in Colombia and Peru.</li>
+								<li>
+									Member of the team that advised APM Terminals in the international public bidding for the granting of the concession of the Specialized Container Terminal and General Cargo of Puerto Cortes (Honduras).</li>
+								<li>
+									Advisoryto a major Peruvian mining company, as creditor in the bankruptcy proceedings of Doe Run Peru (considered the largest bankruptcy proceedings in recent years locally), participating in the negotiation of agreements the creditors&#39; meeting.</li>
+								<li>
+									Member of the CAVALI&rsquo;s team that provided integral advisory to CEVALDOM - Central Securities Depository of the Dominican Republic.</li>
+								<li>
+									Member of the team that developed the registry mechanism before CAVALI of the Recognition Bond Registration issued by the ONP (the Pension Funds Governmental Office).</li>
+								<li>
+									Member of the team conformed by different public and private institutions responsible for preparing the CONASEV&rsquo;s (the Capital Markets Supervisor) Regulation for the register of the &ldquo;mortgage security&rdquo;.</li>
+								<li>
+									Responsible for the application procedure of CAVALI (the Peruvian Clearing House) as participant of CDS - Clearing and Depositary Services (Clearing House of Canada).</li>
+								<li>
+									Member of the working team in charge of the implementation of the Delivery system Versus Payment (DVP) in the process of clearing and settlement of government bonds which are traded in the financial markets DATATEC system.</li>
+							</ul>
+							<p>
+								In addition, its common practice consists in regulatory advice to companies managing investment funds, banks, stock brokerage firms and issuers listed on the Lima Stock Exchange. He has also advised several foreign investment funds in their registration procedures before the Superintendence of Banking and Insurance, in order to be considered as &quot;Eligible Investment Instrument&quot; by the AFPs.</p>
+							<p>
+								In the academic field, since 2007Alvaro is professor of Capital Markets Law at the Universidad de Piura Law School. Also, between 2005 and 2006 he was professor of Bankruptcy Law at the Law School of the Universidad de Piura. Furthermore, he has been professor in a post-degree program in Business Law organized by Universidad Cat&oacute;lica Santo Toribio de Mogrovejo. He is a usual speaker in courses and seminars on subjects concerning capital markets and banking regulation.</p>
+							<p>
+								He speaks fluently Spanish and English.</p>
+						</article>
+					</div>',
 
-
-<div class="modal fade" id="andrearie" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Andrea  Rieckhof <small>Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/andreaRieckhof.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_5' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areamercado.html">Capital Markets</a>
+									 <a class="nohover" href="areamercado">Capital Markets</a>
 								</ul>
 				            </div>
 				        </li>
@@ -535,7 +286,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -543,10 +294,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Andrea Lietzenmayer<br>
 						<a href="mailto:andrea.lietzenmayer@rebaza-alcazar.com" class="correo">andrea.lietzenmayer@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 264<br><br>
+							<br>T: 4425100 A: 264<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Andrea is a graduate lawyer from Universidad Peruana de Ciencias Aplicadas. Her practice is focused on corporate and contractual advice to companies and entities, either domestic or foreign.</p>
@@ -557,34 +308,14 @@ layout: default_en
 						<p>
 							She is fluent in Spanish and English.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="andresgjur" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Andres Gjurinovic <small>Senior Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/Andres.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_6' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areamercado.html">Capital Markets</a>
+									 <a class="nohover" href="areamercado">Capital Markets</a>
 								</ul>
 				            </div>
 				        </li>
@@ -604,7 +335,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -613,10 +344,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Gabriela Jimenez<br>
 						<a href="mailto:gabriela.jimenez@rebaza-alcazar.com" class="correo">gabriela.jimenez@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 250<br><br>
+							<br>T: 4425100 A: 250<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Andr&eacute;s Gjurinovic is a graduated lawyer from the Pontificia Universidad Cat&oacute;lica del Per&uacute;, and has completed specialized courses in Finance, Investments and taxes in Per&uacute; and abroad.</p>
@@ -632,16 +363,10 @@ layout: default_en
 						<ul>
 							<li>
 									Legal counsel and tax planning in the application and obtainment of the &ldquo;Improvements to the Energetic Security of the Country and Development of the South Peruvian Pipeline&rdquo; Concession by the Odebrecht Group and Enagas.</li>
-							</ul>
-							<ul>
 								<li>
 									Structuring of the financial models and tax planning in the application of the Odebrecht Group to the &ldquo;L&iacute;nea 2&nbsp; y Ramal Av. Faucett &ndash; Av. Gambetta of the Metro Basic Red of Lima and Callao&rdquo; and &ldquo;South Peruvian Pipeline&rdquo; concessions.</li>
-							</ul>
-							<ul>
 								<li>
 									Tax planning of the Public Work and Maintenance of the Corridor Roads&ndash; Buenos Aires &ndash; Canchaque Concession Agreement developed by the Concesi&oacute;n Canchaque S.A. (Gra&ntilde;a y Montero Group).</li>
-							</ul>
-							<ul>
 								<li>
 									Legal counsel to Concesionaria Vial del Sur S.A. &ndash; COVISUR during the adjudication of the referred Concession.</li>
 						</ul>
@@ -651,44 +376,24 @@ layout: default_en
 						<ul>
 							<li>
 								Corporate reorganization of the Odebrecht Latinvest Group (assets located in Per&uacute; and Colombia, and holdings thereof).</li>
-						</ul>
-						<ul>
 							<li>
 								He participated in the analysis and structuring of the Xstrata &ndash; Glencore merger (Peruvian assets and holding thereof).</li>
-						</ul>
-						<ul>
 							<li>
 								Structuring of the organizational simplification of Sura Group, after the acquisition of several assets to ING in Per&uacute; (AFP Integra S.A., Pensiones Sura Peru S.A., International Sura Per&uacute;, among others).</li>
-						</ul>
-						<ul>
 							<li>
 								Structuring of the transfer of shares from Owen-Illinois Per&uacute; S.A. to another Owen-Illinois Group&rsquo; s company located abroad.</li>
-						</ul>
-						<ul>
 							<li>
 								Structuring of the corporate reorganization of the Peruvian assets from Besco Group (Constructor Chileno Besalco Group&rsquo;s subsidiary).</li>
-						</ul>
-						<ul>
 							<li>
 								Structuring of the corporate reorganization between Mapfre Per&uacute; Compa&ntilde;&iacute;a de Seguros y Reaseguros, and Latina Seguros y Reaseguros.</li>
-						</ul>
-						<ul>
 							<li>
 								Structuring of the corporate reorganization of Conductores El&eacute;ctricos Peruanos S.A. (CEPER), and Conductores y Cables del Per&uacute; S.A.C. (CCP).</li>
-						</ul>
-						<ul>
 							<li>
 								Legal counsel in the transfer of shares from Cordillera de las Minas S.A, by El Tesoro (SPV Bermuda) Limited in favor of Cordillera Copper Ltd, and the subsequent transfer from Cordillera Copper Ltd in favor of Panoro Minerals Ltd.</li>
-						</ul>
-						<ul>
 							<li>
 								Legal counsel to Banco Santander Per&uacute; S.A. in order to obtain the participation that the Banco Santander Overseas Bank Inc. had over a syndicated loan given to Pesquera Diamante S.A. (a syndicated loan of US$ 100,000,000).</li>
-						</ul>
-						<ul>
 							<li>
 								Permanent legal counsel to the Banco Santander&rsquo;s leasing in the Agreements held with several clients. As well as in the acquisition of a leasing portfolio to Citibank of US$ 40,000,000.</li>
-						</ul>
-						<ul>
 							<li>
 								Legal counsel in the transfer of participation from Proyecto Rutas de Lima by the Odebrecht Latinvest Group in favor of Fondo de Inversi&oacute;n en Infraestructura Sigma FI.</li>
 						</ul>
@@ -698,28 +403,16 @@ layout: default_en
 						<ul>
 							<li>
 								Legal counsel to Odebrecht Latinvest in the finance of the Rutas de Lima Project. The higher placed of bonds in soles in the history of the Peruvian Capital Market (Bonds for S/. 1,458,808,000 and syndicate loan for S/. 560,000,000).</li>
-						</ul>
-						<ul>
 							<li>
 								Structuring of the financing given by Multibank Inc. in favor of Internacional Thunderbird BVI (US$ 52,000,000) and the constitution of two trusts: (i) a financial trust and (ii) a guaranty trust to ensure the payment of such loan.</li>
-						</ul>
-						<ul>
 							<li>
 								Legal counsel to Sigma SAFI in the funding by Goldman Sachs Credit Partners (US$ 100,000,000) to the constitution of sigma Leasop III, private investment fund in the operational leasing.</li>
-						</ul>
-						<ul>
 							<li>
 								Legal counsel to Edipyme Confianza S.A. (Grupo BBVA) in a subordinated loan entered into with Pettelaar Effectenbewaarbedrijf N.V.</li>
-						</ul>
-						<ul>
 							<li>
 								Legal counsel to Mi Banco &ndash; Banco de la Microempresa S.A. in the tax treatment of the financing Agreements entered into with non-domiciled financial entities.</li>
-						</ul>
-						<ul>
 							<li>
 								Legal counsel in the emission of subordinated bonds from the Banco Internacional del Peru S.A.A.-Interbank, as well as the acquisition and subsequent transfer of such by Inteligo Bank.</li>
-						</ul>
-						<ul>
 							<li>
 								Legal counsel to Scania Services del Per&uacute; S.A in the financing given by Ab Svensk Exportkredit (acting Scania Cv Aktiebolag as a joint guarantor) to carry out its truck and buses rental business in Per&uacute;.</li>
 						</ul>
@@ -729,8 +422,6 @@ layout: default_en
 						<ul>
 							<li>
 								Tax Planning of investment funds administrated by Sigma SAFI.</li>
-						</ul>
-						<ul>
 							<li>
 								Structuring and permanent legal counsel to collective funds administrated by Pandero S.A. EAFC</li>
 						</ul>
@@ -740,8 +431,6 @@ layout: default_en
 						<ul>
 							<li>
 								Design of tax structures regarding the Trusts of Scotiabank.</li>
-						</ul>
-						<ul>
 							<li>
 								Design of tax structures regarding the Trust for the administration of familiar patrimony.</li>
 						</ul>
@@ -751,8 +440,6 @@ layout: default_en
 							<ul>
 								<li>
 									Participation in the team that obtained the VAT recovery for the following companies: Concesionaria Interoce&aacute;nica Sur - Tramo 2 S.A., Concesionaria Interoce&aacute;nica Sur&nbsp;&nbsp; Tramo 3 S.A. y Concesionaria IIRSA Norte S.A. &nbsp;</li>
-							</ul>
-							<ul>
 								<li>
 									Participation in the team that obtained the VAT definitive recovery for Veraz Petroleum Per&uacute; S.A.C.</li>
 							</ul>
@@ -762,12 +449,8 @@ layout: default_en
 							<ul>
 								<li>
 									Participation in the due diligence for the acqusition of Cl&iacute;nica S&aacute;nchez Ferrer and the Centro Odontol&oacute;gico Americano by Pacifico EPS.</li>
-							</ul>
-							<ul>
 								<li>
 									Participation in the due diligence of Colegios Peruanos commissioned by Intercorp Group.</li>
-							</ul>
-							<ul>
 								<li>
 									Participation in the due diligence of Bank Boston Sucursal Per&uacute; regarding the compliance of their tax obligations before the final liquidation of such financial entity.</li>
 							</ul>
@@ -776,8 +459,6 @@ layout: default_en
 							<ul>
 								<li>
 									Participation in the design of several bills related to tax regulations, including the ones regarding the Cash Advance Tax and the VAT recovery.</li>
-							</ul>
-							<ul>
 								<li>
 									Participation commissioned by an entity of the Financial System in the design of a bill to modify the regulation of wash sales established in the Peruvian Income Tax Legislation.</li>
 							</ul>
@@ -791,37 +472,15 @@ layout: default_en
 								He has published several articles in known Peruvian magazines specialized in taxation matters.</p>
 							<p>
 								Before joining Rebaza, Alcazar &amp; De Las Casas, Andres was in charge of the tax matters in the financial area of Odebrecht Latinvest (Matrix); in addition, he was an associate of the tax area at Benites, Forno &amp; &Uacute;gaz Abogados Law Firm and member of the Business Tax Advice area at EY Per&uacute;.</p>
-							</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-
-<div class="modal fade" id="bettinagorr" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Bettina  Gorra <small>Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/Bettina.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_7' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areamercado.html">Capital Markets</a>
+									 <a class="nohover" href="areamercado">Capital Markets</a>
 								</ul>
 				            </div>
 				        </li>
@@ -854,7 +513,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -862,10 +521,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Gabriela Jiménez<br>
 						<a href="mailto:gabriela.jimenez@rebaza-alcazar.com" class="correo">gabriela.jimenez@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 250<br><br>
+							<br>T: 4425100 A: 250<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Bettina Gorra is a member of our tax and private clients departments. She is a graduate lawyer from University Paris II Panth&eacute;on-Assas (with honors), from which she has a Master of Laws in Tax. She also holds a Master&rsquo;s Degree in Corporate Law from University Paris Dauphine and a Master of Laws Degree (LL.M.) from Columbia University in New York.</p>
@@ -877,38 +536,15 @@ layout: default_en
 							<p>
 								She is fluent in Spanish, English and French.</p>
 						</div>
-						<p>
-							&nbsp;</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-
-<div class="modal fade" id="carlosnoza" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Carlos Espinoza <small>Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/CarlosEspinoza.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_8' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areatributario.html">Labor and Employment law</a>
+									 <a class="nohover" href="areatributario">Labor and Employment law</a>
 								</ul>
 				            </div>
 				        </li>
@@ -935,7 +571,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -943,10 +579,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Cyntia Cevasco<br>
 						<a href="mailto:cyntia.cevasco@rebaza-alcazar.com" class="correo">cyntia.cevasco@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 247<br><br>
+							<br>T: 4425100 A: 247<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p><p>
 							Carlos Espinoza is a graduate lawyer from Pontificia Universidad Cat&oacute;lica del Per&uacute;, having earned his degree with honors -magna cum laude- and specializes in Labor &amp; Employment Law.</p>
@@ -960,36 +596,15 @@ layout: default_en
 							Before joining Rebaza, Alc&aacute;zar &amp; De Las Casas, Carlos was a senior consultant of the Labor Department (People Advisory Services) at EY Per&uacute; (Ernst &amp; Young). Previously, he has been intern of the Labor Department at Estudio Rubio Legu&iacute;a Normand.</p>
 						<p>
 							He speaks fluidly Spanish and English.</p>
-						</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="cesarpant" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">César Pantoja Carrera <small>Senior Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/CesarPantoja2.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_9' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areamercado.html">Capital Markets</a>
+									 <a class="nohover" href="areamercado">Capital Markets</a>
 								</ul>
 				            </div>
 				        </li>
@@ -1010,7 +625,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100 A: 313<br>
@@ -1022,7 +637,7 @@ layout: default_en
 						<br>T: 4425100 A: 277<br><br>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							C&eacute;sar is attorney by the Universidad Nacional Mayor de San Marcos, Attorney General in the Procuradoria Ad-Hoc in the Fujimori-Montesinos case (2002-2005), where he represented the Peruvian government in important investigations regarding corruption charges of government functionaries with success. Legal counsel for the Episcopal Commission of Accion Nacional &ndash; CEAS (1996-2000), invited by Sadley, Austin &amp; Brown law firm to participate as counsel in the Lucchetti case against the Peruvian government at the World Bank.<br />
@@ -1030,37 +645,15 @@ layout: default_en
 							He has participated in several international events about Criminal Law &amp; Human Rights such as the ones organized by the Instituto de Estudios Comparados en Ciencias Penales y Sociales - INECIP (September 1996), the Facultad de Derecho y Ciencias Sociales de la Universidad de Buenos Aires (September 1996), Universidad Diego Portales, in Santiago de Chile (November 1997), the Instituto Interamericano de Derechos Humanos, San Jos&eacute; De Costa Rica (September 1998) and the Instituto Tecnol&oacute;gico Pastoral para Am&eacute;rica Latina-ITEPAL, Bogot&aacute; (April 1999).</p>
 						<p>
 							Despite having considerable experience representing the government he has specialized in Banking Criminal Law.</p>
-						</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-
-<div class="modal fade" id="cinthiacane" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Cinthia&nbsp;Cánepa <small>Asociada Senior</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/cinthiacanepa.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_10' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areamercado.html">Capital Markets</a>
+									 <a class="nohover" href="areamercado">Capital Markets</a>
 								</ul>
 				            </div>
 				        </li>
@@ -1080,7 +673,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -1089,10 +682,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Nella Pacchioni<br>
 						<a href="mailto:nella.pacchioni@rebaza-alcazar.com" class="correo">nella.pacchioni@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 263<br><br>
+							<br>T: 4425100 A: 263<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Cinthia C&aacute;nepa is a graduate lawyer from Pontificia Universidad Cat&oacute;lica del Per&uacute;; specialist in Corporate Law for ESAN University; and Finance Law specialist for Universidad del Pac&iacute;fico.</p>
@@ -1108,19 +701,13 @@ layout: default_en
 								&nbsp;</li>
 							<li>
 								Represented Scotiabank Per&uacute; S.A.A. in the second and third finance operation of $ 15 million, respectively, granted to Compa&ntilde;&iacute;a Minera Poderosa S.A. intended for the expansion of mining activities and working capital.</li>
-						</ul>
-						<ul>
 							<li>
 								Represented Banco Latinoamericano de Comercio Exterior S.A. (BLADEX) regarding the $100 Million syndicated loan granted to Corporaci&oacute;n Aceros Arequipa S.A. by Banco Ita&uacute; BBA S.A., Nassau Branch.</li>
-						</ul>
-						<ul>
 							<li>
 								Represented Corporaci&oacute;n Interamericana de Inversiones regarding the Subordinated Loan of $ 4 Million granted to Caja Rural de Ahorro y Cr&eacute;dito Nuestra Gente S.A., intended for lending to Eligible Companies.<br />
 								&nbsp;</li>
 							<li>
 								Represented Corporaci&oacute;n Interamericana de Inversiones regarding the Subordinated Loan of $ 4 Million granted to Caja Municipal de Ahorro y Cr&eacute;dito de Arequipa S.A., intended for lending to Eligible Companies.</li>
-						</ul>
-						<ul>
 							<li>
 								Represented Mercantil Commercebank, N.A. in granting a loan of $ 50 Million awarded to Petr&oacute;leos del Per&uacute; S.A.<br />
 								&nbsp;</li>
@@ -1129,28 +716,16 @@ layout: default_en
 								&nbsp;</li>
 							<li>
 								Represented Scotiabank Per&uacute; S.A.A. in the Bridge Loan of PEN 38 Million granted to Inversiones Educa S.A.C. (owner of the Banking Training Institute &ndash; IFB).</li>
-						</ul>
-						<ul>
 							<li>
 								Represented Rabobank Cura&ccedil;ao N.V. in the financing of $ 20 Million granted to Avo Per&uacute; S.A. and Tal S.A. (Roc&iacute;o Group).</li>
-						</ul>
-						<ul>
 							<li>
 								Represented Pesquera Hayduk S.A. in the Syndicated Loan of $ 150 Million granted by Banco de Cr&eacute;dito del Per&uacute; y Banco Internacional del Per&uacute; S.A.A.</li>
-						</ul>
-						<ul>
 							<li>
 								Represented Obras de Ingenier&iacute;a S.A. in the Loan of $ 10 Million granted by BTG Pactual S.A. (Cayman Branch), intended primarily to fund working capital.</li>
-						</ul>
-						<ul>
 							<li>
 								Represented Banco General S.A. in granting a credit line of $ 20 Million to San Fernando S.A., intended primarily to fund working capital.&nbsp;</li>
-						</ul>
-						<ul>
 							<li>
 								Represented Scotiabank Per&uacute; S.A.A. in the Loan of PEN 150 Million granted to Corporaci&oacute;n Peruana de Productos Qu&iacute;micos S.A. for debt refinancing and working capital.</li>
-						</ul>
-						<ul>
 							<li>
 								Represented Scotiabank Per&uacute; S.A.A. in the Loan of PEN 150 Million granted to Falabella Per&uacute; S.A.A. for debt refinancing and working capital.</li>
 						</ul>
@@ -1159,8 +734,6 @@ layout: default_en
 						<ul>
 							<li>
 								Represented Cascade Hydro Power S.A.C. in the sale of 100% of shares of Empresa de Generaci&oacute;n El&eacute;ctrica Canchayllo S.A.C. to Energ&iacute;as Renovables de los Andes S.A.C. and Union Group Energy Corp.</li>
-						</ul>
-						<ul>
 							<li>
 								Represented APC Corporaci&oacute;n S.A. in the repurchase of shares transferred to SUMMA Mezzanine Fund and repayment of debt in favor of the Fund, as well as the medium-term financing obtained by the company from BBVA Banco Continental for funding the operation.</li>
 						</ul>
@@ -1174,37 +747,15 @@ layout: default_en
 							Before joining Rebaza, Alc&aacute;zar &amp; De Las Casas Abogados Financieros, she worked as an Associate in the Corporate Area of Delmar Ugarte Abogados (2008-2010). Previously, she carried out internships at the Corporate Area of Delmar Ugarte Abogados (2007) and the Financial Area at Rodrigo, Elias &amp; Medrano Abogados (2006).</p>
 						<p>
 							She speaks fluently Spanish and English.</p>
-						</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-
-<div class="modal fade" id="claudiaause" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Claudia&nbsp;Ausejo <small>Asociada Senior</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/ClaudiaA1.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_11' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areaconseciones.html">Concesiones y Proyectos Financieros</a>
+									 <a class="nohover" href="areaconseciones">Concesiones y Proyectos Financieros</a>
 								</ul>
 				            </div>
 				        </li>
@@ -1232,7 +783,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -1241,41 +792,16 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Andrea Lietzenmayer<br>
 						<a href="mailto:Andrea.lietzenmayer @rebaza-alcazar.com" class="correo">Andrea.lietzenmayer @rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 264<br><br>
+							<br>T: 4425100 A: 264<br><br></p>
 					</article>
-				</div>
-				<div class="col-sm-12 col-xs-12">
-					<article class="news-socios">
-					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-
-<div class="modal fade" id="cristinaflor" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Cristina&nbsp;Florindez <small>Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/Cristina2.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_12' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areaconseciones.html">Concesiones y Proyectos Financieros</a>
+									 <a class="nohover" href="areaconseciones">Concesiones y Proyectos Financieros</a>
 								</ul>
 				            </div>
 				        </li>
@@ -1294,7 +820,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100 A: 289<br>
@@ -1303,61 +829,39 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Andrea Lietzenmayer<br>
 						<a href="mailto:Andrea.lietzenmayer @rebaza-alcazar.com" class="correo">Andrea.lietzenmayer @rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 264<br><br>
+							<br>T: 4425100 A: 264<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
-						<p style="margin-left:8.75pt;">
+						<p>
 							Cristina es egresada de la Universidad del Pacifico. Ha realizado el Curso de Especializaci&oacute;n en Electricidad y Derecho en la Sociedad Nacional de Miner&iacute;a, Petr&oacute;leo y Energ&iacute;a.</p>
-						<p style="margin-left:8.75pt;">
+						<p>
 							Su pr&aacute;ctica est&aacute; enfocada en el desarrollo e implementaci&oacute;n de proyectos de inversi&oacute;n, especialmente bajo la modalidad de APP, en distintos sectores, tales como infraestructura, transporte, energ&iacute;a, saneamiento, entre otros.</p>
-						<p style="margin-left:8.75pt;">
+						<p>
 							Asimismo, tiene experiencia en procesos de contrataciones con entidades p&uacute;blicas, incluyendo la asesor&iacute;a en la participaci&oacute;n de empresas del sector privado en concursos y licitaciones publicas, as&iacute; como en procedimientos impugnatorios y sancionadores ante el Organismo Supervisor de Contrataciones con el Estado - OSCE.</p>
-						<p style="margin-left:8.75pt;">
+						<p>
 							Ha participado en algunas de las operaciones m&aacute;s significativas en lo que respecta a concesiones, Proyectos de APP en el Per&uacute; y financiamientos, entre los que se encuentran:</p>
-						<p style="margin-left:26.75pt;">
+						<p>
 							-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Asesor&iacute;a al Consorcio de Empresas Extranjeras, en su presentaci&oacute;n como postores en el Concurso de Proyectos Integrales del Proyecto &ldquo;Obras de Cabecera y Conducci&oacute;n para el Abastecimiento de Agua Potable para Lima&rdquo;. US$600MM.</p>
-						<p style="margin-left:26.75pt;">
+						<p>
 							-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Asesor&iacute;a a OBRAINSA, a trav&eacute;s de su afiliada INTIPUQUIO, en el financiamiento de US$80MM, otorgado por Credit Suisse para la adquisici&oacute;n de un paquete de acciones de control de la empresa azucarera Empresa Agroindustrial Cayalt&iacute;.</p>
-						<p style="margin-left:26.75pt;">
+						<p>
 							-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Asesor&iacute;a al Consorcio Internacional Concesi&oacute;n Estacionamiento Miraflores, conformado por OBRAINSA, COPASA y URBANA, en la negociaci&oacute;n y ejecuci&oacute;n del Contrato de Concesi&oacute;n para la construcci&oacute;n y operaci&oacute;n de estacionamientos subterr&aacute;neos ubicados en el distrito de Miraflores, debajo de la calle Lima y Virgen Milagrosa. La inversi&oacute;n estimada es de US$ 10 MM.</p>
-						<p style="margin-left:8.75pt;">
+						<p>
 							Cristina realiz&oacute; sus pr&aacute;cticas pre-profesionales en Rebaza, Alc&aacute;zar &amp; De Las Casas Abogados, Estudio Rubio, Legu&iacute;a &amp; Normand y en el Tribunal Constitucional.</p>
-						<p style="margin-left:8.75pt;">
+						<p>
 							Habla fluidamente espa&ntilde;ol e ingl&eacute;s.</p>
-						</p>
 
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-
-<div class="modal fade" id="cynthiareba" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Cynthia&nbsp;Rebaza <small>Asociada Senior</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/Cynthia2.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_13' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areamineria.html">Minería</a>
+									 <a class="nohover" href="areamineria">Minería</a>
 								</ul>
 				            </div>
 				        </li>
@@ -1390,7 +894,7 @@ layout: default_en
 					</ul>
 
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -1399,10 +903,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">María Sofia León<br>
 						<a href="mailto:mariasofia.leon@rebaza-alcazar.com" class="correo">mariasofia.leon@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 254<br><br>
+							<br>T: 4425100 A: 254<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Cynthia is a graduated lawyer from the Law School of the Pontificia Universidad Cat&oacute;lica del Per&uacute;, with post graduate studies in Mining Law at Universidad Peruana de Ciencias Aplicadas; and, in Environmental Law at Universidad de Castilla La Mancha in Toledo, Spain. In 2011, she obtained a scholarship granted by the Belgian Technical Cooperation to study a Master Program at Katholieke Universiteit Leuven in Leuven, Belgium, where she obtained her specialization in Energy and Environmental Law. During the Master Program, she worked as a researcher at the Climate Change Team of ClientEarth (NGO, at Brussels) during five months.</p>
@@ -1413,35 +917,14 @@ layout: default_en
 						<p>
 							She is fluent in Spanish and English.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-
-<div class="modal fade" id="danielgonz" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Daniel&nbsp;Gonzales <small>Senior Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/Daniel.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_14' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areafunciones.html">Mergers and Acquisitions</a>
+									 <a class="nohover" href="areafunciones">Mergers and Acquisitions</a>
 								</ul>
 				            </div>
 				        </li>
@@ -1464,7 +947,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -1473,10 +956,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Nella Pacchioni<br>
 						<a href="mailto:mariasofia.leon@rebaza-alcazar.com" class="correo">mariasofia.leon@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 254<br><br>
+							<br>T: 4425100 A: 254<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Daniel Gonzales is a graduate lawyer, <em>magna cum laude</em>, from Pontificia Universidad Cat&oacute;lica del Per&uacute;. Daniel&rsquo;s practice focuses on mergers and acquisitions, financing and securities transactions. He holds a Master&rsquo;s Degree in Law (LL.M.) from The University of Chicago. Daniel&rsquo;s practice has been recognized by <em>The Legal 500 </em>(2012).</p>
@@ -1525,38 +1008,17 @@ layout: default_en
 						<p>
 							&nbsp;</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-
-<div class="modal fade" id="danielchanca" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Daniel  Chancafe <small>Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/DanielChancafe.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_15' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areatributario.html">Tax</a>
+									 <a class="nohover" href="areatributario">Tax</a>
 								</ul>
 				            	<ul style="">
-									 <a class="nohover" href="areaprivate.html">Private Clients</a>
+									 <a class="nohover" href="areaprivate">Private Clients</a>
 								</ul>
 				            </div>
 				        </li>
@@ -1573,7 +1035,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -1581,10 +1043,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Cyntia Cevasco<br>
 						<a href="mailto:cyntia.cevasco@rebaza-alcazar.com" class="correo">cyntia.cevasco@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 247<br><br>
+							<br>T: 4425100 A: 247<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Daniel Chancafe is a graduated lawyer from Pontificia Universidad Cat&oacute;lica del Per&uacute; Law School.</p>
@@ -1596,40 +1058,18 @@ layout: default_en
 							Previously, he has been intern on the Dispute Resolution Department at Estudio Rubio, Legu&iacute;a, Normand, Estudio Echecopar &ndash; Member firm of Baker &amp; McKenzie International and EY.</p>
 						<p>
 							He is a former member of TH&#274;MIS, law students&rsquo; association from Pontificia Universidad Cat&oacute;lica del Per&uacute; Law School.</p>
-						</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-
-<div class="modal fade" id="danielaurqu" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Daniela&nbsp;Urquiza <small>Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/Daniela.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_16' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areatributario.html">Tax</a>
+									 <a class="nohover" href="areatributario">Tax</a>
 								</ul>
 				            	<ul style="">
-									 <a class="nohover" href="areaprivate.html">Private Clients</a>
+									 <a class="nohover" href="areaprivate">Private Clients</a>
 								</ul>
 				            </div>
 				        </li>
@@ -1654,7 +1094,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -1663,10 +1103,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Gabriela Jiménez<br>
 						<a href="mailto:gabriela.jimenez@rebaza-alcazar.com" class="correo">gabriela.jimenez@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 250<br><br>
+							<br>T: 4425100 A: 250<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Daniela Urquiza is a graduate lawyer from University of Lima and specializes in Tax Law.</p>
@@ -1679,41 +1119,20 @@ layout: default_en
 						<p>
 							Before joining Rebaza, Alc&aacute;zar &amp; De Las Casas Abogados Financieros, she was a member of the tax department of Barrios &amp; Fuentes Abogados and Benites, Forno &amp; Ugaz Abogados.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-
-<div class="modal fade" id="dianagara" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Diana&nbsp;Gárate <small>Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/DianaGarate.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_17' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areafunciones.html">Mergers and Acquisitions</a>
+									 <a class="nohover" href="areafunciones">Mergers and Acquisitions</a>
 								</ul>
 				            	<ul style="">
-									 <a class="nohover" href="areamercado.html">Capital Markets</a>
+									 <a class="nohover" href="areamercado">Capital Markets</a>
 								</ul>
 				            	<ul style="">
-									 <a class="nohover" href="areaconseciones.html">Concesiones y Proyectos Financieros</a>
+									 <a class="nohover" href="areaconseciones">Concesiones y Proyectos Financieros</a>
 								</ul>
 				            </div>
 				        </li>
@@ -1738,7 +1157,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -1747,10 +1166,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">María Sofia León<br>
 						<a href="mailto:mariasofia.leon@rebaza-alcazar.com" class="correo">mariasofia.leon@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 254<br><br>
+							<br>T: 4425100 A: 254<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Diana Garate is a graduate lawyer from Universidad Peruana de Ciencias Aplicadas (UPC),&nbsp;having earned her degree with honors -<em>summa cum laude</em>-. Diana&acute;s practice focuses on project finance, infrastructure concessions and public private partnerships (PPPs), and mergers and acquisitions of companies. She holds a Master&acute;s Degree in Law (LL.M.) from the University of Columbia in Nueva York. Additionally, Diana holds a certificate in Carbon Market Regulation from Universidad Peruana de Ciencias Aplicadas (UPC).</p>
@@ -1760,65 +1179,44 @@ layout: default_en
 							She also published several academic articles related to private investment in Peru and public services infrastructure projects.</p>
 						<p>
 							Diana&acute;s matters include the representation of:</p>
-						<p style="margin-left: 27pt;">
+						<p>
 							&middot; &nbsp;Represented Odebretch as a member of the &ldquo;Gasoeducto Sur Peruano&rdquo; consortium (formed with Spanish gas transportation company, Enagas) in the public tender for granting the concession for the US$7.3 billion Southern Peruvian gas pipeline in southern Peru.</p>
-						<p style="margin-left: 27pt;">
+						<p>
 							&middot; &nbsp; Represented DP WORLD during the public tender to design, finance, build and operate the concession of Pisco Port Terminal in the south of Peru. Estimated investment of US$ 102.4 MM.</p>
-						<p style="margin-left: 27pt;">
+						<p>
 							&middot; &nbsp;Represented Obras de Ingenier&iacute;a S.A and COPASA (as a Consortium: &ldquo;Concesi&oacute;n Estacionamientos Miraflores S.A.&rdquo;) during the negotiation and execution of a Concession Agreement before the Municipality of Miraflores District to build an underground parking lot. Estimated investment of US$ 10 MM.</p>
-						<p style="margin-left: 27pt;">
+						<p>
 							&middot; &nbsp;Represented Mediterranean Shipping Company (USA) in the public tender for granting the concession to build and operate the Northern Pier of the Port of Callao - Lima. Estimated investment of US$ 884 MM.</p>
-						<p style="margin-left: 27pt;">
+						<p>
 							&middot; &nbsp;Represented SSA Marine International and Brescia Group in the public tender for the concession to build and operate the Paita Port in the north of Peru. Estimated investment of US$ 230 MM.</p>
-						<p style="margin-left: 27pt;">
+						<p>
 							&middot; &nbsp;Represented Keppel Seghers Engineering (Singapore) in the public tender for granting the concession to build and operate the Taboada Waste Water Plant in Lima. Estimated investment of US$ 380 MM.</p>
-						<p style="margin-left: 27pt;">
+						<p>
 							&middot; &nbsp;Represented International Finance Corporation (IFC) in the modernization financing of the Northern Pier of the Port of Callao operated by APM Terminals for an amount of US$ 207 MM.</p>
-						<p style="margin-left: 27pt;">
+						<p>
 							&middot; &nbsp; &nbsp;Represented Obras de Ingenier&iacute;a S.A. (OBRAINSA) in the acquisition of 50% of the shares of Empresa de Generaci&oacute;n El&eacute;ctrica Santa Ana (from EnBW Kraftwerke AG) for an amount of US$ 5 MM. The project involves the operation of a hydro-generation plant of 20MW.</p>
-						<p style="margin-left: 27pt;">
+						<p>
 							&middot; &nbsp; &nbsp;Represented Entel Inversiones S.A. together with Simpson Thacher &amp; Bartlett LLP &ndash; New York, in the acquisition of Nextel del Per&uacute; (the third largest telecom operator in Peru) for the total amount of US$ 400 MM.</p>
-						<p style="margin-left: 27pt;">
+						<p>
 							&middot; &nbsp; &nbsp;Member of the legal team that advised First Reserve (private equity fund specializing in investments in the energy sector) in financing the construction &ldquo;La Bufa&rdquo; wind farm (Zacatecas - Mexico), with generation capacity 130MW to be operated by Mexico Power Group - MPG.</p>
-						<p style="margin-left: 27pt;">
+						<p>
 							&middot; &nbsp; &nbsp;Member of the legal team that advised Citigroup Global Securities and JP Morgan in the repurchase offer (cash tender offer) of notes issued by Corporacion Lindley S.A. called &quot; 4.625 % Notes due 2023 &quot; and &quot; 6.750% Notes due 2021 &quot; for an amount of US $ 150M.</p>
-						<p style="margin-left: 27pt;">
+						<p>
 							&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Member of the legal team that advised multinational oil companies and concessionaires of public services infrastructure in international arbitration before the International Chamber of Commerce and IACAC - Inter-American Commercial Arbitration Commission.</p>
 						<p>
 							She is fluent in Spanish and English.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-
-<div class="modal fade" id="dianatass" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Diana&nbsp;Tassara <small>Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/DianaT1.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_18' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areafinanciamientos.html">Financiamientos</a>
+									 <a class="nohover" href="areafinanciamientos">Financiamientos</a>
 								</ul>
 				            	<ul style="">
-									 <a class="nohover" href="areaconseciones.html">Concesiones y Proyectos Financieros</a>
+									 <a class="nohover" href="areaconseciones">Concesiones y Proyectos Financieros</a>
 								</ul>
 				            </div>
 				        </li>
@@ -1839,7 +1237,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -1848,10 +1246,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Andrea Lietzenmayer<br>
 						<a href="mailto:andrea.lietzenmayer@rebaza-alcazar.com" class="correo">andrea.lietzenmayer@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 264<br><br>
+							<br>T: 4425100 A: 264<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Diana Tassara is a graduated lawyer from Pontificia Universidad Cat&oacute;lica del Per&uacute;. Her practice is focused on Concessions, Project Finance and Merger and Acquisitions.</p>
@@ -1864,35 +1262,14 @@ layout: default_en
 						<p>
 							He speaks fluently Spanish and English.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-
-<div class="modal fade" id="elizenevasq" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Elizene&nbsp;Vasquez de Velasco <small>Asociada Senior</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/Elizene.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_19' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="arealaboral.html">Laboral</a>
+									 <a class="nohover" href="arealaboral">Laboral</a>
 								</ul>
 				            </div>
 				        </li>
@@ -1907,7 +1284,7 @@ layout: default_en
 					Spanish and English</p>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -1916,54 +1293,31 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Cyntia Cevasco<br>
 						<a href="mailto:cyntia.cevasco@rebaza-alcazar.com" class="correo">cyntia.cevasco@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 247<br><br>
+							<br>T: 4425100 A: 247<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
-						<p style="margin-left:8.75pt;">
+						<p>
 							Elizene is a graduated lawyer from the Pontificia Universidad Cat&oacute;lica del Per&uacute;. She has followed post-graduate studies in Corporate Labor Law at ESAN.</p>
-						<p style="margin-left:8.75pt;">
+						<p>
 							Her practice focuses on labor affairs and labor law consulting, which involves all aspects of recruitment, rendering of services by third parties (outsourcing and labor intermediation), structuring and planning of remuneration policies, &nbsp;disengagement personal programs (individual and collective), and health and safety policies at work, as well as on the labor law aspects of mergers and acquisitions and corporate reorganizations.</p>
 						<p style="margin-left:8.75pt;">
 							She has extensive experience in collective bargaining.</p>
 						<p style="margin-left:8.75pt;">
 							Before joining Rebaza, Alcazar &amp; De Las Casas Financial Law, she worked as a lawyer in Telef&oacute;nica Corporate Group.</p>
-						<p>
-							&nbsp;</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-
-<div class="modal fade" id="fiorellaatoc" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Fiorella&nbsp;Atoche <small>Asociada Senior</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/Fiorella.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_20' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areamercado.html">Capital Markets</a>
+									 <a class="nohover" href="areamercado">Capital Markets</a>
 								</ul>
 				            	<ul style="">
-									 <a class="nohover" href="areafinanciamientos.html">Financiamientos</a>
+									 <a class="nohover" href="areafinanciamientos">Financiamientos</a>
 								</ul>
 				            </div>
 				        </li>
@@ -1990,7 +1344,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -1999,10 +1353,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">María Sofia León<br>
 						<a href="mailto:mariasofia.leon@rebaza-alcazar.com" class="correo">mariasofia.leon@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 254<br><br>
+							<br>T: 4425100 A: 254<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Fiorella Atoche is a graduate lawyer from Universidad de Lima, having earned her degree with honors &ndash;<em>cum laude</em>- and ranked top three in the Law School. Has obtained a Diploma in Securities Market Regulation by Peruvian University of Applied Sciences (UPC) in 2012.</p>
@@ -2030,35 +1384,14 @@ layout: default_en
 							<br />
 							She is fluent in Spanish and English.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-
-<div class="modal fade" id="gonzalosori" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Gonzalo&nbsp;Soriano <small>Senior Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/Gonzalo1.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_21' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areaconseciones.html">Concesiones y Proyectos Financieros</a>
+									 <a class="nohover" href="areaconseciones">Concesiones y Proyectos Financieros</a>
 								</ul>
 				            </div>
 				        </li>
@@ -2088,7 +1421,7 @@ layout: default_en
 					</ul>
 
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -2100,7 +1433,7 @@ layout: default_en
 						<br>T: 4425100 A: 263<br><br>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Gonzalo is Senior Associate at Rebaza, Alc&aacute;zar &amp; De Las Casas Abogados. Along with his professional career, he has gained significant and diverse international exposure and a relevant practice in outbound transactions working for more than 3 years for Yulchon LLC, one of the biggest law firms in South Korea. His experience is mainly in the infrastructure and energy sector, focusing in the regions of Latin America, Southeast Asia and Africa.</p>
@@ -2135,35 +1468,14 @@ layout: default_en
 						<p>
 							He speaks fluently Spanish and English and intermediate Korean.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-
-<div class="modal fade" id="gustavotara" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Gustavo&nbsp;Tarazona <small>Senior Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/Gustavo.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_22' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areatributario.html">Tax</a>
+									 <a class="nohover" href="areatributario">Tax</a>
 								</ul>
 				            </div>
 				        </li>
@@ -2188,7 +1500,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -2197,10 +1509,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Gabriela Jimenez<br>
 						<a href="mailto:gabriela.jimenez@rebaza-alcazar.com" class="correo">gabriela.jimenez@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 250<br><br>
+							<br>T: 4425100 A: 250<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Gustavo is a graduated lawyer from the San Marcos University. LL.M. in Finance &amp; Corporate Law from ESAN University. He has followed the 48th Course of Tax Administration (CAT) issued by the Peruvian Tax Authority (SUNAT).</p>
@@ -2247,34 +1559,14 @@ layout: default_en
 						<p>
 							He speaks fluently Spanish and English.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="hugomart" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Hugo Marticorena <small>Senior Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/HM.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_23' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="arealitigios.html">Strategies and Conflict Resolution</a>
+									 <a class="nohover" href="arealitigios">Strategies and Conflict Resolution</a>
 								</ul>
 				            </div>
 				        </li>
@@ -2295,7 +1587,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -2307,41 +1599,19 @@ layout: default_en
 						<br>T: 4425100 A: 277<br><br>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Hugo is attorney by the Universidad Nacional Mayor de San Marcos and member of the Colegio de Abogados de Lima. He has worked in the Criminal Law Area of Sousa &amp; Nakazaki Lawyers. He has also published a considerable number of articles in matters pertaining to Criminal Law.</p>
-						</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-
-<div class="modal fade" id="ingridmedi" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Ingrid Medina <small>Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/Alvaro-Castro.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_24' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areamercado.html">Capital Markets</a>
+									 <a class="nohover" href="areamercado">Capital Markets</a>
 								</ul>
 				            </div>
 				        </li>
@@ -2368,7 +1638,7 @@ layout: default_en
 						</li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -2377,48 +1647,22 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Nella Pacchioni<br>
 						<a href="mailto:nella.pacchioni@rebaza-alcazar.com" class="correo">nella.pacchioni@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 263<br><br>
+							<br>T: 4425100 A: 263<br><br></p>
 					</article>
-				</div>
-				<div class="col-sm-12 col-xs-12">
-					<article class="news-socios">
+				</div>',
 
-					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-
-<div class="modal fade" id="janettburg" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Janett Burga <small>Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/Janett.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_25' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areamercado.html">Capital Markets</a>
+									 <a class="nohover" href="areamercado">Capital Markets</a>
 								</ul>
 				            	<ul style="">
-									 <a class="nohover" href="arearegulacion.html">Regulación Financiera</a>
+									 <a class="nohover" href="arearegulacion">Regulación Financiera</a>
 								</ul>
 				            	<ul style="">
-									 <a class="nohover" href="areafinanciamientos.html">Financiamientos</a>
+									 <a class="nohover" href="areafinanciamientos">Financiamientos</a>
 								</ul>
 				            </div>
 				        </li>
@@ -2441,7 +1685,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100 A: 240<br>
@@ -2450,10 +1694,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Nella Pacchioni<br>
 						<a href="mailto:nella.pacchioni@rebaza-alcazar.com" class="correo">nella.pacchioni@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 263<br><br>
+							<br>T: 4425100 A: 263<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Janett Burga is a graduated lawyer from Universidad de San Martin de Porres. She holds a Diploma in Corporate Finance, from the Post Graduate Program of Universidad del Pacifico. &nbsp;<br />
@@ -2466,16 +1710,10 @@ layout: default_en
 						<ul>
 							<li>
 								Legal counsel to Bancolombia Panama in the US$18MM loan granted to Negocios e Inmuebles S.A.</li>
-						</ul>
-						<ul>
 							<li>
 								Legal counsel to Bancolombia Puerto Rico International Inc. in the US$30MM loan granted to Quimpac S.A.</li>
-						</ul>
-						<ul>
 							<li>
 								Legal counsel to Bancolombia Puerto Rico International Inc. in the US$9MM loan granted to Corporacion PECSA S.A.</li>
-						</ul>
-						<ul>
 							<li>
 								Legal counsel to Bancolombia Puerto Rico International Inc. in the US$20MM Syndicated Loan granted to Desarrollo Vial de Los Andes S.A.C. (&ldquo;Deviandes&rdquo;).</li>
 						</ul>
@@ -2484,8 +1722,6 @@ layout: default_en
 						<ul>
 							<li>
 								Legal counsel in the process of converting Leasing Peru S.A. to a financial entity at SBS.</li>
-						</ul>
-						<ul>
 							<li>
 								Legal counsel to Renting Peru S.A.C. in the process of registration of its First Program of Corporate Bonds before the SMV, for a maximum amount of US$ 9MM.<br />
 								&nbsp;</li>
@@ -2503,36 +1739,14 @@ layout: default_en
 							<br />
 							She is fluent in Spanish and English.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-
-
-<div class="modal fade" id="juanasto" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Juan Astocondor <small>Asociado</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/JuanAstocondor.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_26' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="arealitigios.html">Strategies and Conflict Resolution</a>
+									 <a class="nohover" href="arealitigios">Strategies and Conflict Resolution</a>
 								</ul>
 				            </div>
 				        </li>
@@ -2555,7 +1769,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100 A: 316<br>
@@ -2564,10 +1778,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Irma Noriega<br>
 						<a href="mailto:irma.noriega@rebaza-alcazar.com" class="correo">irma.noriega@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 277<br><br>
+							<br>T: 4425100 A: 277<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Juan is lawyer by the Universidad Nacional Mayor de San Marcos with full membership to the Colegio de Abogados de Lima. He served as a practitioner, assistant and attorney in Loli &amp; Garcia Cavero Lawyers from July 2010 to December 2015, specializing in Consulting and Litigation Criminal Law.</p>
@@ -2575,64 +1789,44 @@ layout: default_en
 							Throughout his career he has published several articles pertaining to Criminal Law.</p>
 						<br>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="juliomora" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Julio Morales <small>Senior Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/JulioCesarMorales.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_27' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="arealitigios.html">Strategies and Conflict Resolution</a>
+									 <a class="nohover" href="arealitigios">Strategies and Conflict Resolution</a>
 								</ul>
 				            </div>
 				        </li>
-		<li><a href="#">Education</a>
-        <div class="bloqueMostrar"><ul>
-	<li>
-		Juris Doctor by Universidad Nacional Mayor de San Marcos, 2006.</li>
-	<li>
-		Master in Procedural Law&nbsp; in the Universidad Nacional Mayor de San Marcos, 2009-2010.</li>
-	<li>
-		Master&acute;s in Criminal Law by the Universidad de Salamanca &ndash; Espa&ntilde;a, 2012-2013.</li>
-	<li>
-		PhD Research Program by the Universidad de M&oacute;dena y Reggio Emilia &ndash; Italia, 2014.</li>
-	<li>
-		PhD by the Universidad de Salamanca &ndash; Espa&ntilde;a, from 2013 to date.</li>
-</ul>
-</div></li>
-		<li><a href="#">Distinctions</a>
-        <div class="bloqueMostrar"></div></li>
-		<li><a href="#">Languages</a>
-        <div class="bloqueMostrar"><ul>
-	<li>
-		Spanish and English</li>
-
-				</ul>
-
-					</div></li>
+						<li><a href="#">Education</a>
+						<div class="bloqueMostrar">
+							<ul>
+						<li>
+							Juris Doctor by Universidad Nacional Mayor de San Marcos, 2006.</li>
+						<li>
+							Master in Procedural Law&nbsp; in the Universidad Nacional Mayor de San Marcos, 2009-2010.</li>
+						<li>
+							Master&acute;s in Criminal Law by the Universidad de Salamanca &ndash; Espa&ntilde;a, 2012-2013.</li>
+						<li>
+							PhD Research Program by the Universidad de M&oacute;dena y Reggio Emilia &ndash; Italia, 2014.</li>
+						<li>
+							PhD by the Universidad de Salamanca &ndash; Espa&ntilde;a, from 2013 to date.</li>
+						</ul>
+						</div></li>
+						<li><a href="#">Distinctions</a>
+						<div class="bloqueMostrar"></div></li>
+						<li><a href="#">Languages</a>
+							<div class="bloqueMostrar"><ul>
+							<li>
+								Spanish and English</li>
+						</ul>
+						</div>
+						</li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100 A: 278<br>
@@ -2641,47 +1835,27 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Irma Noriega<br>
 						<a href="mailto:irma.noriega@rebaza-alcazar.com" class="correo">irma.noriega@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 277<br><br>
+							<br>T: 4425100 A: 277<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Julio is attorney by the Universidad Nacional Mayor de San Marcos, with full membership to the Colegio de Abogados de Lima, with master studies in Procedural Criminal Law from the same university. He obtained his Master&acute;s degree in Criminal Law from the University of Salamanca &ndash; Spain and received a full scholarship from the University of Modena and Reggio Emilia in Italy. He is currently working towards his PhD in &ldquo;State of Law and Global Governance&rdquo; with a focus on Criminal Law in the University of Salamanca. He is an author of several articles in criminal law published in different legal magazines, a public speaker in a wide variety of conferences, and has a strong specialization in litigation and consulting in criminal law and procedural criminal law. He served as associate attorney in Loli &amp; Garcia Cavero Lawyers from July 2009 to December 2015.<br />
 							<br />
 							He speaks fluently Spanish and Italian.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="maitecolm" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Maite Colmenter <small>Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/MayteColmenter.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_28' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areafinanciamientos.html">Financiamientos</a>
+									 <a class="nohover" href="areafinanciamientos">Financiamientos</a>
 								</ul>
 				            	<ul style="">
-									 <a class="nohover" href="areaprivate.html">Private Clients</a>
+									 <a class="nohover" href="areaprivate">Private Clients</a>
 								</ul>
 				            </div>
 				        </li>
@@ -2707,7 +1881,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -2716,10 +1890,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">María Sofia León<br>
 						<a href="mailto:mariasofia.leon@rebaza-alcazar.com" class="correo">mariasofia.leon@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 254<br><br>
+							<br>T: 4425100 A: 254<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Maite Colmenter is a graduate lawyer from Universidad Catolica Andres Bello of Caracas, Venezuela. She holds a Master Degree in Laws (LLM) from New York University (NYU). She is a Senior Associate at the Lima office, where she focuses her practice in Corporate Law and Finance. Her practice has been recognized by Chambers &amp; Partners (2014).</p>
@@ -2742,34 +1916,14 @@ layout: default_en
 						<p>
 							She is fluent in English and Spanish.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="manuelferr" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Manuel Ferreyros <small>Asociado</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/manuelferre.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_29' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="arealitigios.html">Strategies and Conflict Resolution</a>
+									 <a class="nohover" href="arealitigios">Strategies and Conflict Resolution</a>
 								</ul>
 				            </div>
 				        </li>
@@ -2785,7 +1939,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100 A: 336<br>
@@ -2794,10 +1948,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Cyntia Cevasco<br>
 						<a href="mailto:cyntia.cevasco@rebaza-alcazar.com" class="correo">cyntia.cevasco@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 247<br><br>
+							<br>T: 4425100 A: 247<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Manuel Ferreyros has a Bachelor degree in Law from Pontificia Universidad Cat&oacute;lica del Per&uacute;.&nbsp;</p>
@@ -2812,34 +1966,14 @@ layout: default_en
 						<p>
 							Manuel has worked as an intern in Bullard Falla Ezcurra + Abogados as well as Shoschana Zusman Abogados.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="marciaarel" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Marcia Arellano <small>Asociad</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/Marcia.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_30' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="arearestructuracion.html">Reestructuración e Insolvencias Empresariales</a>
+									 <a class="nohover" href="arearestructuracion">Reestructuración e Insolvencias Empresariales</a>
 								</ul>
 				            </div>
 				        </li>
@@ -2863,7 +1997,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -2871,10 +2005,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Laura San Miguel<br>
 						<a href="mailto:laura.sanmiguel@rebaza-alcazar.com" class="correo">laura.sanmiguel@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 238<br><br>
+							<br>T: 4425100 A: 238<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Marcia Arellano Meza has a bachelor&rsquo;s law degree issued by Universidad de Lima with a magna cum laude&nbsp;mention.</p>
@@ -2887,34 +2021,14 @@ layout: default_en
 						<p>
 							He has made law practices at the Commission of Insolvency Proceedings of the National Institute for the Defense of Competition and Protection of Intellectual Property (INDECOPI).</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="mariabedo" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">María del Carmen Bedoya <small>Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/Marita.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_31' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="arearestructuracion.html">Reestructuración e Insolvencias Empresariales</a>
+									 <a class="nohover" href="arearestructuracion">Reestructuración e Insolvencias Empresariales</a>
 								</ul>
 				            </div>
 				        </li>
@@ -2941,7 +2055,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -2950,10 +2064,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Cynthia Cevasco<br>
 						<a href="mailto:cynthia.cevasco@rebaza-alcazar.com" class="correo">cynthia.cevasco@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 247<br><br>
+							<br>T: 4425100 A: 247<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Maria del Carmen has a Law degree from the Pontificia Universidad Catolica del Peru, with the highest mention and graduated among the top of her class.</p>
@@ -2970,40 +2084,20 @@ layout: default_en
 						<p>
 							She speaks fluidly Spanish and English.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="mariasanc" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">María del Pilar Sanchez <small>Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/MariadelPilar.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_32' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areamercado.html">Capital Markets</a>
+									 <a class="nohover" href="areamercado">Capital Markets</a>
 								</ul>
 				            	<ul style="">
-									 <a class="nohover" href="areafinanciamientos.html">Financiamientos</a>
+									 <a class="nohover" href="areafinanciamientos">Financiamientos</a>
 								</ul>
 				            	<ul style="">
-									 <a class="nohover" href="arearegulacion.html">Regulación Financiera</a>
+									 <a class="nohover" href="arearegulacion">Regulación Financiera</a>
 								</ul>
 				            </div>
 				        </li>
@@ -3024,7 +2118,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -3033,40 +2127,16 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Nella Pacchioni<br>
 						<a href="mailto:nella.pacchioni@rebaza-alcazar.com" class="correo">nella.pacchioni@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 263<br><br>
+							<br>T: 4425100 A: 263<br><br></p>
 					</article>
-				</div>
-				<div class="col-sm-12 col-xs-12">
-					<article class="news-socios">
-					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="mariagade" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">María Fernanda Gadea <small>Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/mafer.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_33' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areafunciones.html">Mergers and Acquisitions</a>
+									 <a class="nohover" href="areafunciones">Mergers and Acquisitions</a>
 								</ul>
 				            </div>
 				        </li>
@@ -3087,7 +2157,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -3096,10 +2166,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">María Sofia León<br>
 						<a href="mailto:mariasofia.leon@rebaza-alcazar.com" class="correo">mariasofia.leon@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 254<br><br>
+							<br>T: 4425100 A: 254<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Mar&iacute;a Fernanda Gadea is a graduate lawyer from Universidad de Lima, having earned her degree with honors &ndash;<em>summa cum laude</em>- and ranked top five in the Law School.</p>
@@ -3141,36 +2211,14 @@ layout: default_en
 						<p>
 							She is fluent in Spanish and English.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-
-
-<div class="modal fade" id="martinlaros" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Martín La Rosa <small>Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-					<img src="../images/asociados/MartinLaRosa.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_34' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areatributario.html">Tax</a>
+									 <a class="nohover" href="areatributario">Tax</a>
 								</ul>
 				            </div>
 				        </li>
@@ -3190,7 +2238,7 @@ layout: default_en
 						</li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -3199,10 +2247,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Gabriela Jiménez<br>
 						<a href="mailto:gabriela.jimenez@rebaza-alcazar.com" class="correo">gabriela.jimenez@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 250<br>
+							<br>T: 4425100 A: 250<br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>Martín La Rosa is a graduate lawyer from Universidad Peruana de Ciencias Aplicadas, and was ranked in first place in the Law School.</p>
 						<p>His practice is focused in tax counsel, both for local and foreign companies, related to M&A transactions, financing, investments and advisement regarding administrative procedures.</p>
@@ -3210,37 +2258,15 @@ layout: default_en
 						<p>Martín has been intern in Rebaza, Alcázar & De Las Casas Abogados Financieros and in
 						Estudio Gálvez Abogados.</p>
 						<p>He speaks fluidly Spanish and English.</p>
-						<p>&nbsp;</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-
-<div class="modal fade" id="melisabush" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Melisa Bush <small>Asociada Senior</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/melisabush.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_35' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areatributario.html">Tax</a>
+									 <a class="nohover" href="areatributario">Tax</a>
 								</ul>
 				            </div>
 				        </li>
@@ -3261,7 +2287,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -3270,10 +2296,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Ofelia Ramirez<br>
 						<a href="mailto:ofelia.ramirez@rebaza-alcazar.com" class="correo">ofelia.ramirez@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 273<br><br>
+							<br>T: 4425100 A: 273<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Melisa Bush is a graduate lawyer from the Universidad de Lima. Her practice is focused on Taxation</p>
@@ -3284,40 +2310,20 @@ layout: default_en
 						<p>
 							She is fluent in Spanish and English and has working knowledge of German.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="mirkomedi" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Mirko Medic <small>Asociado</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/Mirko2.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_36' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areafunciones.html">Mergers and Acquisitions</a>
+									 <a class="nohover" href="areafunciones">Mergers and Acquisitions</a>
 								</ul>
 				            	<ul style="">
-									 <a class="nohover" href="areafinanciamientos.html">Financiamientos</a>
+									 <a class="nohover" href="areafinanciamientos">Financiamientos</a>
 								</ul>
 				            	<ul style="">
-									 <a class="nohover" href="areaconseciones.html">Concesiones y Proyectos Financieros</a>
+									 <a class="nohover" href="areaconseciones">Concesiones y Proyectos Financieros</a>
 								</ul>
 				            </div>
 				        </li>
@@ -3338,7 +2344,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -3347,10 +2353,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Ofelia Ramirez<br>
 						<a href="mailto:ofelia.ramirez@rebaza-alcazar.com" class="correo">ofelia.ramirez@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 273<br><br>
+							<br>T: 4425100 A: 273<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Mirko Medic is a lawyer graduated from Universidad de Lima.</p>
@@ -3364,36 +2370,15 @@ layout: default_en
 							Mirko has been intern in Rebaza, Alc&aacute;zar &amp; De las Casas Abogados Financieros.</p>
 						<p>
 							He speaks fluently Spanish and English.</p>
-						</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="nataliagall" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Natalia Gallardo <small>Asociada Senior</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/nataliagalla.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_37' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areaconseciones.html">Concesiones y Proyectos Financieros</a>
+									 <a class="nohover" href="areaconseciones">Concesiones y Proyectos Financieros</a>
 								</ul>
 				            </div>
 				        </li>
@@ -3424,7 +2409,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -3433,10 +2418,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Andrea Lietzenmayer<br>
 						<a href="mailto:Andrea.lietzenmayer @rebaza-alcazar.com" class="correo">Andrea.lietzenmayer @rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 263<br><br>
+							<br>T: 4425100 A: 263<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Natalia Gallardo is a graduate lawyer from Pontificia Universidad Cat&oacute;lica del Per&uacute;, having earned her degree with honors - cum laude-. Natalia holds a Master Degree in Public Law (LL.M.) from The London School of Economics and Political Science. Additionally, Natalia holds a certificate in Regulated Public Services in Public Private Partnerships from Universidad del Pac&iacute;fico (UP).</p>
@@ -3472,36 +2457,15 @@ layout: default_en
 							&middot; &nbsp;Advice to APM Terminals B.V. in the international bid for granting of the concession of the Specialized Container Terminal and General Cargo Gate Cortes (Honduras) (estimated investment of US$ 624 million).</p>
 						<p style="margin-left:36.0pt;">
 							&middot; Advice to APM Terminals B.V. (Netherlands), Callao Port Holding B.V. (Netherlands) and Central Portuaria S.A. (Peru) which were awarded with the concession for the design, build, finance, maintain and operate the Northern Pier of the Port of Callao &ndash; Lima (estimated investment of US$ 750 million).&nbsp;</p>
-						</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="omardiaz" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Omar Díaz <small>Senior Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/omar.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_38' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="arealaboral.html">Laboral</a>
+									 <a class="nohover" href="arealaboral">Laboral</a>
 								</ul>
 				            </div>
 				        </li>
@@ -3533,7 +2497,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100 A: 285<br>
@@ -3542,10 +2506,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Cyntia Cevasco<br>
 						<a href="mailto:cyntia.cevasco@rebaza-alcazar.com" class="correo">cyntia.cevasco@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 247<br><br>
+							<br>T: 4425100 A: 247<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Omar is a graduate lawyer from the National University of San Marcos, with a Master&#39;s Degree in Labor Law and Social Security. Admitted to the Lima Bar.</p>
@@ -3556,37 +2520,17 @@ layout: default_en
 						<p>
 							He speaks fluently Spanish and English.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="pamelaarce" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Pamela Arce <small>Asociada Senior</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/PamelaArce.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_39' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="arearestructuracion.html">Reestructuración e Insolvencias Empresariales</a>
+									 <a class="nohover" href="arearestructuracion">Reestructuración e Insolvencias Empresariales</a>
 								</ul>
 			            	<ul style="">
-									 <a class="nohover" href="areafinanciamientos.html">Financiamientos</a>
+									 <a class="nohover" href="areafinanciamientos">Financiamientos</a>
 								</ul>
 				            </div>
 				        </li>
@@ -3609,7 +2553,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -3618,10 +2562,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Laura San Miguel<br>
 						<a href="mailto:laura.sanmiguel@rebaza-alcazar.com" class="correo">laura.sanmiguel@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 238<br><br>
+							<br>T: 4425100 A: 238<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Pamela Arce is a graduate lawyer from Universidad de Lima with amagna cum laude&nbsp;mention</p>
@@ -3636,34 +2580,14 @@ layout: default_en
 						<p>
 							She speaks fluently Spanish and English.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="pedrodiaz" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Pedro Díaz Medina <small>Asociado</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/Pedro2.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_40' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areamercado.html">Capital Markets</a>
+									 <a class="nohover" href="areamercado">Capital Markets</a>
 								</ul>
 				            </div>
 				        </li>
@@ -3689,7 +2613,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -3698,10 +2622,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Jimena Vega<br>
 						<a href="mailto:jimena.vega@rebaza-alcazar.com" class="correo">jimena.vega@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 263<br><br>
+							<br>T: 4425100 A: 263<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Pedro Diaz is a graduated lawyer from Pontificia Universidad Cat&oacute;lica del Per&uacute; specialized in securities and financial regulation. He has two PGD in financial management and securities market from CENTRUM and ESAN University respectively and is a CFA Claritas Investment Certificate holder.&nbsp; &nbsp;</p>
@@ -3712,34 +2636,14 @@ layout: default_en
 						<p>
 							He is fluent in Spanish and English.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="pilarhuam" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Pilar Huamán De Los Heros <small>Asociado</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/Pilar1.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_41' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areatributario.html">Tax</a>
+									 <a class="nohover" href="areatributario">Tax</a>
 								</ul>
 				            </div>
 				        </li>
@@ -3766,7 +2670,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100 <br>
@@ -3775,10 +2679,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Gabriela Jimenez<br>
 						<a href="mailto:gabriela.jimenez@rebaza-alcazar.com" class="correo">gabriela.jimenez@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 250<br><br>
+							<br>T: 4425100 A: 250<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Pilar Huam&aacute;n de los Heros is a graduate lawyer from University of Lima and specializes in Tax Law. Pilar has post graduate studies in Facultad Ram&oacute;n Llul, ESADE in Barcelona, Espa&ntilde;a.</p>
@@ -3791,34 +2695,14 @@ layout: default_en
 						<p>
 							She speaks fluently Spanish and English.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="rafaelrull" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Rafael  Lulli <small>Asociado</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/rafaellulli.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_42' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areafunciones.html">Mergers and Acquisitions</a>
+									 <a class="nohover" href="areafunciones">Mergers and Acquisitions</a>
 								</ul>
 				            </div>
 				        </li>
@@ -3836,7 +2720,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100 A: 242<br>
@@ -3845,10 +2729,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">María Fernanda Aguirre<br>
 						<a href="mailto:mariafernanda.aguirre@rebaza-alcazar.com" class="correo">mariafernanda.aguirre@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 221<br><br>
+							<br>T: 4425100 A: 221<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Rafael Lulli Meyer is a graduate lawyer from Universidad de Lima, and was ranked in the top tenth of the Law School. He completed a semester abroad studying Corporate Law in the Universidad de Zaragoza, Spain.</p>
@@ -3859,8 +2743,6 @@ layout: default_en
 						<ul>
 							<li>
 								Advice to the shareholders of Congelada Peruana del Pac&iacute;fico S.A., in the sale of 100% of the shares of the company to diverse national and foreign investors.</li>
-						</ul>
-						<ul>
 							<li>
 								Advice Hudbay Minerals and Hudbay Peru refinancing the US$ 200 million working capital and cost overrun facility for the development of the Constancia Copper Mine.</li>
 						</ul>
@@ -3869,34 +2751,14 @@ layout: default_en
 						<p>
 							He speaks fluidly English and Spanish.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="ricardocarr" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Ricardo Carrillo <small>Senior Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/RicardoCa2.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_43' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="arealitigios.html">Strategies and Conflict Resolution</a>
+									 <a class="nohover" href="arealitigios">Strategies and Conflict Resolution</a>
 								</ul>
 				            </div>
 				        </li>
@@ -3916,7 +2778,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -3925,10 +2787,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Cyntia Cevasco<br>
 						<a href="mailto:cyntia.cevasco@rebaza-alcazar.com" class="correo">cyntia.cevasco@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 247<br><br>
+							<br>T: 4425100 A: 247<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Ricardo is a graduated lawyer from the Universidad de Lima. He has specialized studies in national and international arbitration proceedings. He specializes in commercial and civil litigation, constitutional procedures, administrative proceedings before judicial courts, and national and international arbitration. &nbsp;<br />
@@ -3942,57 +2804,29 @@ layout: default_en
 						<ul>
 							<li>
 								F&aacute;brica de Productos Lave SRLtda. Vs. Quimpac: Legal defense of Quimpac in the judicial proceedings for the payment of US$ 1&rsquo;750,000.00 for compensation.</li>
-						</ul>
-						<ul>
 							<li>
 								NOVAPERU SAC vs. Dexim S.R.L.: legal defense of NOVAPERU in the arbitration proceedings for the execution of a penalty clause of US$ 500,000.00 for breach of contract.</li>
-						</ul>
-						<ul>
 							<li>
 								Corporaci&oacute;n Peruana de Aeropuertos S.A. vs. Lima Airport Partners SRL (LAP): legal defense of LAP in the arbitration proceedings for breach of contract and compensation for damages of US$ 2&rsquo;500,000.00.</li>
-						</ul>
-						<ul>
 							<li>
 								Ministry of Transport and Communications Vs. Sociedad Agr&iacute;cola San Agust&iacute;n S.A.: legal defense of a group of farmers in the arbitration proceedings for the expropriation of their lands for the expansion of the Jorge Chavez International Airport; achieving a transaction with the Ministry for S/. 128&rsquo;000,000.00.</li>
-						</ul>
-						<ul>
 							<li>
 								Blue Orbis Limited and Season Group SAC Vs. Comercializadora Llantas Unidas SAS: legal defense of Blue Orbis and Season Group SAC in the arbitration proceedings for the declaration of ineffectiveness of a contract and compensation for damages, achieving the restitution of the effectiveness of a shareholders agreement and the payment of an important sum of money as compensation for damages. &nbsp;</li>
 						</ul>
 						<p>
 							He speaks English and Spanish.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="ricardocard" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Ricardo Cárdenas <small>Senior Associate</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/RicardoCardenas.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_44' => '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="arearestructuracion.html">Reestructuración e Insolvencias Empresariales</a>
+									 <a class="nohover" href="arearestructuracion">Reestructuración e Insolvencias Empresariales</a>
 								</ul>
 				            	<ul style="">
-									 <a class="nohover" href="areafinanciamientos.html">Financiamientos</a>
+									 <a class="nohover" href="areafinanciamientos">Financiamientos</a>
 								</ul>
 				            </div>
 				        </li>
@@ -4012,7 +2846,7 @@ layout: default_en
 					</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100<br>
@@ -4021,10 +2855,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">Laura San Miguel<br>
 						<a href="mailto:laura.sanmiguel@rebaza-alcazar.com" class="correo">laura.sanmiguel@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 238<br><br>
+							<br>T: 4425100 A: 238<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Ricardo C&aacute;rdenas is a graduate lawyer from the Law School of the Pontificia Universidad Catolica del Peru. His practice is focused in Corporate Reorganization and Bankruptcy.</p>
@@ -4037,34 +2871,14 @@ layout: default_en
 						<p align="justify">
 							He speaks fluently Spanish and English.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="sebastiandela" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Sebastian De La Puente <small>Asociado</small></h6>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<div class="col-sm-4 col-xs-12">
-					<article class="news-socios">
-						<img src="../images/asociados/Sebas2.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">Download Bio</p>
-					</article>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+     'modal_45'=> '<div class="col-sm-4">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areafunciones.html">Mergers and Acquisitions</a>
+									 <a class="nohover" href="areafunciones">Mergers and Acquisitions</a>
 								</ul>
 				            </div>
 				        </li>
@@ -4080,7 +2894,7 @@ layout: default_en
 						</div></li>
 					</ul>
 				</div >
-				<div class="col-sm-8 col-xs-12">
+				<div class="col-sm-8">
 					<article class="news-socios">
 						<p class="txtblue text-bold">Lima Office</p>
 						<p class="sinespacio">T: 4425100 A: 340<br>
@@ -4089,10 +2903,10 @@ layout: default_en
 						<p class="txtblue text-bold">Secretary</p>
 						<p class="sinespacio">María Fernanda Aguirre<br>
 						<a href="mailto:mariafernanda.aguirre@rebaza-alcazar.com" class="correo">mariafernanda.aguirre@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 221<br><br>
+							<br>T: 4425100 A: 221<br><br></p>
 					</article>
 				</div>
-				<div class="col-sm-12 col-xs-12">
+				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>
 							Sebastian de la Puente is a graduate lawyer from Universidad del Pac&iacute;fico, and was ranked in second place in the Law School. He holds studies in Commercial Law from the London School of Economics and Political Science (LSE) and has completed a semester abroad in the Pontificia Universidad de Comillas de Madrid, Spain.</p>
@@ -4116,34 +2930,14 @@ layout: default_en
 						<p>
 							He is fluent in Spanish and English.</p>
 					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				</div>',
 
-<div class="modal fade" id="sofiabrice" tabindex="-1" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-	<div class="modal-content row">
-		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Sofía Briceño <small>Asociada Senior</small></h6>
-			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-			</button>
-		</div>
-		<div class="modal-body">
-			<div class="col-sm-4 col-xs-12">
-				<article class="news-socios">
-					<img src="../images/asociados/SofiaBriceño.jpg" alt="Image" class="img-responsive img-center-xs">
-					<p class="txtblue text-bold">Download Bio</p>
-				</article>
-			</div>
-			<div class="col-sm-4 col-xs-12">
+     'modal_46'=> '<div class="col-sm-4">
 				<ul class="accordion">
 					<li class="current"><a href="#">Practices</a>
 			            <div class="bloqueMostrar">
 			            	<ul style="">
-								 <a class="nohover" href="arealaboral.html">Laboral</a>
+								 <a class="nohover" href="arealaboral">Laboral</a>
 							</ul>
 			            </div>
 			        </li>
@@ -4164,7 +2958,7 @@ layout: default_en
 					</div></li>
 				</ul>
 			</div>
-			<div class="col-sm-8 col-xs-12">
+			<div class="col-sm-8">
 				<article class="news-socios">
 					<p class="txtblue text-bold">Lima Office</p>
 					<p class="sinespacio">T: 4425100<br>
@@ -4173,10 +2967,10 @@ layout: default_en
 					<p class="txtblue text-bold">Secretary</p>
 					<p class="sinespacio">Cyntia Cevasco<br>
 					<a href="mailto:cyntia.cevasco@rebaza-alcazar.com" class="correo">cyntia.cevasco@rebaza-alcazar.com</a>
-					<br>T: 4425100 A: 247<br><br>
+						<br>T: 4425100 A: 247<br><br></p>
 				</article>
 			</div>
-			<div class="col-sm-12 col-xs-12">
+			<div class="col-sm-12">
 				<article class="news-socios">
 					<p>
 						Sofia is a lawyer graduated from the University of Lima. Her areas of specialization are Labor &amp; Employment Law and Labor Litigation.</p>
@@ -4189,8 +2983,5 @@ layout: default_en
 					<p>
 						He speaks fluently Spanish and English.</p>
 				</article>
-			</div>
-		</div>
-	</div>
-</div>
-</div>
+			</div>'
+ ];
