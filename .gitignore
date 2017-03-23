@@ -3,4 +3,5 @@
 .env
 .idea
 /public/images/articles/
+/public/cv/
 /_site/

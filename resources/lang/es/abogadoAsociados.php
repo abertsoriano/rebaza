@@ -50,7 +50,7 @@
 				<div class="col-sm-12">
 					<article class="news-socios">
 						<p>Alejandra Galvez es egresada de la Universidad de Lima, donde ha culminado su carrera ubicada en el Quinto Superior de su promoción.</p>
-						<p>Su práctica se enfoca en asesoría en procesos de promoción de inversión privada y contratación pública. Alejandra ha participado en la asesoría para la elaboración, presentación y tramitación de iniciativas privadas, así como en la absolución de consultas a entidades públicas y a empresas del sector privado en materia de contrataciones con el Estado. También ha asesorado a empresas del sector privado en concursos y licitaciones públicas así como en procedimientos impugnatorios ante el Organismo Supervisor de Contrataciones con el Estado.</p>
+						<p>Su práctica se enfoca en asesoría en procesos de promoción de inversión privada y contratación pública. Alejandra ha participado en la asesoría para la elaboración, presentación y tramitación de iniciativas privadas, así como en la absolución de consultas a entidades públicas y a empresas del sector privado en materia de contrataciones con el Estado. También ha asesorado a empresas del sector privado en concursos y licitaciones públicas así como en procedimientos impugnatorios ante el Organismo Supervisor de Contrataciones del Estado.</p>
 						<p>Alejandra realizó sus prácticas pre-profesionales en el Área Regulatoria del Estudio Echecopar y en Rebaza, Alcázar & De las Casas. Asimismo, como alumna fue Presidenta del Consejo Directivo de la Revista Advocatus, revista editada por los alumnos de la Facultad de Derecho de la Universidad de Lima.</p>
 						<p>Habla fluidamente Español e Inglés.</p>
 					</article>
@@ -229,7 +229,7 @@
 						<li class="current"><a href="#">Áreas</a>
 				            <div class="bloqueMostrar">
 				            	<ul>
-									 <a class="nohover" href="areamercado">Fusiones y Adquisiciones</a>
+									 <li><a href="areacorporativo">Corporativo</a></li>
 								</ul>
 				            </div>
 				        </li>
@@ -382,7 +382,6 @@
 						<p>Particip&oacute; del grupo de trabajo &quot;An&aacute;lisis de la Jurisprudencia del Tribunal Constitucional&quot;, promovido por Justicia Viva y el Departamento Acad&eacute;mico de la Pontificia Universidad Cat&oacute;lica del Per&uacute; &ndash; PUCP.</p>
 						<p>Es miembro activo del Instituto Peruano de Derecho Tributario (IPDT). Asimismo, es miembro de la asociaci&oacute;n civil Ius Et Veritas, habiendo formado parte del Consejo Directivo de la referida asociaci&oacute;n.</p>
 						<p>Ha publicado art&iacute;culos relacionados con temas tributarios en revistas jur&iacute;dicas especializadas.</p>
-						<p>Antes de formar parte de nuestro Estudio ha sido Abogado Tributarista (Responsable) del &Aacute;rea Financiera de Odebrecht Latinvest (Matriz); asimismo ha sido asociado del &aacute;rea tributaria del Estudio Benites, Forno &amp; &Uacute;gaz Abogados y miembro del &aacute;rea de Business Tax Advice de EY Per&uacute;.</p>
 					</article>
 				</div>',
 
@@ -719,7 +718,8 @@
 						<li class="current"><a href="#">Áreas</a>
 				            <div class="bloqueMostrar">
 				            	<ul>
-									 <a class="nohover" href="areamineria">Minería</a>
+									 <li><a href="areamineria">Minería</a></li>
+									 <li><a href="areacorporativo">Corporativo</a></li>
 								</ul>
 				            </div>
 				        </li>
@@ -968,16 +968,23 @@
 				</div>
 				<div class="col-sm-12">
 					<article class="news-socios">
-						<p>
-							Daniela Urquiza es abogada egresada de la Universidad de Lima, summa cum laude, e integra el &aacute;rea tributaria de nuestro Estudio.<br />
-							<br />
-							Su pr&aacute;ctica se enfoca en asesor&iacute;a en materia tributaria, principalmente en operaciones de fusiones y adquisiciones, financiamientos, planeamiento tributario, estructuraci&oacute;n de inversiones y fideicomisos, tanto domiciliados como extranjeros.<br />
-							<br />
-							Daniela es miembro de la Asociaci&oacute;n Civil ADV Editores, la misma que edita la revista jur&iacute;dica ADVOCATUS. Como estudiante de intercambio, llev&oacute; cursos de derecho comercial y transacciones internacionales en Univerzita Karlova (Praga).<br />
-							<br />
-							Antes de su incorporaci&oacute;n a Rebaza, Alc&aacute;zar &amp; De Las Casas Abogados Financieros, Daniela fue miembro del &aacute;rea tributaria del Estudio Barrios &amp; Fuentes Abogados y Benites, Forno &amp; Ugaz Abogados.</p>
-						<p>
-							Habla fluidamente espa&ntilde;ol, ingl&eacute;s y alem&aacute;n.</p>
+						<p>Daniela Urquiza es abogada egresada de la Universidad de Lima, summa cum laude, e integra el área tributaria y de private clients de nuestro Estudio.</p>
+						<p>Su práctica se enfoca en asesoría en materia tributaria, principalmente en planeamiento tributario para inversiones extranjeras y nacionales, aspectos tributarios en fusiones y adquisiciones, transacciones internacionales, financiamientos,  estructuración de fideicomisos (domiciliados y extranjeros). Asimismo, Daniela se especializa en diseñar y desarrollar estructuras eficientes para individuos o empresas con altos patrimonios, preservando la protección de los activos y el cumplimiento con las obligaciones tributarias que correspondan.</p>
+						<p>Entre las transacciones en las que ha participado en los últimos años se encuentran las siguientes:</p>
+						<br>
+						<ul>
+                            <li>Asesoría tributaria (estructuración y tax compliance) en el Contrato de Streaming celebrado por Milpo UK Limited (subsidiaria de Compañía Minera Milpo S.A.A.) y Triple Flag Mining Finance Bermuda Ltd. Por US$ 250 millones.
+                            <li>Asesoría vinculada a los aspectos tributarios en la venta del 50% de la participación en Acceso Crediticio por US$ 51 millones.</li>
+                            <li>Asesoría a Ambev Perú y a sus accionistas en la venta de las acciones a favor de a una subsidiaria de la belga-brasileña Anheuser-Busch InBev (AB InBev), operación parte del proceso de fusión de AB InBev y de SABMiller, por un monto de USD 106.000 millones.</li>   
+                            <li>Asesoría en la determinación de la estructura tributaria más eficiente para la compra de la mina Contonga por parte de Glencore Plc, por un monto de US$ 26 millones.</li> 
+                            <li>Asesoría tributaria y estructuración de fondos de inversión administrados por SIGMA SAFI, AC Capitales SAFI, W Capital SAFI, Blanco SAFI, entre otros.</li>
+                            <li>Estructuración de fideicomisos para administración de patrimonios familiares. Asesoría a inversionistas peruanos sobre la aplicación del Régimen de Transparencia Fiscal Internacional.</li>
+                            <li>Asesoría integral en el acogimiento al Régimen de Recuperación Anticipada del IGV a Compañía Estacionamientos Miraflores y a Hidroeléctrica Marañon.</li>
+                            <li>Asesoría integral en la obtención del Certificado de Recuperación de Capital Invertido por diversas empresas extranjeras.</li>
+                            <li>Asesoría pro bono a Asociaciones Sin Fines de Lucro (Eres Único, SHIFT, Hoseg, NESsT Perú, Asociación Para el Squash, entre otros) en temas vinculados a la exoneración del Impuesto a la Renta, calificación como entidad perceptora de donaciones, cumplimiento de obligaciones tributarias, entre otros.</li>
+                        </ul>
+                        <p>Daniela es miembro de la Asociación Civil ADV Editores, la misma que edita la revista jurídica ADVOCATUS. Como estudiante de intercambio, llevó cursos de derecho comercial y transacciones internacionales en Univerzita Karlova (Praga).</p>
+                        <p>Habla fluidamente español, inglés y alemán.</p>
 					</article>
 				</div>',
 
@@ -2058,14 +2065,9 @@
 							<li>
 								Asesor&iacute;a a Cosapi S.A. en la venta de Cosapi Data y Cosapi Soft a favor del fondo de inversi&oacute;n colombiano Altra Investments.</li>
 						</ul>
-						<p>
-							PROJECT FINANCE</p>
+						<p>PROJECT FINANCE</p>
 						<ul>
-							<li>
-								Asesor&iacute;a a Odebrecht en la obtenci&oacute;n del financiamiento por US$ 181 millones para el desarrollo del Gasoducto del Sur Peruano.<br />
-								&nbsp;</li>
-							<li>
-								Asesor&iacute;a a Hudbay Per&uacute; y Hudbay Minerals en la obtenci&oacute;n del financiamiento por US$ 150 millones para el desarrollo del Proyecto Minero &ldquo;Constancia&rdquo; en el sur del Per&uacute;.</li>
+							<li>Asesor&iacute;a a Hudbay Per&uacute; y Hudbay Minerals en la obtenci&oacute;n del financiamiento por US$ 150 millones para el desarrollo del Proyecto Minero &ldquo;Constancia&rdquo; en el sur del Per&uacute;.</li>
 						</ul>
 						<p>
 							Actualmente es asistente de c&aacute;tedra del curso Derecho Comercial en la Universidad de Lima.</p>
@@ -2082,8 +2084,8 @@
 					<ul class="accordion">
 						<li class="current"><a href="#">Áreas</a>
 				            <div class="bloqueMostrar">
-				            	<ul style="">
-									 <a class="nohover" href="areatributario">Tributario</a>
+				            	<ul>
+									 <li><a href="areacorporativo">Corporativo</a></li>
 								</ul>
 				            </div>
 				        </li>
@@ -2688,10 +2690,9 @@
 						<li class="current"><a href="#">Áreas</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="arearestructuracion">Reestructuración e Insolvencias Empresariales</a>
-								</ul>
-				            	<ul style="">
-									 <a class="nohover" href="areafinanciamientos">Financiamientos</a>
+									 <li><a href="arearestructuracion">Reestructuración e Insolvencias Empresariales</a></li>
+									 <li><a href="areafinanciamientos">Financiamientos</a></li>
+									 <li><a href="areacorporativo">Corporativo</a></li>
 								</ul>
 				            </div>
 				        </li>

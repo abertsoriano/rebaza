@@ -268,8 +268,8 @@
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
-				            	<ul style="">
-									 <a class="nohover" href="areamercado">Capital Markets</a>
+				            	<ul>
+									 <li><a href="areacorporativo">Corporate</a></li>
 								</ul>
 				            </div>
 				        </li>
@@ -590,12 +590,7 @@
 							His practice focuses on providing legal advice in all aspects related to labor matters such as hiring and termination of employment, design of salary and wage structures, labor cost reduction, labor law aspects of mergers and acquisitions and corporate reorganizations, participation in labor inspection procedures, among others. He also assists and represents clients in labor-related disputes.</p>
 						<p>
 							Carlos has been teaching assistant of General Labor Law, Special Labor Law, Seminar on Integration of Labor Law and International Labor Law at Pontificia Universidad Cat&oacute;lica del Peru.</p>
-						<p>
-							He is also a former member of the Board of Directors of IUS ET VERITAS, law students&rsquo; association from Pontificia Universidad Cat&oacute;lica del Per&uacute; Law School.</p>
-						<p>
-							Before joining Rebaza, Alc&aacute;zar &amp; De Las Casas, Carlos was a senior consultant of the Labor Department (People Advisory Services) at EY Per&uacute; (Ernst &amp; Young). Previously, he has been intern of the Labor Department at Estudio Rubio Legu&iacute;a Normand.</p>
-						<p>
-							He speaks fluidly Spanish and English.</p>
+						<p>He is also a former member of the Board of Directors of IUS ET VERITAS, law students&rsquo; association from Pontificia Universidad Cat&oacute;lica del Per&uacute; Law School.</p>
 					</article>
 				</div>',
 
@@ -861,7 +856,8 @@
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areamineria">Minería</a>
+									 <li><a href="areamineria">Mining</a></li>
+									 <li><a href="areacorporativo">Corporate</a></li>
 								</ul>
 				            </div>
 				        </li>
@@ -2195,12 +2191,8 @@
 							<li>
 								Advice to Cosapi S.A. in the sale of its IT arms (Cosapi Data, Cosapi Soft and Computer Doctor) to an international private equity fund, Altra Investments.</li>
 						</ul>
-						<p>
-							PROJECT FINANCE</p>
+						<p>PROJECT FINANCE</p>
 						<ul>
-							<li>
-								Advice Odebrecht in the US$ 181 million loan for the development of the South Gas Pipeline in Per&uacute;.<br />
-								&nbsp;</li>
 							<li>
 								Advice Hudbay Minerals and Hudbay Peru in the US$ 150 million working capital and cost overrun facility for the development of the Constancia Copper Mine.She is assistant professor of Corporate Law at Universidad de Lima.</li>
 						</ul>
@@ -2218,7 +2210,7 @@
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areatributario">Tax</a>
+									 <li><a href="areacorporativo">Corporate</a></li>
 								</ul>
 				            </div>
 				        </li>
@@ -2822,11 +2814,10 @@
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
-				            	<ul style="">
-									 <a class="nohover" href="arearestructuracion">Reestructuración e Insolvencias Empresariales</a>
-								</ul>
-				            	<ul style="">
-									 <a class="nohover" href="areafinanciamientos">Financiamientos</a>
+				            	<ul>
+				            	    <li><a href="arearestructuracion">Corporate Reorganization and Bankruptcy</a></li>
+				            	    <li><a href="areafinanciamientos">Financings</a></li>
+				            	    <li><a href="areacorporativo">Corporate</a></li>
 								</ul>
 				            </div>
 				        </li>

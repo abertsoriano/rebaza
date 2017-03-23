@@ -1004,7 +1004,6 @@ return [
                         <p>Juan Jos&eacute; C&aacute;rdenas es Socio Principal de Rebaza, Alc&aacute;zar &amp; De Las Casas Abogados. Durante su trayectoria profesional, ha acumulado una vasta experiencia en asesor&iacute;a regulatoria y en materia de concesiones bajo la modalidad de APPs, tanto a empresas del sector privado local e internacional, como a entidades p&uacute;blicas.</p>
                         <p>Socio a cargo del &aacute;rea de Concesiones y Proyectos de Asociaciones P&uacute;blico Privadas, ha liderado importantes proyectos y/o transacciones entre la que se encuentran las siguientes:</p>
                         <ul>
-                            <li>Asesor legal de Odebrecht como miembro (75%) del consorcio que se adjudic&oacute; la Buena Pro del Concurso de Proyectos Integrales para la entrega en Concesi&oacute;n del dise&ntilde;o, financiamiento, construcci&oacute;n, operaci&oacute;n, mantenimiento y transferencia del Proyecto Mejoras a la Seguridad Energ&eacute;tica del Pa&iacute;s y Desarrollo del Gaseoducto Sur Peruano. La inversi&oacute;n estimada es de US$ 4,000 MM. (2014)</li>
                             <li>Asesor legal del Consorcio Kuntur Wasi, conformado por Corporaci&oacute;n Am&eacute;rica S.A. y Andino Investment Holding S.A.A., quienes se adjudicaron la Buena Pro del Concurso de Proyectos Integrales para la entrega en Concesi&oacute;n al Sector Privado del dise&ntilde;o, construcci&oacute;n, financiamiento, administraci&oacute;n y operaci&oacute;n del nuevo Aeropuerto Internacional de Chinchero &ndash; Cusco (AICC). La inversi&oacute;n estimada es de US$ 658 MM. (2014)</li>
                             <li>Asesoramiento legal a DP WORLD a lo largo del Concurso de Proyectos Integrales para entregar en Concesi&oacute;n al Sector Privado el dise&ntilde;o, construcci&oacute;n financiamiento, conservaci&oacute;n y explotaci&oacute;n del Terminal Portuario General San Martin &ndash; Pisco, por un periodo de 30 a&ntilde;os. La inversi&oacute;n estimada es de US$ 102.4 MM. (2014)</li>
                             <li>Asesor&iacute;a legal a la Agencia de Promoci&oacute;n de la Inversi&oacute;n Privada &ndash; PROINVERSION, a trav&eacute;s del Consorcio Internacional ALATEC-CSI-SERMAN, quienes se adjudicaron la Buena Pro del Concurso P&uacute;blico para la Contrataci&oacute;n de un Asesor de Transacci&oacute;n, Evaluaci&oacute;n T&eacute;cnica, Econ&oacute;mica &ndash; Financiera y de Promoci&oacute;n para el Proceso de Promoci&oacute;n de la Inversi&oacute;n Privada del Proyecto:&ldquo;Hidrov&iacute;a Amaz&oacute;nica: r&iacute;os Mara&ntilde;on y Amazonas, tramo Saramiriza &ndash; Iquitos &ndash; Santa Rosa; r&iacute;o Huallaga, tramo Yurimaguas &ndash; Confluencia con el r&iacute;o Mara&ntilde;on; r&iacute;o Ucayali, tramo Pucallpa &ndash; Confluencia con el r&iacute;o Mara&ntilde;&oacute;n&rdquo;. La inversi&oacute;n estimada es de US$ 70 MM. (2013 &ndash; en curso)</li>
@@ -1073,9 +1072,8 @@ return [
                 </div>
                 <div class="col-sm-12">
                     <article class="news-socios">
-                        <p>Luis Miguel El&iacute;as es abogado por la Pontificia Universidad Cat&oacute;lica del Per&uacute; y cuenta con amplia experiencia en fusiones y adquisiciones, financiamientos y mercados de valores en el Per&uacute; y en la regi&oacute;n de Am&eacute;rica Latina.</p>
-                        <p>En adici&oacute;n a su experiencia profesional en nuestro estudio, Luis Miguel ha sido asociado internacional en la oficina de Nueva York de Simpson Thacher &amp; Bartlett LLP.</p>
-                        <p>Las siguientes son transacciones representativas, entre otras, en las que ha participado durante su ejercicio profesional.</p>
+                        <p>Luis Miguel Elías es abogado por la Pontificia Universidad Católica del Perú con experiencia en fusiones y adquisiciones, financiamientos y derecho minero. Luis Miguel ha asesorado a clientes nacionales e internacionales en la estrategia corporativa para ejecutar compras, inversiones, desinversiones, joint ventures, entre otros, en diversos sectores industriales. Asimismo, cuenta con expertise en transacciones de metal streaming, regalías mineras y asesoría en el desarrollo de proyectos mineros.</p>
+                        <p>En 2012 - 2013 Luis Miguel formó parte de Simpson Thacher & Bartlett LLP como asociado internacional en Nueva York.</p>
                         <br>
                         <div class="panel-group" role="tablist" aria-multiselectable="true" id="alberto-collapse">
                             <div class="panel panel-default">
@@ -1088,24 +1086,24 @@ return [
                                 <div class="panel-collapse collapse in" id="luiseli1" role="tabpanel" aria-labelledby="collapse-1">
                                     <div class="panel-body">
                                         <ul>
-                                            <li>Venta de un paquete estrat&eacute;gico en Hermes Transportes Blindados S.A. a favor de The Carlyle Group.</li>
-                                            <li>Venta de todos los activos de Ambev vinculados al negocio de bebidas no alcoh&oacute;licas en el Per&uacute; de la marca PepsiCo, incluyendo una planta de producci&oacute;n ubicada al norte del pa&iacute;s, a favor del grupo guatemalteco CBC.</li>
-                                            <li>Adquisici&oacute;n por el Grupo Wiese y Familia De Osma de un paquete estrat&eacute;gico en Hermes Transportes Blindados S.A. de propiedad de Brink&rsquo;s Inc.</li>
-                                            <li>Venta de un paquete mayoritario de acciones emitidas por Copeinca ASA de propiedad de Dyer &amp; Coriat Holding y asesor&iacute;a en la OPA por aproximadamente $800 millones lanzada por China Fishery Group en la Bolsa de Oslo y la Bolsa de Valores de Lima.</li>
-                                            <li>Opci&oacute;n de compra otorgada por Golden Target Pacific Limited y posterior adquisici&oacute;n de un paquete de acciones emitidas por Camposol Holding PLC, empresa agroindustrial listada en la Bolsa de Oslo a favor de Dyer &amp; Coriat Holding.</li>
+                                            <li>Venta de las acciones de Compañía Cervecera AmBev Perú por $64 millones a favor de una subsidiaria de AB InBev, en el marco del proceso de fusión e integración mundial de AB InBev con SABMiller.</li>
+                                            <li>Adquisición por Glencore de la unidad minera Contonga ubicada Ancash, como parte de la venta regional de activos mineros realizada por Nyrstar.</li>
+                                            <li>Venta por Grupo Wiese, Familia De Osma e Inversiones Centenario de un paquete de acciones mayoritario en Hermes Transportes Blindados S.A. a favor de The Carlyle Group.</li>
+                                            <li>Venta por AmBev Perú de una planta de producción y otros activos del negocio de bebidas no alcohólicas de la marca PepsiCo a favor del grupo guatemalteco CBC.</li>
+                                            <li>Adquisición por Grupo Wiese y Familia De Osma de un paquete de acciones estratégico en Hermes Transportes Blindados S.A. de propiedad de Brink’s Inc.</li>
+                                            <li>Venta de un paquete mayoritario de acciones emitidas por Copeinca ASA de propiedad de Dyer & Coriat Holding y asesoría en la OPA por aproximadamente $800 millones lanzada por China Fishery Group en la Bolsa de Oslo y la Bolsa de Valores de Lima.</li>
+                                            <li>Venta por Casa Saba de la totalidad de acciones en Farmacias Peruanas S.A. (FASA) a favor de Quicorp.</li>
+                                            <li>Opción de compra otorgada por Golden Target Pacific Limited y posterior adquisición de un paquete de acciones emitidas por Camposol Holding PLC, empresa agroindustrial listada en la Bolsa de Oslo a favor de Dyer & Coriat Holding.</li>
                                             <li>Venta de la totalidad de las acciones de Cosapi S.A. en Cosapi Data, Cosapi Soft y Computer Doctor a favor de Altra Investments.</li>
-                                            <li>Inversi&oacute;n en capital del fondo Aguafresca LTD. en la empresa CTG Capital S.A.C. para el desarrollo de proyectos de iniciativa privada para el tratamiento y saneamiento de aguas residuales.</li>
-                                            <li>Adquisici&oacute;n por parte de Cruz Blanca Salud de un paquete mayoritario de acciones en Anglolab, laboratorio privado de an&aacute;lisis cl&iacute;nicos y toma de muestras m&eacute;dicas.</li>
-                                            <li>Adquisici&oacute;n por parte de Cruz Blanca Salud de un paquete mayoritario de acciones en Resonancia Magn&eacute;tica S.A. - RESOMASA y en la posterior compra de la totalidad de las acciones como consecuencia del ejercicio de la opci&oacute;n de venta de los accionistas minoritarios.</li>
-                                            <li>Adquisici&oacute;n por parte del Grupo Brescia del negocio cementero en Chile del grupo franc&eacute;s Lafarge por $555 millones.</li>
-                                            <li>Adquisici&oacute;n por parte de The Bank of Nova Scotia de un paquete de acciones que otorgan el control de la administradora de fondo de pensiones Profuturo AFP S.A.</li>
-                                            <li>Proceso de venta de la totalidad de las acciones de Banco del Trabajo de propiedad de Grupo Altas Cumbres a favor de una empresa holding del Grupo Scotiabank.</li>
-                                            <li>Adquisici&oacute;n por parte del Grupo Mexicano Casa Saba de Farmacias Ahumada en M&eacute;xico, Per&uacute;, Brazil y Chile por aproximadamente $637 millones.</li>
-                                            <li>Adquisici&oacute;n por parte de Enfoca SAFI S.A. de un paquete de acciones y opci&oacute;n de capitalizaci&oacute;n en Oncosalud S.A.C.</li>
-                                            <li>Venta de la totalidad de acciones del Grupo Mexicano Casa Saba en Farmacias Peruanas S.A. - FASA y Droguer&iacute;a La Victoria S.A.C.</li>
-                                            <li>Adquisici&oacute;n por parte de ICT Group y AN&amp;N Investment, compa&ntilde;&iacute;as de telecomunicaciones de capitales rusos, del control de la empresa Yota del Per&uacute;, titular de concesiones de internet por banda ancha y operador de la marca Olo.</li>
-                                            <li>Venta de un paquete mayoritario de acciones de Peru.com y posterior ejercicio de la opci&oacute;n de venta de la totalidad de acciones a favor de una empresa del Grupo El Comercio.</li>
-                                            <li>Adquisici&oacute;n por parte de Enfoca Descubridor 1 de un paquete de acciones en Cementos de Lima S.A.A. - Celima.</li>
+                                            <li>Inversión en capital del fondo privado Aguafresca Ltd. en la empresa CTG Capital S.A.C. para el desarrollo de proyectos de iniciativa privada para el tratamiento y saneamiento de aguas residuales.</li>
+                                            <li>Adquisición por Cruz Blanca Salud de un paquete mayoritario de acciones en Anglolab, laboratorio privado de análisis clínicos y toma de muestras médicas.</li>
+                                            <li>Adquisición por Grupo Brescia del negocio cementero en Chile del grupo francés Lafarge por $555 millones.</li>
+                                            <li>Adquisición por Cruz Blanca Salud de un paquete mayoritario de acciones en RESOMASA y en la posterior compra de la totalidad de las acciones como consecuencia del ejercicio de la opción de venta de los accionistas minoritarios.</li>
+                                            <li>Adquisición por The Bank of Nova Scotia de un paquete de acciones que otorgan el control de la administradora de fondo de pensiones Profuturo AFP S.A.</li>
+                                            <li>Venta de la totalidad de las acciones de Banco del Trabajo de propiedad de Grupo Altas Cumbres a favor de una empresa holding del Grupo Scotiabank.</li>
+                                            <li>Adquisición por Casa Saba de Farmacias Ahumada en México, Perú, Brazil y Chile por aproximadamente $637 millones.</li>
+                                            <li>Adquisición por Enfoca de un paquete de acciones y opción de capitalización en Oncosalud.</li>
+                                            <li>Venta de un paquete mayoritario de acciones de Peru.com y posterior ejercicio de la opción de venta de la totalidad de acciones a favor de una empresa del Grupo El Comercio.</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -1121,20 +1119,43 @@ return [
                                 <div class="panel-collapse collapse" id="luiseli2">
                                     <div class="panel-body">
                                         <ul>
-                                            <li>Financiamiento a la compa&ntilde;&iacute;a canadiense Hudbay otorgado por BNP Paribas por US$ 150 millones para la mina de cobre Constancia en el sudeste del Per&uacute;.</li>
-                                            <li>Financiamiento a Odebrecht por US$ 181 millones para el desarrollo del Gasoducto del Sur Peruano.</li>
-                                            <li>Financiamiento de BTG Pactual por US$25 millones a favor de Electro Dunas Cayman Holdings.</li>
-                                            <li>Financiamiento a GEPSA por US$ 100.1 millones para la construcci&oacute;n y operaci&oacute;n de tres proyectos de centrales hidroel&eacute;ctricas en el departamento de Puno, as&iacute; como el mantenimiento de una central hidroel&eacute;ctrica en Arequipa.</li>
-                                            <li>Financiamiento del International Finance Corporation (IFC), brazo financiero del World Bank Group por aproximadamente $217 millones a favor de APM Terminals Callao para la expansi&oacute;n del Terminal Norte Multiprop&oacute;sito del Muelle del Callao.</li>
-                                            <li>Financiamiento del IFC por aproximadamente $40 millones a favor de la Universidad Peruana de Ciencias Aplicadas - UPC, universidad privada del grupo Laureate de Educaci&oacute;n.</li>
-                                            <li>Financiamiento al Grupo Gloria y Yura S.A. por $50 millones otorgado por JPMorgan Chase Bank y The Bank of Tokyo-Mitsubishi UFJ, Ltd.</li>
-                                            <li>Emisi&oacute;n de CRPAOs por $45 millones por Deutsche Bank, en calidad de co-estructurador con la Corporaci&oacute;n Financiera de Desarrollo &ndash; COFIDE, para financiar la construcci&oacute;n y operaci&oacute;n de la carretera de Canchaque.</li>
-                                            <li>Financiamiento a Termotasajero S.A. E.S.P. y Termotasajero Dos S.A. E.S.P. por $315 millones otorgado por Banco Ita&uacute; BBA S.A. para la construcci&oacute;n de una planta de generaci&oacute;n el&eacute;ctrica de 161.6MW en San Cayetano, Colombia.</li>
-                                            <li>Refinanciamiento de C&iacute;a. Minera San Juan (CMSJ) frente a Natixis, y constituci&oacute;n de garant&iacute;as y regal&iacute;as mineras sobre las concesiones y otros activos de CMSJ.</li>
+                                            <li>Refinanciamiento por $200 millones otorgado por The Bank of Nova Scotia y otros prestamistas a HudBay Perú para el desarrollo de la unidad minera Constancia.</li>
+                                            <li>Financiamiento puente por $50 millones otorgado por Banco Santander a La Virgen S.A.C. para financiar parcialmente la construcción y desarrollo de una central hidroeléctrica en el departamento de Junín.</li>
+                                            <li>Financiamiento por $200 millones otorgado por The Bank of Nova Scotia y otros prestamistas a Goldfields La Cima para el desarrollo de las minas de oro y cobre de Cerro Corona ubicadas al oeste del Perú.</li>
+                                            <li>Financiamiento por $150 millones otorgado por BNP Paribas, ING Capital y otros prestamistas a HudBay Perú para la construcción y desarrollo del proyecto minero Constancia en el sudeste del Perú.</li>
+                                            <li>Financiamiento por $25 millones otorgado por BTG Pactual a favor de Electro Dunas Cayman Holdings.</li>
+                                            <li>Financiamiento por $100 millones otorgado por un grupo de prestamistas a GEPSA para la construcción y operación de tres proyectos de centrales hidroeléctricas en el departamento de Puno, así como el mantenimiento de una central hidroeléctrica en Arequipa.</li>
+                                            <li>Financiamiento por $217 millones otorgado por International Finance Corporation (IFC), brazo financiero del Banco Mundial, a APM Terminals Callao para la expansión del Terminal Norte Multipropósito del Muelle del Callao.</li>
+                                            <li>Financiamiento por $40 millones otorgado por IFC a favor de la Universidad Peruana de Ciencias Aplicadas - UPC, universidad privada del grupo Laureate de Educación.</li>
+                                            <li>Financiamiento por $50 millones otorgado por JPMorgan Chase Bank y The Bank of Tokyo-Mitsubishi al Grupo Gloria y Yura S.A.</li>
+                                            <li>Financiamiento por $315 millones otorgado por Banco Itaú BBA S.A. a Termotasajero S.A. E.S.P. y Termotasajero Dos S.A. E.S.P. para la construcción de una planta de generación eléctrica de 161.6MW en San Cayetano, Colombia.</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
+                            
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#alberto-collapse" href="#luiseli4" aria-expanded="true" aria-controls="compras-fuera">
+                                            <p class="txtblue text-bold">METAL STREAMING, REGALIAS Y TRANSACCIONES MINERAS</p>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div class="panel-collapse collapse" id="luiseli4">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>Asesoría a Compañía Minera Milpo en el silver stream por $250 millones con Triple Flag que toma como referencia la producción de la unidad minera Cerro Lindo.</li>
+                                            <li>Asesoría a Glencore en el metal stream por $900 millones con Silver Wheaton para la venta de parte de la producción futura de Compañía Minera Antamina.</li>
+                                            <li>Asesoría a HudBay Minerals en el precious metal stream con Silver Wheaton para la venta de la producción futura de la unidad minera Constancia.</li>
+                                            <li>Asesoría a Glencore en la adquisición de la mina Contonga y otros activos mineros de propiedad de la minera belga Nyrstar.</li>
+                                            <li>Asesoría a Pandion Mine Finance en la compra de la producción futura de oro por $6.1 millones del proyecto minero Invicta de Lupaka Gold.</li>
+                                            <li>Asesoría a Auramet Trading en la constitución de regalías mineras y garantías con cargo a los activos mineros de Compañía Minera San Juan.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab">
                                     <h4 class="panel-title">
@@ -1146,18 +1167,19 @@ return [
                                 <div class="panel-collapse collapse" id="luiseli3">
                                     <div class="panel-body">
                                         <ul>
-                                            <li>Asesor&iacute;a a Citigroup, JPMorgan, Morgan Stanley y BTG Pactual en la emisi&oacute;n inicial de 20,000,000 acciones de InRetail Per&uacute; Corp., holding de las empresas&nbsp;<em>retail</em>&nbsp;del Grupo Interbank, en los mercados internacionales.</li>
-                                            <li>Asesor&iacute;a a Sonda S.A., empresa chilena l&iacute;der en servicios de IT en Am&eacute;rica Latina, en la emisi&oacute;n de 53,046,657 acciones en los mercados internacionales, con la participaci&oacute;n de Goldman Sachs &amp; Co., BTG Pactual y Celfin Capital como estructuradores.</li>
-                                            <li>Asesor&iacute;a a Lima Airport Partners S.R.L. en la emisi&oacute;n de Global Notes por US$ 164 millones en los mercados internacionales.</li>
-                                            <li>Asesor&iacute;a a Aeropuertos Dominicanos Siglo XXI (Aerodom), operador aeroportuario controlado por la firma Advent International, en la emisi&oacute;n de deuda hasta por $550 millones en los mercados internacionales.</li>
-                                            <li>Asesor&iacute;a a BTG Pactual y Deutsche Bank en la emisi&oacute;n de deuda (<em>high yield</em>) realizada por SMU S.A. (Chile) hasta por $300 millones en los mercados internacionales.</li>
-                                            <li>Asesor&iacute;a a Copeinca en la emisi&oacute;n inaugural de deuda por $175 millones en los mercados internacionales.</li>
-                                            <li>Asesor&iacute;a al IFC en la primera emisi&oacute;n de bonos realizada por una instituci&oacute;n de microfinanzas peruana, Edpyme Edyficar.&nbsp;</li>
+                                            <li>Asesoría a HudBay Minerals Inc. en la emisión de Senior Unsecured Notes hasta por $1.0 billones en los mercados internacionales.</li>
+                                            <li>Asesoría a Citigroup, JPMorgan, Morgan Stanley y BTG Pactual en la emisión inicial de 20,000,000 acciones de InRetail Perú Corp., holding de las empresas retail del Grupo Intercorp, en los mercados internacionales.</li>
+                                            <li>Asesoría a Sonda S.A., empresa chilena líder en servicios de IT en América Latina, en la emisión de 53,046,657 acciones en los mercados internacionales, con la participación de Goldman Sachs & Co., BTG Pactual y Celfin Capital como estructuradores.</li>
+                                            <li>Asesoría a Lima Airport Partners S.R.L. en la emisión de Global Notes por $164 millones en los mercados internacionales.o</li>
+                                            <li>Asesoría a Aeropuertos Dominicanos Siglo XXI (Aerodom), operador aeroportuario controlado por la firma Advent International, en la emisión de deuda hasta por $550 millones en los mercados internacionales.</li>
+                                            <li>Asesoría a BTG Pactual y Deutsche Bank en la emisión de deuda (high yield) realizada por SMU S.A. (Chile) hasta por $300 millones en los mercados internacionales.</li>
+                                            <li>Asesoría a Copeinca en la emisión inaugural de deuda por $175 millones en los mercados internacionales.</li>
+                                            <li>Emisión de CRPAOs por $45 millones por Deutsche Bank, en calidad de co-estructurador con la Corporación Financiera de Desarrollo – COFIDE, para financiar la construcción y operación de la carretera de Canchaque.</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <p>En el 2005, Luis Miguel fue miembro de la primera delegaci&oacute;n peruana representando a la Pontificia Universidad Cat&oacute;lica del Per&uacute; en el Comit&eacute; de Dumping y Subsidios en la simulaci&oacute;n de la rondas de negociaci&oacute;n del Organismo Mundial del Comercio (OMC) organizado por Harvard National Model United Nations en Boston, Massachusetts.</p>
+                            <p>En el 2005, Luis Miguel fue miembro de la primera delegación peruana representando a la Pontificia Universidad Católica del Perú en el Comité de Dumping y Subsidios en la simulación de la rondas de negociación del Organismo Mundial del Comercio (OMC) organizado por Harvard National Model United Nations en Boston, Massachusetts.</p>
                             <p>Habla fluidamente Espa&ntilde;ol e Ingl&eacute;s.</p>
                         </div>
                     </article>
@@ -1336,8 +1358,9 @@ return [
                 </div>
                 <div class="col-sm-12">
                     <article class="news-socios">
-                        <p class="claDescripcion">Rafael Alc&aacute;zar es socio principal de Rebaza, Alc&aacute;zar &amp; De Las Casas Abogados Financieros. Es Master en Derecho por la <a href="http://www.uclouvain.be/en-13176.html">Universidad Cat&oacute;lica de Lovaina</a> (B&eacute;lgica) graduado con honores (cum laude) y abogado egresado de la Universidad de Lima. Ha seguido cursos de especializaci&oacute;n en la Academia de Derecho Internacional de la Haya (Holanda), as&iacute; como en el Practicing Law Institute de Nueva York (EEUU).</p>
-                        <p>En los &uacute;ltimos a&ntilde;os ha sido considerado como uno de los abogados l&iacute;deres en operaciones financieras nacionales e internacionales, banca, mercado de valores y Project Finance. Su especializaci&oacute;n se orienta principalmente a la asesor&iacute;a de bancos nacionales y extranjeros, sociedades agentes de bolsa, empresas de arrendamiento financiero, empresas administradoras de fondos mutuos y fondos de inversi&oacute;n, sociedades titulizadoras, empresas clasificadoras de riesgo y empresas comerciales para operaciones de financiamiento.</p>
+                        <p>Rafael Alc&aacute;zar es socio principal de Rebaza, Alc&aacute;zar &amp; De Las Casas Abogados Financieros. Es Master en Derecho por la 
+                        <a href="http://www.uclouvain.be/en-13176">Universidad Cat&oacute;lica de Lovaina</a> (B&eacute;lgica) graduado con honores (cum laude) y abogado egresado de la Universidad de Lima. Ha seguido cursos de especializaci&oacute;n en la Academia de Derecho Internacional de la Haya (Holanda), as&iacute; como en el Practicing Law Institute de Nueva York (EEUU).</p>
+                        <p class="claDescripcion">En los &uacute;ltimos a&ntilde;os ha sido considerado como uno de los abogados l&iacute;deres en operaciones financieras nacionales e internacionales, banca, mercado de valores y Project Finance. Su especializaci&oacute;n se orienta principalmente a la asesor&iacute;a de bancos nacionales y extranjeros, sociedades agentes de bolsa, empresas de arrendamiento financiero, empresas administradoras de fondos mutuos y fondos de inversi&oacute;n, sociedades titulizadoras, empresas clasificadoras de riesgo y empresas comerciales para operaciones de financiamiento.</p>
                         <p>Las siguientes son algunas de las principales operaciones en las que ha participado recientemente. Debido a su importancia, algunas de estas transacciones han sido destacadas por medios de comunicaci&oacute;n especializados como Latin Lawyer y Latin Counsel.</p>
                         <br>
                         <div class="panel-group" role="tablist" aria-multiselectable="true" id="alberto-collapse">

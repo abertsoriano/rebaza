@@ -28,5 +28,7 @@ return [
 
 	'nav_4' => 'Reconocimentos y Noticias',
 	'nav_5' => 'Oficinas',
-	'nav_6' => 'Trabaja con Nosotros'
+	'nav_6' => 'Trabaja con Nosotros',
+
+    'success_message_cv' => 'Tu cv ha sido enviado satisfactoriamente'
 ];

@@ -62,3 +62,5 @@ Route::get('reconocimiento', ['as' => 'reconocimiento', 'uses' => 'WelcomeContro
 Route::get('responsabilidadsocial', ['as' => 'responsabilidadsocial', 'uses' => 'WelcomeController@responsabilidadsocial']);
 Route::get('trabaja', ['as' => 'trabaja', 'uses' => 'WelcomeController@trabaja']);
 Route::get('trabajaformulario', ['as' => 'trabajaformulario', 'uses' => 'WelcomeController@trabajaformulario']);
+
+Route::post('send-cv', ['as' => 'sendCv', 'uses' => 'WelcomeController@sendCv']);

@@ -2,8 +2,8 @@
 
 return [
 	'title1' => 'Experiencia reciente',
-	'messageLeft1' => 'Asesoramos a AmBev S.A en el cierre de la venta de la cervecera peruana como parte de su integración global con SAB Miller.',
-	'messageLeft2' => 'W.W.G. del Perú S.A., en asociación con la española Quirónsalud, lider en la prestación de servicios sanitarios en ese país, adquirieron el 50% de CRP Holdco S.A., propietaria del 95,5% de Administradora Clínica Ricardo Palma',
+	'messageLeft1' => 'Asesoramos a Veritas Capital en la adquisición del negocio de servicios del conglomerado de ingeniería petrolera Chicago Bridge & Iron Company (CB&I), por USD 755 millones.',
+	'messageLeft2' => 'Asesoramos a la desarrolladora de central hidroeléctrica, La Virgen en obtener un financiamiento hasta por la suma de US$ 80 millones otorgado por la multilateral Corporación Andina de Fomento – CAF y Deutsche Investitions – DEG.',
 	'messageLeft3' => 'Asesoramos junto a Sullivan y Cromwell LLP y Goodmans LLP en Nueva York a la minera canadiense HudBay en la emisión de una serie de bonos por valor de US$ 1.000 millones.',
 	'messageLeft4' => 'Asesoramos a JP Morgan a obtener la autorización para operar como banco de inversión en nuestro país.',
 

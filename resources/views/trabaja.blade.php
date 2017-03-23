@@ -23,7 +23,7 @@
 						<article class="news-block">
 							{!! trans('trabaja.text') !!}
 							<br/>
-							<a class="btn_mediano" href="trabajaformulario.html">{{ trans('trabaja.button') }}</a>
+							<a class="btn_mediano" href="trabajaformulario">{{ trans('trabaja.button') }}</a>
 
 						</article>
 					</div>

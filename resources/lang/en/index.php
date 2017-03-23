@@ -2,8 +2,8 @@
 
 return [
 	'title1' => 'Recent Experience',
-	'messageLeft1' => 'We advised AmBev S.A in closing the sale of the Peruvian brewery as part of its global integration with SAB Miller.',
-	'messageLeft2' => 'W.W.G. Of Peru S.A., in partnership with the Spanish company Quirónsalud, leader in the provision of health services in that country, acquired 50% of CRP Holdco S.A., owner of 95.5% of Clínica Administradora Ricardo Palma',
+	'messageLeft1' => 'We advised Veritas Capital in the acquisition of the services business of the Chicago Bridge & Iron Company (CB & I) for $ 755 million.',
+	'messageLeft2' => 'We advised the hydropower plant developer, La Virgen S.A., on the sign of an US$ 80 million project finance facility to be granted by the multilateral Corporación Andina de Fomento - CAF and Deutsche Investitions – DEG.',
 	'messageLeft3' => 'We advised together with Sullivan and Cromwell LLP and Goodmans LLP in New York in the emission of a series of bonds worth US $ 1 billion for the Canadian mining company HudBay.',
 	'messageLeft4' => 'We advise JP Morgan to obtain authorization to operate as an investment bank in our country.',
 

@@ -14,56 +14,61 @@
 							<img src="images/trabajaconnosotros.png" alt="FoodBingo" class="logo img-responsive">
 						</article>
 					</div>
-					<div class="col-sm-9 col-xs-12">
-						<div id="contenido_int">
+					<div class="col-sm-8 col-md-6">
 						<article class="nes-block">
 							<h2 class="text-wnormal text-bold titu">Formulario</h2>
-							<p>
-								<form method="post" enctype="multipart/form-data" action="enviar.php?idi=1">
-									<table width="700" border="0" cellspacing="2" cellpadding="2">
-										<tr>
-											<td colspan="3">&nbsp;</td>
-										</tr>
-										<tr>
-											<td width="86" class="titulo">Nombre :</td>
-											<td width="250"><input class="campo" name="nombre" id="nombre" type="text" /></td>
-											<td width="344"></td>
-										</tr>
-										<tr>
-											<td class="titulo">Correo :</td>
-											<td><input class="campo" name="correo" id="correo" type="text" /></td>
-											<td>&nbsp;</td>
-										</tr>
-										<tr>
-											<td class="titulo">CV :</td>
-											<td><input type="file" id="cv" name="cv" /></td>
-											<td><span class="nota">Sólo podrán subir archivos pdf</span></td>
-										</tr>
-										<tr>
-											<td class="titulo">Mensaje :</td>
-											<td><label for="textfield"></label>
-												<textarea class="areadetexto" name="mensaje" id="mensaje"></textarea></td>
-												<td>&nbsp;</td>
-											</tr>
-											<tr>
-												<td>&nbsp;</td>
-												<td></td>
-												<td>&nbsp;</td>
-											</tr>
-											<tr>
-												<td>&nbsp;</td>
-												<td><input type="submit" id="btnEnviar" name="btnEnviar" value="Enviar" /></td>
-												<td>&nbsp;</td>
-											</tr>
-										</table>
-									</form>
-								</p>
-							</article>
-							</div>
-						</div>
+							@if (count($errors) > 0)
+								<div class="alert alert-danger">
+									<ul>
+									@foreach ($errors->all() as $error)
+										<li>{{ $error }}</li>
+									@endforeach
+									</ul>
+								</div>
+							@endif
+							@if (\Session::has('success'))
+								<div class="alert alert-success">{{ session('success') }}</div>
+							@endif
+							<form method="post" enctype="multipart/form-data" action="{{ route('sendCv') }}" class="form-horizontal">
+								<input type="hidden" name="_token" value="{{ csrf_token() }}">
+								<div class="form-group">
+									<label for="nombre" class="col-sm-2 control-label">Nombre:</label>
+									<div class="col-sm-10">
+										<input class="form-control" name="nombre" id="nombre" type="text" value="{{ old('nombre') }}">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="correo" class="col-sm-2 control-label">Correo:</label>
+									<div class="col-sm-10">
+										<input class="form-control" name="correo" id="correo" type="email" value="{{ old('correo') }}" />
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label for="cv" class="col-sm-2 control-label">Cv:</label>
+									<div class="col-sm-10">
+										<input type="file" class="form-control" id="cv" name="cv" />
+										<span class="help-block">* Sólo podrán subir archivos pdf</span>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label for="mensaje" class="control-label col-sm-12" style="text-align: left">Mensaje:</label>
+									<div class="col-sm-12">
+										<textarea class="form-control" rows="5" name="mensaje" id="mensaje">{{ old('mensaje') }}</textarea>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-12">
+										<input type="submit" class="btn btn-primary" id="btnEnviar" name="btnEnviar" value="Enviar" />
+									</div>
+								</div>
+							</form>
+						</article>
 					</div>
 				</div>
 			</div>
+		</div>
 	</div>
 </section>
 @endsection

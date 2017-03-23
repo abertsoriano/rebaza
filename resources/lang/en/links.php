@@ -28,5 +28,7 @@ return [
 
 	'nav_4' => 'Awards & News',
 	'nav_5' => 'Offices',
-	'nav_6' => 'Recruiting'
+	'nav_6' => 'Recruiting',
+
+    'success_message_cv' => 'Your CV has been sent successfully'
 ];

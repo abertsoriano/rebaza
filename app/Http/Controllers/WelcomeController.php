@@ -3,6 +3,9 @@
 use Illuminate\Http\Request;
 use Cache;
 use App\Article;
+use App\Http\Requests\SendCvRequest;
+use File;
+use Mail;
 
 class WelcomeController extends Controller {
 
@@ -184,4 +187,22 @@ class WelcomeController extends Controller {
 
 		return redirect()->back();
 	}
+
+	public function sendCv(SendCvRequest $request) {
+
+        $data = $request->all();
+        $data['cv'] = $request->file('cv')->getClientOriginalName();
+        $request->file('cv')->move('cv', $data['cv']);
+
+        Mail::send('emails.sendcv', $data, function($message) use ($data)
+        {
+            $message->from(env('MAIL_FROM'), env('MAIL_FROM_NAME'))->to(env('MAIL_TO'))->subject('CV de ' . $data['nombre']);
+
+            $message->attach('cv/' . $data['cv']);
+        });
+
+        File::delete('cv/' . $data['cv']);
+
+        return redirect()->back()->with('success', trans('links.success_message_cv'));
+    }
 }
