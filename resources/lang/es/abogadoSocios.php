@@ -71,7 +71,7 @@ return [
     'type_alter' => 'Socio Principal',
     'download' => 'Descargar Bio',
 
-    'modal_1' => '<div class="col-sm-4 col-xs-12">
+    'modal_1' => '<div class="col-sm-8">
                     <ul class="accordion">
                         <li class="current"><a href="#">Áreas</a>
                             <div class="bloqueMostrar">
@@ -132,7 +132,7 @@ return [
                     </article>
                 </div>',
 
-    'modal_2' => '<div class="col-sm-4 col-xs-12">
+    'modal_2' => '<div class="col-sm-8">
                     <ul class="accordion">
                         <li class="current"><a href="#">Áreas</a>
                             <div class="bloqueMostrar">
@@ -191,7 +191,7 @@ return [
                     </article>
                 </div>',
 
-    'modal_3' => '<div class="col-sm-4 col-xs-12">
+    'modal_3' => '<div class="col-sm-8">
                     <ul class="accordion">
                         <li class="current"><a href="#">Áreas</a>
                             <div class="bloqueMostrar">
@@ -349,7 +349,7 @@ return [
                     </article>
                 </div>',
 
-    'modal_4' => '<div class="col-sm-4 col-xs-12">
+    'modal_4' => '<div class="col-sm-8">
                     <ul class="accordion">
                         <li class="current"><a href="#">Áreas</a>
                             <div class="bloqueMostrar">
@@ -504,7 +504,7 @@ return [
                     </article>
                 </div>',
 
-    'modal_5' => '<div class="col-sm-4 col-xs-12">
+    'modal_5' => '<div class="col-sm-8">
                     <ul class="accordion">
                         <li class="current"><a href="#">Áreas</a>
                             <div class="bloqueMostrar">
@@ -620,7 +620,7 @@ return [
                     </article>
                 </div>',
 
-    'modal_6' => '<div class="col-sm-4 col-xs-12">
+    'modal_6' => '<div class="col-sm-8">
                     <ul class="accordion">
                         <li class="current"><a href="#">Áreas</a>
                             <div class="bloqueMostrar">
@@ -730,7 +730,7 @@ return [
                     </article>
                 </div>',
 
-    'modal_7' => '<div class="col-sm-4">
+    'modal_7' => '<div class="col-sm-8">
                         <ul class="accordion">
                             <li class="current"><a href="#">Áreas</a>
                                 <div class="bloqueMostrar">
@@ -941,7 +941,7 @@ return [
                         </article>
                     </div>',
 
-    'modal_8' => '<div class="col-sm-4 col-xs-12">
+    'modal_8' => '<div class="col-sm-8">
                     <ul class="accordion">
                         <li class="current">
                             <a href="#">Áreas</a>
@@ -1029,7 +1029,7 @@ return [
                     </article>
                 </div>',
 
-    'modal_9' => '<div class="col-sm-4">
+    'modal_9' => '<div class="col-sm-8">
                     <ul class="accordion">
                         <li class="current">
                             <a href="#">Áreas</a>
@@ -1163,7 +1163,7 @@ return [
                     </article>
                 </div>',
 
-    'modal_10' => '<div class="col-sm-4">
+    'modal_10' => '<div class="col-sm-8">
                     <ul class="accordion">
                         <li class="current"><a href="#">Áreas</a>
                             <div class="bloqueMostrar">
@@ -1225,7 +1225,7 @@ return [
                     </article>
                 </div>',
 
-    'modal_11' => '<div class="col-sm-4">
+    'modal_11' => '<div class="col-sm-8">
                     <ul class="accordion">
                         <li class="current"><a href="#">Áreas</a>
                             <div class="bloqueMostrar">
@@ -1274,7 +1274,7 @@ return [
                     </article>
                 </div>',
 
-    'modal_12' => '<div class="col-sm-4">
+    'modal_12' => '<div class="col-sm-8">
                     <ul class="accordion">
                         <li class="current"><a href="#">Áreas</a>
                             <div class="bloqueMostrar">
@@ -1413,17 +1413,9 @@ return [
                                     <div class="panel-body">
                                         <ul>
                                             <li>Asesor&iacute;a legal a&nbsp;The Rohatyn Group&nbsp;en el proceso de registro de &quot;TRG Latinoam&eacute;rica Private Equity Fund I, LP&quot; en el Registro de Instrumentos de Inversi&oacute;n y de Operaciones de Cobertura de Riesgo Extranjeros de la Superintendencia de Banca, Seguros y AFP (SBS).</li>
-                                        </ul>
-                                        <ul>
                                             <li>Asesor&iacute;a legal a&nbsp;Grupo Cartisa&nbsp;en el proceso de organizaci&oacute;n de &ldquo;Cartisa Sociedad Administradora de Fondos S.A.&rdquo;&nbsp;(Sociedad Administradora de Fondos) ante la Comisi&oacute;n Nacional Supervisora de Empresas y Valores &ndash; CONASEV.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-                                        </ul>
-                                        <ul>
                                             <li>Asesor&iacute;a legal a&nbsp;Capital Investment Sociedad Administradora de Fondos de Inversi&oacute;n S.A.&nbsp;(Sociedad Administradora de Fondos de Inversi&oacute;n) en el proceso de registro del &ldquo;Fondo de Inversi&oacute;n para Financiamiento Empresarial a Corto Plazo&rdquo; (Fondo FIME-CP), en el Registro de Instrumentos de Inversi&oacute;n y de Operaciones de Cobertura de Riesgo Extranjeros de la Superintendencia de Banca, Seguros y AFP (SBS). &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>
-                                        </ul>
-                                        <ul>
                                             <li>Asesor&iacute;a legal al&nbsp;Grupo Enfoca&nbsp;en el proceso de organizaci&oacute;n de &ldquo;Enfoca Sociedad Administradora de Fondos de Inversi&oacute;n S.A.&rdquo; (Sociedad Administradora de Fondos de Inversi&oacute;n) ante la Comisi&oacute;n Nacional Supervisora de Empresas y Valores &ndash; CONASEV. Asesor&iacute;a legal a&nbsp;Cyrano Management&nbsp;en la estructuraci&oacute;n y constituci&oacute;n de Solidus Investment Fund S.A., fondo de inversi&oacute;n con una capacidad de US $ 30 millones para proveer fondos para las instituciones de microfinanzas en Am&eacute;rica Latina y el Caribe.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-                                        </ul>
-                                        <ul>
                                             <li>Asesor&iacute;a legal a&nbsp;Cyrano Management&nbsp;y&nbsp;Latin American Challenge Investment Fund (LACIF)&nbsp;en la estructuraci&oacute;n y constituci&oacute;n de diversos fondos de inversi&oacute;n para el sector de microfinanzas.</li>
                                         </ul>
                                     </div>
@@ -1515,22 +1507,22 @@ return [
                     </article>
                 </div>',
 
-    'modal_13' => '<div class="col-sm-4">
+    'modal_13' => '<div class="col-sm-8">
                     <ul class="accordion">
                         <li class="current"><a href="#">Áreas</a>
                             <div class="bloqueMostrar">
                                 <ul>
-                                     <a class="nohover" href="areafunciones.html">Fusiones y Adquisiciones</a>
-                                     <a class="nohover" href="areamercado.html">Mercado de Valores</a>
-                                     <a class="nohover" href="arealibre.html">Libre Competencia y Competencia Desleal</a>
-                                     <a class="nohover" href="areacorporativo.html">Corporativo</a>
-                                     <a class="nohover" href="areaprivate.html">Private Clients</a>
+                                     <a class="nohover" href="areafunciones">Fusiones y Adquisiciones</a>
+                                     <a class="nohover" href="areamercado">Mercado de Valores</a>
+                                     <a class="nohover" href="arealibre">Libre Competencia y Competencia Desleal</a>
+                                     <a class="nohover" href="areacorporativo">Corporativo</a>
+                                     <a class="nohover" href="areaprivate">Private Clients</a>
                                 </ul>
                             </div>
                         </li>
                         <li><a href="#">Educación</a>
                             <div class="bloqueMostrar">
-                                <ul style="">
+                                <ul>
                                     <li>Abogado por la Pontificia Universidad Cat&oacute;lica del Per&uacute;, 1993. Summa Cum Laude.</li>
                                     <li>Master en Derecho por University of Virginia School of Law (EEUU), 1995.</li>
                                 </ul>

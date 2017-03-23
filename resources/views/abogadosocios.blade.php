@@ -22,14 +22,14 @@
 							</h4>
 						</article>
 					</div>
-					<div class="col-sm-4 col-xs-12">
+					<div class="col-sm-4">
 						<article class="news-block">
 							<ul>
                                 {!! trans('abogadoSocios.list_1') !!}
 							</ul>
 						</article>
 					</div>
-					<div class="col-sm-4 col-xs-12">
+					<div class="col-sm-4">
 						<article class="news-block">
                             <ul>
                                 {!! trans('abogadoSocios.list_2') !!}
@@ -53,15 +53,17 @@
                 </button>
             </div>
             <div class="modal-body">
-                <div class="col-sm-4 col-xs-12">
-                    <article class="news-socios">
-                        <img src="images/socios/Ale2.jpg" alt="Image" class="img-responsive">
-                        <p class="txtblue text-bold">
-                            <a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a>
-                        </p>
-                    </article>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <article class="news-socios">
+                            <img src="images/socios/Ale2.jpg" alt="Image" class="img-responsive">
+                            <p class="txtblue text-bold">
+                                <a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a>
+                            </p>
+                        </article>
+                    </div>
+                    {!! trans('abogadoSocios.modal_1') !!}
                 </div>
-                {!! trans('abogadoSocios.modal_1') !!}
             </div>
         </div>
     </div>
@@ -77,13 +79,15 @@
                 </button>
             </div>
             <div class="modal-body">
-                <div class="col-sm-4 col-xs-12">
-                    <article class="news-socios">
-                        <img src="images/socios/AugustoLoli2.jpg" alt="Image" class="img-responsive">
-                        <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p><br>
-                    </article>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <article class="news-socios">
+                            <img src="images/socios/AugustoLoli2.jpg" alt="Image" class="img-responsive">
+                            <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p><br>
+                        </article>
+                    </div>
+                    {!! trans('abogadoSocios.modal_2') !!}
                 </div>
-                {!! trans('abogadoSocios.modal_2') !!}
             </div>
         </div>
     </div>
@@ -99,13 +103,15 @@
                 </button>
             </div>
             <div class="modal-body">
-                <div class="col-sm-4 col-xs-12">
-                    <article class="news-socios">
-                        <img src="images/socios/camilo.jpg" alt="Image" class="img-responsive">
-                        <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p><br>
-                    </article>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <article class="news-socios">
+                            <img src="images/socios/camilo.jpg" alt="Image" class="img-responsive">
+                            <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p><br>
+                        </article>
+                    </div>
+                    {!! trans('abogadoSocios.modal_3') !!}
                 </div>
-                {!! trans('abogadoSocios.modal_3') !!}
             </div>
         </div>
     </div>
@@ -121,13 +127,15 @@
                 </button>
             </div>
             <div class="modal-body">
-                <div class="col-sm-4 col-xs-12">
-                    <article class="news-socios">
-                        <img src="images/socios/Felipe-Boisset.jpg" alt="Image" class="img-responsive">
-                        <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p><br>
-                    </article>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <article class="news-socios">
+                            <img src="images/socios/Felipe-Boisset.jpg" alt="Image" class="img-responsive">
+                            <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p><br>
+                        </article>
+                    </div>
+                    {!! trans('abogadoSocios.modal_4') !!}
                 </div>
-                {!! trans('abogadoSocios.modal_4') !!}
             </div>
         </div>
     </div>
@@ -143,13 +151,15 @@
                 </button>
             </div>
             <div class="modal-body">
-                <div class="col-sm-4 col-xs-12">
-                    <article class="news-socios">
-                        <img src="images/socios/GDC.jpg" alt="Image" class="img-responsive">
-                        <p class="txtblue text-bold"><a target="_blank" href="../images/cv/"></a></p><br>
-                    </article>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <article class="news-socios">
+                            <img src="images/socios/GDC.jpg" alt="Image" class="img-responsive">
+                            <p class="txtblue text-bold"><a target="_blank" href="../images/cv/"></a></p><br>
+                        </article>
+                    </div>
+                    {!! trans('abogadoSocios.modal_5') !!}
                 </div>
-                {!! trans('abogadoSocios.modal_5') !!}
             </div>
         </div>
     </div>
@@ -165,13 +175,15 @@
                 </button>
             </div>
             <div class="modal-body">
-                <div class="col-sm-4 col-xs-12">
-                    <article class="news-socios">
-                        <img src="images/socios/nuevaJJCHfoto.jpg" alt="Image" class="img-responsive">
-                        <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p><br>
-                    </article>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <article class="news-socios">
+                            <img src="images/socios/nuevaJJCHfoto.jpg" alt="Image" class="img-responsive">
+                            <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p><br>
+                        </article>
+                    </div>
+                    {!! trans('abogadoSocios.modal_6') !!}
                 </div>
-                {!! trans('abogadoSocios.modal_6') !!}
             </div>
         </div>
     </div>
@@ -187,15 +199,17 @@
                 </button>
             </div>
                 <div class="modal-body">
-                    <div class="col-sm-4 col-xs-12">
-                        <article class="news-socios">
-                            <img src="images/socios/JFZ.jpg" alt="Image" class="img-responsive">
-                            <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p><br>
-                        </article>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <article class="news-socios">
+                                <img src="images/socios/JFZ.jpg" alt="Image" class="img-responsive">
+                                <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p><br>
+                            </article>
+                        </div>
+                        {!! trans('abogadoSocios.modal_7') !!}
                     </div>
-                    {!! trans('abogadoSocios.modal_7') !!}
                 </div>
-            </div>
+        </div>
         </div>
     </div>
 
@@ -209,13 +223,15 @@
                 </button>
             </div>
             <div class="modal-body">
-                <div class="col-sm-4">
-                    <article class="news-socios">
-                        <img src="images/socios/Juanjo.JPG" alt="Image" class="img-responsive">
-                        <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p>
-                    </article>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <article class="news-socios">
+                            <img src="images/socios/Juanjo.JPG" alt="Image" class="img-responsive">
+                            <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p>
+                        </article>
+                    </div>
+                    {!! trans('abogadoSocios.modal_8') !!}
                 </div>
-                {!! trans('abogadoSocios.modal_8') !!}
             </div>
         </div>
     </div>
@@ -231,13 +247,15 @@
                 </button>
             </div>
             <div class="modal-body">
-                <div class="col-sm-4">
-                    <article class="news-socios">
-                        <img src="images/socios/LEM.JPG" alt="Image" class="img-responsive">
-                        <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p><br>
-                    </article>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <article class="news-socios">
+                            <img src="images/socios/LEM.JPG" alt="Image" class="img-responsive">
+                            <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p><br>
+                        </article>
+                    </div>
+                    {!! trans('abogadoSocios.modal_9') !!}
                 </div>
-                {!! trans('abogadoSocios.modal_9') !!}
             </div>
         </div>
     </div>
@@ -253,13 +271,15 @@
                 </button>
             </div>
             <div class="modal-body">
-                <div class="col-sm-4 col-xs-12">
-                    <article class="news-socios">
-                        <img src="images/socios/MariaHaydee.jpg" alt="Image" class="img-responsive">
-                        <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p><br>
-                    </article>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <article class="news-socios">
+                            <img src="images/socios/MariaHaydee.jpg" alt="Image" class="img-responsive">
+                            <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p><br>
+                        </article>
+                    </div>
+                    {!! trans('abogadoSocios.modal_10') !!}
                 </div>
-                {!! trans('abogadoSocios.modal_10') !!}
             </div>
         </div>
     </div>
@@ -275,13 +295,15 @@
                 </button>
             </div>
             <div class="modal-body">
-                <div class="col-sm-4">
-                    <article class="news-socios">
-                        <img src="images/socios/Malu.jpg" alt="Image" class="img-responsive">
-                        <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p><br>
-                    </article>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <article class="news-socios">
+                            <img src="images/socios/Malu.jpg" alt="Image" class="img-responsive">
+                            <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p><br>
+                        </article>
+                    </div>
+                    {!! trans('abogadoSocios.modal_11') !!}
                 </div>
-                {!! trans('abogadoSocios.modal_11') !!}
             </div>
         </div>
     </div>
@@ -297,13 +319,15 @@
                 </button>
             </div>
             <div class="modal-body">
-                <div class="col-sm-4">
-                    <article class="news-socios">
-                        <img src="images/socios/Rafael-Alcazar.jpg" alt="Image" class="img-responsive">
-                        <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p><br>
-                    </article>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <article class="news-socios">
+                            <img src="images/socios/Rafael-Alcazar.jpg" alt="Image" class="img-responsive">
+                            <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p><br>
+                        </article>
+                    </div>
+                    {!! trans('abogadoSocios.modal_12') !!}
                 </div>
-                {!! trans('abogadoSocios.modal_12') !!}
             </div>
         </div>
     </div>
@@ -319,13 +343,15 @@
                 </button>
             </div>
             <div class="modal-body">
-                <div class="col-sm-4">
-                    <div class="news-socios">
-                        <img src="images/socios/alberto.jpg" alt="Image" class="img-responsive">
-                        <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p><br>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="news-socios">
+                            <img src="images/socios/alberto.jpg" alt="Image" class="img-responsive">
+                            <p class="txtblue text-bold"><a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a></p><br>
+                        </div>
                     </div>
+                    {!! trans('abogadoSocios.modal_13') !!}
                 </div>
-                {!! trans('abogadoSocios.modal_13') !!}
             </div>
         </div>
     </div>

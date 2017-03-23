@@ -16,12 +16,12 @@
                     <form action="{{ route('storeArticle') }}" method="post" enctype="multipart/form-data">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <input type="hidden" value="1" name="status">
-                        <div class="form-group">
-                            <label for="imagen" class="control-label">Imagen</label>
-                            <div class="controls">
-                                <input type="file" name="imagen" id="imagem" class="form-control">
-                            </div>
-                        </div>
+                        {{--<div class="form-group">--}}
+                            {{--<label for="imagen" class="control-label">Imagen</label>--}}
+                            {{--<div class="controls">--}}
+                                {{--<input type="file" name="imagen" id="imagem" class="form-control">--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
                         <div class="form-group">
                             <label for="title" class="control-label">Titulo</label>
                             <div class="controls">

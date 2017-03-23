@@ -15,7 +15,7 @@
                 <div class="panel-body">
                     <form action="{{ route('updateArticle', $article->id) }}" method="post" enctype="multipart/form-data">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                        <div class="form-group">
+                        {{--<div class="form-group">
                             <label for="imagen" class="control-label">Imagen</label>
                             <div class="row">
                                 <div class="col-sm-4">
@@ -35,7 +35,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div>--}}
                         <div class="form-group">
                             <label for="title" class="control-label">Titulo</label>
                             <div class="controls">

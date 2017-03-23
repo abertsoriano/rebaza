@@ -70,7 +70,7 @@ return [
     'type_alter' => 'Socio Principal',
     'download' => 'Download Bio',
 
-    'modal_1' => '<div class="col-sm-4">
+    'modal_1' => '<div class="col-sm-8">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
@@ -130,7 +130,7 @@ return [
 						</article>
 					</div>',
 
-    'modal_2' => '<div class="col-sm-4">
+    'modal_2' => '<div class="col-sm-8">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
@@ -306,7 +306,7 @@ return [
 						</article>
 					</div>',
 
-    'modal_4' => '<div class="col-sm-4">
+    'modal_4' => '<div class="col-sm-8">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
@@ -450,7 +450,7 @@ return [
 						</article>
 					</div>',
 
-    'modal_5' => '<div class="col-sm-4 col-xs-12">
+    'modal_5' => '<div class="col-sm-8 col-xs-12">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
@@ -571,7 +571,7 @@ return [
 						</article>
 					</div>',
 
-    'modal_6' => '<div class="col-sm-4">
+    'modal_6' => '<div class="col-sm-8">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
@@ -676,7 +676,7 @@ return [
 						</article>
 					</div>',
 
-    'modal_7' => '<div class="col-sm-4">
+    'modal_7' => '<div class="col-sm-8">
 							<ul class="accordion">
 								<li class="current"><a href="#">Practices</a>
 						            <div class="bloqueMostrar">
@@ -887,7 +887,7 @@ return [
                         </article>
                     </div>',
 
-    'modal_8' => '<div class="col-sm-4">
+    'modal_8' => '<div class="col-sm-8">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
@@ -965,7 +965,7 @@ return [
 						</article>
 					</div>',
 
-    'modal_9' => '<div class="col-sm-4">
+    'modal_9' => '<div class="col-sm-8">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
@@ -1014,7 +1014,7 @@ return [
 						</article>
 					</div>',
 
-    'modal_10' => '<div class="col-sm-4">
+    'modal_10' => '<div class="col-sm-8">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
@@ -1068,7 +1068,7 @@ return [
 						</article>
 					</div>',
 
-    'modal_11' => '<div class="col-sm-4">
+    'modal_11' => '<div class="col-sm-8">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
@@ -1118,7 +1118,7 @@ return [
 						</article>
 					</div>',
 
-    'modal_12' => '<div class="col-sm-4">
+    'modal_12' => '<div class="col-sm-8">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
@@ -1398,7 +1398,7 @@ return [
 						</article>
 					</div>',
 
-    'modal_13' => '<div class="col-sm-4">
+    'modal_13' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">

@@ -13,7 +13,7 @@
      'modal_title_2' => 'Senior Associate',
      'download_bio' => 'Download Bio',
 
-     'modal_1' => '<div class="col-sm-4">
+     'modal_1' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -64,7 +64,7 @@
 					</article>
 				</div>',
 
-     'modal_2' => '<div class="col-sm-4">
+     'modal_2' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -114,7 +114,7 @@
 					</article>
 				</div>',
 
-     'modal_3' => '<div class="col-sm-4">
+     'modal_3' => '<div class="col-sm-8">
                             <ul class="accordion">
                                 <li class="current"><a href="#">Practices</a>
                                     <div class="bloqueMostrar">
@@ -170,7 +170,7 @@
                     </article>
                 </div>',
 
-     'modal_4' => '<div class="col-sm-4">
+     'modal_4' => '<div class="col-sm-8">
 						<ul class="accordion">
 							<li class="current"><a href="#">Practices</a>
 								<div class="bloqueMostrar">
@@ -264,7 +264,7 @@
 						</article>
 					</div>',
 
-     'modal_5' => '<div class="col-sm-4">
+     'modal_5' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -310,7 +310,7 @@
 					</article>
 				</div>',
 
-     'modal_6' => '<div class="col-sm-4">
+     'modal_6' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -475,7 +475,7 @@
 					</article>
 				</div>',
 
-     'modal_7' => '<div class="col-sm-4">
+     'modal_7' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -539,7 +539,7 @@
 					</article>
 				</div>',
 
-     'modal_8' => '<div class="col-sm-4">
+     'modal_8' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -599,7 +599,7 @@
 					</article>
 				</div>',
 
-     'modal_9' => '<div class="col-sm-4">
+     'modal_9' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -648,7 +648,7 @@
 					</article>
 				</div>',
 
-     'modal_10' => '<div class="col-sm-4">
+     'modal_10' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -750,7 +750,7 @@
 					</article>
 				</div>',
 
-     'modal_11' => '<div class="col-sm-4">
+     'modal_11' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -796,7 +796,7 @@
 					</article>
 				</div>',
 
-     'modal_12' => '<div class="col-sm-4">
+     'modal_12' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -856,7 +856,7 @@
 					</article>
 				</div>',
 
-     'modal_13' => '<div class="col-sm-4">
+     'modal_13' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -919,7 +919,7 @@
 					</article>
 				</div>',
 
-     'modal_14' => '<div class="col-sm-4">
+     'modal_14' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -1010,7 +1010,7 @@
 					</article>
 				</div>',
 
-     'modal_15' => '<div class="col-sm-4">
+     'modal_15' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -1061,7 +1061,7 @@
 					</article>
 				</div>',
 
-     'modal_16' => '<div class="col-sm-4">
+     'modal_16' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -1121,7 +1121,7 @@
 					</article>
 				</div>',
 
-     'modal_17' => '<div class="col-sm-4">
+     'modal_17' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -1208,7 +1208,7 @@
 					</article>
 				</div>',
 
-     'modal_18' => '<div class="col-sm-4">
+     'modal_18' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -1264,7 +1264,7 @@
 					</article>
 				</div>',
 
-     'modal_19' => '<div class="col-sm-4">
+     'modal_19' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -1309,7 +1309,7 @@
 					</article>
 				</div>',
 
-     'modal_20' => '<div class="col-sm-4">
+     'modal_20' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -1386,7 +1386,7 @@
 					</article>
 				</div>',
 
-     'modal_21' => '<div class="col-sm-4">
+     'modal_21' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -1470,7 +1470,7 @@
 					</article>
 				</div>',
 
-     'modal_22' => '<div class="col-sm-4">
+     'modal_22' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -1561,7 +1561,7 @@
 					</article>
 				</div>',
 
-     'modal_23' => '<div class="col-sm-4">
+     'modal_23' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -1606,7 +1606,7 @@
 					</article>
 				</div>',
 
-     'modal_24' => '<div class="col-sm-4">
+     'modal_24' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -1651,7 +1651,7 @@
 					</article>
 				</div>',
 
-     'modal_25' => '<div class="col-sm-4">
+     'modal_25' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -1741,7 +1741,7 @@
 					</article>
 				</div>',
 
-     'modal_26' => '<div class="col-sm-4">
+     'modal_26' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -1791,7 +1791,7 @@
 					</article>
 				</div>',
 
-     'modal_27' => '<div class="col-sm-4">
+     'modal_27' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -1847,7 +1847,7 @@
 					</article>
 				</div>',
 
-     'modal_28' => '<div class="col-sm-4">
+     'modal_28' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -1918,7 +1918,7 @@
 					</article>
 				</div>',
 
-     'modal_29' => '<div class="col-sm-4">
+     'modal_29' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -1968,7 +1968,7 @@
 					</article>
 				</div>',
 
-     'modal_30' => '<div class="col-sm-4">
+     'modal_30' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -2023,7 +2023,7 @@
 					</article>
 				</div>',
 
-     'modal_31' => '<div class="col-sm-4">
+     'modal_31' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -2086,7 +2086,7 @@
 					</article>
 				</div>',
 
-     'modal_32' => '<div class="col-sm-4">
+     'modal_32' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -2131,7 +2131,7 @@
 					</article>
 				</div>',
 
-     'modal_33' => '<div class="col-sm-4">
+     'modal_33' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -2213,7 +2213,7 @@
 					</article>
 				</div>',
 
-     'modal_34' => '<div class="col-sm-4">
+     'modal_34' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -2261,7 +2261,7 @@
 					</article>
 				</div>',
 
-     'modal_35' => '<div class="col-sm-4">
+     'modal_35' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -2312,7 +2312,7 @@
 					</article>
 				</div>',
 
-     'modal_36' => '<div class="col-sm-4">
+     'modal_36' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -2373,7 +2373,7 @@
 					</article>
 				</div>',
 
-     'modal_37' => '<div class="col-sm-4">
+     'modal_37' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -2460,7 +2460,7 @@
 					</article>
 				</div>',
 
-     'modal_38' => '<div class="col-sm-4">
+     'modal_38' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -2522,7 +2522,7 @@
 					</article>
 				</div>',
 
-     'modal_39' => '<div class="col-sm-4">
+     'modal_39' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -2582,7 +2582,7 @@
 					</article>
 				</div>',
 
-     'modal_40' => '<div class="col-sm-4">
+     'modal_40' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -2638,7 +2638,7 @@
 					</article>
 				</div>',
 
-     'modal_41' => '<div class="col-sm-4">
+     'modal_41' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -2697,7 +2697,7 @@
 					</article>
 				</div>',
 
-     'modal_42' => '<div class="col-sm-4">
+     'modal_42' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -2753,7 +2753,7 @@
 					</article>
 				</div>',
 
-     'modal_43' => '<div class="col-sm-4">
+     'modal_43' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -2818,7 +2818,7 @@
 					</article>
 				</div>',
 
-     'modal_44' => '<div class="col-sm-4">
+     'modal_44' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">

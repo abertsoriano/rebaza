@@ -37,7 +37,7 @@ if (Cache::has('locale')) {
 			<div class="container">
 				<div class="row">
 
-					<div class="col-sm-12 col-xs-12">
+					<div class="col-sm-12">
 						<ul class="list-unstyled list-inline top-links">
 							<li data-scroll-reveal="enter left and move 50px over 1.8s" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true"><a href="{{ route('changeLocale') }}?locale={{ $locale }}">{{ $linkTxt }}</a></li>
 						</ul>

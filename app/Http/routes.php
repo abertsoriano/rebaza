@@ -11,9 +11,6 @@
 |
 */
 
-Route::get('/login', 'Auth\AuthController@showLoginForm');
-Route::post('login', 'Auth\AuthController@login');
-
 Route::group(['middleware' => ['auth'], 'prefix' => 'admin'], function ($route) {
 
     $route->get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
@@ -22,6 +19,8 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin'], function ($route) 
 
     $route->get('edit-article/{id}', ['as' => 'editArticle', 'uses' => 'HomeController@edit']);
     $route->post('update-article/{id}', ['as' => 'updateArticle', 'uses' => 'HomeController@update']);
+    $route->get('delete-article/{id}', ['as' => 'deleteArticle', 'uses' => 'HomeController@delete']);
+    $route->get('logout', ['as' => 'logout', 'uses' => 'Auth\AuthController@getLogout']);
 
 });
 
@@ -30,6 +29,9 @@ if (Cache::has('locale')) {
 	$locale = Cache::get('locale');
 	App::setLocale($locale);
 }
+
+Route::get('/login', 'Auth\AuthController@getLogin');
+Route::post('login', 'Auth\AuthController@postLogin');
 
 Route::get('language', ['as' => 'changeLocale', 'uses' => 'WelcomeController@changeLocale']);
 

@@ -9,12 +9,12 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="row">
-					<div class="col-sm-3 col-xs-12">
+					<div class="col-sm-3">
 						<article class="news-block">
 							<img src="images/abogados.jpg" alt="FoodBingo" class="logo img-responsive">
 						</article>
 					</div>
-					<div class="col-sm-9 col-xs-12">
+					<div class="col-sm-9">
 						<article class="news-block">
 							<h6 class="text-normal text-bold">{{ trans('abogadoConsultores.title') }}</h6>
 							<h4 class="text-normal text-bold">
@@ -24,19 +24,29 @@
 							</h4>
 						</article>
 					</div>
-					<div class="col-sm-8 col-xs-12">
+					<div class="col-sm-8">
 						<article class="news-block">
 						    <ul>
-								<li><a tabindex="-1" href="#carlosaval" data-toggle="modal"></i>Carlos Avalos</a></li>
-								<p class="paboga">carlos.avalos@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#jorgeroma" data-toggle="modal"></i>Jorge Román</a></li>
-								<p class="paboga">jorge.roman@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#mariapast" data-toggle="modal"></i>María Isabel Pastor</a></li>
-								<p class="paboga">misabel.pastor@rebaza-alcazar.com
-								<li><a tabindex="-1" href="#percygarc" data-toggle="modal"></i>Percy García Cavero</a></li>
-								<p class="paboga">percy.garcia@rebaza-alcazar.com</p>
-								<li><a tabindex="-1" href="#fernandooca" data-toggle="modal"></i>Fernando Ocampo</a></li>
-								<p class="paboga">fernando.ocampo@rebaza-alcazar.com </p>
+								<li>
+                                    <a tabindex="-1" href="#carlosaval" data-toggle="modal"></i>Carlos Avalos</a>
+                                    <div>carlos.avalos@rebaza-alcazar.com</div>
+                                </li>
+								<li>
+                                    <a tabindex="-1" href="#jorgeroma" data-toggle="modal"></i>Jorge Román</a>
+                                    <div>jorge.roman@rebaza-alcazar.com</div>
+                                </li>
+								<li>
+                                    <a tabindex="-1" href="#mariapast" data-toggle="modal"></i>María Isabel Pastor</a>
+                                    <div>misabel.pastor@rebaza-alcazar.com
+                                </li>
+								<li>
+                                    <a tabindex="-1" href="#percygarc" data-toggle="modal"></i>Percy García Cavero</a>
+                                    <div>percy.garcia@rebaza-alcazar.com</div>
+                                </li>
+								<li>
+                                    <a tabindex="-1" href="#fernandooca" data-toggle="modal"></i>Fernando Ocampo</a>
+                                    <div>fernando.ocampo@rebaza-alcazar.com </div>
+                                </li>
 						    </ul>
 						</article>
 					</div>
@@ -58,13 +68,13 @@
             </div>
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-sm-4 col-xs-12">
+                    <div class="col-sm-4">
                         <article class="news-socios">
                             <img src="images/consultores/CarlosAvalos.jpg" alt="Image" class="img-responsive">
                             <p class="txtblue text-bold">{{ trans('abogadoConsultores.download') }}</p>
                         </article>
                     </div>
-                    <div class="col-sm-4 col-xs-12">
+                    <div class="col-sm-8">
                         <ul class="accordion">
                             <li class="current"><a href="#">{{ trans('abogadoConsultores.modal_list_1') }}</a>
                                 <div class="bloqueMostrar">
@@ -101,12 +111,12 @@
                         </ul>
 
                     </div>
-                    <div class="col-sm-8 col-xs-12">
+                    <div class="col-sm-8">
                         <article class="news-socios">
                             {!! trans('abogadoConsultores.modal_partners') !!}
                         </article>
                     </div>
-                    <div class="col-sm-12 col-xs-12">
+                    <div class="col-sm-12">
                         <article class="news-socios">
                             {!! trans('abogadoConsultores.modal_partners_1') !!}
                         </article>
@@ -128,23 +138,23 @@
             </div>
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-sm-4 col-xs-12">
+                    <div class="col-sm-4">
                         <article class="news-socios">
                             <img src="images/consultores/JorgeRoman.jpg" alt="Image" class="img-responsive">
                             <p class="txtblue text-bold">{{ trans('abogadoConsultores.download') }}</p>
                         </article>
                     </div>
-                    <div class="col-sm-4 col-xs-12">
+                    <div class="col-sm-8">
                         <ul class="accordion">
                             {!! trans('abogadoConsultores.modal_2_list') !!}
                         </ul>
                     </div>
-                    <div class="col-sm-8 col-xs-12">
+                    <div class="col-sm-8">
                         <article class="news-socios">
                             {!! trans('abogadoConsultores.modal_2_partners') !!}
                         </article>
                     </div>
-                    <div class="col-sm-12 col-xs-12">
+                    <div class="col-sm-12">
                         <article class="news-socios">
                             {!! trans('abogadoConsultores.modal_2_partners_1') !!}
                         </article>
@@ -166,23 +176,23 @@
             </div>
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-sm-4 col-xs-12">
+                    <div class="col-sm-4">
                         <article class="news-socios">
                             <img src="images/consultores/MIP.jpg" alt="Image" class="img-responsive">
                             <p class="txtblue text-bold">{{ trans('abogadoConsultores.download') }}</p>
                         </article>
                     </div>
-                    <div class="col-sm-4 col-xs-12">
+                    <div class="col-sm-8">
                         <ul class="accordion">
                             {!! trans('abogadoConsultores.modal_3_list') !!}
                         </ul>
                     </div>
-                    <div class="col-sm-8 col-xs-12">
+                    <div class="col-sm-8">
                         <article class="news-socios">
                             {!! trans('abogadoConsultores.modal_3_partners') !!}
                         </article>
                     </div>
-                    <div class="col-sm-12 col-xs-12">
+                    <div class="col-sm-12">
                         <article class="news-socios">
                             {!! trans('abogadoConsultores.modal_3_partners_1') !!}
                         </article>
@@ -204,7 +214,7 @@
             </div>
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-sm-4 col-xs-12">
+                    <div class="col-sm-4">
                         <article class="news-socios">
                             <img src="images/socios/Percy2.jpg" alt="Image" class="img-responsive">
                             <p class="txtblue text-bold">
@@ -212,17 +222,17 @@
                             </p>
                         </article>
                     </div>
-                    <div class="col-sm-4 col-xs-12">
+                    <div class="col-sm-8">
                         <ul class="accordion">
                             {!! trans('abogadoConsultores.modal_4_list') !!}
                         </ul>
                     </div>
-                    <div class="col-sm-8 col-xs-12">
+                    <div class="col-sm-8">
                         <article class="news-socios">
                             {!! trans('abogadoConsultores.modal_4_partners') !!}
                         </article>
                     </div>
-                    <div class="col-sm-12 col-xs-12">
+                    <div class="col-sm-12">
                         <article class="news-socios">
                             {!! trans('abogadoConsultores.modal_4_partners_1') !!}
                         </article>
@@ -244,23 +254,23 @@
 				</div>
 				<div class="modal-body">
                     <div class="row">
-                        <div class="col-sm-4 col-xs-12">
+                        <div class="col-sm-4">
                             <article class="news-socios">
                                 <img src="images/consultores/fernandooca.jpg" alt="Image" class="img-responsive img-center-xs">
                                 <p class="txtblue text-bold">{{ trans('abogadoConsultores.download') }}</p>
                             </article>
                         </div>
-                        <div class="col-sm-4 col-xs-12">
+                        <div class="col-sm-8">
                             <ul class="accordion">
                                 {!! trans('abogadoConsultores.modal_5_list') !!}
                             </ul>
                         </div>
-                        <div class="col-sm-8 col-xs-12">
+                        <div class="col-sm-8">
                             <article class="news-socios">
                                 {!! trans('abogadoConsultores.modal_5_partners') !!}
                             </article>
                         </div>
-                        <div class="col-sm-12 col-xs-12">
+                        <div class="col-sm-12">
                             <article class="news-socios">
                                 {!! trans('abogadoConsultores.modal_5_partners_1') !!}
                             </article>

@@ -223,13 +223,15 @@
                 </button>
             </div>
             <div class="modal-body">
-                <div class="col-sm-4">
-                    <article class="news-socios">
-                        <img src="images/asociados/AlejandraGalvez.jpg" alt="Image" class="img-responsive">
-                        <p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-                    </article>
-                </div>
-                {!! trans('abogadoAsociados.modal_1') !!}
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/AlejandraGalvez.jpg" alt="Image" class="img-responsive">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_1') !!}
+				</div>
 			</div>
 		</div>
 	</div>
@@ -245,13 +247,15 @@
                 </button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/alejandrochinguel.jpg" alt="Image" class="img-responsive">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/alejandrochinguel.jpg" alt="Image" class="img-responsive">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_2') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_2') !!}
 			</div>
 		</div>
 	</div>
@@ -267,13 +271,15 @@
                 </button>
             </div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/Alma.jpg" alt="Image" class="img-responsive">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/Alma.jpg" alt="Image" class="img-responsive">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_3') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_3') !!}
 			</div>
 		</div>
 	</div>
@@ -289,13 +295,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/Alvaro-Castro.jpg" alt="Image" class="img-responsive">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/Alvaro-Castro.jpg" alt="Image" class="img-responsive">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_4') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_4') !!}
 			</div>
 		</div>
 	</div>
@@ -312,13 +320,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/andreaRieckhof.jpg" alt="Image" class="img-responsive">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/andrearieckhof.jpg" alt="Image" class="img-responsive">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_5') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_5') !!}
 			</div>
 		</div>
 	</div>
@@ -334,13 +344,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/Andres.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/Andres.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_6') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_6') !!}
 			</div>
 		</div>
 	</div>
@@ -357,13 +369,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/Bettina.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/Bettina.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_7') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_7') !!}
 			</div>
 		</div>
 	</div>
@@ -379,13 +393,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/CarlosEspinoza.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/CarlosEspinoza.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_8') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_8') !!}
 			</div>
 		</div>
 	</div>
@@ -401,13 +417,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/CesarPantoja2.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/CesarPantoja2.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_9') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_9') !!}
 			</div>
 		</div>
 	</div>
@@ -423,13 +441,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/cinthiacanepa.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/cinthiacanepa.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_10') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_10') !!}
 			</div>
 		</div>
 	</div>
@@ -445,13 +465,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/ClaudiaA1.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/ClaudiaA1.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_11') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_11') !!}
 			</div>
 		</div>
 	</div>
@@ -468,13 +490,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/Cristina2.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/Cristina2.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_12') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_12') !!}
 			</div>
 		</div>
 	</div>
@@ -491,13 +515,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/Cynthia2.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/Cynthia2.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_13') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_13') !!}
 			</div>
 		</div>
 	</div>
@@ -514,13 +540,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/Daniel.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/Daniel.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_14') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_14') !!}
 			</div>
 		</div>
 	</div>
@@ -536,13 +564,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/DanielChancafe.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/DanielChancafe.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_15') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_15') !!}
 			</div>
 		</div>
 	</div>
@@ -559,13 +589,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/Daniela.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/Daniela.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_16') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_16') !!}
 			</div>
 		</div>
 	</div>
@@ -582,13 +614,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/DianaGarate.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/DianaGarate.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_17') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_17') !!}
 			</div>
 		</div>
 	</div>
@@ -605,13 +639,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/DianaT1.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/DianaT1.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_18') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_18') !!}
 			</div>
 		</div>
 	</div>
@@ -628,13 +664,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/Elizene.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/Elizene.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_19') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_19') !!}
 			</div>
 		</div>
 	</div>
@@ -651,13 +689,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/Fiorella.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/Fiorella.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_20') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_20') !!}
 			</div>
 		</div>
 	</div>
@@ -674,13 +714,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/Gonzalo1.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/Gonzalo1.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_21') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_21') !!}
 			</div>
 		</div>
 	</div>
@@ -697,13 +739,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/Gustavo.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/Gustavo.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_22') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_22') !!}
 			</div>
 		</div>
 	</div>
@@ -719,13 +763,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/HM.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/HM.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_23') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_23') !!}
 			</div>
 		</div>
 	</div>
@@ -742,13 +788,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/Alvaro-Castro.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/Alvaro-Castro.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_24') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_24') !!}
 			</div>
 		</div>
 	</div>
@@ -765,13 +813,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/Janett.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/Janett.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_25') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_25') !!}
 			</div>
 		</div>
 	</div>
@@ -787,13 +837,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/JuanAstocondor.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/JuanAstocondor.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_26') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_26') !!}
 			</div>
 		</div>
 	</div>
@@ -809,13 +861,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/JulioCesarMorales.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/JulioCesarMorales.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_27') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_27') !!}
 			</div>
 		</div>
 	</div>
@@ -831,13 +885,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/MayteColmenter.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/MayteColmenter.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_28') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_28') !!}
 			</div>
 		</div>
 	</div>
@@ -853,13 +909,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/manuelferre.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/manuelferre.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_29') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_29') !!}
 			</div>
 		</div>
 	</div>
@@ -875,13 +933,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/Marcia.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/Marcia.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_30') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_30') !!}
 			</div>
 		</div>
 	</div>
@@ -897,13 +957,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/Marita.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/Marita.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_31') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_31') !!}
 			</div>
 		</div>
 	</div>
@@ -919,13 +981,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/MariadelPilar.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/MariadelPilar.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_32') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_32') !!}
 			</div>
 		</div>
 	</div>
@@ -941,13 +1005,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/mafer.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/mafer.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_33') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_33') !!}
 			</div>
 		</div>
 	</div>
@@ -963,13 +1029,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/melisabush.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/melisabush.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_34') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_34') !!}
 			</div>
 		</div>
 	</div>
@@ -985,13 +1053,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/Mirko2.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/Mirko2.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_35') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_35') !!}
 			</div>
 		</div>
 	</div>
@@ -1007,13 +1077,15 @@
                 </button>
             </div>
             <div class="modal-body">
-                <div class="col-sm-4">
-                    <article class="news-socios">
-                        <img src="images/asociados/MartinLaRosa.jpg" alt="Image" class="img-responsive img-center-xs">
-                        <p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-                    </article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/MartinLaRosa.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_36') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_36') !!}
 			</div>
 		</div>
 	</div>
@@ -1029,13 +1101,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/nataliagalla.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/nataliagalla.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_37') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_37') !!}
 			</div>
 		</div>
 	</div>
@@ -1051,13 +1125,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/omar.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/omar.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_38') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_38') !!}
 			</div>
 		</div>
 	</div>
@@ -1073,13 +1149,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/PamelaArce.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/PamelaArce.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_39') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_39') !!}
 			</div>
 		</div>
 	</div>
@@ -1095,13 +1173,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/Pedro2.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/Pedro2.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_40') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_40') !!}
 			</div>
 		</div>
 	</div>
@@ -1117,13 +1197,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/Pilar1.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/Pilar1.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_41') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_41') !!}
 			</div>
 		</div>
 	</div>
@@ -1139,13 +1221,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/rafaellulli.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/rafaellulli.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_42') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_42') !!}
 			</div>
 		</div>
 	</div>
@@ -1161,13 +1245,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/RicardoCa2.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/RicardoCa2.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_43') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_43') !!}
 			</div>
 		</div>
 	</div>
@@ -1183,13 +1269,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/RicardoCardenas.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/RicardoCardenas.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_44') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_44') !!}
 			</div>
 		</div>
 	</div>
@@ -1205,13 +1293,15 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="col-sm-4">
-					<article class="news-socios">
-						<img src="images/asociados/Sebas2.jpg" alt="Image" class="img-responsive img-center-xs">
-						<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-					</article>
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/Sebas2.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_45') !!}
 				</div>
-                {!! trans('abogadoAsociados.modal_45') !!}
 			</div>
 		</div>
 	</div>
@@ -1227,13 +1317,15 @@
                 </button>
             </div>
             <div class="modal-body">
-                <div class="col-sm-4">
-                    <article class="news-socios">
-                        <img src="images/asociados/SofiaBriceño.jpg" alt="Image" class="img-responsive img-center-xs">
-                        <p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
-                    </article>
-                </div>
-                {!! trans('abogadoAsociados.modal_46') !!}
+				<div class="row">
+					<div class="col-sm-4">
+						<article class="news-socios">
+							<img src="images/asociados/SofiaBriceño.jpg" alt="Image" class="img-responsive img-center-xs">
+							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
+						</article>
+					</div>
+					{!! trans('abogadoAsociados.modal_46') !!}
+				</div>
             </div>
         </div>
     </div>

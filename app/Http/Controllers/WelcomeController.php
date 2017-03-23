@@ -17,9 +17,9 @@ class WelcomeController extends Controller {
 	|
 	*/
 
-	const fields = ['title', 'title_en', 'imagen', 'desc', 'desc_en'];
+	private $fields = array('title', 'title_en', 'imagen', 'desc', 'desc_en');
 
-	private $locale = 'es';
+	private $locale = '';
 
 	public function __construct()
     {
@@ -35,7 +35,7 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-	    $articles = Article::where('status', 1)->latest()->get(self::fields)->take(4)->toArray();
+	    $articles = Article::where('status', 1)->latest()->get($this->fields)->take(4)->toArray();
 
 	    $locale = $this->locale;
 
@@ -154,7 +154,7 @@ class WelcomeController extends Controller {
 
 	public function reconocimiento()
 	{
-        $articles = Article::where('status', 1)->latest()->paginate(12, self::fields);
+        $articles = Article::where('status', 1)->latest()->paginate(12, $this->fields);
 
         $locale = $this->locale;
 

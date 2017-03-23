@@ -87,4 +87,12 @@ class HomeController extends Controller {
 
         return redirect()->route('home');
     }
+
+    public function delete($id)
+    {
+        $article = Article::find($id);
+        $article->delete();
+
+        return redirect()->back();
+    }
 }
