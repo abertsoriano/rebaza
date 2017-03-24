@@ -9,8 +9,10 @@
      'title' => 'Abogados',
      'sub_title' => '<a class="abogados" href="abogadosocios">Socios</a> Asociados <a class="abogados" href="abogadoconsultores">Consultores</a>',
 
-     'modal_title' => 'Asociado(a)',
+     'modal_title' => 'Asociado',
+     'modal_title_f' => 'Asociada',
      'modal_title_2' => 'Asociado Senior',
+     'modal_title_2_f' => 'Asociada Senior',
      'download_bio' => 'Descargar Bio',
 
      'modal_1' => '<div class="col-sm-8">
@@ -1668,6 +1670,62 @@
 							Habla&nbsp; fluidamente Espa&ntilde;ol e Italiano.</p>
 					</article>
 				</div>',
+
+     'modal_27' => '<div class="col-sm-4">
+                    <ul class="accordion">
+                        <li class="current"><a href="#">Áreas</a>
+                            <div class="bloqueMostrar">
+                                <ul>
+                                     <li><a href="arealitigios">Litigios Corporativos</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">Educación</a>
+                        <div class="bloqueMostrar">
+                        <ul>
+                            <li>Abogado por la Universidad Nacional Mayor de San Marcos, 2006.</li>
+                            <li>Maestr&iacute;a en Derecho Procesal por la Universidad Nacional Mayor de San Marcos, 2009-2010.</li>
+                            <li>Maestr&iacute;a en Derecho Penal por la Universidad de Salamanca &ndash; Espa&ntilde;a, 2012-2013.</li>
+                            <li>Estancia de Investigaci&oacute;n Doctoral por la Universidad de M&oacute;dena y Reggio Emilia &ndash; Italia, 2014.</li>
+                            <li>Estudios de Doctorado en la Universidad de Salamanca &ndash; Espa&ntilde;a, 2013 a la fecha.</li>
+                        </ul>
+                        </div>
+                    </li>
+                        <li>
+                            <a href="#">Distinciones</a>
+                            <div class="bloqueMostrar"></div>
+                        </li>
+                        <li>
+                            <a href="#">Idiomas</a>
+                            <div class="bloqueMostrar">
+                                <ul>
+                                    <li>Espa&ntilde;ol e italiano</li>
+                                </ul>
+                        </div>
+                    </li>
+                    </ul>
+                </div >
+                <div class="col-sm-8 col-xs-12">
+                    <article class="news-socios">
+                        <p class="txtblue text-bold">Oficina de Lima</p>
+                        <p class="sinespacio">T: 4425100 A: 278<br>
+                        F: 4425100 A: 237<br>
+                        <a href="mailto:julio.morales@rebaza-alcazar.com" class="correo">julio.morales@rebaza-alcazar.com</a></p>
+                        <p class="txtblue text-bold">Secretaria</p>
+                        <p class="sinespacio">Irma Noriega<br>
+                        <a href="mailto:irma.noriega@rebaza-alcazar.com" class="correo">irma.noriega@rebaza-alcazar.com</a>
+                        <br>T: 4425100 A: 277<br><br>
+                    </article>
+                </div>
+                <div class="col-sm-12 col-xs-12">
+                    <article class="news-socios">
+                        <p>
+                            Abogado por la Universidad Nacional Mayor de San Marcos, colegiado y habilitado por el Colegio de Abogados de Lima. Con estudios de Maestr&iacute;a en Derecho Procesal por la Universidad Nacional Mayor de San Marcos - Per&uacute;, M&aacute;ster en Derecho Penal por la Universidad de Salamanca &ndash; Espa&ntilde;a, Investigador Becario&nbsp; por la Universidad de M&oacute;dena y Reggio Emilia &ndash; Italia y Candidato a Doctor en el doctorado de &ldquo;Estado de Derecho y Gobernanza Global&rdquo;, con menci&oacute;n en Derecho Penal, por la Universidad de Salamanca &ndash; Espa&ntilde;a. Autor de diversos art&iacute;culos en materia penal publicados en las distintas revistas jur&iacute;dicas del medio, expositor en congresos y otros eventos acad&eacute;micos de derecho penal y con una actividad profesional vinculada al litigio y la absoluci&oacute;n de consultor&iacute;as en materia penal y procesal penal. Se desempe&ntilde;&oacute; como abogado asociado del Estudio Loli &amp; Garc&iacute;a Cavero Abogados desde Julio del 2009 hasta diciembre 2015.<br />
+                            <br />
+                            Habla&nbsp; fluidamente Espa&ntilde;ol e Italiano.</p>
+                        </p>
+                    </article>
+                </div>',
 
      'modal_28' => '<div class="col-sm-8">
 					<ul class="accordion">

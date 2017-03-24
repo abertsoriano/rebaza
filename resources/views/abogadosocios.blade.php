@@ -47,7 +47,7 @@
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content row">
 			<div class="modal-header">
-				<h6 class="sinespacio pull-left">Alexandra&nbsp;Orbezo <small>{{ trans('abogadoSocios.type') }}</small></h6>
+				<h6 class="sinespacio pull-left">Alexandra&nbsp;Orbezo <small>{{ trans('abogadoSocios.type_f') }}</small></h6>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -73,7 +73,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
-                <h6 class="sinespacio pull-left">Augusto Loli <small>{{ trans('abogadoSocios.type') }}</small></h6>
+                <h6 class="sinespacio pull-left">Augusto Loli <small>{{ trans('abogadoSocios.type_alter') }}</small></h6>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -265,7 +265,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
-                <h6 class="sinespacio pull-left">María Haydée Zegarra <small>{{ trans('abogadoSocios.type') }}</small></h6>
+                <h6 class="sinespacio pull-left">María Haydée Zegarra <small>{{ trans('abogadoSocios.type_f') }}</small></h6>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -289,7 +289,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
-                <h6 class="sinespacio pull-left">María Luisa Peña <small>{{ trans('abogadoSocios.type') }}</small></h6>
+                <h6 class="sinespacio pull-left">María Luisa Peña <small>{{ trans('abogadoSocios.type_f') }}</small></h6>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>

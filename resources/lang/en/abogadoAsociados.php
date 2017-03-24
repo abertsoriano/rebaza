@@ -10,7 +10,9 @@
      'sub_title' => '<a class="abogados" href="abogadosocios">Partners</a> Associates <a class="abogados" href="abogadoconsultores">Counsel</a>',
 
      'modal_title' => 'Associate',
+     'modal_title_f' => 'Associate',
      'modal_title_2' => 'Senior Associate',
+     'modal_title_2_f' => 'Senior Associate',
      'download_bio' => 'Download Bio',
 
      'modal_1' => '<div class="col-sm-8">

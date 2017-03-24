@@ -67,7 +67,8 @@ return [
                     <div>rafael.alcazar@rebaza-alcazar.com</div>
                 </li>',
 
-    'type' => 'Socia',
+    'type' => 'Socio',
+    'type_f' => 'Socia',
     'type_alter' => 'Socio Principal',
     'download' => 'Descargar Bio',
 

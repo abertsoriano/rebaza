@@ -67,7 +67,8 @@ return [
                 </li>',
 
     'type' => 'Partner',
-    'type_alter' => 'Socio Principal',
+    'type_f' => 'Partner',
+    'type_alter' => 'Primary Partner',
     'download' => 'Download Bio',
 
     'modal_1' => '<div class="col-sm-8">

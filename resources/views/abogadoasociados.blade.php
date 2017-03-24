@@ -217,7 +217,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
-                <h6 class="sinespacio pull-left">Alejandra Galvez <small>{{ trans('abogadoAsociados.modal_title') }}</small></h6>
+                <h6 class="sinespacio pull-left">Alejandra Galvez <small>{{ trans('abogadoAsociados.modal_title_f') }}</small></h6>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -265,7 +265,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
-                <h6 class="sinespacio pull-left">Alma Jimenez <small>{{ trans('abogadoAsociados.modal_title') }}</small></h6>
+                <h6 class="sinespacio pull-left">Alma Jimenez <small>{{ trans('abogadoAsociados.modal_title_f') }}</small></h6>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -314,7 +314,7 @@
 <div class="modal-dialog modal-lg">
 	<div class="modal-content row">
 		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Andrea  Rieckhof <small>{{ trans('abogadoAsociados.modal_title') }}</small></h6>
+			<h6 class="sinespacio pull-left">Andrea  Rieckhof <small>{{ trans('abogadoAsociados.modal_title_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -347,7 +347,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/Andres.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/Andres.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -363,7 +363,7 @@
 <div class="modal-dialog modal-lg">
 	<div class="modal-content row">
 		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Bettina  Gorra <small>{{ trans('abogadoAsociados.modal_title') }}</small></h6>
+			<h6 class="sinespacio pull-left">Bettina  Gorra <small>{{ trans('abogadoAsociados.modal_title_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -372,7 +372,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/Bettina.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/Bettina.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -396,7 +396,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/CarlosEspinoza.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/CarlosEspinoza.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -420,7 +420,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/CesarPantoja2.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/CesarPantoja2.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -435,7 +435,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
-                <h6 class="sinespacio pull-left">Cinthia&nbsp;Cánepa <small>{{ trans('abogadoAsociados.modal_title_2') }}</small></h6>
+                <h6 class="sinespacio pull-left">Cinthia&nbsp;Cánepa <small>{{ trans('abogadoAsociados.modal_title_2_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -444,7 +444,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/cinthiacanepa.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/cinthiacanepa.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -459,7 +459,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
-                <h6 class="sinespacio pull-left">Claudia&nbsp;Ausejo <small>{{ trans('abogadoAsociados.modal_title_2') }}</small></h6>
+                <h6 class="sinespacio pull-left">Claudia&nbsp;Ausejo <small>{{ trans('abogadoAsociados.modal_title_2_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -468,7 +468,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/ClaudiaA1.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/ClaudiaA1.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -480,7 +480,7 @@
 </div>
 
 
-<div class="modal fade" id="cristinaflor" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
+{{--<div class="modal fade" id="cristinaflor" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
@@ -493,7 +493,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/Cristina2.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/Cristina2.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -502,14 +502,14 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div>--}}
 
 
 <div class="modal fade" id="cynthiareba" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
-                <h6 class="sinespacio pull-left">Cynthia&nbsp;Rebaza <small>{{ trans('abogadoAsociados.modal_title_2') }}</small></h6>
+                <h6 class="sinespacio pull-left">Cynthia&nbsp;Rebaza <small>{{ trans('abogadoAsociados.modal_title_2_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -518,7 +518,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/Cynthia2.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/Cynthia2.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -543,7 +543,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/Daniel.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/Daniel.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -567,7 +567,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/DanielChancafe.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/DanielChancafe.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -583,7 +583,7 @@
 <div class="modal-dialog modal-lg">
 	<div class="modal-content row">
 		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Daniela&nbsp;Urquiza <small>{{ trans('abogadoAsociados.modal_title') }}</small></h6>
+			<h6 class="sinespacio pull-left">Daniela&nbsp;Urquiza <small>{{ trans('abogadoAsociados.modal_title_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -592,7 +592,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/Daniela.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/Daniela.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -608,7 +608,7 @@
 <div class="modal-dialog modal-lg">
 	<div class="modal-content row">
 		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Diana&nbsp;Gárate <small>{{ trans('abogadoAsociados.modal_title') }}</small></h6>
+			<h6 class="sinespacio pull-left">Diana&nbsp;Gárate <small>{{ trans('abogadoAsociados.modal_title_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -617,7 +617,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/DianaGarate.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/DianaGarate.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -633,7 +633,7 @@
 <div class="modal-dialog modal-lg">
 	<div class="modal-content row">
 		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Diana&nbsp;Tassara <small>{{ trans('abogadoAsociados.modal_title') }}</small></h6>
+			<h6 class="sinespacio pull-left">Diana&nbsp;Tassara <small>{{ trans('abogadoAsociados.modal_title_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -642,7 +642,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/DianaT1.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/DianaT1.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -658,7 +658,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
-                <h6 class="sinespacio pull-left">Elizene&nbsp;Vasquez de Velasco <small>{{ trans('abogadoAsociados.modal_title_2') }}</small></h6>
+                <h6 class="sinespacio pull-left">Elizene&nbsp;Vasquez de Velasco <small>{{ trans('abogadoAsociados.modal_title_2_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -667,7 +667,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/Elizene.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/Elizene.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -683,7 +683,7 @@
 <div class="modal-dialog modal-lg">
 	<div class="modal-content row">
 		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Fiorella&nbsp;Atoche <small>{{ trans('abogadoAsociados.modal_title_2') }}</small></h6>
+			<h6 class="sinespacio pull-left">Fiorella&nbsp;Atoche <small>{{ trans('abogadoAsociados.modal_title_2_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -692,7 +692,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/Fiorella.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/Fiorella.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -717,7 +717,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/Gonzalo1.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/Gonzalo1.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -742,7 +742,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/Gustavo.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/Gustavo.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -766,7 +766,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/HM.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/HM.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -782,7 +782,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
-                <h6 class="sinespacio pull-left">Ingrid Medina <small>{{ trans('abogadoAsociados.modal_title') }}</small></h6>
+                <h6 class="sinespacio pull-left">Ingrid Medina <small>{{ trans('abogadoAsociados.modal_title_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -791,7 +791,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/Alvaro-Castro.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/Alvaro-Castro.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -807,7 +807,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
-                <h6 class="sinespacio pull-left">Janett Burga <small>{{ trans('abogadoAsociados.modal_title') }}</small></h6>
+                <h6 class="sinespacio pull-left">Janett Burga <small>{{ trans('abogadoAsociados.modal_title_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -816,7 +816,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/Janett.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/Janett.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -840,7 +840,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/JuanAstocondor.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/JuanAstocondor.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -864,7 +864,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/JulioCesarMorales.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/JulioCesarMorales.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -879,7 +879,7 @@
 <div class="modal-dialog modal-lg">
 	<div class="modal-content row">
 		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Maite Colmenter <small>{{ trans('abogadoAsociados.modal_title') }}</small></h6>
+			<h6 class="sinespacio pull-left">Maite Colmenter <small>{{ trans('abogadoAsociados.modal_title_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -888,7 +888,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/MayteColmenter.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/MayteColmenter.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -912,7 +912,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/manuelferre.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/manuelferre.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -927,7 +927,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
-                <h6 class="sinespacio pull-left">Marcia Arellano <small>Asociad</small></h6>
+                <h6 class="sinespacio pull-left">Marcia Arellano <small>{{ trans('abogadoAsociados.modal_title_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -936,7 +936,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/Marcia.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/Marcia.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -951,7 +951,7 @@
 <div class="modal-dialog modal-lg">
 	<div class="modal-content row">
 		<div class="modal-header">
-			<h6 class="sinespacio pull-left">María del Carmen Bedoya <small>{{ trans('abogadoAsociados.modal_title') }}</small></h6>
+			<h6 class="sinespacio pull-left">María del Carmen Bedoya <small>{{ trans('abogadoAsociados.modal_title_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -960,7 +960,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/Marita.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/Marita.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -975,7 +975,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
-                <h6 class="sinespacio pull-left">María del Pilar Sanchez <small>{{ trans('abogadoAsociados.modal_title') }}</small></h6>
+                <h6 class="sinespacio pull-left">María del Pilar Sanchez <small>{{ trans('abogadoAsociados.modal_title_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -984,7 +984,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/MariadelPilar.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/MariadelPilar.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -999,7 +999,7 @@
 <div class="modal-dialog modal-lg">
 	<div class="modal-content row">
 		<div class="modal-header">
-			<h6 class="sinespacio pull-left">María Fernanda Gadea <small>{{ trans('abogadoAsociados.modal_title') }}</small></h6>
+			<h6 class="sinespacio pull-left">María Fernanda Gadea <small>{{ trans('abogadoAsociados.modal_title_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -1008,7 +1008,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/mafer.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/mafer.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -1023,7 +1023,7 @@
 <div class="modal-dialog modal-lg">
 	<div class="modal-content row">
 		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Melisa Bush <small>Asociada Senior</small></h6>
+			<h6 class="sinespacio pull-left">Melisa Bush <small>{{ trans('abogadoAsociados.modal_title_2_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -1032,7 +1032,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/melisabush.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/melisabush.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -1056,7 +1056,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/Mirko2.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/Mirko2.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -1080,7 +1080,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/MartinLaRosa.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/MartinLaRosa.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -1095,7 +1095,7 @@
 <div class="modal-dialog modal-lg">
 	<div class="modal-content row">
 		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Natalia Gallardo <small>Asociada Senior</small></h6>
+			<h6 class="sinespacio pull-left">Natalia Gallardo <small>{{ trans('abogadoAsociados.modal_title_2_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -1104,7 +1104,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/nataliagalla.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/nataliagalla.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -1128,7 +1128,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/omar.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/omar.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -1143,7 +1143,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
-                <h6 class="sinespacio pull-left">Pamela Arce <small>Asociada Senior</small></h6>
+                <h6 class="sinespacio pull-left">Pamela Arce <small>{{ trans('abogadoAsociados.modal_title_2_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -1152,7 +1152,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/PamelaArce.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/PamelaArce.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -1176,7 +1176,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/Pedro2.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/Pedro2.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -1191,7 +1191,7 @@
 <div class="modal-dialog modal-lg">
 	<div class="modal-content row">
 		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Pilar Huamán De Los Heros <small>{{ trans('abogadoAsociados.modal_title') }}</small></h6>
+			<h6 class="sinespacio pull-left">Pilar Huamán De Los Heros <small>{{ trans('abogadoAsociados.modal_title_2') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -1200,7 +1200,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/Pilar1.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/Pilar1.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -1224,7 +1224,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/rafaellulli.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/rafaellulli.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -1248,7 +1248,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/RicardoCa2.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/RicardoCa2.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -1272,7 +1272,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/RicardoCardenas.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/RicardoCardenas.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -1296,7 +1296,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/Sebas2.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/Sebas2.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
@@ -1311,7 +1311,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
-                <h6 class="sinespacio pull-left">Sofía Briceño <small>Asociada Senior</small></h6>
+                <h6 class="sinespacio pull-left">Sofía Briceño <small>{{ trans('abogadoAsociados.modal_title_2_f') }}</small></h6>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -1320,7 +1320,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<article class="news-socios">
-							<img src="images/asociados/SofiaBriceño.jpg" alt="Image" class="img-responsive img-center-xs">
+							<img src="images/asociados/SofiaBriceno.jpg" alt="Image" class="img-responsive">
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
