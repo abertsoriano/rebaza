@@ -608,7 +608,7 @@
 <div class="modal-dialog modal-lg">
 	<div class="modal-content row">
 		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Diana&nbsp;Gárate <small>{{ trans('abogadoAsociados.modal_title_f') }}</small></h6>
+			<h6 class="sinespacio pull-left">Diana&nbsp;Gárate <small>{{ trans('abogadoAsociados.modal_title_2_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -633,7 +633,7 @@
 <div class="modal-dialog modal-lg">
 	<div class="modal-content row">
 		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Diana&nbsp;Tassara <small>{{ trans('abogadoAsociados.modal_title_f') }}</small></h6>
+			<h6 class="sinespacio pull-left">Diana&nbsp;Tassara <small>{{ trans('abogadoAsociados.modal_title_2_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -807,7 +807,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
-                <h6 class="sinespacio pull-left">Janett Burga <small>{{ trans('abogadoAsociados.modal_title_f') }}</small></h6>
+                <h6 class="sinespacio pull-left">Janett Burga <small>{{ trans('abogadoAsociados.modal_title_2_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -879,7 +879,7 @@
 <div class="modal-dialog modal-lg">
 	<div class="modal-content row">
 		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Maite Colmenter <small>{{ trans('abogadoAsociados.modal_title_f') }}</small></h6>
+			<h6 class="sinespacio pull-left">Maite Colmenter <small>{{ trans('abogadoAsociados.modal_title_2_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -927,7 +927,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
-                <h6 class="sinespacio pull-left">Marcia Arellano <small>{{ trans('abogadoAsociados.modal_title_f') }}</small></h6>
+                <h6 class="sinespacio pull-left">Marcia Arellano <small>{{ trans('abogadoAsociados.modal_title_2_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -975,7 +975,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
-                <h6 class="sinespacio pull-left">María del Pilar Sanchez <small>{{ trans('abogadoAsociados.modal_title_f') }}</small></h6>
+                <h6 class="sinespacio pull-left">María del Pilar Sanchez <small>{{ trans('abogadoAsociados.modal_title_2_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -1167,7 +1167,7 @@
 <div class="modal-dialog modal-lg">
 	<div class="modal-content row">
 		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Pedro Díaz Medina <small>{{ trans('abogadoAsociados.modal_title') }}</small></h6>
+			<h6 class="sinespacio pull-left">Pedro Díaz Medina <small>{{ trans('abogadoAsociados.modal_title_2') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -1191,7 +1191,7 @@
 <div class="modal-dialog modal-lg">
 	<div class="modal-content row">
 		<div class="modal-header">
-			<h6 class="sinespacio pull-left">Pilar Huamán De Los Heros <small>{{ trans('abogadoAsociados.modal_title_2') }}</small></h6>
+			<h6 class="sinespacio pull-left">Pilar Huamán De Los Heros <small>{{ trans('abogadoAsociados.modal_title_2_f') }}</small></h6>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
