@@ -5,7 +5,7 @@ return [
 		'sub_1' => 'Presentation',
 
 	'nav_2' => 'Practices',
-		'sub_2_1' => 'Fusiones y Adquisiciones',
+		'sub_2_1' => 'Mergers and acquisitions',
 		'sub_2_2' => 'Capital Markets',
 		'sub_2_3' => 'Corporate Reorganization and Bankruptcy',
 		'sub_2_4' => 'Financial Institutions Regulation',
