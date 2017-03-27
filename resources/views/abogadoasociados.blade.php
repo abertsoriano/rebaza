@@ -230,7 +230,7 @@
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
-					{!! trans('abogadoAsociados.modal_1') !!}
+					{!! trans('abogadoAsociados.modal_2') !!}
 				</div>
 			</div>
 		</div>
@@ -254,7 +254,7 @@
 							<p class="txtblue text-bold">{{ trans('abogadoAsociados.download_bio') }}</p>
 						</article>
 					</div>
-					{!! trans('abogadoAsociados.modal_2') !!}
+					{!! trans('abogadoAsociados.modal_1') !!}
 				</div>
 			</div>
 		</div>

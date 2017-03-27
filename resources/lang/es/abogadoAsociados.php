@@ -20,49 +20,6 @@
 						<li class="current"><a href="#">Áreas</a>
 				            <div class="bloqueMostrar">
 				            	<ul>
-									 <a class="nohover" href="areaconseciones">Concesiones y Proyectos Financieros. </a>
-								</ul>
-				            </div>
-				        </li>
-						<li><a href="#">Educación</a>
-                            <div class="bloqueMostrar">
-                                <ul>
-                                    <li>Bachiller por la Universidad de Lima, 2016. </li>
-                                </ul>
-                            </div>
-                        </li>
-						<li><a href="#">Idiomas</a>
-						    <div class="bloqueMostrar"><p>Espa&ntilde;ol e ingl&eacute;s.</p>
-							</div>
-                        </li>
-					</ul>
-				</div>
-				<div class="col-sm-8">
-					<article class="news-socios">
-						<p class="txtblue text-bold">Oficina de Lima</p>
-						<p class="sinespacio">T: 4425100<br>
-						F: 4425100 – A 289<br>
-						<a href="mailto:alejandra.galvez@rebaza-alcazar.com" class="correo">alejandra.galvez@rebaza-alcazar.com</a></p>
-						<p class="txtblue text-bold">Secretaria</p>
-						<p class="sinespacio">Andrea Lietzenmayer<br>
-						<a href="mailto:andrea.lietzenmayer@rebaza-alcazar.com" class="correo">andrea.lietzenmayer@rebaza-alcazar.com</a>
-						<br>T: 4425100 A: 264
-					</article>
-				</div>
-				<div class="col-sm-12">
-					<article class="news-socios">
-						<p>Alejandra Galvez es egresada de la Universidad de Lima, donde ha culminado su carrera ubicada en el Quinto Superior de su promoción.</p>
-						<p>Su práctica se enfoca en asesoría en procesos de promoción de inversión privada y contratación pública. Alejandra ha participado en la asesoría para la elaboración, presentación y tramitación de iniciativas privadas, así como en la absolución de consultas a entidades públicas y a empresas del sector privado en materia de contrataciones con el Estado. También ha asesorado a empresas del sector privado en concursos y licitaciones públicas así como en procedimientos impugnatorios ante el Organismo Supervisor de Contrataciones del Estado.</p>
-						<p>Alejandra realizó sus prácticas pre-profesionales en el Área Regulatoria del Estudio Echecopar y en Rebaza, Alcázar & De las Casas. Asimismo, como alumna fue Presidenta del Consejo Directivo de la Revista Advocatus, revista editada por los alumnos de la Facultad de Derecho de la Universidad de Lima.</p>
-						<p>Habla fluidamente Español e Inglés.</p>
-					</article>
-				</div>',
-
-     'modal_2' => '<div class="col-sm-8">
-					<ul class="accordion">
-						<li class="current"><a href="#">Áreas</a>
-				            <div class="bloqueMostrar">
-				            	<ul>
 									 <a class="nohover" href="arealitigios">Litigios Corporativos</a>
 								</ul>
 				            </div>
@@ -106,6 +63,49 @@
 						<p>Ha desempe&ntilde;ado pr&aacute;cticas pre-profesionales en el Consultorio Jur&iacute;dico Gratuito de la Universidad de Piura, en el Instituto Nacional de Defensa de la Competencia y de la Protecci&oacute;n de la Propiedad Intelectual (INDECOPI), en el Estudio Caro &amp; Asociados y en la Corte Superior de Justicia de Piura.</p>
 						<p>Alejandro ha sido miembro de la Asociaci&oacute;n Civil sin fines de lucro ITA IUS ESTO, Revista de Estudiantes de la Facultad de Derecho de la Universidad de Piura y de los talleres de Derecho Administrativo y Derecho Penal de la misma facultad. Adem&aacute;s ha sido subdelegado de su clase durante el per&iacute;odo 2011-2012 y coordinador principal del &ldquo;Congreso Internacional de Derecho Administrativo &ndash; III Encuentro Peruano &ndash; Brasile&ntilde;o de profesores de Derecho Administrativo&rdquo; organizado por la Facultad de Derecho de la Universidad de Piura (Per&uacute;).</p>
 						<p>Asimismo, form&oacute; parte del equipo FUMUS BONI IURIS que obtuvo el reconocimiento del mejor informe escrito en el MOOT LIMA 2011 organizado por la fundaci&oacute;n EEA del Estudio Echecopar.</p>
+					</article>
+				</div>',
+
+     'modal_2' => '<div class="col-sm-8">
+					<ul class="accordion">
+						<li class="current"><a href="#">Áreas</a>
+				            <div class="bloqueMostrar">
+				            	<ul>
+									 <a class="nohover" href="areaconseciones">Concesiones y Proyectos Financieros. </a>
+								</ul>
+				            </div>
+				        </li>
+						<li><a href="#">Educación</a>
+                            <div class="bloqueMostrar">
+                                <ul>
+                                    <li>Bachiller por la Universidad de Lima, 2016. </li>
+                                </ul>
+                            </div>
+                        </li>
+						<li><a href="#">Idiomas</a>
+						    <div class="bloqueMostrar"><p>Espa&ntilde;ol e ingl&eacute;s.</p>
+							</div>
+                        </li>
+					</ul>
+				</div>
+				<div class="col-sm-8">
+					<article class="news-socios">
+						<p class="txtblue text-bold">Oficina de Lima</p>
+						<p class="sinespacio">T: 4425100<br>
+						F: 4425100 – A 289<br>
+						<a href="mailto:alejandra.galvez@rebaza-alcazar.com" class="correo">alejandra.galvez@rebaza-alcazar.com</a></p>
+						<p class="txtblue text-bold">Secretaria</p>
+						<p class="sinespacio">Andrea Lietzenmayer<br>
+						<a href="mailto:andrea.lietzenmayer@rebaza-alcazar.com" class="correo">andrea.lietzenmayer@rebaza-alcazar.com</a>
+						<br>T: 4425100 A: 264
+					</article>
+				</div>
+				<div class="col-sm-12">
+					<article class="news-socios">
+						<p>Alejandra Galvez es egresada de la Universidad de Lima, donde ha culminado su carrera ubicada en el Quinto Superior de su promoción.</p>
+						<p>Su práctica se enfoca en asesoría en procesos de promoción de inversión privada y contratación pública. Alejandra ha participado en la asesoría para la elaboración, presentación y tramitación de iniciativas privadas, así como en la absolución de consultas a entidades públicas y a empresas del sector privado en materia de contrataciones con el Estado. También ha asesorado a empresas del sector privado en concursos y licitaciones públicas así como en procedimientos impugnatorios ante el Organismo Supervisor de Contrataciones del Estado.</p>
+						<p>Alejandra realizó sus prácticas pre-profesionales en el Área Regulatoria del Estudio Echecopar y en Rebaza, Alcázar & De las Casas. Asimismo, como alumna fue Presidenta del Consejo Directivo de la Revista Advocatus, revista editada por los alumnos de la Facultad de Derecho de la Universidad de Lima.</p>
+						<p>Habla fluidamente Español e Inglés.</p>
 					</article>
 				</div>',
 

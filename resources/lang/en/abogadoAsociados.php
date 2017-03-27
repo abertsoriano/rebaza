@@ -2216,54 +2216,6 @@
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <li><a href="areacorporativo">Corporate</a></li>
-								</ul>
-				            </div>
-				        </li>
-						<li><a href="#">Education</a>
-				        <div class="bloqueMostrar"><ul>
-					<li>
-						<p>Graduate Lawyer from Universidad Peruana de Ciencias Aplicadas, 2016. </p>
-					</li>
-				</ul>
-				</div></li>
-						<li><a href="#">Languages</a>
-				        <div class="bloqueMostrar"><ul>
-					<li>
-						Spanish and English</li>
-				</ul>
-							</div>
-						</li>
-					</ul>
-				</div >
-				<div class="col-sm-8">
-					<article class="news-socios">
-						<p class="txtblue text-bold">Lima Office</p>
-						<p class="sinespacio">T: 4425100<br>
-						F: 4425100 A: 234<br>
-						<a href="mailto:martin.larosa@rebaza-alcazar.com" class="correo">martin.larosa@rebaza-alcazar.com</a></p>
-						<p class="txtblue text-bold">Secretary</p>
-						<p class="sinespacio">Gabriela Jiménez<br>
-						<a href="mailto:gabriela.jimenez@rebaza-alcazar.com" class="correo">gabriela.jimenez@rebaza-alcazar.com</a>
-							<br>T: 4425100 A: 250<br></p>
-					</article>
-				</div>
-				<div class="col-sm-12">
-					<article class="news-socios">
-						<p>Martín La Rosa is a graduate lawyer from Universidad Peruana de Ciencias Aplicadas, and was ranked in first place in the Law School.</p>
-						<p>His practice is focused in tax counsel, both for local and foreign companies, related to M&A transactions, financing, investments and advisement regarding administrative procedures.</p>
-						<p>Likewise, provides general tax counsel and is responsible for conducting Due Diligence and reviewing compliance with tax obligations.</p>
-						<p>Martín has been intern in Rebaza, Alcázar & De Las Casas Abogados Financieros and in
-						Estudio Gálvez Abogados.</p>
-						<p>He speaks fluidly Spanish and English.</p>
-					</article>
-				</div>',
-
-     'modal_35' => '<div class="col-sm-8">
-					<ul class="accordion">
-						<li class="current"><a href="#">Practices</a>
-				            <div class="bloqueMostrar">
-				            	<ul style="">
 									 <a class="nohover" href="areatributario">Tax</a>
 								</ul>
 				            </div>
@@ -2310,7 +2262,7 @@
 					</article>
 				</div>',
 
-     'modal_36' => '<div class="col-sm-8">
+     'modal_35' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
@@ -2370,6 +2322,54 @@
 							He speaks fluently Spanish and English.</p>
 					</article>
 				</div>',
+
+     'modal_36' => '<div class="col-sm-8">
+                        <ul class="accordion">
+                            <li class="current"><a href="#">Practices</a>
+                                <div class="bloqueMostrar">
+                                    <ul style="">
+                                         <li><a href="areacorporativo">Corporate</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Education</a>
+                            <div class="bloqueMostrar"><ul>
+                        <li>
+                            <p>Graduate Lawyer from Universidad Peruana de Ciencias Aplicadas, 2016. </p>
+                        </li>
+                    </ul>
+                    </div></li>
+                            <li><a href="#">Languages</a>
+                            <div class="bloqueMostrar"><ul>
+                        <li>
+                            Spanish and English</li>
+                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div >
+                    <div class="col-sm-8">
+                        <article class="news-socios">
+                            <p class="txtblue text-bold">Lima Office</p>
+                            <p class="sinespacio">T: 4425100<br>
+                            F: 4425100 A: 234<br>
+                            <a href="mailto:martin.larosa@rebaza-alcazar.com" class="correo">martin.larosa@rebaza-alcazar.com</a></p>
+                            <p class="txtblue text-bold">Secretary</p>
+                            <p class="sinespacio">Gabriela Jiménez<br>
+                            <a href="mailto:gabriela.jimenez@rebaza-alcazar.com" class="correo">gabriela.jimenez@rebaza-alcazar.com</a>
+                                <br>T: 4425100 A: 250<br></p>
+                        </article>
+                    </div>
+                    <div class="col-sm-12">
+                        <article class="news-socios">
+                            <p>Martín La Rosa is a graduate lawyer from Universidad Peruana de Ciencias Aplicadas, and was ranked in first place in the Law School.</p>
+                            <p>His practice is focused in tax counsel, both for local and foreign companies, related to M&A transactions, financing, investments and advisement regarding administrative procedures.</p>
+                            <p>Likewise, provides general tax counsel and is responsible for conducting Due Diligence and reviewing compliance with tax obligations.</p>
+                            <p>Martín has been intern in Rebaza, Alcázar & De Las Casas Abogados Financieros and in
+                            Estudio Gálvez Abogados.</p>
+                            <p>He speaks fluidly Spanish and English.</p>
+                        </article>
+                    </div>',
 
      'modal_37' => '<div class="col-sm-8">
 					<ul class="accordion">
