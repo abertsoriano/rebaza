@@ -18,6 +18,7 @@ return [
 
     'modal_list_1' => 'Practices',
     'modal_list_1a' => 'Strategies and Conflict Resolution',
+    'modal_list_1b' => 'White Collar Crime',
 
     'modal_list_2' => 'Education',
     'modal_list_21' => 'Juris Doctor by Universidad Privada Antenor Orrego de Trujillo, 1999.',
@@ -136,9 +137,7 @@ return [
     'modal_4_list' => '<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
 					            	<ul>
-										 <a class="nohover" href="#">Mergers and Acquisitions</a>
-										 <a class="nohover" href="#">Capital Markets</a>
-										 <a class="nohover" href="#">Free and unfair competition</a><a class="nohover" href="#">Private Clients</a>
+									 <a class="nohover" href="areawhitecollarcrime">White Collar Crime</a>
 									</ul>
 					            </div>
 					        </li>

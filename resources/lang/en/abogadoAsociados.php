@@ -601,7 +601,8 @@
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="areamercado">Capital Markets</a>
+									 <a class="nohover" href="arealitigios">Corporate strategies and conflict resolution</a>
+									 <a class="nohover" href="areawhitecollarcrime">White Collar Crime</a>
 								</ul>
 				            </div>
 				        </li>
@@ -923,6 +924,7 @@
 				            <div class="bloqueMostrar">
 				            	<ul style="">
 									 <a class="nohover" href="areafunciones">Mergers and Acquisitions</a>
+									 <a class="nohover" href="arearestructuracion">Corporate Reorganization and Bankruptcy</a>
 								</ul>
 				            </div>
 				        </li>
@@ -1565,6 +1567,7 @@
 				            <div class="bloqueMostrar">
 				            	<ul style="">
 									 <a class="nohover" href="arealitigios">Strategies and Conflict Resolution</a>
+									 <a class="nohover" href="areawhitecollarcrime">White Collar Crime</a>
 								</ul>
 				            </div>
 				        </li>
@@ -1795,6 +1798,7 @@
 				            <div class="bloqueMostrar">
 				            	<ul style="">
 									 <a class="nohover" href="arealitigios">Strategies and Conflict Resolution</a>
+									 <a class="nohover" href="areawhitecollarcrime">White Collar Crime</a>
 								</ul>
 				            </div>
 				        </li>

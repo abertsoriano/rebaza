@@ -1,7 +1,7 @@
 <?php
 return [
 	'title' => 'Capital Markets',
-	'title2' => '',
+	'title2' => 'Ofertas Primarias y Secundarias',
 
 	'text_en' => '<article class="news-block">
 							<p>Since the beginning of the 1990s, Peru’s securities market has grown significantly in terms of the amounts negotiated, as well as for the greater sophistication of the transactions involved, and the range of products offered in the markets. Private sector entities from the manufacturing, electricity, gas and oil, mining, financial and insurance, and other industries, as well as the public sector (including the Peruvian Government) have adopted the securities market as an alternative source of financing for a wide range of projects.</p>
@@ -25,7 +25,7 @@ return [
 			<li>Financial leasing bonds issuances</li>
 			<li>Subordinated bonds issuances</li>
 			<li>Convertible bonds issuances</li>
-			<li>Securitizations (Securitized bond issuances</li>
+			<li>Securitizations (Securitized bond issuances)</li>
 			<li>American Depositary Receipts issuances</li>
 			<li>Short term instrument issuances</li>
 			<li>Stock issuances</li>

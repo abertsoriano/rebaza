@@ -1,7 +1,7 @@
 <?php
 return [
 	'title' => 'Mercado de valores',
-	'title2' => 'Ofertas Públicas Privadas y Secundarias',
+	'title2' => 'Ofertas Primarias y Secundarias',
 
 	'text_en' => '',
 	'list_en' => '',

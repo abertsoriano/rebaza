@@ -497,7 +497,8 @@
 						<li class="current"><a href="#">Áreas</a>
 				            <div class="bloqueMostrar">
 				            	<ul>
-									 <a class="nohover" href="areamercado">Mercado de Valores</a>
+									 <a class="nohover" href="arealitigios">Litigios Corporativos</a>
+									 <a class="nohover" href="areawhitecollarcrime">White Collar Crime</a>
 								</ul>
 				            </div>
 				        </li>
@@ -789,6 +790,7 @@
 				            <div class="bloqueMostrar">
 				            	<ul>
 									 <a class="nohover" href="areafunciones">Fusiones y Adquisiciones</a>
+									 <a class="nohover" href="arearestructuracion">Reestructuración e Insolvencias Empresariales</a>
 								</ul>
 				            </div>
 				        </li>
@@ -977,8 +979,8 @@
 						<ul>
                             <li>Asesoría tributaria (estructuración y tax compliance) en el Contrato de Streaming celebrado por Milpo UK Limited (subsidiaria de Compañía Minera Milpo S.A.A.) y Triple Flag Mining Finance Bermuda Ltd. Por US$ 250 millones.
                             <li>Asesoría vinculada a los aspectos tributarios en la venta del 50% de la participación en Acceso Crediticio por US$ 51 millones.</li>
-                            <li>Asesoría a Ambev Perú y a sus accionistas en la venta de las acciones a favor de a una subsidiaria de la belga-brasileña Anheuser-Busch InBev (AB InBev), operación parte del proceso de fusión de AB InBev y de SABMiller, por un monto de USD 106.000 millones.</li>   
-                            <li>Asesoría en la determinación de la estructura tributaria más eficiente para la compra de la mina Contonga por parte de Glencore Plc, por un monto de US$ 26 millones.</li> 
+                            <li>Asesoría a Ambev Perú y a sus accionistas en la venta de las acciones a favor de a una subsidiaria de la belga-brasileña Anheuser-Busch InBev (AB InBev), operación parte del proceso de fusión de AB InBev y de SABMiller, por un monto de USD 106.000 millones.</li>
+                            <li>Asesoría en la determinación de la estructura tributaria más eficiente para la compra de la mina Contonga por parte de Glencore Plc, por un monto de US$ 26 millones.</li>
                             <li>Asesoría tributaria y estructuración de fondos de inversión administrados por SIGMA SAFI, AC Capitales SAFI, W Capital SAFI, Blanco SAFI, entre otros.</li>
                             <li>Estructuración de fideicomisos para administración de patrimonios familiares. Asesoría a inversionistas peruanos sobre la aplicación del Régimen de Transparencia Fiscal Internacional.</li>
                             <li>Asesoría integral en el acogimiento al Régimen de Recuperación Anticipada del IGV a Compañía Estacionamientos Miraflores y a Hidroeléctrica Marañon.</li>
@@ -1429,6 +1431,7 @@
 				            <div class="bloqueMostrar">
 				            	<ul style="">
 									 <a class="nohover" href="arealitigios">Litigios Corporativos</a>
+									 <a class="nohover" href="areawhitecollarcrime">White Collar Crime</a>
 								</ul>
 				            </div>
 				        </li>
@@ -1622,6 +1625,7 @@
 				            <div class="bloqueMostrar">
 				            	<ul style="">
 									 <a class="nohover" href="arealitigios">Litigios Corporativos</a>
+									 <a class="nohover" href="areawhitecollarcrime">White Collar Crime</a>
 								</ul>
 				            </div>
 				        </li>
@@ -2919,7 +2923,7 @@
                         <li>
                         Espa&ntilde;ol e Ingl&eacute;s</li>
                         </ul>
-    
+
                         </div></li>
                     </ul>
                 </div>

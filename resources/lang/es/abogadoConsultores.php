@@ -18,6 +18,7 @@ return [
 
     'modal_list_1' => 'Áreas',
     'modal_list_1a' => 'Litigios Corporativos',
+    'modal_list_1b' => 'White Collar Crime',
 
     'modal_list_2' => 'Educación',
     'modal_list_21' => 'Abogado por la Universidad Privada Antenor Orrego de Trujillo, 1999.',
@@ -148,9 +149,7 @@ return [
                             <a href="#">Áreas</a>
                             <div class="bloqueMostrar">
                                 <ul style="">
-                                     <a class="nohover" href="#">Fusiones y Adquisiciones</a>
-                                     <a class="nohover" href="#">Mercado de Valores</a>
-                                     <a class="nohover" href="#">Libre Competencia y Competencia Desleal</a><a class="nohover" href="#">Private Clients</a>
+                                     <a class="nohover" href="areawhitecollarcrime">White Collar Crime</a>
                                 </ul>
                             </div>
                         </li>
