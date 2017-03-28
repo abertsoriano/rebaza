@@ -79,7 +79,8 @@
                             <li class="current"><a href="#">{{ trans('abogadoConsultores.modal_list_1') }}</a>
                                 <div class="bloqueMostrar">
                                     <ul>
-                                        <a class="nohover" href="{{ route('arealitigios') }}">{{ trans('abogadoConsultores.modal_list_1a') }}</a>
+                                        <li><a href="{{ route('arealitigios') }}">{{ trans('abogadoConsultores.modal_list_1a') }}</a></li>
+                                        <li><a href="areawhitecollarcrime">White Collar Crime</a></li>
                                     </ul>
                                 </div>
                             </li>
