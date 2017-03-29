@@ -554,8 +554,9 @@
 				        </li>
 						<li><a href="#">Educación</a>
 				        <div class="bloqueMostrar"><ul>
-					<li>
-						Abogada por la Pontificia Universidad Cat&oacute;lica del Per&uacute;, 2007</li>
+					<li>Abogada por la Pontificia Universidad Cat&oacute;lica del Per&uacute;, 2007</li>
+					<li>Especialización en Derecho Corporativo por la Universidad ESAN. 2013-2014</li>
+					<li>Especialización Derecho Financiero por la Universidad del Pacífico. 2014</li>
 				</ul>
 				</div></li>
 						<li><a href="#">Distinciones</a>
