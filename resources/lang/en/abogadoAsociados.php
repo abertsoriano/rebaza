@@ -1746,8 +1746,9 @@
 					<ul class="accordion">
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
-				            	<ul style="">
-									 <a class="nohover" href="arealitigios">Strategies and Conflict Resolution</a>
+				            	<ul>
+									 <li><a href="arealitigios">Strategies and Conflict Resolution</a></li>
+									 <li><a href="areawhitecollarcrime">White Collar Crime</a></li>
 								</ul>
 				            </div>
 				        </li>
@@ -1763,10 +1764,8 @@
 				        <div class="bloqueMostrar"></div></li>
 						<li><a href="#">Languages</a>
 				        <div class="bloqueMostrar"><ul>
-					<li>
-						Spanish and english</li>
+					<li>Spanish and english</li>
 				</ul>
-
 					</div></li>
 					</ul>
 				</div >
