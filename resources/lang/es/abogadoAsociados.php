@@ -2101,45 +2101,38 @@
 				</div>
 				<div class="col-sm-12">
 					<article class="news-socios">
-						<p>
-							&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Mar&iacute;a Fernanda Gadea es abogada egresada de la Universidad de Lima,&nbsp;<em>summa cum laude</em>&nbsp;y graduada entre los cinco primeros puestos de la Facultad de Derecho.</p>
-						<p>
-							Integra el &aacute;rea de Fusiones y Adquisiciones y ha participado en diversas operaciones de compra y venta de empresas y project finance, as&iacute; como en la asesor&iacute;a corporativa a empresas nacionales y extranjeras.</p>
-						<p>
-							Entre su m&aacute;s relevante experiencia se incluye lo siguiente:</p>
-						<p>
-							FUSIONES Y ADQUISICIONES</p>
+						<p>María Fernanda Gadea es abogada egresada de la Universidad de Lima, summa cum laude y graduada entre los cinco primeros puestos de la Facultad de Derecho.</p>
+					<p>Integra el área de Fusiones y Adquisiciones y ha participado en diversas operaciones de compra y venta de empresas y project finance, así como en la asesoría corporativa a empresas nacionales y extranjeras. Asimismo, cuenta con expertise en transacciones de metal streaming y asesoría en el desarrollo de proyectos mineros.</p>
+					<p>Entre su más relevante experiencia se incluye lo siguiente:</p><p></p>
+						<p></p>
+						<p class="txtblue text-bold">FUSIONES Y ADQUISICIONES</p><p></p>
 						<ul>
-							<li>
-								Asesor&iacute;a a AmBev en la venta de activos relacionados al negocio de bebidas no alcoh&oacute;licas en el Per&uacute; a favor del Grupo CBC.<br />
-								&nbsp;</li>
-							<li>
-								Asesor&iacute;a a los accionistas de las empresas de seguridad J&amp;V Resguardo (Liderman) y Clave 3 en la venta de sus acciones a favor de The Carlyle Group.<br />
-								&nbsp;</li>
-							<li>
-								Asesor&iacute;a a Cl&iacute;nica Internacional (R&iacute;mac Seguros) en la adquisici&oacute;n del 97.05% de las acciones de Cl&iacute;nica San Miguel, una de las cl&iacute;nicas m&aacute;s importantes del norte del Per&uacute;.<br />
-								&nbsp;</li>
-							<li>
-								Asesor&iacute;a a Grupo El Comercio en la adquisici&oacute;n, a trav&eacute;s de su subsidiaria Coney Island S.A.C., del 70% de las acciones de Yukids S.A., empresa chilena de entretenimiento.<br />
-								&nbsp;</li>
-							<li>
-								Asesor&iacute;a a Salkantay Partners y Grupo El Comercio en la adquisici&oacute;n de la totalidad de las acciones del Instituto Peruano Alem&aacute;n &ndash; IPAL.<br />
-								&nbsp;</li>
-							<li>
-								Asesor&iacute;a a Cosapi S.A. en la venta de Cosapi Data y Cosapi Soft a favor del fondo de inversi&oacute;n colombiano Altra Investments.</li>
-						</ul>
-						<p>PROJECT FINANCE</p>
+							<li>Asesoría al grupo AmBev en la venta de las acciones de Compañía Cervecera AmBev Perú por $64 millones a favor de una subsidiaria de AB InBev, en el marco del proceso de fusión e integración mundial de AB InBev con SABMiller.</li>
+							<li>Asesoría a Glencore en la adquisición de la unidad minera Contonga ubicada Ancash, como parte de la venta regional de activos mineros realizada por Nyrstar.</li>
+							<li>Asesoría al Grupo Wiese, en la venta de manera conjunta con Familia De Osma e Inversiones Centenario de un paquete de acciones mayoritario en Hermes Transportes Blindados S.A. a favor de The Carlyle Group.</li>
+							<li>Asesoría a AmBev en la venta de activos relacionados al negocio de bebidas no alcohólicas en el Perú a favor del Grupo CBC.</li>
+							<li>Asesoría a los accionistas de las empresas de seguridad J&V Resguardo (Liderman) y Clave 3 en la venta de sus acciones a favor de The Carlyle Group.</li>
+							<li>Asesoría a Clínica Internacional (Rímac Seguros) en la adquisición del 97.05% de las acciones de Clínica San Miguel, una de las clínicas más importantes del norte del Perú.</li>
+							<li>Asesoría a Grupo El Comercio en la adquisición, a través de su subsidiaria Coney Island S.A.C., del 70% de las acciones de Yukids S.A., empresa chilena de entretenimiento.</p>
+							<li>Asesoría a Salkantay Partners y Grupo El Comercio en la adquisición de la totalidad de las acciones del Instituto Peruano Alemán – IPAL.</p>
+							<li>Asesoría a Cosapi S.A. en la venta de Cosapi Data y Cosapi Soft a favor del fondo de inversión colombiano Altra Investments.</p>
+
+						</ul><p></p>
+						<p class="txtblue text-bold">PROJECT FINANCE</p><p></p>
 						<ul>
-							<li>Asesor&iacute;a a Hudbay Per&uacute; y Hudbay Minerals en la obtenci&oacute;n del financiamiento por US$ 150 millones para el desarrollo del Proyecto Minero &ldquo;Constancia&rdquo; en el sur del Per&uacute;.</li>
+							<li>Asesoría a Hudbay Perú y Hudbay Minerals en el refinanciamiento por $200 millones otorgado por The Bank of Nova Scotia y otros prestamistas a HudBay Perú para el desarrollo de la unidad minera Constancia.</li>
+							<li>Asesoría a Hudbay Perú y Hudbay Minerals en la obtención del financiamiento por $150 millones otorgado por BNP Paribas, ING Capital y otros prestamistas a Hudbay Perú para la construcción y desarrollo del proyecto minero Constancia en el sudeste del Perú.</li>
+						</ul><p></p>
+						<p class="txtblue text-bold">METAL STREAMING Y TRANSACCIONES MINERAS</p><p></p>
+						<ul>
+						<li>Asesoría a Compañía Minera Milpo en el silver stream por $250 millones con Triple Flag que toma como referencia la producción de la unidad minera Cerro Lindo.</li>
+						<li>Asesoría a Glencore en la adquisición de la mina Contonga y otros activos mineros de propiedad de la minera belga Nyrstar.</li>
+						<li>Asesoría a Pandion Mine Finance en la compra de la producción futura de oro por $6.1 millones del proyecto minero Invicta de Lupaka Gold.</li>
 						</ul>
-						<p>
-							Actualmente es asistente de c&aacute;tedra del curso Derecho Comercial en la Universidad de Lima.</p>
-						<p>
-							Fue directora de la Comisi&oacute;n de Financiamiento de la Asociaci&oacute;n Civil ADV Editores, la misma que edita la revista jur&iacute;dica ADVOCATUS.</p>
-						<p>
-							Mar&iacute;a Fernanda realiz&oacute; sus pr&aacute;cticas pre-profesionales en Rebaza, Alc&aacute;zar &amp; De las Casas Abogados Financieros y en el Estudio Olaeche.</p>
-						<p>
-							Habla fluidamente Espa&ntilde;ol e Ingl&eacute;s.</p>
+						<p>Ha sido asistente de cátedra del curso Derecho Comercial en la Universidad de Lima.</p>
+						<p>Fue directora de la Comisión de Financiamiento de la Asociación Civil ADV Editores, la misma que edita la revista jurídica ADVOCATUS.</p>
+						<p>María Fernanda realizó sus prácticas pre-profesionales en Rebaza, Alcázar & De las Casas.</p>
+						<p>Habla fluidamente Español e Inglés.</p>
 					</article>
 				</div>',
 
@@ -2183,14 +2176,11 @@
 				</div>
 				<div class="col-sm-12">
 					<article class="news-socios">
-						<p>
-							Melisa Bush es abogada egresada de la Universidad de Lima. Su pr&aacute;ctica est&aacute; enfocada en Tributaci&oacute;n.</p>
-						<p>
-							Ha participado en diversas auditor&iacute;as tributarias. Ha integrado el equipo que asesor&oacute; la revisi&oacute;n de declaraciones juradas de impuestos de los bancos e instituciones financieras de mayor importancia del pa&iacute;s, planeamientos tributarios, asesor&iacute;a en procedimientos tributarios ante la autoridad tributaria, as&iacute; como asesor&iacute;a tributaria general a empresas nacionales y extranjeras.</p>
-						<p>
-							Antes de su incorporaci&oacute;n a Rebaza, Alc&aacute;zar &amp; De Las Casas Abogados Financieros fue miembro del &aacute;rea tributaria de Ernst and Young.</p>
-						<p>
-							Habla fluidamente espa&ntilde;ol, ingl&eacute;s y tiene conocimientos a nivel intermedio de alem&aacute;n.</p>
+						<p>Melisa es abogada egresada de la Facultad de Derecho de la Universidad de Lima. Es master en derecho (LL.M.) con especialidad en International Business Law por The London School of Economics and Political Science.</p>
+						<p>Su práctica se centra en brindar asesoría legal corporativa a empresas del sector privado, tanto nacionales como extranjeras; reorganizaciones societarias; negociación y elaboración de convenios de accionistas así como de diversos contratos civiles. Adicionalmente, Melisa cuenta con experiencia tributaria habiendo participado en auditorías y planeamientos tributarios.</p>
+						<p>Melisa ha sido asociada internacional en la oficina de Londres de Herbert Smith Freehills en los años 2015 y 2016, formando parte del área de Fusiones y Adquisiciones.</p>
+						<p>Antes de su incorporación a Rebaza, Alcázar & De Las Casas Abogados Financieros, fue miembro del área tributaria de Ernst and Young.</p>
+						<p>Habla fluidamente español, inglés y tiene conocimientos a nivel intermedio de alemán.</p>
 					</article>
 				</div>',
 

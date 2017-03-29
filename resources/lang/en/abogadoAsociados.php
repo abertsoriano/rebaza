@@ -1,4 +1,4 @@
-<?php
+</p><?php
 /**
  * Created by PhpStorm.
  * User: oscarlarriega
@@ -2251,14 +2251,11 @@
 				</div>
 				<div class="col-sm-12">
 					<article class="news-socios">
-						<p>
-							Melisa Bush is a graduate lawyer from the Universidad de Lima. Her practice is focused on Taxation</p>
-						<p>
-							She has participated in several tax audits. She has been a member of the team providing legal counseling in the revision of tax returns from the most important banks and financial institutions of the country. She has also provided tax planning, counseling on claims procedures before the Tax Authorities and general tax advice for foreign and local companies.&nbsp;</p>
-						<p>
-							Prior to joining Rebaza, Alc&aacute;zar &amp; De Las Casas Abogados Financieros, she was member of the Tax Division of Ernst &amp; Young</p>
-						<p>
-							She is fluent in Spanish and English and has working knowledge of German.</p>
+						<p>Melisa Bush is a graduate lawyer from Universidad de Lima. She holds a Master Degree in Law (LL.M.) from The London School of Economics and Political Science.</p>
+						<p>Her practice is focused on advising national and foreign companies on corporate matters; corporate reorganizations; negotiation and preparation of shareholder agreements and commercial agreements in general. Additionally, Melisa has tax experience having provided counseling in audits and tax planning.</p>
+						<p>Melisa has been an International Associate at the London office of Herbert Smith Freehills (2015 – 2016), where she focused her practice on foreign M&A transactions.</p>
+						<p>Prior to joining Rebaza, Alcázar & De Las Casas Abogados Financieros, she was member of the Tax Division of Ernst & Young.</p>
+						<p>She is fluent in Spanish and English and has intermediate knowledge of German.</p>
 					</article>
 				</div>',
 
