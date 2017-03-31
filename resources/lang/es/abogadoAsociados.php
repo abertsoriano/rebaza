@@ -2479,16 +2479,21 @@
 				</div>
 				<div class="col-sm-12">
 					<article class="news-socios">
-						<p>
-							Pamela Arce es abogada egresada de la Universidad de Lima con menci&oacute;n&nbsp;<em>magna cum laude.</em></p>
-						<p>
-							Ha asesorado a diversas empresas en operaciones de reestructuraci&oacute;n empresarial privadas y en el marco de los procedimientos concursales seguidos ante el Instituto Nacional de Defensa de la Competencia y de la Protecci&oacute;n de la Propiedad Intelectual (INDECOPI).</p>
-						<p>
-							Entre las principales empresas asesoradas se encuentran: Compa&ntilde;&iacute;a Peruana de Radiodifusi&oacute;n S.A., Electro Sur Medio S.A.A., Pesquera Hayduk S.A., Pesquera Santa Rosa S.A.C., AGP Industrias S.A., Compa&ntilde;&iacute;a Minera Sayapullo S.A., entre otras.&nbsp;</p>
-						<p>
-							Asimismo, ha participado en asesor&iacute;as a inversionistas nacionales y extranjeros para la adquisici&oacute;n y venta de cr&eacute;ditos concursales.</p>
-						<p>
-							Habla fluidamente Espa&ntilde;ol e Ingl&eacute;s.</p>
+						<p>Pamela Arce es abogada por la Universidad de Lima con <em>mención magna cum laude</em>, y cuenta con amplia experiencia en procedimientos concursales y reestructuraciones corporativas. Es master en derecho (LL.M.) por University of California, Berkeley con especialización en Derecho Empresarial. La práctica de Pamela en materia de reestructuración ha sido reconocida por Chambers and Partners.</p>
+						<p>Ha realizado también estudios de post-grado en derecho de la energía en la Universidad Peruana de Ciencias Aplicadas.</p>
+						<p>Actualmente, Pamela se desempeña como asociada internacional en la oficina de Nueva York de Cleary Gottlieb Steen & Hamilton.</p>
+						<p>Como parte de su experiencia en nuestro Estudio, ha brindado asesoría a diversas empresas en operaciones de reestructuración empresarial, financiamiento empresarial. operaciones de adquisición de empresas en concurso, compra y venta de cartera y de activos y pasivos de empresas en concurso, así como en materia corporativa.</p>
+						<p>Entre las operaciones más representativas en las que Pamela ha participado destacan las siguientes:</p>
+						<ul>
+                            <li>Asesoría en la reestructuración patrimonial de Compañía Peruana de Radiodifusión S.A. con pasivos de más de US$ 100 millones, y en la satisfactoria conclusión del procedimiento concursal de dicha empresa.</li>
+                            <li>Asesoramiento de acreedores en el procedimiento concursal de la compañía minera Doe Run Peru S.R.L.</li>
+                            <li>Asesoría a Capital Center S.A.C. en el desarrollo de un proyecto inmobiliario que involucró un financiamiento de aproximadamente US$16 millones y la negociación con diversos inversionistas.</li>
+                            <li>Asesoría en la venta de uno de los principales activos de Conductores Eléctricos Peruanos S.A. (CEPER) en Liquidación dentro del marco de su procedimiento concursal ordinario, y asesoría en la liquidación de dicha empresa.</li>
+                            <li>Participación en el equipo legal externo que representó a Scotiabank Perú S.A.A. en el refinanciamiento de la deuda contraída por Los Portales S.A. por la suma de US $ 16.5 millones.</li>
+                        </ul>
+                        <p>Antes de formar parte de nuestro Estudio, fue integrante del área de Banca, Finanzas y Reestructuración Empresarial del estudio Benites, Forno & Ugaz Abogados.</p>
+                        <p>Pamela ha sido asistente de cátedra del curso de Garantías en la Universidad de Lima. Asimismo, ha contribuido con las publicaciones de Doing Business 2011, 2012.</p>
+						<p>Habla fluidamente Espa&ntilde;ol e Ingl&eacute;s.</p>
 					</article>
 				</div>',
 
