@@ -3,7 +3,7 @@
 @section('title', '- Private Clients')
 
 @section('content')
-<section class="news-event-teaser section text-center-xs">
+<section class="news-event-teaser section">
 	<div class="container small">
 
 		<div class="row">

@@ -87,7 +87,8 @@ if (Cache::has('locale')) {
 									<li><a href="{{ route('areamineria') }}">{{ trans('links.sub_2_12') }}</a></li>
 									<li><a href="{{ route('areaprivate') }}">{{ trans('links.sub_2_13') }}</a></li>
 									<li><a href="{{ route('areacorporativo') }}">{{ trans('links.sub_2_14') }}</a></li>
-									<li><a style="border:none;" href="{{ route('areawhitecollarcrime') }}">{{ trans('links.sub_2_15') }}</a></li>
+									<li><a href="{{ route('areawhitecollarcrime') }}">{{ trans('links.sub_2_15') }}</a></li>
+									<li><a style="border:none;" href="{{ route('areaventure') }}">{{ trans('links.sub_2_16') }}</a></li>
 								</ul>
 							</li>
 							<li class="dropdown">

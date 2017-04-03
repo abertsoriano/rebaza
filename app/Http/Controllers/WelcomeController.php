@@ -188,6 +188,10 @@ class WelcomeController extends Controller {
 		return redirect()->back();
 	}
 
+	public function areaventure() {
+		return view('areaventure');
+	}
+
 	public function sendCv(SendCvRequest $request) {
 
         $data = $request->all();
