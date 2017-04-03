@@ -20,6 +20,7 @@ return [
 		'sub_2_13' => 'Private Clients',
 		'sub_2_14' => 'Corporate',
 		'sub_2_15' => 'White Collar Crime',
+		'sub_2_16' => 'Venture Capital',
 
 	'nav_3' => 'Lawyers',
 		'sub_3_1' => 'Partners',

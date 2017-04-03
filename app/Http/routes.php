@@ -53,6 +53,7 @@ Route::get('areapropiedad', ['as' => 'areapropiedad', 'uses' => 'WelcomeControll
 Route::get('arearegulacion', ['as' => 'arearegulacion', 'uses' => 'WelcomeController@arearegulacion']);
 Route::get('arearestructuracion', ['as' => 'arearestructuracion', 'uses' => 'WelcomeController@arearestructuracion']);
 Route::get('areatributario', ['as' => 'areatributario', 'uses' => 'WelcomeController@areatributario']);
+Route::get('areaventure', ['as' => 'areaventure', 'uses' => 'WelcomeController@areaventure']);
 Route::get('areawhitecollarcrime', ['as' => 'areawhitecollarcrime', 'uses' => 'WelcomeController@areawhitecollarcrime']);
 Route::get('estudiodiferencia', ['as' => 'estudiodiferencia', 'uses' => 'WelcomeController@estudiodiferencia']);
 Route::get('estudiopresentacion', ['as' => 'estudiopresentacion', 'uses' => 'WelcomeController@estudiopresentacion']);
