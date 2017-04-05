@@ -4,7 +4,25 @@ $(function() {
 
     // Nombre de la carpeta donde esta alojada la web (Solo pruebas)
     // si se coloca en la misma public_html deberia ir vacio ''
-    var ALT_PATH = '/rebaza';
+    var ALT_PATH = '';
+
+    function setLegend(position) {
+        var data = legend[position];
+
+        $('#title').text(data.title);
+        $('#artist').text(data.artist);
+        $('#type').text(data.type);
+        $('#measure').text(data.measure);
+    }
+
+    function initialize() {
+        var mapOptions = {
+            zoom: 8,
+            center: new google.maps.LatLng(17.421306, 78.457553),
+            disableDefaultUI: true
+        };
+        var map = new google.maps.Map(document.querySelector('.map, .contact-page-map'), mapOptions);
+    }
 
 
 	// REMOVE # FROM URL
@@ -30,9 +48,9 @@ $(function() {
 
 
 	// Special Offers Carousel
-	var $carouselEspecial = $("#columna_quota");
-	if ($carouselEspecial.length) {
-		$carouselEspecial.owlCarousel({
+	var $carouselQuota = $("#columna_quota");
+	if ($carouselQuota.length) {
+		$carouselQuota.owlCarousel({
 			navigation : false,
 			autoPlay: 12000, //Set AutoPlay to 3 seconds
 			slideSpeed: 300,
@@ -71,14 +89,7 @@ $(function() {
 	var $google = $(".contact-page-map");
 	if ($google.length) {
 		$google.height(440);
-		function initialize($) {
-			var mapOptions = {
-				zoom: 8,
-				center: new google.maps.LatLng(17.421306, 78.457553),
-				disableDefaultUI: true
-			};
-			var map = new google.maps.Map(document.querySelector('.map, .contact-page-map'), mapOptions);
-		}
+		initialize();
 		google.maps.event.addDomListener(window, 'load', initialize);
 	}
 
@@ -156,7 +167,7 @@ $(function() {
 				artist: 'Maciel Delgado',
 				type: 'Fotografía',
 				measure: ''
-			},
+			}
 		];
 
 		$slickGallery.slick({
@@ -178,6 +189,7 @@ $(function() {
 				}
 			}]
 		});
+
 		$slickGallery.on('afterChange', function(e, v) {
 			var position = v.getCurrent();
 			var $image = $(v.$slides.get(position)).children();
@@ -189,15 +201,6 @@ $(function() {
 			$modalImage.prop('src', src);
 			setLegend(position);
 		});
-
-		function setLegend(position) {
-			var data = legend[position];
-
-			$('#title').text(data.title);
-			$('#artist').text(data.artist);
-			$('#type').text(data.type);
-			$('#measure').text(data.measure);
-		}
 		setLegend(0);
 	}
 
