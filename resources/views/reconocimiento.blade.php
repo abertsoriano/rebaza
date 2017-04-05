@@ -15,7 +15,7 @@
 						</article>
 					</div>
 					<div class="col-sm-9 col-xs-12">
-						<h6 class="text-bold titu text-center">Reconocimientos y Noticias</h6>
+						<h6 class="text-bold titu">Reconocimientos y Noticias</h6>
 						<div class="row content-articles">
                         @foreach($articles->toArray()['data'] as $article)
                             <div class="col-sm-6">

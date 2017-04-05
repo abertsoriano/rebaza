@@ -273,6 +273,7 @@
 				            <div class="bloqueMostrar">
 				            	<ul>
 									 <a class="nohover" href="areamercado">Mercado de Valores</a>
+									 <a class="nohover" href="areaventure">Venture Capital</a>
 								</ul>
 				            </div>
 				        </li>
@@ -1867,6 +1868,7 @@
 				            <div class="bloqueMostrar">
 				            	<ul style="">
 									 <a class="nohover" href="arearestructuracion">Reestructuración e Insolvencias Empresariales</a>
+									 <a class="nohover" href="areaventure">Venture Capital</a>
 								</ul>
 				            </div>
 				        </li>
@@ -2379,6 +2381,7 @@
 				            <div class="bloqueMostrar">
 				            	<ul style="">
 									 <a class="nohover" href="arealaboral">Laboral</a>
+									 <a class="nohover" href="areaventure">Venture Capital</a>
 								</ul>
 				            </div>
 				        </li>
@@ -2835,6 +2838,7 @@
 				            <div class="bloqueMostrar">
 				            	<ul style="">
 									 <a class="nohover" href="areafunciones">Fusiones y Adquisiciones</a>
+									 <a class="nohover" href="areaventure">Venture Capital</a>
 								</ul>
 				            </div>
 				        </li>

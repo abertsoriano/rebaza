@@ -77,9 +77,10 @@ return [
                         <li class="current"><a href="#">Áreas</a>
                             <div class="bloqueMostrar">
                                 <ul style="">
-                                     <a class="nohover" href="#">Fusiones y Adquisiciones</a>
-                                     <a class="nohover" href="#">Mercado de Valores</a>
-                                     <a class="nohover" href="#">Financiamientos</a>
+                                     <a class="nohover" href="areafunciones">Fusiones y Adquisiciones</a>
+                                     <a class="nohover" href="areamercado">Mercado de Valores</a>
+                                     <a class="nohover" href="areafinanciamientos">Financiamientos</a>
+                                     <a class="nohover" href="areaventure">Venture Capital</a>
                                 </ul>
                             </div>
                         </li>
@@ -355,9 +356,9 @@ return [
                         <li class="current"><a href="#">Áreas</a>
                             <div class="bloqueMostrar">
                                 <ul style="">
-                                     <a class="nohover" href="#">Fusiones y Adquisiciones</a>
-                                     <a class="nohover" href="#">Mercado de Valores</a>
-                                     <a class="nohover" href="#">Financiamientos</a>
+                                     <a class="nohover" href="areafunciones">Fusiones y Adquisiciones</a>
+                                     <a class="nohover" href="areamercado">Mercado de Valores</a>
+                                     <a class="nohover" href="areafinanciamientos">Financiamientos</a>
                                 </ul>
                             </div>
                         </li>
@@ -949,7 +950,7 @@ return [
                             <div class="bloqueMostrar">
                                 <ul>
                                      <a class="nohover" href="#">Proyectos e Infraestructura</a>
-                                     <a class="nohover" href="#">Financiamientos</a>
+                                     <a class="nohover" href="areafinanciamientos">Financiamientos</a>
                                      <a class="nohover" href="#">Corporativo</a>
                                 </ul>
                             </div>
@@ -1035,9 +1036,9 @@ return [
                             <a href="#">Áreas</a>
                             <div class="bloqueMostrar">
                                 <ul>
-                                     <a class="nohover" href="#">Fusiones y Adquisiciones</a>
-                                     <a class="nohover" href="#">Mercado de Valores</a>
-                                     <a class="nohover" href="#">Financiamientos</a>
+                                     <a class="nohover" href="areafunciones">Fusiones y Adquisiciones</a>
+                                     <a class="nohover" href="areamercado">Mercado de Valores</a>
+                                     <a class="nohover" href="areafinanciamientos">Financiamientos</a>
                                      <a class="nohover" href="#">Minería</a>
                                 </ul>
                             </div>
@@ -1134,7 +1135,7 @@ return [
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab">
                                     <h4 class="panel-title">
@@ -1192,7 +1193,7 @@ return [
                             <div class="bloqueMostrar">
                                 <ul>
                                      <a class="nohover" href="#">Laboral</a>
-                                     <a class="nohover" href="#">Mercado de Valores</a>
+                                     <a class="nohover" href="areamercado">Mercado de Valores</a>
                                 </ul>
                             </div>
                         </li>
@@ -1254,7 +1255,7 @@ return [
                             <div class="bloqueMostrar">
                                 <ul>
                                      <a class="nohover" href="#">Proyectos e Infraestructura</a>
-                                     <a class="nohover" href="#">Mercado de Valores</a>
+                                     <a class="nohover" href="areamercado">Mercado de Valores</a>
                                 </ul>
                             </div>
                         </li>
@@ -1359,7 +1360,7 @@ return [
                 </div>
                 <div class="col-sm-12">
                     <article class="news-socios">
-                        <p>Rafael Alc&aacute;zar es socio principal de Rebaza, Alc&aacute;zar &amp; De Las Casas Abogados Financieros. Es Master en Derecho por la 
+                        <p>Rafael Alc&aacute;zar es socio principal de Rebaza, Alc&aacute;zar &amp; De Las Casas Abogados Financieros. Es Master en Derecho por la
                         <a href="http://www.uclouvain.be/en-13176">Universidad Cat&oacute;lica de Lovaina</a> (B&eacute;lgica) graduado con honores (cum laude) y abogado egresado de la Universidad de Lima. Ha seguido cursos de especializaci&oacute;n en la Academia de Derecho Internacional de la Haya (Holanda), as&iacute; como en el Practicing Law Institute de Nueva York (EEUU).</p>
                         <p class="claDescripcion">En los &uacute;ltimos a&ntilde;os ha sido considerado como uno de los abogados l&iacute;deres en operaciones financieras nacionales e internacionales, banca, mercado de valores y Project Finance. Su especializaci&oacute;n se orienta principalmente a la asesor&iacute;a de bancos nacionales y extranjeros, sociedades agentes de bolsa, empresas de arrendamiento financiero, empresas administradoras de fondos mutuos y fondos de inversi&oacute;n, sociedades titulizadoras, empresas clasificadoras de riesgo y empresas comerciales para operaciones de financiamiento.</p>
                         <p>Las siguientes son algunas de las principales operaciones en las que ha participado recientemente. Debido a su importancia, algunas de estas transacciones han sido destacadas por medios de comunicaci&oacute;n especializados como Latin Lawyer y Latin Counsel.</p>
@@ -1541,6 +1542,7 @@ return [
                                      <a class="nohover" href="arealibre">Libre Competencia y Competencia Desleal</a>
                                      <a class="nohover" href="areacorporativo">Corporativo</a>
                                      <a class="nohover" href="areaprivate">Private Clients</a>
+                                     <a class="nohover" href="areaventure">Venture Capital</a>
                                 </ul>
                             </div>
                         </li>

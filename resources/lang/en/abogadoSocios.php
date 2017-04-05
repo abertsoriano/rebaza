@@ -76,9 +76,11 @@ return [
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
 					            	<ul style="">
-										 <a class="nohover" href="#">Mergers and Acquisitions</a>
-										 <a class="nohover" href="#">Capital Markets</a>
-										 <a class="nohover" href="#">Free and unfair competition</a><a class="nohover" href="#">Private Clients</a>
+                                         <a class="nohover" href="areafunciones">Mergers and Acquisitions</a>
+										 <a class="nohover" href="areamercado">Capital Markets</a>
+										 <a class="nohover" href="arealibre">Free and unfair competition</a>
+                                         <a class="nohover" href="areaprivate">Private Clients</a>
+                                         <a class="nohover" href="areaventure">Venture Capital</a>
 									</ul>
 					            </div>
 					        </li>
@@ -136,9 +138,9 @@ return [
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
 					            	<ul style="">
-										 <a class="nohover" href="#">Mergers and Acquisitions</a>
-										 <a class="nohover" href="#">Capital Markets</a>
-										 <a class="nohover" href="#">Free and unfair competition</a><a class="nohover" href="#">Private Clients</a>
+										 <a class="nohover" href="areafunciones">Mergers and Acquisitions</a>
+										 <a class="nohover" href="areamercado">Capital Markets</a>
+										 <a class="nohover" href="arealibre">Free and unfair competition</a><a class="nohover" href="areaprivate">Private Clients</a>
 									</ul>
 					            </div>
 					        </li>
@@ -312,9 +314,9 @@ return [
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
 					            	<ul style="">
-										 <a class="nohover" href="#">Mergers and Acquisitions</a>
-										 <a class="nohover" href="#">Capital Markets</a>
-										 <a class="nohover" href="#">Free and unfair competition</a><a class="nohover" href="#">Private Clients</a>
+										 <a class="nohover" href="areafunciones">Mergers and Acquisitions</a>
+										 <a class="nohover" href="areamercado">Capital Markets</a>
+										 <a class="nohover" href="arealibre">Free and unfair competition</a><a class="nohover" href="areaprivate">Private Clients</a>
 									</ul>
 					            </div>
 					        </li>
@@ -456,9 +458,9 @@ return [
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
 					            	<ul style="">
-										 <a class="nohover" href="#">Mergers and Acquisitions</a>
-										 <a class="nohover" href="#">Capital Markets</a>
-										 <a class="nohover" href="#">Free and unfair competition</a><a class="nohover" href="#">Private Clients</a>
+										 <a class="nohover" href="areafunciones">Mergers and Acquisitions</a>
+										 <a class="nohover" href="areamercado">Capital Markets</a>
+										 <a class="nohover" href="arealibre">Free and unfair competition</a><a class="nohover" href="areaprivate">Private Clients</a>
 									</ul>
 					            </div>
 					        </li>
@@ -577,10 +579,10 @@ return [
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
 					            	<ul style="">
-									    <a class="nohover" href="#">Mergers and Acquisitions</a>
-										<a class="nohover" href="#">Capital Markets</a>
-										<a class="nohover" href="#">Free and unfair competition</a>
-                                        <a class="nohover" href="#">Private Clients</a>
+									    <a class="nohover" href="areafunciones">Mergers and Acquisitions</a>
+										<a class="nohover" href="areamercado">Capital Markets</a>
+										<a class="nohover" href="arealibre">Free and unfair competition</a>
+                                        <a class="nohover" href="areaprivate">Private Clients</a>
 									</ul>
 					            </div>
 					        </li>
@@ -682,9 +684,9 @@ return [
 								<li class="current"><a href="#">Practices</a>
 						            <div class="bloqueMostrar">
 						            	<ul style="">
-											 <a class="nohover" href="#">Mergers and Acquisitions</a>
-											 <a class="nohover" href="#">Capital Markets</a>
-											 <a class="nohover" href="#">Free and unfair competition</a><a class="nohover" href="#">Private Clients</a>
+											 <a class="nohover" href="areafunciones">Mergers and Acquisitions</a>
+											 <a class="nohover" href="areamercado">Capital Markets</a>
+											 <a class="nohover" href="arealibre">Free and unfair competition</a><a class="nohover" href="areaprivate">Private Clients</a>
 										</ul>
 						            </div>
 						        </li>
@@ -893,9 +895,9 @@ return [
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
 					            	<ul style="">
-										 <a class="nohover" href="#">Mergers and Acquisitions</a>
-										 <a class="nohover" href="#">Capital Markets</a>
-										 <a class="nohover" href="#">Free and unfair competition</a><a class="nohover" href="#">Private Clients</a>
+										 <a class="nohover" href="areafunciones">Mergers and Acquisitions</a>
+										 <a class="nohover" href="areamercado">Capital Markets</a>
+										 <a class="nohover" href="arealibre">Free and unfair competition</a><a class="nohover" href="areaprivate">Private Clients</a>
 									</ul>
 					            </div>
 					        </li>
@@ -970,10 +972,10 @@ return [
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
 					            	<ul style="">
-                                        <a class="nohover" href="#">Mergers and Acquisitions</a>
-                                        <a class="nohover" href="#">Capital Markets</a>
-                                        <a class="nohover" href="#">Free and unfair competition</a>
-                                        <a class="nohover" href="#">Private Clients</a>
+                                        <a class="nohover" href="areafunciones">Mergers and Acquisitions</a>
+                                        <a class="nohover" href="areamercado">Capital Markets</a>
+                                        <a class="nohover" href="arealibre">Free and unfair competition</a>
+                                        <a class="nohover" href="areaprivate">Private Clients</a>
 									</ul>
 					            </div>
 					        </li>
@@ -1019,10 +1021,10 @@ return [
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
 					            	<ul>
-										<a class="nohover" href="#">Mergers and Acquisitions</a>
-										<a class="nohover" href="#">Capital Markets</a>
-										<a class="nohover" href="#">Free and unfair competition</a>
-                                        <a class="nohover" href="#">Private Clients</a>
+										<a class="nohover" href="areafunciones">Mergers and Acquisitions</a>
+										<a class="nohover" href="areamercado">Capital Markets</a>
+										<a class="nohover" href="arealibre">Free and unfair competition</a>
+                                        <a class="nohover" href="areaprivate">Private Clients</a>
 									</ul>
 					            </div>
 					        </li>
@@ -1073,9 +1075,9 @@ return [
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
 					            	<ul style="">
-										 <a class="nohover" href="#">Mergers and Acquisitions</a>
-										 <a class="nohover" href="#">Capital Markets</a>
-										 <a class="nohover" href="#">Free and unfair competition</a><a class="nohover" href="#">Private Clients</a>
+										 <a class="nohover" href="areafunciones">Mergers and Acquisitions</a>
+										 <a class="nohover" href="areamercado">Capital Markets</a>
+										 <a class="nohover" href="arealibre">Free and unfair competition</a><a class="nohover" href="areaprivate">Private Clients</a>
 									</ul>
 					            </div>
 					        </li>
@@ -1123,10 +1125,10 @@ return [
 							<li class="current"><a href="#">Practices</a>
 					            <div class="bloqueMostrar">
 					            	<ul style="">
-										 <a class="nohover" href="#">Mergers and Acquisitions</a>
-										 <a class="nohover" href="#">Capital Markets</a>
-										 <a class="nohover" href="#">Free and unfair competition</a>
-                                        <a class="nohover" href="#">Private Clients</a>
+										 <a class="nohover" href="areafunciones">Mergers and Acquisitions</a>
+										 <a class="nohover" href="areamercado">Capital Markets</a>
+										 <a class="nohover" href="arealibre">Free and unfair competition</a>
+                                        <a class="nohover" href="areaprivate">Private Clients</a>
 									</ul>
 					            </div>
 					        </li>
@@ -1403,10 +1405,11 @@ return [
 						<li class="current"><a href="#">Practices</a>
 				            <div class="bloqueMostrar">
 				            	<ul style="">
-									 <a class="nohover" href="#">Mergers and Acquisitions</a>
-									 <a class="nohover" href="#">Capital Markets</a>
-									 <a class="nohover" href="#">Free and unfair competition</a>
-                                    <a class="nohover" href="#">Private Clients</a>
+									 <a class="nohover" href="areafunciones">Mergers and Acquisitions</a>
+									 <a class="nohover" href="areamercado">Capital Markets</a>
+									 <a class="nohover" href="arealibre">Free and unfair competition</a>
+                                    <a class="nohover" href="areaprivate">Private Clients</a>
+                                    <a class="nohover" href="areaventure">Venture Capital</a>
 								</ul>
 				            </div>
 				        </li>
@@ -1506,7 +1509,7 @@ return [
                                         </div>
                                     </div>
                                 </div>
-    
+
                                 <div class="panel panel-default">
                                     <div class="panel-heading" role="tab">
                                         <h4 class="panel-title">
@@ -1528,7 +1531,7 @@ return [
                                         </div>
                                     </div>
                                 </div>
-    
+
                                 <div class="panel panel-default">
                                     <div class="panel-heading" role="tab">
                                         <h4 class="panel-title">
@@ -1548,7 +1551,7 @@ return [
                                         </div>
                                     </div>
                                 </div>
-    
+
                                 <div class="panel panel-default">
                                     <div class="panel-heading" role="tab">
                                         <h4 class="panel-title">
@@ -1566,7 +1569,7 @@ return [
                                         </div>
                                     </div>
                                 </div>
-    
+
                                 <div class="panel panel-default">
                                     <div class="panel-heading" role="tab">
                                         <h4 class="panel-title">
