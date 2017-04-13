@@ -237,7 +237,7 @@
 	</div>
 </div>
 
-<div class="modal fade" id="alejandrochin" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
+{{--<div class="modal fade" id="alejandrochin" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
@@ -259,7 +259,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div>--}}
 
 <div class="modal fade" id="almajime" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
     <div class="modal-dialog modal-lg">

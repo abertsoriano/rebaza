@@ -18,28 +18,29 @@
      'modal_1' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Áreas</a>
-				            <div class="bloqueMostrar">
-				            	<ul>
-									 <a class="nohover" href="arealitigios">Litigios Corporativos</a>
-								</ul>
-				            </div>
+                            <ul class="bloqueMostrar">
+                                 <li><a href="arealitigios">Litigios Corporativos</a></li>
+                            </ul>
 				        </li>
-						<li><a href="#">Educación</a>
-				        <div class="bloqueMostrar">
-				        <ul>
-							<li>Licenciado en Derecho por la Universidad de Piura, Facultad de Derecho, 2015.</li>
-							<li>
-								<p>Diplomado en Derecho Administrativo Sancionador por la Universidad de Piura, Facultad de Derecho, 2014.</p>
-							</li>
-						</ul>
-						</div></li>
-						<li><a href="#">Distinciones</a>
-						    <div class="bloqueMostrar"><p>Quinto Superior de la promoci&oacute;n 2013 de la Facultad de Derecho de la Universidad de Piura.</p>
-								<p>&nbsp;</p>
-							</div></li>
-						<li><a href="#">Idiomas</a>
-						    <div class="bloqueMostrar"><p>Espa&ntilde;ol e ingl&eacute;s.</p>
-							</div></li>
+						<li>
+						    <a href="#">Educación</a>
+				            <ul class="bloqueMostrar">
+                                <li>Licenciado en Derecho por la Universidad de Piura, Facultad de Derecho, 2015.</li>
+                                <li>Diplomado en Derecho Administrativo Sancionador por la Universidad de Piura, Facultad de Derecho, 2014.</li>
+						    </ul>
+						</li>
+						<li>
+						    <a href="#">Distinciones</a>
+						    <ul class="bloqueMostrar">
+						        <li>Quinto Superior de la promoci&oacute;n 2013 de la Facultad de Derecho de la Universidad de Piura.</li>
+							</ul>
+						</li>
+						<li>
+						    <a href="#">Idiomas</a>
+						    <ul class="bloqueMostrar">
+						        <li>Espa&ntilde;ol e ingl&eacute;s.</li>
+							</ul>
+						</li>
 					</ul>
 				</div>
 				<div class="col-sm-8">
@@ -69,11 +70,11 @@
      'modal_2' => '<div class="col-sm-8">
 					<ul class="accordion">
 						<li class="current"><a href="#">Áreas</a>
-				            <div class="bloqueMostrar">
-				            	<ul>
-									 <a class="nohover" href="areaconseciones">Concesiones y Proyectos Financieros. </a>
-								</ul>
-				            </div>
+						    <div class="bloqueMostrar">
+                                <ul>
+                                     <li><a href="areaconseciones">Concesiones y Proyectos Financieros. </a></li>
+                                </ul>
+                            </div>
 				        </li>
 						<li><a href="#">Educación</a>
                             <div class="bloqueMostrar">
@@ -83,7 +84,8 @@
                             </div>
                         </li>
 						<li><a href="#">Idiomas</a>
-						    <div class="bloqueMostrar"><p>Espa&ntilde;ol e ingl&eacute;s.</p>
+						    <div class="bloqueMostrar">
+						        <ul><li>Espa&ntilde;ol e ingl&eacute;s.</li></ul>
 							</div>
                         </li>
 					</ul>

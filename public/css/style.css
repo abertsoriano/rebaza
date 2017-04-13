@@ -425,8 +425,11 @@ a.nohover, a.nohover:hover {
 	background:url(../images/bullet_abogados.gif) no-repeat 0 6px;}
 
 .bloqueMostrar ul {display:block!important;list-style:none;padding:0;margin:0;}
-.bloqueMostrar li {font-size:12px;line-height:14px;padding:0 0 0 15px!important;margin:0 5px 2px 10px;
-	background:url(../images/flecha_abogados.gif) no-repeat 2px 4px;
+.bloqueMostrar li {
+	font-size:12px;
+	padding:0 0 0 15px!important;
+	margin-left: 10px;
+	background:url(../images/flecha_abogados.gif) no-repeat 2px 3px;
 }
 
 

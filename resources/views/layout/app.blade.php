@@ -24,6 +24,12 @@
 			border-top: 1px solid #ccc;
 			padding-top: 15px;
 		}
+		.content-items li {
+			padding: 5px 0;
+		}
+		.content-items li+li {
+			border-top: 1px solid #d7d7d7;
+		}
 	</style>
 </head>
 <body>
@@ -42,6 +48,7 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li><a href="{{ route('home') }}">Home</a></li>
+					<li><a href="{{ route('lawyers') }}">Abogados</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
@@ -69,8 +76,8 @@
 	<script type="text/javascript">
 	    tinymce.DOM.addClass(tinymce.DOM.select('table'), 'table table-bordered');
 	    tinymce.init({
-			selector: '.paq_descripcion',
-	        height: 400,
+			selector: '.paq_descripcion, .txt-lawyers',
+	        height: 350,
 			plugins: 'preview table lists textcolor code link',
 	        toolbar: 'undo redo | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | forecolor link | preview code',
 	        content_css: '/css/tinymce-custom.css',
@@ -90,5 +97,6 @@
 			}
         })
 	</script>
+	@yield('lawyers_js')
 </body>
 </html>
