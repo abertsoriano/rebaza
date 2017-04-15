@@ -30,6 +30,14 @@
 		.content-items li+li {
 			border-top: 1px solid #d7d7d7;
 		}
+		.list-test_es > li, .list-test_en >li {
+			display: block;
+			margin-bottom: 20px;
+			overflow: hidden;
+		}
+		.list-actions-buttons {
+			display: inline-block;
+		}
 	</style>
 </head>
 <body>
@@ -91,7 +99,7 @@
 	            });
 	        }
 		});
-	    $('div.list-articles').on('click', '.btn-danger', function (e) {
+	    $('div.list-articles').on('click', '.btn-delete-article', function (e) {
 			if (!confirm('Seguro de eliminar esta noticia')) {
                 e.preventDefault();
 			}

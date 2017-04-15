@@ -16,6 +16,7 @@ class CreateLawyersTable extends Migration {
 		{
 			$table->increments('id');
 			$table->string('name');
+			$table->string('email');
 
 			$table->string('job_es');
 			$table->string('job_en');

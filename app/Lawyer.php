@@ -6,6 +6,7 @@ class Lawyer extends Model {
 
     protected $fillable = [
         'name',
+        'email',
         'job_es',
         'job_en',
 

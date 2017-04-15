@@ -28,7 +28,7 @@
                                     {!! $article->desc !!}
                                     <div>
                                         <a href="{{ route('editArticle', $article->id) }}" class="btn btn-success btn-sm">Editar</a>
-                                        <a href="{{ route('deleteArticle', $article->id) }}" class="btn btn-danger btn-sm">Eliminar</a>
+                                        <a href="{{ route('deleteArticle', $article->id) }}" class="btn btn-danger btn-sm btn-delete-article">Eliminar</a>
                                     </div>
                                 </div>
                             </div>
