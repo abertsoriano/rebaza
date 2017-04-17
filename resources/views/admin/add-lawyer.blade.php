@@ -58,17 +58,18 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group" data-lang="es">
+                                <hr>
+                                <div class="form-group row" data-lang="es" style="background-color: #f7f7f7; padding: 20px 15px">
                                     <div class="content-data_es hidden">
                                         @if ($lawyer->list_es != '')
                                         <?php $i_es = 1 ?>
                                         @foreach (json_decode($lawyer->list_es, true) as $list)
-                                            <input type="hidden" name="test_es[list_{{ $i_es  }}]" value="{{ $list['list'] }}" id="list_es{{ $i_es }}" class="title_val">
+                                            <input type="hidden" name="test_es[list_{{ $i_es  }}]" id="list_es{{ $i_es }}" class="title_val" value="{{ $list['list'] }}">
 
                                             @if (!empty($list['items_es']))
-                                                    <?php $il_es = 1 ?>
+                                                <?php $il_es = 1 ?>
                                                 @foreach($list['items_es'] as $item)
-                                                    <input type="hidden" name="items_es[list_{{ $i_es }}][]" value="{{ $item }}" id="item_es{{ $il_es }}" class="item_val_{{ $i_es }}">
+                                                    <input type="hidden" name="items_es[list_{{ $i_es }}][]" id="item{{ $i_es  }}_es{{ $il_es }}" class="item_val_{{ $i_es }}" value="{{ $item }}">
                                                     <?php $il_es++ ?>
                                                 @endforeach
                                             @endif
@@ -95,16 +96,19 @@
                                                 <input type="button" class="btn btn-sm btn-danger btn-del-title {{ count($list['items_es']) > 0 ? 'hidden' : '' }}" data-id="{{ $id_es }}" value="Elminar">
                                             </div>
                                             <ul class="content-items">
-                                                @if (!empty($list['items_es']))
-                                                    @foreach($list['items_es'] as $item)
-                                                        <li>
-                                                            <div class="col-sm-10">{{ $item }}</div>
-                                                            <div class="col-sm-2">
-                                                                <a href="#" class="btn-delete-item-created" data-id="{{ $id_es }}">Elminar</a>
-                                                            </div>
-                                                        </li>
-                                                    @endforeach
-                                                @endif
+                                            @if (!empty($list['items_es']))
+                                                <?php $n_item_es = 1 ?>
+                                                @foreach($list['items_es'] as $item)
+                                                    <li>
+                                                        <div class="col-sm-10 txt-item">{{ $item }}</div>
+                                                        <div class="col-sm-2">
+                                                            <a href="#" class="btn-add-link-item" id="txt_item{{ $id_es }}_es{{ $n_item_es }}" data-id="{{ $id_es }}">Link</a> |
+                                                            <a href="#" class="btn-delete-item-created" data-id="{{ $id_es }}">Elminar</a>
+                                                        </div>
+                                                    </li>
+                                                    <?php $n_item_es++ ?>
+                                                @endforeach
+                                            @endif
                                             </ul>
                                             <ul class="hidden form-group-sm">
                                                 <li>
@@ -127,9 +131,10 @@
                                         <div class="col-sm-2">
                                             <input class="btn btn-sm btn-add-one" type="button" value="Agregar">
                                         </div>
+                                        <div class="clearfix"></div>
                                     </div>
                                 </div>
-                                <div class="clearfix"></div>
+                                <hr>
                                 <div class="form-group">
                                     <h3>Información Contacto</h3>
                                     <textarea name="info_es" id="info_es" class="form-control txt-lawyers">{{ old('info_es', $lawyer->info_es) }}</textarea>
@@ -154,11 +159,13 @@
                                         @if ($lawyer->list_en != '')
                                             <?php $i_en = 1 ?>
                                             @foreach (json_decode($lawyer->list_en, true) as $list)
-                                                <input type="hidden" name="test_en[list_{{ $i_en  }}]" value="{{ $list['list'] }}" id="list_en{{ $i_en }}">
+                                                <input type="hidden" name="test_en[list_{{ $i_en  }}]" id="list_en{{ $i_en }}" class="title_val" value="{{ $list['list'] }}">
 
                                                 @if (!empty($list['items_en']))
+                                                    <?php $il_en = 1 ?>
                                                     @foreach($list['items_en'] as $item)
-                                                        <input type="hidden" name="items_en[list_{{ $i_en }}][]" value="{{ $item }}" id="item_en{{ $i_en }}">
+                                                        <input type="hidden" name="items_en[list_{{ $i_en }}][]" id="item{{ $i_en }}_en{{ $il_en }}" class="item_val_{{ $i_en }}" value="{{ $item }}">
+                                                        <?php $il_en++ ?>
                                                     @endforeach
                                                 @endif
                                                 <?php $i_en++ ?>
@@ -184,16 +191,19 @@
                                                     <input type="button" class="btn btn-sm btn-danger btn-del-title {{ count($list['items_en']) > 0 ? 'hidden' : '' }}" data-id="{{ $id_en }}" value="Elminar">
                                                 </div>
                                                 <ul class="content-items">
-                                                    @if (!empty($list['items_en']))
-                                                        @foreach($list['items_en'] as $item)
-                                                            <li>
-                                                                <div class="col-sm-10">{{ $item }}</div>
-                                                                <div class="col-sm-2">
-                                                                    <a href="#" class="btn-delete-item-created" data-id="{{ $id_en }}">Elminar</a>
-                                                                </div>
-                                                            </li>
-                                                        @endforeach
-                                                    @endif
+                                                @if (!empty($list['items_en']))
+                                                    <?php $n_item_en = 1 ?>
+                                                    @foreach($list['items_en'] as $item)
+                                                        <li>
+                                                            <div class="col-sm-10 txt-item">{{ $item }}</div>
+                                                            <div class="col-sm-2">
+                                                                <a href="#" class="btn-add-link-item" id="txt_item{{ $id_en }}_en{{ $n_item_en }}" data-id="{{ $id_en }}">Link</a> |
+                                                                <a href="#" class="btn-delete-item-created" data-id="{{ $id_en }}">Elminar</a>
+                                                            </div>
+                                                        </li>
+                                                        <?php $n_item_en++ ?>
+                                                    @endforeach
+                                                @endif
                                                 </ul>
                                                 <ul class="hidden form-group-sm">
                                                     <li>
@@ -240,6 +250,31 @@
         </div>
     </div>
 </div>
+
+<div class="modal fade" id="add-link-item" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 id="modal-title-item" class="modal-title"></h4>
+            </div>
+            <form action="#">
+                <div class="modal-body">
+                    <div class="form-group-sm">
+                        <strong id="modal-item-txt"></strong>
+                    </div>
+                    <div class="form-group-sm">
+                        <input type="url" class="form-control" placeholder="http://" id="txt-item-url">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                    <button class="btn btn-primary">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 @endsection
 
 @section('lawyers_js')
@@ -252,7 +287,7 @@
                 var $content = $('.content-data_' + lang);
                 var nValues = $content.children('.title_val').length;
                 var total = (nValues + 1);
-                var hiddenInput = '<input type="hidden" name="test_' + lang + '[list_' + total +']" value="' + $input.val() + '" id="list_' + lang + total + '" class="title_val">';
+                var hiddenInput = '<input type="hidden" name="test_' + lang + '[list_' + total +']" id="list_' + lang + total + '" class="title_val" value="' + $input.val() + '">';
                 var listItem = '<li id="li_title_' + lang + total + '" data-id="' + total + '"><strong>' + $input.val() +
                     '</strong>' +
                     '<div class="hidden content-edit">'+
@@ -277,7 +312,9 @@
             }
         });
 
-        $('.list-test_es, .list-test_en').on('click', '.btn-del-title', function (e) {
+        var $listContent = $('.list-test_es, .list-test_en');
+
+        $listContent.on('click', '.btn-del-title', function (e) {
             e.preventDefault();
             var id = $(e.currentTarget).data('id');
             var lang = $(e.currentTarget).closest('.form-group').data('lang');
@@ -286,7 +323,7 @@
             $(e.currentTarget).closest('li').remove();
         });
 
-        $('.list-test_es, .list-test_en').on('click', '.btn-add-item', function (e) {
+        $listContent.on('click', '.btn-add-item', function (e) {
             e.preventDefault();
             var $button = $(e.currentTarget);
             $button.addClass('hidden');
@@ -294,7 +331,7 @@
             $button.closest('li').find('ul.form-group-sm').removeClass('hidden');
         });
 
-        $('.list-test_es, .list-test_en').on('click', '.btn-del-item', function (e) {
+        $listContent.on('click', '.btn-del-item', function (e) {
             e.preventDefault();
             var $li = $(e.currentTarget).parent();
             $li.children(':text').val('');
@@ -302,7 +339,7 @@
             $li.closest('ul').addClass('hidden').parent().find('.btn-add-item').removeClass('hidden');
         });
 
-        $('.list-test_es, .list-test_en').on('click', '.btn-create-item', function (e) {
+        $listContent.on('click', '.btn-create-item', function (e) {
             e.preventDefault();
             var $input = $(e.currentTarget).closest('ul').find(':text');
             var id = $(e.currentTarget).closest('ul').closest('li').data('id');
@@ -312,9 +349,10 @@
                 var $content = $('.content-data_' + lang);
                 var nValues = $content.children('.item_val').length;
                 var total = (nValues + 1);
-                var hiddenInput = '<input type="hidden" name="items_' + lang + '[list_' + id +'][]" value="' + $input.val() + '" id="item_' + lang + total + '" class="item_val">';
-                var listItem = '<li><div class="col-sm-10">' + $input.val() + '</div>' +
-                    '<div class="col-sm-2"><a href="#" class="btn-delete-item-created" data-id="'+ total + '">Elminar</a></div></li>';
+                var item_id = '' + id + '_' + lang + total;
+                var hiddenInput = '<input type="hidden" name="items_' + lang + '[list_' + id +'][]" id="item' + item_id + '" class="item_val" value="' + $input.val() + '">';
+                var listItem = '<li><div class="col-sm-10 txt-item">' + $input.val() + '</div>' +
+                    '<div class="col-sm-2"><a href="#" class="btn-add-link-item" id="txt_item_'+ item_id+'" data-id="'+ id +'">Link</a> |<a href="#" class="btn-delete-item-created" data-id="'+ total + '">Elminar</a></div></li>';
 
                 $input.closest('ul').prev('.content-items').append(listItem);
                 $('#li_title_' + lang + id + ' .btn-del-title').addClass('hidden');
@@ -323,7 +361,7 @@
             }
         });
 
-        $('.list-test_es, .list-test_en').on('click', '.btn-delete-item-created', function (e) {
+        $listContent.on('click', '.btn-delete-item-created', function (e) {
             e.preventDefault();
             var id = $(e.currentTarget).data('id');
             var lang = $(e.currentTarget).closest('.form-group').data('lang');
@@ -338,7 +376,7 @@
         });
 
         // EDIT
-        $('.list-test_es, .list-test_en').on('click', '.btn-edit-item', function (e) {
+        $listContent.on('click', '.btn-edit-item', function (e) {
             e.preventDefault();
             var $li = $(e.currentTarget).closest('li');
             $li.children('strong').addClass('hidden');
@@ -346,12 +384,12 @@
             $li.children('.list-actions-buttons').addClass('hidden');
         });
 
-        $('.list-test_es, .list-test_en').on('click', '.btn-cancel-edit-list', function (e) {
+        $listContent.on('click', '.btn-cancel-edit-list', function (e) {
             e.preventDefault();
             showListContent($(e.currentTarget).closest('li'));
         });
 
-        $('.list-test_es, .list-test_en').on('click', '.btn-update-list', function (e) {
+        $listContent.on('click', '.btn-update-list', function (e) {
             e.preventDefault();
             var $li = $(e.currentTarget).closest('li');
             var id = $li.data('id');
@@ -361,6 +399,33 @@
             showListContent($li);
             $li.children('strong').html(valor);
             $('#list_' + lang + id).val(valor);
+        });
+
+        // Link
+        $listContent.on('click', '.btn-add-link-item', function (e) {
+            e.preventDefault();
+            var id = $(e.currentTarget).data('id');
+            var list = $(e.currentTarget).closest('ul').parent().children('strong').text().trim();
+            var item = $(e.currentTarget).closest('li').find('.txt-item').html().trim();
+            var lang = $(e.currentTarget).closest('.form-group').data('lang');
+            var $modal = $('#add-link-item');
+            $('#modal-title-item').text(list);
+            $('#modal-item-txt').html(item);
+            $('#txt-item-url').data('item', id).data('lang', lang);
+            $modal.modal('show');
+        });
+
+        $('#add-link-item form').on('submit', function (e) {
+            e.preventDefault();
+           var $form = $(e.currentTarget);
+           var id = $('#txt-item-url').data('item');
+           var lang = $('#txt-item-url').data('lang');
+           var href = $form.find('input').val();
+           var item_a = '<a href="' + href + '">' + $('#modal-title-item').text().trim() + '</a>';
+           $('#txt_item_' + lang + '_' + id ).html(item_a);
+           $('#item_' + lang + id ).val(item_a);
+
+            $('#add-link-item').modal('hide');
         });
 
         function showListContent($li) {
