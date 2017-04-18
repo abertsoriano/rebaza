@@ -347,12 +347,12 @@
 
             if ($input.val().length >= 2) {
                 var $content = $('.content-data_' + lang);
-                var nValues = $content.children('.item_val').length;
+                var nValues = $content.children('.item_val_' + id).length;
                 var total = (nValues + 1);
                 var item_id = '' + id + '_' + lang + total;
-                var hiddenInput = '<input type="hidden" name="items_' + lang + '[list_' + id +'][]" id="item' + item_id + '" class="item_val" value="' + $input.val() + '">';
+                var hiddenInput = '<input type="hidden" name="items_' + lang + '[list_' + id +'][]" id="item' + item_id + '" class="item_val_'+ id +'" value="' + $input.val() + '">';
                 var listItem = '<li><div class="col-sm-10 txt-item">' + $input.val() + '</div>' +
-                    '<div class="col-sm-2"><a href="#" class="btn-add-link-item" id="txt_item_'+ item_id+'" data-id="'+ id +'">Link</a> |<a href="#" class="btn-delete-item-created" data-id="'+ total + '">Elminar</a></div></li>';
+                    '<div class="col-sm-2"><a href="#" class="btn-add-link-item" id="txt_item'+ item_id+'" data-id="'+ id +'" data-item="'+total +'">Link</a> |<a href="#" class="btn-delete-item-created" data-id="'+ total + '">Elminar</a></div></li>';
 
                 $input.closest('ul').prev('.content-items').append(listItem);
                 $('#li_title_' + lang + id + ' .btn-del-title').addClass('hidden');
