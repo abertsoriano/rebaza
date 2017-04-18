@@ -14,7 +14,7 @@ class LawyerController extends Controller {
 	 */
 	public function index()
 	{
-	    $lawyers = Lawyer::paginate(20, ['id', 'name', 'job_es']);
+	    $lawyers = Lawyer::paginate(20, ['id', 'email', 'name', 'job_es', 'updated_at']);
 		return view('admin.lawyers', compact('lawyers'));
 	}
 
@@ -106,7 +106,10 @@ class LawyerController extends Controller {
 	 */
 	public function destroy($id)
 	{
-		//
+		$lawyer = Lawyer::find($id);
+		$lawyer->delete();
+
+		return redirect()->back();
 	}
 
 	private function getTypes() {

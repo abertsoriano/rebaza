@@ -27,6 +27,8 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin'], function ($route) 
     $route->post('lawyers/store', ['as' => 'storeLawyer', 'uses' => 'LawyerController@store']);
     $route->get('lawyers/{id}/view', ['as' => 'showLawyer', 'uses' => 'LawyerController@show']);
     $route->post('lawyers/{id}/edit', ['as' => 'editLawyer', 'uses' => 'LawyerController@edit']);
+
+    $route->get('lawyers/{id}/delete', ['as' => 'deleteLawyer', 'uses' => 'LawyerController@destroy']);
 });
 
 $locale = 'es';
