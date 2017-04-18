@@ -60,10 +60,10 @@
 									<a href="#cinthiacane" data-toggle="modal"></i>Cinthia Cánepa</a>
                                     <div>cinthia.canepa@rebaza-alcazar.com</div>
                                 </li>
-								<li>
-									<a href="#claudiaause" data-toggle="modal"></i>Claudia Ausejo</a>
-                                    <div>claudia.ausejo@rebaza-alcazar.com</div>
-                                </li>
+								{{--<li>--}}
+									{{--<a href="#claudiaause" data-toggle="modal"></i>Claudia Ausejo</a>--}}
+                                    {{--<div>claudia.ausejo@rebaza-alcazar.com</div>--}}
+                                {{--</li>--}}
 								<li>
 									<a href="#cynthiareba" data-toggle="modal"></i>Cynthia Rebaza</a>
                                     <div>cynthia.rebaza@rebaza-alcazar.com</div>
@@ -455,7 +455,7 @@
 	</div>
 </div>
 
-<div class="modal fade" id="claudiaause" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
+{{--<div class="modal fade" id="claudiaause" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">
             <div class="modal-header">
@@ -477,7 +477,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div>--}}
 
 
 {{--<div class="modal fade" id="cristinaflor" role="dialog" aria-labelledby="terminosCondiciones" aria-hidden="true">

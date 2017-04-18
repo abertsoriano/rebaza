@@ -100,9 +100,9 @@
                                                 <?php $n_item_es = 1 ?>
                                                 @foreach($list['items_es'] as $item)
                                                     <li>
-                                                        <div class="col-sm-10 txt-item">{{ $item }}</div>
+                                                        <div class="col-sm-10 txt-item">{!! $item !!}</div>
                                                         <div class="col-sm-2">
-                                                            <a href="#" class="btn-add-link-item" id="txt_item{{ $id_es }}_es{{ $n_item_es }}" data-id="{{ $id_es }}">Link</a> |
+                                                            <a href="#" class="btn-add-link-item" id="txt_item{{ $id_es }}_es{{ $n_item_es }}" data-id="{{ $id_es }}" data-item="{{ $n_item_es }}">Link</a> |
                                                             <a href="#" class="btn-delete-item-created" data-id="{{ $id_es }}">Elminar</a>
                                                         </div>
                                                     </li>
@@ -195,9 +195,9 @@
                                                     <?php $n_item_en = 1 ?>
                                                     @foreach($list['items_en'] as $item)
                                                         <li>
-                                                            <div class="col-sm-10 txt-item">{{ $item }}</div>
+                                                            <div class="col-sm-10 txt-item">{!! $item !!}</div>
                                                             <div class="col-sm-2">
-                                                                <a href="#" class="btn-add-link-item" id="txt_item{{ $id_en }}_en{{ $n_item_en }}" data-id="{{ $id_en }}">Link</a> |
+                                                                <a href="#" class="btn-add-link-item" id="txt_item{{ $id_en }}_en{{ $n_item_en }}" data-id="{{ $id_en }}" data-item="{{ $n_item_en }}">Link</a> |
                                                                 <a href="#" class="btn-delete-item-created" data-id="{{ $id_en }}">Elminar</a>
                                                             </div>
                                                         </li>
@@ -405,27 +405,41 @@
         $listContent.on('click', '.btn-add-link-item', function (e) {
             e.preventDefault();
             var id = $(e.currentTarget).data('id');
+            var item_id = $(e.currentTarget).data('item');
             var list = $(e.currentTarget).closest('ul').parent().children('strong').text().trim();
             var item = $(e.currentTarget).closest('li').find('.txt-item').html().trim();
             var lang = $(e.currentTarget).closest('.form-group').data('lang');
             var $modal = $('#add-link-item');
-            $('#modal-title-item').text(list);
+
+            if (item.indexOf('href=') != -1) {
+                $('#txt-item-url').val(item.split('"')[1]);
+            }
+
             $('#modal-item-txt').html(item);
-            $('#txt-item-url').data('item', id).data('lang', lang);
+            $('#modal-title-item').text(list);
+            $('#txt-item-url').data('id', id).data('item', item_id).data('lang', lang);
             $modal.modal('show');
         });
 
         $('#add-link-item form').on('submit', function (e) {
             e.preventDefault();
-           var $form = $(e.currentTarget);
-           var id = $('#txt-item-url').data('item');
-           var lang = $('#txt-item-url').data('lang');
-           var href = $form.find('input').val();
-           var item_a = '<a href="' + href + '">' + $('#modal-title-item').text().trim() + '</a>';
-           $('#txt_item_' + lang + '_' + id ).html(item_a);
-           $('#item_' + lang + id ).val(item_a);
+            var $form = $(e.currentTarget);
+            var item_id = $('#txt-item-url').data('item');
+            var id = $('#txt-item-url').data('id');
+            var lang = $('#txt-item-url').data('lang');
+            var href = $form.find('input').val();
+            var item_a = '';
+            if (href == '') {
+                item_a = $('#modal-item-txt').text().trim();
+            } else {
+                item_a = '<a href="' + href + '">' + $('#modal-item-txt').text().trim() + '</a>';
+            }
+
+            $('#txt_item' + id + '_' + lang + item_id).closest('li').find('.txt-item').html(item_a);
+            $('#item'+ id + '_' + lang + item_id).val(item_a);
 
             $('#add-link-item').modal('hide');
+            $('#txt-item-url').val('');
         });
 
         function showListContent($li) {
