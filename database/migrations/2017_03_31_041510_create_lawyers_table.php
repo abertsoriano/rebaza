@@ -34,6 +34,8 @@ class CreateLawyersTable extends Migration {
             $table->text('text_en');
 
             $table->timestamps();
+
+            $table->softDeletes();
 		});
 	}
 
