@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Cache;
 use App\Article;
+use App\Lawyer;
 use App\Http\Requests\SendCvRequest;
 use File;
 use Mail;
@@ -57,7 +58,10 @@ class WelcomeController extends Controller {
 
 	public function abogadosocios()
 	{
-		return view('abogadosocios');
+	    $socios = Lawyer::where('type', 1)->get();
+        $locale = $this->locale;
+
+		return view('abogadosocios', compact('socios', 'locale'));
 	}
 
 	public function areaconseciones()

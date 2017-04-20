@@ -17,6 +17,13 @@ class CreateLawyersTable extends Migration {
 			$table->increments('id');
 			$table->string('name');
 			$table->string('email');
+			$table->string('image');
+
+            $table->string('download_cv_es');
+            $table->string('download_cv_en');
+
+            $table->string('download_txt_es')->default('Descargar');
+			$table->string('download_txt_en')->default('Download');
 
 			$table->string('job_es');
 			$table->string('job_en');

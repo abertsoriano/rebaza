@@ -262,6 +262,7 @@ h6 { font-size: 18px; }
 	    color: #474747;
         list-style: url(../images/bullet.gif);
         margin-bottom: 12px;
+		padding-left: 0;
 	}
 
 	.news-block  a:hover,

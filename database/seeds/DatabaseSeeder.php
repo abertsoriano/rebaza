@@ -37,6 +37,14 @@ class LawyerTableSeeder extends Seeder {
         $insert = [
             'name' => 'Alberto Rebaza',
             'email' => 'alberto.rebaza@rebaza-alcazar.com',
+            'image' => 'alberto.jpg',
+
+            'download_cv_es' => 'ARTCVes.pdf',
+            'download_cv_en' => 'ARTen2015.pdf',
+
+            'download_txt_es' => 'Descargar',
+            'download_txt_en' => 'Download',
+
             'job_es' => 'Socio Principal',
             'job_en' => 'Primary Partner',
             'type' => 1,

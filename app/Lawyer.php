@@ -10,6 +10,14 @@ class Lawyer extends Model {
     protected $fillable = [
         'name',
         'email',
+        'image',
+
+        'download_cv_es',
+        'download_cv_en',
+
+        'download_txt_es',
+        'download_txt_en',
+
         'job_es',
         'job_en',
 

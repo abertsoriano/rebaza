@@ -1,11 +1,31 @@
 <?php namespace App\Http\Controllers;
 
-use App\Http\Requests;
+use App\CustomHelpers;
+use File;
+// use App\Http\Requests\LawyerRequest;
 
 use Illuminate\Http\Request;
 use App\Lawyer;
+use Illuminate\Support\Facades\Validator;
 
 class LawyerController extends Controller {
+
+    private $path_img_lawyer = 'images/abogados';
+    private $defaultRules = [
+        'name' => 'required',
+        'email' => 'required|email',
+
+        'job_es' => 'required',
+        'job_en' => 'required',
+
+        'type' => 'required',
+
+        'info_es' => 'required',
+        'info_en' => 'required',
+
+        'text_es' => 'required',
+        'text_en' => 'required'
+    ];
 
 	/**
 	 * Display a listing of the resource.
@@ -41,9 +61,23 @@ class LawyerController extends Controller {
 	 */
 	public function store(Request $request)
 	{
-        $params = $request->all();
-        $params['list_es'] = $this->convertJsonList($request->input('test_es'), $request->input('items_es'), 'es');
-        $params['list_en'] = $this->convertJsonList($request->input('test_en'), $request->input('items_en'), 'en');
+        list($v, $params) = $this->customValidate($request);
+
+        if ($v->fails()) {
+            return redirect()->back()->withInput($params)->withErrors($v->errors());
+        }
+
+        if ($request->hasFile('image')) {
+            $request->file('image')->move($this->path_img_lawyer, $params['image']);
+        }
+
+        if ($request->hasFile('download_cv_es')) {
+            $request->file('download_cv_es')->move('abogados_cv', $params['download_cv_es']);
+        }
+
+        if ($request->hasFile('download_cv_en')) {
+            $request->file('download_cv_en')->move('abogados_cv', $params['download_cv_en']);
+        }
 
         Lawyer::create($params);
 
@@ -76,10 +110,36 @@ class LawyerController extends Controller {
 	public function edit(Request $request, $id)
 	{
         $lawyer = Lawyer::find($id);
-        $params = $request->all();
+        list($v, $params) = $this->customValidate($request);
 
-        $params['list_es'] = $this->convertJsonList($request->input('test_es'), $request->input('items_es'), 'es');
-        $params['list_en'] = $this->convertJsonList($request->input('test_en'), $request->input('items_en'), 'en');
+        if ($v->fails()) {
+            return redirect()->back()->withInput($params)->withErrors($v->errors());
+        }
+
+        if ($request->hasFile('image')) {
+            if ($lawyer->image) {
+                File::delete($this->path_img_lawyer . '/' . $lawyer->image);
+            }
+
+            $request->file('image')->move($this->path_img_lawyer, $params['image']);
+        }
+
+        if ($request->hasFile('download_cv_es')) {
+            if ($lawyer->download_cv_es) {
+                File::delete('abogados_cv/' . $lawyer->download_cv_es);
+            }
+
+            $request->file('download_cv_es')->move('abogados_cv', $params['download_cv_es']);
+        }
+
+        if ($request->hasFile('download_cv_en')) {
+
+            if ($lawyer->download_cv_en) {
+                File::delete('abogados_cv/' . $lawyer->download_cv_en);
+            }
+
+            $request->file('download_cv_en')->move('abogados_cv', $params['download_cv_en']);
+        }
 
         $lawyer->fill($params);
         $lawyer->save();
@@ -114,30 +174,38 @@ class LawyerController extends Controller {
 
 	private function getTypes() {
 	    return [['id' => '', 'name' => 'Seleccione'], ['id' => 1, 'name' => 'Socio'], ['id' => 2, 'name' => 'Asociados'], ['id' => 3, 'name' => 'Consultores']];
-    }
+	}
 
-    private function convertJsonList($dataList, $dataItem, $lang) {
+	private function customValidate($request) {
+	    $params = $request->all();
+        $rules = $this->defaultRules;
 
-        $result = [];
-        $items = [];
-        $i = 0;
+        $params['list_es'] = CustomHelpers::convertJsonList($request->input('test_es'), $request->input('items_es'), 'es');
+        $params['list_en'] = CustomHelpers::convertJsonList($request->input('test_en'), $request->input('items_en'), 'en');
 
-        if ($dataList) {
-            foreach ($dataList as $list => $value) {
-                $result[$i] = ['list' => $value, 'items_' . $lang => []];
-
-                if (isset($dataItem[$list])) {
-                    foreach ($dataItem[$list] as $item) {
-                        $items[] = $item;
-                    }
-                }
-
-                $result[$i]['items_' . $lang] = $items;
-                $items = [];
-                $i++;
-            }
+        if ($request->hasFile('image')) {
+            $params['image'] = str_slug($request->file('image')->getClientOriginalName(), '_')
+                .'.'.$request->file('image')->getClientOriginalExtension();
+            $params['images'] = $request->file('image');
+            $rules['images'] = 'image';
         }
 
-        return json_encode($result);
+        if ($request->hasFile('download_cv_es')) {
+            $params['download_cv_es'] = str_slug($request->file('download_cv_es')->getClientOriginalName(), '_')
+                .'.'.$request->file('download_cv_es')->getClientOriginalExtension();
+            $params['_download_cv_es'] = $request->file('download_cv_es');
+            $rules['_download_cv_es'] = 'mimes:pdf';
+        }
+
+        if ($request->hasFile('download_cv_en')) {
+            $params['download_cv_en'] = str_slug($request->file('download_cv_en')->getClientOriginalName(), '_')
+                .'.'.$request->file('download_cv_en')->getClientOriginalExtension();
+            $params['_download_cv_en'] = $request->file('download_cv_en');
+            $rules['_download_cv_en'] = 'mimes:pdf';
+        }
+
+        $validator = Validator::make($params, $rules);
+
+        return [$validator, $params];
     }
 }

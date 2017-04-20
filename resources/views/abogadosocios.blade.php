@@ -22,32 +22,35 @@
 							</h4>
 						</article>
 					</div>
-					<div class="col-sm-4">
-						<article class="news-block">
-							<ul>
-                                {!! trans('abogadoSocios.list_1') !!}
-							</ul>
-						</article>
+					<div class="col-sm-8">
+                        <ul class="news-block">
+                            @foreach($socios as $socio)
+                            <li class="col-md-6 col-sm-12">
+                                <a href="#{{ str_slug($socio->name, '_') }}">{{ $socio->name }}</a>
+                                <div>{{ $socio->email }}</div>
+                            </li>
+                            @endforeach
+                        </ul>
 					</div>
-					<div class="col-sm-4">
-						<article class="news-block">
-                            <ul>
-                                {!! trans('abogadoSocios.list_2') !!}
-                            </ul>
-						</article>
-					</div>
-
+					{{--<div class="col-sm-4">--}}
+						{{--<article class="news-block">--}}
+                            {{--<ul>--}}
+                                {{--{!! trans('abogadoSocios.list_2') !!}--}}
+                            {{--</ul>--}}
+						{{--</article>--}}
+					{{--</div>--}}
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
 
-<div class="modal fade" id="alexandraorbe" tabindex="-1" role="dialog" aria-hidden="true">
+@foreach($socios as $socio)
+<div class="modal fade" id="{{ str_slug($socio->name) }}" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content row">
 			<div class="modal-header">
-				<h6 class="sinespacio pull-left">Alexandra&nbsp;Orbezo <small>{{ trans('abogadoSocios.type_f') }}</small></h6>
+				<h6 class="sinespacio pull-left">{{ $socio->name }} <small>{{ $socio['job_' . $locale] }}</small></h6>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -56,19 +59,46 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <article class="news-socios">
-                            <img src="images/socios/Ale2.jpg" alt="Image" class="img-responsive">
+                            <img src="{{ asset('images/abogados/' . $socio->image) }}" alt="Image" class="img-responsive">
                             <p class="txtblue text-bold">
-                                <a target="_blank" href="../images/cv/">{{ trans('abogadoSocios.download') }}</a>
+                                <a target="_blank" href="{{ asset('cv/' . $socio->download_cv) }}">{{ $socio['download_txt_' . $locale] }}</a>
                             </p>
                         </article>
                     </div>
-                    {!! trans('abogadoSocios.modal_1') !!}
+                    <div class="col-sm-8">
+                        <ul class="accordion">
+                            @foreach(json_decode($lawyer['list_' . $locate], true) as $list)
+                            <li class="current">
+                                <a href="#">{{ $list }}</a>
+                                <div class="bloqueMostrar" style="display: none;">
+                                    <ul style="display: none;">
+                                    @if (!empty($list['items' . $locate]))
+                                        @foreach($list['items' . $locate] as $item)
+                                            {!! $item !!}
+                                        @endforeach
+                                    @endif
+                                    </ul>
+                                </div>
+                            </li>
+                            @endforeach
+                        </ul>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="news-socios">
+                            {!! $lawyer['info_' . $locate] !!}
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="news-socios">
+                            {!! $lawyer['text_' . $locate] !!}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
+@endforeach
 <div class="modal fade" id="augustololi" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">

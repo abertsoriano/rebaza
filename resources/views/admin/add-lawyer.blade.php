@@ -8,35 +8,52 @@
                 <div class="panel-heading">Abogado</div>
 
                 <div class="panel-body list-articles">
-                    <form action="{{ $action }}" method="post">
+                    @include('errors.show-errors')
+                    <form action="{{ $action }}" method="post" enctype="multipart/form-data">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         @if (isset($lawyer->id))
                             <input type="hidden" name="id" value="{{ $lawyer->id }}">
                         @endif
                         <div class="form-group">
                             <div class="row">
-                                <label for="type" class="col-sm-1 control-label"><strong>Seccion</strong></label>
-                                <div class="col-sm-3">
-                                    <select name="type" id="type" class="form-control">
-                                        <?php $typeOld = old('type', $lawyer->type) ?>
-                                        @foreach($types as $type)
-                                            <option value="{{ $type['id'] }}" {{ $typeOld == $type['id'] ? 'selected' : '' }}>{{ $type['name'] }}</option>
-                                        @endforeach
-                                    </select>
+                                <div class="col-sm-4">
+                                    <input type="file" name="image" class="form-control">
+                                    @if ($lawyer->image)
+                                        <img src="{{ asset('images/abogados/' . $lawyer->image) }}" alt="Imagen - {{ $lawyer->name }}" class="img-responsive">
+                                    @else
+                                        <img src="{{ asset('images/nopicture.jpg') }}" alt="Imagen - nopicture.jpg" class="img-responsive center-block">
+                                    @endif
                                 </div>
-                                <label for="name" class="col-sm-1 control-label"><strong>Nombre</strong></label>
-                                <div class="col-sm-7">
-                                    <input type="text" class="form-control" id="name" name="name" value="{{ old('name', $lawyer->name) }}" placeholder="Nombre">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="row">
-                                <div class="col-sm-1">
-                                    <label for="correo" class="control-label"><strong>Correo</strong></label>
-                                </div>
-                                <div class="col-sm-11">
-                                    <input type="email" class="form-control" id="correo" name="email" value="{{ old('email', $lawyer->email) }}" placeholder="Correo">
+                                <div class="col-sm-8">
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <label for="type" class="col-sm-2 control-label"><strong>Seccion</strong></label>
+                                            <div class="col-sm-6">
+                                                <select name="type" id="type" class="form-control">
+                                                    <?php $typeOld = old('type', $lawyer->type) ?>
+                                                    @foreach($types as $type)
+                                                        <option value="{{ $type['id'] }}" {{ $typeOld == $type['id'] ? 'selected' : '' }}>{{ $type['name'] }}</option>
+                                                    @endforeach
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <label for="name" class="col-sm-2 control-label"><strong>Nombre</strong></label>
+                                            <div class="col-sm-10">
+                                                <input type="text" class="form-control" id="name" name="name" value="{{ old('name', $lawyer->name) }}" placeholder="Nombre">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <label for="correo" class="col-sm-2 control-label"><strong>Correo</strong></label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control" id="correo" name="email" value="{{ old('email', $lawyer->email) }}" placeholder="Correo">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -54,16 +71,27 @@
                                     <hr>
                                     <div class="row">
                                         <div class="col-sm-6">
-                                            <input type="text" class="form-control" name="job_es" value="{{ old('job_es', $lawyer->job_es) }}" placeholder="Cargo">
+                                            <label for="#">
+                                                <span>Cv</span>
+                                                @if ($lawyer->download_cv_es !== '')
+                                                    <small><a href="{{ asset('abogados_cv/' . $lawyer->download_cv_es) }}">{{ $lawyer->download_cv_es }}</a></small>
+                                                @endif
+                                            </label>
+                                            <input type="file" name="download_cv_es" class="form-control">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label for="#">Cargo</label>
+                                            <input type="text" class="form-control" name="job_es" value="{{ old('job_es', $lawyer->job_es) }}">
                                         </div>
                                     </div>
                                 </div>
                                 <hr>
                                 <div class="form-group row" data-lang="es" style="background-color: #f7f7f7; padding: 20px 15px">
                                     <div class="content-data_es hidden">
-                                        @if ($lawyer->list_es != '')
+                                        <?php $list_es = old('list_es', $lawyer->list_es)?>
+                                        @if ($list_es != '')
                                         <?php $i_es = 1 ?>
-                                        @foreach (json_decode($lawyer->list_es, true) as $list)
+                                        @foreach (json_decode($list_es, true) as $list)
                                             <input type="hidden" name="test_es[list_{{ $i_es  }}]" id="list_es{{ $i_es }}" class="title_val" value="{{ $list['list'] }}">
 
                                             @if (!empty($list['items_es']))
@@ -78,9 +106,9 @@
                                         @endif
                                     </div>
                                     <ul class="list-test_es list-unstyled">
-                                    @if ($lawyer->list_es != '')
+                                    @if ($list_es != '')
                                         <?php $id_es = 1 ?>
-                                        @foreach (json_decode($lawyer->list_es, true) as $list)
+                                        @foreach (json_decode($list_es, true) as $list)
                                         <li id="li_title_es{{ $id_es }}" data-id="{{ $id_es }}">
                                             <strong>{{ $list['list'] }}</strong>
                                             <div class="hidden content-edit">
@@ -103,7 +131,7 @@
                                                         <div class="col-sm-10 txt-item">{!! $item !!}</div>
                                                         <div class="col-sm-2">
                                                             <a href="#" class="btn-add-link-item" id="txt_item{{ $id_es }}_es{{ $n_item_es }}" data-id="{{ $id_es }}" data-item="{{ $n_item_es }}">Link</a> |
-                                                            <a href="#" class="btn-delete-item-created" data-id="{{ $id_es }}">Elminar</a>
+                                                            <a href="#" class="btn-delete-item-created" data-id="{{ $id_es }}" data-item="{{ $n_item_es }}">Elminar</a>
                                                         </div>
                                                     </li>
                                                     <?php $n_item_es++ ?>
@@ -124,7 +152,7 @@
                                         @endforeach
                                     @endif
                                     </ul>
-                                    <div class="form-group-sm form-add-list_es">
+                                    <div class="form-group-sm">
                                         <div class="col-sm-6">
                                             <input type="text" class="form-control">
                                         </div>
@@ -150,15 +178,27 @@
                                     <hr>
                                     <div class="row">
                                         <div class="col-sm-6">
-                                            <input type="text" class="form-control" name="job_en" value="{{ old('job_en', $lawyer->job_en) }}" placeholder="Job">
+                                            <label for="#">
+                                                <span>Cv</span>
+                                                @if ($lawyer->download_cv_en !== '')
+                                                    <small><a href="{{ asset('abogados_cv/' . $lawyer->download_cv_en) }}">{{ $lawyer->download_cv_en }}</a></small>
+                                                @endif
+                                            </label>
+                                            <input type="file" name="download_cv_en" class="form-control">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <label for="#">Job</label>
+                                            <input type="text" class="form-control" name="job_en" value="{{ old('job_en', $lawyer->job_en) }}">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group" data-lang="en">
+                                <hr>
+                                <div class="form-group row" data-lang="en" style="background-color: #f7f7f7; padding: 20px 15px">
                                     <div class="content-data_en hidden">
-                                        @if ($lawyer->list_en != '')
+                                        <?php $list_en = old('list_en', $lawyer->list_en); ?>
+                                        @if ($list_en != '')
                                             <?php $i_en = 1 ?>
-                                            @foreach (json_decode($lawyer->list_en, true) as $list)
+                                            @foreach (json_decode($list_en, true) as $list)
                                                 <input type="hidden" name="test_en[list_{{ $i_en  }}]" id="list_en{{ $i_en }}" class="title_val" value="{{ $list['list'] }}">
 
                                                 @if (!empty($list['items_en']))
@@ -173,9 +213,9 @@
                                         @endif
                                     </div>
                                     <ul class="list-test_en list-unstyled">
-                                    @if ($lawyer->list_en != '')
+                                    @if ($list_en != '')
                                         <?php $id_en = 1 ?>
-                                        @foreach (json_decode($lawyer->list_en, true) as $list)
+                                        @foreach (json_decode($list_en, true) as $list)
                                             <li id="li_title_en{{ $id_en }}" data-id="{{ $id_en }}">
                                                 <strong>{{ $list['list'] }}</strong>
                                                 <div class="hidden content-edit">
@@ -198,7 +238,7 @@
                                                             <div class="col-sm-10 txt-item">{!! $item !!}</div>
                                                             <div class="col-sm-2">
                                                                 <a href="#" class="btn-add-link-item" id="txt_item{{ $id_en }}_en{{ $n_item_en }}" data-id="{{ $id_en }}" data-item="{{ $n_item_en }}">Link</a> |
-                                                                <a href="#" class="btn-delete-item-created" data-id="{{ $id_en }}">Elminar</a>
+                                                                <a href="#" class="btn-delete-item-created" data-id="{{ $id_en }}" data-item="{{ $n_item_en }}">Elminar</a>
                                                             </div>
                                                         </li>
                                                         <?php $n_item_en++ ?>
@@ -226,6 +266,7 @@
                                         <div class="col-sm-2">
                                             <input class="btn btn-sm btn-add-one" type="button" value="Add">
                                         </div>
+                                        <div class="clearfix"></div>
                                     </div>
                                 </div>
                                 <div class="clearfix"></div>
@@ -352,7 +393,7 @@
                 var item_id = '' + id + '_' + lang + total;
                 var hiddenInput = '<input type="hidden" name="items_' + lang + '[list_' + id +'][]" id="item' + item_id + '" class="item_val_'+ id +'" value="' + $input.val() + '">';
                 var listItem = '<li><div class="col-sm-10 txt-item">' + $input.val() + '</div>' +
-                    '<div class="col-sm-2"><a href="#" class="btn-add-link-item" id="txt_item'+ item_id+'" data-id="'+ id +'" data-item="'+total +'">Link</a> |<a href="#" class="btn-delete-item-created" data-id="'+ total + '">Elminar</a></div></li>';
+                    '<div class="col-sm-2"><a href="#" class="btn-add-link-item" id="txt_item'+ item_id+'" data-id="'+ id +'" data-item="'+total +'">Link</a> |<a href="#" class="btn-delete-item-created" data-id="'+ id + '" data-item="' + total + '">Elminar</a></div></li>';
 
                 $input.closest('ul').prev('.content-items').append(listItem);
                 $('#li_title_' + lang + id + ' .btn-del-title').addClass('hidden');
@@ -364,9 +405,10 @@
         $listContent.on('click', '.btn-delete-item-created', function (e) {
             e.preventDefault();
             var id = $(e.currentTarget).data('id');
+            var item = $(e.currentTarget).data('item');
             var lang = $(e.currentTarget).closest('.form-group').data('lang');
             var ul = $(e.currentTarget).closest('ul');
-            $('#item_' + lang + id).remove();
+            $('#item'+ id +'_' + lang + item).remove();
             $(e.currentTarget).closest('li').remove();
 
             // Revisa si hay un item mas de la lista, asi muestra el boton de eliminar lista
