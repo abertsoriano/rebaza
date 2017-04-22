@@ -38,6 +38,12 @@
 		.list-actions-buttons {
 			display: inline-block;
 		}
+		.image-content {
+			height: 300px;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			background-size: cover;
+		}
 	</style>
 </head>
 <body>
@@ -57,8 +63,8 @@
 				<ul class="nav navbar-nav">
 					<li><a href="{{ route('home') }}">Home</a></li>
 					<li><a href="{{ route('lawyers') }}">Abogados</a></li>
-					<li><a href="{{ route('areaIndex', 'estudio') }}">Estudio</a></li>
-					<li><a href="{{ route('areaIndex', 'areas') }}">Areas</a></li>
+					<li><a href="{{ route('pageIndex', 'estudio') }}">Estudio</a></li>
+					<li><a href="{{ route('pageIndex', 'areas') }}">Areas</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">

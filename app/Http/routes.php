@@ -31,12 +31,12 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin'], function ($route) 
     $route->get('lawyers/{id}/delete', ['as' => 'deleteLawyer', 'uses' => 'LawyerController@destroy']);
 
     // Pages
-    $route->get('page/{page}', ['as' => 'areaIndex', 'uses' => 'PageController@index']);
-    $route->get('areas/create-{type}', ['as' => 'areaCreate', 'uses' => 'PageController@create']);
-    $route->get('areas/{id}/show', ['as' => 'areaShow', 'uses' => 'PageController@show']);
-    $route->post('areas/store', ['as' => 'storeArea', 'uses' => 'PageController@store']);
-    $route->post('areas/{id}/update', ['as' => 'areaEdit', 'uses' => 'PageController@edit']);
-    $route->get('areas/{id}/delete', ['as' => 'areaDelete', 'uses' => 'PageController@destroy']);
+    $route->get('page/{page}', ['as' => 'pageIndex', 'uses' => 'PageController@index']);
+    $route->get('pages/create-{type}', ['as' => 'pageCreate', 'uses' => 'PageController@create']);
+    $route->get('pages/{type}/{id}/show', ['as' => 'areaShow', 'uses' => 'PageController@show']);
+    $route->post('pages/store', ['as' => 'storeArea', 'uses' => 'PageController@store']);
+    $route->post('pages/{id}/update', ['as' => 'areaEdit', 'uses' => 'PageController@edit']);
+    $route->get('pages/{id}/delete', ['as' => 'areaDelete', 'uses' => 'PageController@destroy']);
 });
 
 $locale = 'es';

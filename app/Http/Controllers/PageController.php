@@ -72,7 +72,7 @@ class PageController extends Controller {
 
 		Page::create($params);
 
-        return redirect()->route('areaIndex', $params['type']);
+        return redirect()->route('pageIndex', $params['type']);
 	}
 
 	/**
@@ -81,12 +81,12 @@ class PageController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function show($id)
+	public function show($type, $id)
 	{
         $page = Page::find($id);
         $action = route('areaEdit', $page->id);
 
-        return view('admin.areas.create', compact('page', 'action'));
+        return view('admin.areas.create', compact('page', 'action', 'type'));
 	}
 
 	/**
@@ -126,7 +126,7 @@ class PageController extends Controller {
         $page->fill($params);
         $page->save();
 
-        return redirect()->route('areaIndex', $params['type']);
+        return redirect()->route('pageIndex', $params['type']);
 	}
 
 	/**
@@ -155,7 +155,7 @@ class PageController extends Controller {
 
 		$page->delete();
 
-        return redirect()->route('areaIndex', $type);
+        return redirect()->route('pageIndex', $type);
 	}
 
 	private function getPathImagePageByType($type) {

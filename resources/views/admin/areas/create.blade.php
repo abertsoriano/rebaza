@@ -5,22 +5,20 @@
     <div class="row">
         <div class="col-sm-12">
             <div class="panel panel-default">
-                <div class="panel-heading">PAGINAS</div>
+                <div class="panel-heading">PAGINAS - <strong>{{ strtoupper($type) }}</strong></div>
                 <div class="panel-body">
                     @include('errors.show-errors')
                     <form action="{{ $action }}" class="form-horizontal" enctype="multipart/form-data" method="post">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         @if (isset($page->id))
                             <input type="hidden" name="id" value="{{ $page->id }}">
-                            <input type="hidden" value="{{ strtoupper($page->type) }}" name="type">
-                        @else
-                            <input type="hidden" value="{{ strtoupper($type) }}" name="type">
                         @endif
+                        <input type="hidden" value="{{ strtoupper($type) }}" name="type">
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-sm-4">
-                                    <label class="col-sm-2 control-label">Imagen</label>
-                                    <div class="col-sm-10">
+                                    <label class="col-sm-12">Imagen</label>
+                                    <div class="col-sm-12">
                                         <input type="file" class="form-control" name="image">
                                         @if ($page->image)
                                             <img src="{{ asset('images/' . strtolower($page->type) . '/' . $page->image) }}" alt="Imagen - {{ $page->name }}" class="img-responsive">
@@ -69,7 +67,7 @@
                         </div>
                         <div class="form-group">
                             <div class="col-sm-12">
-                                <a href="{{ route('areaIndex', 'areas') }}" class="btn btn-lg btn-danger pull-left">Cancelar</a>
+                                <a href="{{ route('pageIndex', $type) }}" class="btn btn-lg btn-danger pull-left">Cancelar</a>
                                 <button class="btn btn-lg btn-success pull-right">Guardar</button>
                             </div>
                         </div>
