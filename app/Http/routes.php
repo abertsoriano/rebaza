@@ -32,7 +32,7 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin'], function ($route) 
 
     // Pages
     $route->get('page/{page}', ['as' => 'areaIndex', 'uses' => 'PageController@index']);
-    $route->get('areas/create', ['as' => 'areaCreate', 'uses' => 'PageController@create']);
+    $route->get('areas/create-{type}', ['as' => 'areaCreate', 'uses' => 'PageController@create']);
     $route->get('areas/{id}/show', ['as' => 'areaShow', 'uses' => 'PageController@show']);
     $route->post('areas/store', ['as' => 'storeArea', 'uses' => 'PageController@store']);
     $route->post('areas/{id}/update', ['as' => 'areaEdit', 'uses' => 'PageController@edit']);

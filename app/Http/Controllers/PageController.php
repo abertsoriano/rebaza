@@ -10,7 +10,7 @@ class PageController extends Controller {
 
     private $rules = [
         'name' => 'required',
-        'type' => 'in:AREAS',
+        'type' => 'in:areas,estudio',
         'text_en' => 'required',
         'text_en' => 'required',
         'images' => 'required|image'
@@ -24,7 +24,7 @@ class PageController extends Controller {
 	public function index($type)
 	{
 	    $pages = Page::where('type', strtoupper($type))->get(['id', 'type', 'name', 'image']);
-		return view('admin.areas.index', compact('pages'));
+		return view('admin.areas.index', compact('pages', 'type'));
 	}
 
 	/**
@@ -32,12 +32,12 @@ class PageController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function create()
+	public function create($type)
 	{
-	    $area = new Page;
+	    $page = new Page;
         $action = route('storeArea');
 
-        return view('admin.areas.create', compact('area', 'action'));
+        return view('admin.areas.create', compact('page', 'action', 'type'));
 	}
 
 	/**
@@ -81,10 +81,10 @@ class PageController extends Controller {
 	 */
 	public function show($id)
 	{
-        $area = Page::find($id);
-        $action = route('areaEdit', $area->id);
+        $page = Page::find($id);
+        $action = route('areaEdit', $page->id);
 
-        return view('admin.areas.create', compact('area', 'action'));
+        return view('admin.areas.create', compact('page', 'action'));
 	}
 
 	/**
