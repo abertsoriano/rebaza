@@ -7,6 +7,9 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">INICIO &nbsp; | &nbsp; <a href="{{ route('addLawyer') }}" class="btn btn-primary">Nuevo Abogado</a></div>
 
+                    <div class="col-sm-12">
+                        {!! $lawyers->render() !!}
+                    </div>
                     <div class="panel-body list-articles">
                         @foreach($lawyers as $lawyer)
                             <div class="row">
@@ -22,6 +25,7 @@
                                 </div>
                             </div>
                         @endforeach
+                        {!! $lawyers->render() !!}
                     </div>
                 </div>
             </div>

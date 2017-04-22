@@ -9,8 +9,9 @@ use File;
 class PageController extends Controller {
 
     private $rules = [
-        'name' => 'required',
-        'type' => 'in:areas,estudio',
+        'name_es' => 'required',
+        'name_en' => 'required',
+        'type' => 'in:AREAS,ESTUDIO',
         'text_en' => 'required',
         'text_en' => 'required',
         'images' => 'required|image'
@@ -23,7 +24,7 @@ class PageController extends Controller {
 	 */
 	public function index($type)
 	{
-	    $pages = Page::where('type', strtoupper($type))->get(['id', 'type', 'name', 'image']);
+	    $pages = Page::where('type', strtoupper($type))->get(['id', 'type', 'name_es', 'image']);
 		return view('admin.areas.index', compact('pages', 'type'));
 	}
 

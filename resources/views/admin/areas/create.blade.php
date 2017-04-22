@@ -30,9 +30,25 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-8">
-                                    <label class="col-sm-2 control-label">Titulo</label>
+                                    <div>
+                                        <label class="col-sm-3 control-label">Url</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control" name="page_slug" value="{{ old('page_slug', $page->page_slug) }}">
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <hr>
+                                    </div>
+                                    <div>
+                                        <label class="col-sm-3 control-label">Titulo (Español)</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control" name="name_es" value="{{ old('name_es', $page->name_es) }}">
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <br>
+                                    </div>
+                                    <label class="col-sm-3 control-label">Titulo (Inglés)</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" name="name" value="{{ old('name', $page->name) }}">
+                                        <input type="text" class="form-control" name="name_en" value="{{ old('name_en', $page->name_en) }}">
                                     </div>
                                 </div>
                             </div>

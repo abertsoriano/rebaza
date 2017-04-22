@@ -16,9 +16,13 @@ class CreatePagesTable extends Migration {
 		{
 			$table->increments('id');
 			$table->string('type');
-			$table->string('name');
-			$table->string('image');
-			$table->text('text_es');
+            $table->string('image');
+            $table->string('page_slug');
+
+            $table->string('name_es');
+            $table->string('name_en');
+
+            $table->text('text_es');
 			$table->text('text_en');
 			$table->timestamps();
 

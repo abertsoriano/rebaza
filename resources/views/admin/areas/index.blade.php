@@ -14,7 +14,7 @@
                             <img src="{{ asset("images/$type/" . $page->image) }}" alt="{{ $page->type }} {{ $page->name }}"
                                  class="img-responsive">
                             <div class="caption">
-                                <h4>{{ $page->name }}</h4>
+                                <h4>{{ $page->name_es }}</h4>
                                 <div>
                                     <a href="{{ route('areaShow', $page->id) }}" class="btn btn-primary" role="button">Editar</a>
                                     <a href="{{ route('areaDelete', $page->id) }}" class="btn btn-danger confirm-delete" role="button">Eliminar</a>

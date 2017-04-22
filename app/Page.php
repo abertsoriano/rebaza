@@ -8,7 +8,9 @@ class Page extends Model {
     use SoftDeletes;
 
     protected $fillable = [
-        'name',
+        'name_es',
+        'name_en',
+        'page_slug',
         'type',
         'image',
         'text_es',

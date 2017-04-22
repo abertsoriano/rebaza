@@ -57,7 +57,9 @@ Route::get('abogadosocios', ['as' => 'abogadosocios', 'uses' => 'WelcomeControll
 Route::get('areaconseciones', ['as' => 'areaconseciones', 'uses' => 'WelcomeController@areaconseciones']);
 Route::get('areacorporativo', ['as' => 'areacorporativo', 'uses' => 'WelcomeController@areacorporativo']);
 Route::get('areafinanciamientos', ['as' => 'areafinanciamientos', 'uses' => 'WelcomeController@areafinanciamientos']);
-Route::get('areafunciones', ['as' => 'areafunciones', 'uses' => 'WelcomeController@areafunciones']);
+
+//Route::get('areafunciones', ['as' => 'areafunciones', 'uses' => 'WelcomeController@areafunciones']);
+Route::get('{page}', ['as' => 'pagesByUrl', 'uses' => 'WelcomeController@pages']);
 Route::get('arealaboral', ['as' => 'arealaboral', 'uses' => 'WelcomeController@arealaboral']);
 Route::get('arealibre', ['as' => 'arealibre', 'uses' => 'WelcomeController@arealibre']);
 Route::get('arealitigios', ['as' => 'arealitigios', 'uses' => 'WelcomeController@arealitigios']);

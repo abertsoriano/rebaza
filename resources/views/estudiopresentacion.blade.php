@@ -3,7 +3,7 @@
 @section('title', '- Estudio Presentación')
 
 @section('content')
-<section class="news-event-teaser section text-center-xs">
+<section class="news-event-teaser section">
 	<div class="container small">
 
 		<div class="row">
@@ -11,14 +11,13 @@
 				<div class="row">
 					<div class="col-sm-3 col-xs-12">
 						<article class="news-block ">
-							<img src="{{ asset('images/estudio.jpg') }}" alt="FoodBingo" class="logo img-responsive">
+							<img src="{{ asset('images/' . strtolower($page->type) . '/' . $page->image) }}" alt="FoodBingo" class="logo img-responsive">
 						</article>
 					</div>
 					<div class="col-sm-9 col-xs-12">
 						<article class="news-block">
-							<h6 class="text-normal text-bold">{{ trans('estudioPresentacion.title') }}</h6>
-							<h4 class="text-normal text-bold">{{ trans('estudioPresentacion.title2') }}</h4>
-							{!! trans('estudioPresentacion.info') !!}
+							<h6 class="text-normal text-bold">{{ $page['name_' . $locale] }}</h6>
+							{!! $page['text_' . $locale] !!}
 						</article>
 					</div>
 				</div>

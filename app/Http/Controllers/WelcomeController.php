@@ -7,6 +7,7 @@ use App\Lawyer;
 use App\Http\Requests\SendCvRequest;
 use File;
 use Mail;
+use App\Page;
 
 class WelcomeController extends Controller {
 
@@ -28,7 +29,7 @@ class WelcomeController extends Controller {
 	public function __construct()
     {
         if (Cache::has('locale')) {
-            $this->locale = Cache::get('locale') == 'en' ? '_' . Cache::get('locale') : '';
+            $this->locale = Cache::get('locale') == 'en' ? Cache::get('locale') : 'es';
         }
     }
 
@@ -146,8 +147,17 @@ class WelcomeController extends Controller {
 
 	public function estudiopresentacion()
 	{
-		return view('estudiopresentacion');
+	    $locale = $this->locale;
+        $page = Page::where('page_slug', 'estudiopresentacion')->first();
+		return view('estudiopresentacion', compact('page', 'locale'));
 	}
+
+    public function pages($page_slug)
+    {
+        $locale = $this->locale;
+        $page = Page::where('page_slug', $page_slug)->first();
+        return view('pages', compact('page', 'locale'));
+    }
 
 	public function galeria()
 	{

@@ -73,8 +73,9 @@ if (Cache::has('locale')) {
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">{{ trans('links.nav_2') }}</a>
 								<ul class="dropdown-menu">
-									<li><a href="{{ route('areafunciones') }}">{{ trans('links.sub_2_1') }}</a></li>
-									<li><a href="{{ route('areamercado') }}">{{ trans('links.sub_2_2') }}</a></li>
+									<li><a href="{{ route('pagesByUrl', 'areafunciones') }}">{{ trans('links.sub_2_1') }}</a></li>
+									<li><a href="{{ route('pagesByUrl', 'areamercado') }}">{{ trans('links.sub_2_2') }}</a></li>
+
 									<li><a href="{{ route('arearestructuracion') }}">{{ trans('links.sub_2_3') }}</a></li>
 									<li><a href="{{ route('arearegulacion') }}">{{ trans('links.sub_2_4') }}</a></li>
 									<li><a href="{{ route('areafinanciamientos') }}">{{ trans('links.sub_2_5') }}</a></li>
