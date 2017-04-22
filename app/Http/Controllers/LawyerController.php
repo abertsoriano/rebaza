@@ -184,23 +184,29 @@ class LawyerController extends Controller {
         $params['list_en'] = CustomHelpers::convertJsonList($request->input('test_en'), $request->input('items_en'), 'en');
 
         if ($request->hasFile('image')) {
-            $params['image'] = str_slug($request->file('image')->getClientOriginalName(), '_')
-                .'.'.$request->file('image')->getClientOriginalExtension();
-            $params['images'] = $request->file('image');
+            $image = $request->file('image');
+
+            $params['image'] = str_slug(substr($image->getClientOriginalName(), 0, strlen($image->getClientOriginalName()) - 4), '_')
+                .'.'.$image->getClientOriginalExtension();
+            $params['images'] = $image;
             $rules['images'] = 'image';
         }
 
         if ($request->hasFile('download_cv_es')) {
-            $params['download_cv_es'] = str_slug($request->file('download_cv_es')->getClientOriginalName(), '_')
-                .'.'.$request->file('download_cv_es')->getClientOriginalExtension();
-            $params['_download_cv_es'] = $request->file('download_cv_es');
+            $download_es = $request->file('download_cv_es');
+
+            $params['download_cv_es'] = str_slug(substr($download_es->getClientOriginalName(), 0, strlen($download_es->getClientOriginalName()) - 4), '_')
+                .'.'.$download_es->getClientOriginalExtension();
+            $params['_download_cv_es'] = $download_es;
             $rules['_download_cv_es'] = 'mimes:pdf';
         }
 
         if ($request->hasFile('download_cv_en')) {
-            $params['download_cv_en'] = str_slug($request->file('download_cv_en')->getClientOriginalName(), '_')
-                .'.'.$request->file('download_cv_en')->getClientOriginalExtension();
-            $params['_download_cv_en'] = $request->file('download_cv_en');
+            $download_en = $request->file('download_cv_en');
+
+            $params['download_cv_en'] = str_slug(substr($download_en->getClientOriginalName(), 0, strlen($download_en->getClientOriginalName()) - 4), '_')
+                .'.'.$download_en->getClientOriginalExtension();
+            $params['_download_cv_en'] = $download_en;
             $rules['_download_cv_en'] = 'mimes:pdf';
         }
 
