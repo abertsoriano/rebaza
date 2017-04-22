@@ -2,8 +2,6 @@
 
 use App\CustomHelpers;
 use File;
-// use App\Http\Requests\LawyerRequest;
-
 use Illuminate\Http\Request;
 use App\Lawyer;
 use Illuminate\Support\Facades\Validator;

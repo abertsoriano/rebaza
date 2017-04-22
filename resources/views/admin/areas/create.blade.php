@@ -51,7 +51,7 @@
                         </div>
                         <div class="form-group">
                             <div class="col-sm-12">
-                                <a href="{{ route('areaIndex', 'areas') }}" class="btn btn-lg btn-danger pull-left">Guardar</a>
+                                <a href="{{ route('areaIndex', 'areas') }}" class="btn btn-lg btn-danger pull-left">Cancelar</a>
                                 <button class="btn btn-lg btn-success pull-right">Guardar</button>
                             </div>
                         </div>

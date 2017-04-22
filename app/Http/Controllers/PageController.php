@@ -4,8 +4,17 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Page;
 use Illuminate\Support\Facades\Validator;
+use File;
 
 class PageController extends Controller {
+
+    private $rules = [
+        'name' => 'required',
+        'type' => 'in:AREAS',
+        'text_en' => 'required',
+        'text_en' => 'required',
+        'images' => 'required|image'
+    ];
 
 	/**
 	 * Display a listing of the resource.
@@ -39,13 +48,7 @@ class PageController extends Controller {
 	public function store(Request $request)
 	{
         $params = $request->all();
-        $rules = [
-            'name' => 'required',
-            'type' => 'in:AREAS',
-            'text_en' => 'required',
-            'text_en' => 'required',
-            'images' => 'required|image'
-        ];
+        $rules = $this->rules;
 
         if ($request->hasFile('image')) {
             $image = $request->file('image');
@@ -62,12 +65,12 @@ class PageController extends Controller {
         }
 
         if ($request->hasFile('image')) {
-            $request->file('image')->move('images/' . strtolower($params['type']), $params['image']);
+            $request->file('image')->move($this->getPathImagePageByType($params['type']), $params['image']);
         }
 
 		Page::create($params);
 
-        return redirect()->route('areaIndex');
+        return redirect()->route('areaIndex', $params['type']);
 	}
 
 	/**
@@ -90,9 +93,38 @@ class PageController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function edit($id)
+	public function edit(Request $request, $id)
 	{
-		//
+		$page = Page::find($id);
+		$params = $request->all();
+		$rules = $this->rules;
+
+        if ($request->hasFile('image')) {
+            $image = $request->file('image');
+
+            $params['image'] = str_slug(substr($image->getClientOriginalName(), 0, strlen($image->getClientOriginalName()) - 4), '_')
+                .'.'.$image->getClientOriginalExtension();
+            $params['images'] = $image;
+        }
+
+        $v = Validator::make($params, $rules);
+
+        if ($v->fails()) {
+            return redirect()->back()->withInput($params)->withErrors($v->errors());
+        }
+
+        if ($request->hasFile('image')) {
+            if ($page->image) {
+                File::delete($this->getPathImagePageByType($params['type']) . '/' . $page->image);
+            }
+
+            $request->file('image')->move($this->getPathImagePageByType($params['type']), $params['image']);
+        }
+
+        $page->fill($params);
+        $page->save();
+
+        return redirect()->route('areaIndex', $params['type']);
 	}
 
 	/**
@@ -117,4 +149,7 @@ class PageController extends Controller {
 		//
 	}
 
+	private function getPathImagePageByType($type) {
+	    return 'images/' . strtolower($type);
+    }
 }
