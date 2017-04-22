@@ -86,7 +86,7 @@ class PageController extends Controller {
         $page = Page::find($id);
         $action = route('areaEdit', $page->id);
 
-        return view('admin.pages.create', compact('page', 'action'));
+        return view('admin.pages.create', compact('page', 'action', 'type'));
 	}
 
 	/**
