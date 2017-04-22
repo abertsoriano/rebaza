@@ -30,26 +30,13 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin'], function ($route) 
 
     $route->get('lawyers/{id}/delete', ['as' => 'deleteLawyer', 'uses' => 'LawyerController@destroy']);
 
+    // Pages
     $route->get('page/{page}', ['as' => 'areaIndex', 'uses' => 'PageController@index']);
     $route->get('areas/create', ['as' => 'areaCreate', 'uses' => 'PageController@create']);
     $route->get('areas/{id}/show', ['as' => 'areaShow', 'uses' => 'PageController@show']);
     $route->post('areas/store', ['as' => 'storeArea', 'uses' => 'PageController@store']);
     $route->post('areas/{id}/update', ['as' => 'areaEdit', 'uses' => 'PageController@edit']);
-
-    $route->get('test', function () {
-        $v = 'asa.as-t cs.pjg';
-        echo $v;
-        echo '<br>';
-        echo substr($v, 0, strlen($v) - 4);
-        echo '<br>';
-        $b = explode('.', $v);
-        print_r($b);
-        echo '<br>';
-        $c = array_pop($b);
-        echo $c;
-        echo '<br>';
-        echo implode('', $b);
-    });
+    $route->get('areas/{id}/delete', ['as' => 'areaDelete', 'uses' => 'PageController@destroy']);
 });
 
 $locale = 'es';

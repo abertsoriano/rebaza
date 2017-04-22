@@ -17,7 +17,7 @@
                                     </div>
                                     <div>
                                         <a href="{{ route('showLawyer', $lawyer->id) }}" class="btn btn-success btn-sm">Editar</a>
-                                        <a href="{{ route('deleteLawyer', $lawyer->id) }}" class="btn btn-danger btn-sm">Eliminar</a>
+                                        <a href="{{ route('deleteLawyer', $lawyer->id) }}" class="btn btn-danger btn-sm confirm-delete">Eliminar</a>
                                     </div>
                                 </div>
                             </div>

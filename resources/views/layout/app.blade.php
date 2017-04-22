@@ -100,8 +100,8 @@
 	            });
 	        }
 		});
-	    $('div.list-articles').on('click', '.btn-delete-article', function (e) {
-			if (!confirm('Seguro de eliminar esta noticia')) {
+	    $('div.container').on('click', '.confirm-delete', function (e) {
+			if (!confirm('Seguro de eliminar esto?')) {
                 e.preventDefault();
 			}
         })

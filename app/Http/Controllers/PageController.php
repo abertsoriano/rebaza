@@ -146,7 +146,14 @@ class PageController extends Controller {
 	 */
 	public function destroy($id)
 	{
-		//
+		$page = Page::find($id);
+		$type = $page->type;
+
+        File::delete($this->getPathImagePageByType($type) . '/' . $page->image);
+
+		$page->delete();
+
+        return redirect()->route('areaIndex', $type);
 	}
 
 	private function getPathImagePageByType($type) {
