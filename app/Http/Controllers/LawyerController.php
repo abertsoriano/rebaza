@@ -12,7 +12,6 @@ class LawyerController extends Controller {
     private $defaultRules = [
         'name' => 'required',
         'email' => 'required|email',
-        'page_slug' => 'required',
 
         'job_es' => 'required',
         'job_en' => 'required',

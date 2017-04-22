@@ -11,6 +11,7 @@ class PageController extends Controller {
     private $rules = [
         'name_es' => 'required',
         'name_en' => 'required',
+        'page_slug' => 'required',
         'type' => 'in:AREAS,ESTUDIO',
         'text_en' => 'required',
         'text_en' => 'required',
