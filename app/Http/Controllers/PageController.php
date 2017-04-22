@@ -26,7 +26,7 @@ class PageController extends Controller {
 	public function index($type)
 	{
 	    $pages = Page::where('type', strtoupper($type))->get(['id', 'type', 'name_es', 'image']);
-		return view('admin.areas.index', compact('pages', 'type'));
+		return view('admin.pages.index', compact('pages', 'type'));
 	}
 
 	/**
@@ -39,7 +39,7 @@ class PageController extends Controller {
 	    $page = new Page;
         $action = route('storeArea');
 
-        return view('admin.areas.create', compact('page', 'action', 'type'));
+        return view('admin.pages.create', compact('page', 'action', 'type'));
 	}
 
 	/**
@@ -86,7 +86,7 @@ class PageController extends Controller {
         $page = Page::find($id);
         $action = route('areaEdit', $page->id);
 
-        return view('admin.areas.create', compact('page', 'action', 'type'));
+        return view('admin.pages.create', compact('page', 'action'));
 	}
 
 	/**
