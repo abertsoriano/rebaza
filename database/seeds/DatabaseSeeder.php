@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder {
 
 		$this->call('UserTableSeeder');
 		$this->call('LawyerTableSeeder');
+		$this->call('PageTableSeeder');
 	}
 
 }
@@ -60,5 +61,26 @@ class LawyerTableSeeder extends Seeder {
         ];
 
         \App\Lawyer::create($insert);
+    }
+}
+
+class PageTableSeeder extends Seeder {
+
+    public function run()
+    {
+        \App\Page::create([
+            'id' => 1,
+            'type' => 4,
+            'name_es' => 'Experiencia reciente',
+            'name_en' => 'Recent Experience',
+            'text_es' => '<p style="box-sizing: border-box; margin: 10px 0px 0px; text-align: justify; line-height: 1.1; padding-bottom: 0px; color: #111111; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; font-size: 13.6px; background-color: #fdfdfd;">Asesoramos a Veritas Capital en la adquisici&oacute;n del negocio de servicios del conglomerado de ingenier&iacute;a petrolera Chicago Bridge &amp; Iron Company (CB&amp;I), por USD 755 millones.</p>
+                <p style="box-sizing: border-box; margin: 10px 0px 0px; text-align: justify; line-height: 1.1; padding-bottom: 0px; color: #111111; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; font-size: 13.6px; background-color: #fdfdfd;">Asesoramos a la desarrolladora de central hidroel&eacute;ctrica, La Virgen en obtener un financiamiento hasta por la suma de US$ 80 millones otorgado por la multilateral Corporaci&oacute;n Andina de Fomento &ndash; CAF y Deutsche Investitions &ndash; DEG.</p>
+                <p style="box-sizing: border-box; margin: 10px 0px 0px; text-align: justify; line-height: 1.1; padding-bottom: 0px; color: #111111; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; font-size: 13.6px; background-color: #fdfdfd;">Asesoramos junto a Sullivan y Cromwell LLP y Goodmans LLP en Nueva York a la minera canadiense HudBay en la emisi&oacute;n de una serie de bonos por valor de US$ 1.000 millones.</p>
+                <p style="box-sizing: border-box; margin: 10px 0px 0px; text-align: justify; line-height: 1.1; padding-bottom: 0px; color: #111111; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; font-size: 13.6px; background-color: #fdfdfd;">Asesoramos a JP Morgan a obtener la autorizaci&oacute;n para operar como banco de inversi&oacute;n en nuestro pa&iacute;s.</p>',
+            'text_en' => '<p style="box-sizing: border-box; margin: 10px 0px 0px; text-align: justify; line-height: 1.1; padding-bottom: 0px; color: #111111; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; font-size: 13.6px; background-color: #fdfdfd;">We advised Veritas Capital in the acquisition of the services business of the Chicago Bridge &amp; Iron Company (CB &amp; I) for $ 755 million.</p>
+                <p style="box-sizing: border-box; margin: 10px 0px 0px; text-align: justify; line-height: 1.1; padding-bottom: 0px; color: #111111; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; font-size: 13.6px; background-color: #fdfdfd;">We advised the hydropower plant developer, La Virgen S.A., on the sign of an US$ 80 million project finance facility to be granted by the multilateral Corporaci&oacute;n Andina de Fomento - CAF and Deutsche Investitions &ndash; DEG.</p>
+                <p style="box-sizing: border-box; margin: 10px 0px 0px; text-align: justify; line-height: 1.1; padding-bottom: 0px; color: #111111; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; font-size: 13.6px; background-color: #fdfdfd;">We advised together with Sullivan and Cromwell LLP and Goodmans LLP in New York in the emission of a series of bonds worth US $ 1 billion for the Canadian mining company HudBay.</p>
+                <p style="box-sizing: border-box; margin: 10px 0px 0px; text-align: justify; line-height: 1.1; padding-bottom: 0px; color: #111111; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; font-size: 13.6px; background-color: #fdfdfd;">We advise JP Morgan to obtain authorization to operate as an investment bank in our country.</p>'
+        ]);
     }
 }

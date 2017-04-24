@@ -22,7 +22,7 @@ class WelcomeController extends Controller {
 	|
 	*/
 
-	private $fields = array('title', 'title_en', 'imagen', 'desc', 'desc_en');
+	private $fields = array('title_es', 'title_en', 'imagen', 'desc_es', 'desc_en');
 
 	private $locale = '';
 
@@ -41,10 +41,11 @@ class WelcomeController extends Controller {
 	public function index()
 	{
 	    $articles = Article::where('status', 1)->latest()->get($this->fields)->take(4)->toArray();
+	    $homeData = Page::find(1);
 
 	    $locale = $this->locale;
 
-		return view('index', compact('articles', 'locale'));
+		return view('index', compact('articles', 'locale', 'homeData'));
 	}
 
 	public function abogadoasociados()

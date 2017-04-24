@@ -1,5 +1,6 @@
 <?php namespace App\Http\Controllers;
 
+use App\Page;
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Http\Request;
 use App\Article;
@@ -28,18 +29,35 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
-		$articles = Article::latest()->paginate(20);
-		return view('admin.home', compact('articles'));
+	    $homePage = Page::find(1);
+		return view('admin.home', compact('homePage'));
 	}
+
+	public function updateHomeData(Request $request)
+    {
+        $params = $request->all();
+        $data = Page::find(1);
+
+        $data->fill($params);
+        $data->save();
+
+        return redirect()->back();
+    }
+
+    public function articles()
+    {
+        $articles = Article::latest()->paginate(20);
+        return view('admin.articles.index', compact('articles'));
+    }
 
 	public function add()
 	{
-		return view('admin.add');
+		return view('admin.articles.add');
 	}
 
 	public function edit($id) {
 	    $article = Article::find($id);
-	    return view('admin.edit', compact('article'));
+	    return view('admin.articles.edit', compact('article'));
     }
 
 	public function store(Request $request)

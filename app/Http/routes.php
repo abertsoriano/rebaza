@@ -14,6 +14,8 @@
 Route::group(['middleware' => ['auth'], 'prefix' => 'admin'], function ($route) {
 
     $route->get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
+    $route->post('update-home-info', ['as' => 'updateHomeInfo', 'uses' => 'HomeController@updateHomeData']);
+    $route->get('articles', ['as' => 'articles', 'uses' => 'HomeController@articles']);
     $route->get('add-article', ['as' => 'addArticle', 'uses' => 'HomeController@add']);
     $route->post('add-article', ['as' => 'storeArticle', 'uses' => 'HomeController@store']);
 
@@ -22,8 +24,8 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin'], function ($route) 
     $route->get('delete-article/{id}', ['as' => 'deleteArticle', 'uses' => 'HomeController@delete']);
     $route->get('logout', ['as' => 'logout', 'uses' => 'Auth\AuthController@getLogout']);
 
-    $route->get('lawyers', ['as' => 'lawyers', 'uses' => 'LawyerController@index']);
-    $route->get('lawyers/create', ['as' => 'addLawyer', 'uses' => 'LawyerController@create']);
+    $route->get('lawyers/{type}', ['as' => 'lawyers', 'uses' => 'LawyerController@index']);
+    $route->get('lawyers/create/{type}', ['as' => 'addLawyer', 'uses' => 'LawyerController@create']);
     $route->post('lawyers/store', ['as' => 'storeLawyer', 'uses' => 'LawyerController@store']);
     $route->get('lawyers/{id}/view', ['as' => 'showLawyer', 'uses' => 'LawyerController@show']);
     $route->post('lawyers/{id}/edit', ['as' => 'editLawyer', 'uses' => 'LawyerController@edit']);

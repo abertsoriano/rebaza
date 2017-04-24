@@ -34,10 +34,10 @@ class LawyerController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function index()
+	public function index($type)
 	{
-	    $lawyers = Lawyer::paginate(20, ['id', 'email', 'name', 'job_es', 'updated_at']);
-		return view('admin.lawyers', compact('lawyers'));
+	    $lawyers = Lawyer::where('type', $type)->paginate(20, ['id', 'email', 'name', 'job_es', 'updated_at', 'image']);
+		return view('admin.lawyers', compact('lawyers', 'type'));
 	}
 
 	/**
@@ -45,11 +45,12 @@ class LawyerController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function create()
+	public function create($type)
 	{
 	    $types = $this->getTypes();
 
         $lawyer = new Lawyer();
+        $lawyer->type = $type;
 
         $action = route('storeLawyer');
 

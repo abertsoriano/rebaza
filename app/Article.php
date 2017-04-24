@@ -6,10 +6,10 @@ class Article extends Model {
 
 	protected $fillable = [
 		'id',
-		'title',
+		'title_es',
 		'title_en',
 		'imagen',
-		'desc',
+		'desc_es',
 		'desc_en',
 		'status'
 	];

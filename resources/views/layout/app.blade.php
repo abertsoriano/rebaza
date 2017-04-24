@@ -62,7 +62,8 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li><a href="{{ route('home') }}">Home</a></li>
-					<li><a href="{{ route('lawyers') }}">Abogados</a></li>
+					<li><a href="{{ route('articles') }}">Articulos</a></li>
+					<li><a href="{{ route('lawyers', 1) }}">Abogados</a></li>
 					<li><a href="{{ route('pageIndex', 'estudio') }}">Estudio</a></li>
 					<li><a href="{{ route('pageIndex', 'areas') }}">Areas</a></li>
 				</ul>
@@ -111,7 +112,12 @@
 			if (!confirm('Seguro de eliminar esto?')) {
                 e.preventDefault();
 			}
-        })
+        });
+
+	    $('#lawyer-type').on('change', function (e) {
+			var value = $(e.currentTarget).val();
+            location.assign(location.href.substr(0, location.href.length - 1) + value);
+        });
 	</script>
 	@yield('lawyers_js')
 </body>
