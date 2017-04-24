@@ -714,3 +714,7 @@ a.nohover, a.nohover:hover {
     color: #474747;
     font-size: 12px
 }
+.content-articles article+article {
+	border-top: 1px solid #f1f1f1;
+	padding-top: 10px;
+}

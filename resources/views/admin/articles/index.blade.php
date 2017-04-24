@@ -14,14 +14,14 @@
                                     @if ($article->imagen != '')
                                     <img src="{{ asset('images/articles/' . $article->imagen) }}" alt="{{ $article->imagen }}" class="img-responsive">
                                     @else
-                                        <img src="{{ asset('images/not-pictured.jpg') }}" alt="Not picture" class="img-responsive">
+                                        <img src="{{ asset('images/nopictured.jpg') }}" alt="Not picture" class="img-responsive">
                                     @endif
                                 </div>--}}
                                 <div class="col-sm-10">
                                     <div class="row">
                                         <div class="col-sm-12">
                                             @if ($article->title_es != '')
-                                                <h3>{{ $article->title_es }}</h3>
+                                                <h4>{{ $article->title_es }}</h4>
                                             @endif
                                         </div>
                                         <div class="col-sm-12">

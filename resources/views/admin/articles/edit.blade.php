@@ -22,7 +22,7 @@
                                 @if ($article->imagen != '')
                                     <img src="{{ asset('images/articles/' . $article->imagen) }}" alt="{{ $article->imagen }}" class="img-responsive">
                                 @else
-                                    <img src="{{ asset('images/not-pictured.jpg') }}" alt="not picture" class="img-responsive">
+                                    <img src="{{ asset('images/nopictured.jpg') }}" alt="not picture" class="img-responsive">
                                 @endif
                                 </div>
                                 <div class="col-sm-8">
@@ -39,7 +39,7 @@
                         <div class="form-group">
                             <label for="title" class="control-label">Titulo</label>
                             <div class="controls">
-                                <input type="text" value="{{ $article->title_es }}" name="title" id="title" class="form-control" placeholder="En Español">
+                                <input type="text" value="{{ $article->title_es }}" name="title_es" id="title" class="form-control" placeholder="En Español">
                             </div>
                             <div class="controls">
                                 <input type="text" value="{{ $article->title_en }}" name="title_en" class="form-control" placeholder="En Inglés">
@@ -48,7 +48,7 @@
                         <div class="form-group">
                             <h4>En Español</h4>
                             <div class="controls">
-                                <textarea name="desc" class="paq_descripcion">{{ $article->desc_es }}</textarea>
+                                <textarea name="desc_es" class="paq_descripcion">{{ $article->desc_es }}</textarea>
                             </div>
                             <hr>
                             <h4>En Inglés</h4>

@@ -26,11 +26,20 @@ class WelcomeController extends Controller {
 
 	private $locale = '';
 
+	private $pages;
+
 	public function __construct()
     {
         if (Cache::has('locale')) {
             $this->locale = Cache::get('locale') == 'en' ? Cache::get('locale') : 'es';
         }
+
+        $pages = Page::all(['id', 'page_slug', 'name_es', 'name_en', 'type']);
+
+        $areas = $pages->where('type', 'AREAS')->toArray();
+        $estudios = $pages->where('type', 'ESTUDIO')->toArray();
+
+        $this->pages = ['estudios' => $estudios, 'areas' => $areas];
     }
 
     /**
@@ -44,33 +53,39 @@ class WelcomeController extends Controller {
 	    $homeData = Page::find(1);
 
 	    $locale = $this->locale;
+	    $pages = $this->pages;
 
-		return view('index', compact('articles', 'locale', 'homeData'));
+		return view('index', compact('articles', 'locale', 'homeData', 'pages'));
 	}
 
 	public function abogadoasociados()
 	{
         $asociados = Lawyer::where('type', 2)->get();
         $locale = $this->locale;
-		return view('abogadoasociados', compact('asociados', 'locale'));
+        $pages = $this->pages;
+
+		return view('abogadoasociados', compact('asociados', 'locale', 'pages'));
 	}
 
 	public function abogadoconsultores()
 	{
         $consultores = Lawyer::where('type', 3)->get();
         $locale = $this->locale;
-		return view('abogadoconsultores', compact('consultores', 'locale'));
+        $pages = $this->pages;
+
+		return view('abogadoconsultores', compact('consultores', 'locale', 'pages'));
 	}
 
 	public function abogadosocios()
 	{
 	    $socios = Lawyer::where('type', 1)->get();
         $locale = $this->locale;
+        $pages = $this->pages;
 
-		return view('abogadosocios', compact('socios', 'locale'));
+		return view('abogadosocios', compact('socios', 'locale', 'pages'));
 	}
 
-	public function areaconseciones()
+	/*public function areaconseciones()
 	{
 		return view('areaconseciones');
 	}
@@ -150,28 +165,40 @@ class WelcomeController extends Controller {
 		return view('estudiodiferencia');
 	}
 
+	public function areaventure() {
+		return view('areaventure');
+	}
+
 	public function estudiopresentacion()
 	{
 	    $locale = $this->locale;
         $page = Page::where('page_slug', 'estudiopresentacion')->first();
 		return view('estudiopresentacion', compact('page', 'locale'));
-	}
+	}*/
 
     public function pages($page_slug)
     {
         $locale = $this->locale;
         $page = Page::where('page_slug', $page_slug)->first();
-        return view('pages', compact('page', 'locale'));
+        $pages = $this->pages;
+
+        return view('pages', compact('page', 'locale', 'pages'));
     }
 
 	public function galeria()
 	{
-		return view('galeria');
+        $locale = $this->locale;
+        $pages = $this->pages;
+
+		return view('galeria', compact('locale', 'pages'));
 	}
 
 	public function oficinas()
 	{
-		return view('oficinas');
+        $locale = $this->locale;
+        $pages = $this->pages;
+
+		return view('oficinas', compact('locale', 'pages'));
 	}
 
 	public function reconocimiento()
@@ -179,23 +206,33 @@ class WelcomeController extends Controller {
         $articles = Article::where('status', 1)->latest()->paginate(12, $this->fields);
 
         $locale = $this->locale;
+        $pages = $this->pages;
 
-		return view('reconocimiento', compact('articles', 'locale'));
+		return view('reconocimiento', compact('articles', 'locale', 'pages'));
 	}
 
 	public function responsabilidadsocial()
 	{
-		return view('responsabilidadsocial');
+        $locale = $this->locale;
+        $pages = $this->pages;
+
+		return view('responsabilidadsocial', compact('locale', 'pages'));
 	}
 
 	public function trabaja()
 	{
-		return view('trabaja');
+        $locale = $this->locale;
+        $pages = $this->pages;
+
+		return view('trabaja', compact('locale', 'pages'));
 	}
 
 	public function trabajaformulario()
 	{
-		return view('trabajaformulario');
+        $locale = $this->locale;
+        $pages = $this->pages;
+
+		return view('trabajaformulario', compact('locale', 'pages'));
 	}
 
 	public function changeLocale(Request $request)
@@ -205,10 +242,6 @@ class WelcomeController extends Controller {
 		Cache::forever('locale', $locale, 7200);
 
 		return redirect()->back();
-	}
-
-	public function areaventure() {
-		return view('areaventure');
 	}
 
 	public function sendCv(SendCvRequest $request) {

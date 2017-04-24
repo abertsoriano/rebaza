@@ -14,8 +14,7 @@ class PageController extends Controller {
         'page_slug' => 'required',
         'type' => 'in:AREAS,ESTUDIO',
         'text_en' => 'required',
-        'text_en' => 'required',
-        'images' => 'required|image'
+        'text_en' => 'required'
     ];
 
 	/**
@@ -72,7 +71,7 @@ class PageController extends Controller {
 
 		Page::create($params);
 
-        return redirect()->route('pageIndex', $params['type']);
+        return redirect()->route('pageIndex', strtolower($params['type']));
 	}
 
 	/**
@@ -126,7 +125,7 @@ class PageController extends Controller {
         $page->fill($params);
         $page->save();
 
-        return redirect()->route('pageIndex', $params['type']);
+        return redirect()->route('pageIndex', strtolower($params['type']));
 	}
 
 	/**

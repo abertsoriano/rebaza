@@ -77,7 +77,7 @@ class HomeController extends Controller {
 
         Article::create($params);
 
-        return redirect()->route('home');
+        return redirect()->route('articles');
 	}
 
 	public function update(Request $request, $id)
@@ -103,7 +103,7 @@ class HomeController extends Controller {
 
         $article->save();
 
-        return redirect()->route('home');
+        return redirect()->route('articles');
     }
 
     public function delete($id)

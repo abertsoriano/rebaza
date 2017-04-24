@@ -6,7 +6,7 @@
 <div id="cont_contenido" class="container">
 	<div class="col-sm-12">
 		<div class="col-sm-3">
-			<a href="galeria.html">
+			<a href="{{ route('galeria') }}">
 				<img src="images/responsabilidad/regulacionfinanciera.png" width="205" height="376" class="img-responsive">
 			</a>
 		</div>

@@ -1,17 +1,10 @@
 <?php
-$locale = 'en';
 $linkTxt = 'English Version';
+$localeChange = 'en';
 
-if (Cache::has('locale')) {
-
-	if (Cache::get('locale') === 'es') {
-		$locale = 'en';
-		$linkTxt = 'English Version';
-	} else {
-		$locale = 'es';
-		$linkTxt = 'Versión Español';
-	}
-
+if ($locale === 'en') {
+    $localeChange = 'es';
+    $linkTxt = 'Versión Español';
 }
 ?>
 <!DOCTYPE html>
@@ -39,7 +32,7 @@ if (Cache::has('locale')) {
 
 					<div class="col-sm-12">
 						<ul class="list-unstyled list-inline top-links">
-							<li data-scroll-reveal="enter left and move 50px over 1.8s" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true"><a href="{{ route('changeLocale') }}?locale={{ $locale }}">{{ $linkTxt }}</a></li>
+							<li data-scroll-reveal="enter left and move 50px over 1.8s" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true"><a href="{{ route('changeLocale') }}?locale={{ $localeChange }}">{{ $linkTxt }}</a></li>
 						</ul>
 					</div>
 					<div class="col-sm-12 col-xs-12 text-center center-block">
@@ -65,31 +58,17 @@ if (Cache::has('locale')) {
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">{{ trans('links.nav_1') }}</a>
 								<ul class="dropdown-menu">
-									<li class="#">
-										<a style="border:none;" href="{{ route('estudiopresentacion') }}">{{ trans('links.sub_1') }}</a>
-									</li>
+								@foreach($pages['estudios'] as $page)
+									<li><a href="{{ route('pagesByUrl', $page['page_slug']) }}">{{ $page['name_' . $locale] }}</a></li>
+								@endforeach
 								</ul>
 							</li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">{{ trans('links.nav_2') }}</a>
 								<ul class="dropdown-menu">
-									<li><a href="{{ route('pagesByUrl', 'areafunciones') }}">{{ trans('links.sub_2_1') }}</a></li>
-									<li><a href="{{ route('pagesByUrl', 'areamercado') }}">{{ trans('links.sub_2_2') }}</a></li>
-
-									<li><a href="{{ route('arearestructuracion') }}">{{ trans('links.sub_2_3') }}</a></li>
-									<li><a href="{{ route('arearegulacion') }}">{{ trans('links.sub_2_4') }}</a></li>
-									<li><a href="{{ route('areafinanciamientos') }}">{{ trans('links.sub_2_5') }}</a></li>
-									<li><a href="{{ route('areaconseciones') }}">{{ trans('links.sub_2_6') }}</a></li>
-									<li><a href="{{ route('arealitigios') }}">{{ trans('links.sub_2_7') }}</a></li>
-									<li><a href="{{ route('areatributario') }}">{{ trans('links.sub_2_8') }}</a></li>
-									<li><a href="{{ route('arealaboral') }}">{{ trans('links.sub_2_9') }}</a></li>
-									<li><a href="{{ route('arealibre') }}">{{ trans('links.sub_2_10') }}</a></li>
-									<li><a href="{{ route('areapropiedad') }}">{{ trans('links.sub_2_11') }}</a></li>
-									<li><a href="{{ route('areamineria') }}">{{ trans('links.sub_2_12') }}</a></li>
-									<li><a href="{{ route('areaprivate') }}">{{ trans('links.sub_2_13') }}</a></li>
-									<li><a href="{{ route('areacorporativo') }}">{{ trans('links.sub_2_14') }}</a></li>
-									<li><a href="{{ route('areawhitecollarcrime') }}">{{ trans('links.sub_2_15') }}</a></li>
-									<li><a style="border:none;" href="{{ route('areaventure') }}">{{ trans('links.sub_2_16') }}</a></li>
+									@foreach($pages['areas'] as $page)
+									<li><a href="{{ route('pagesByUrl', $page['page_slug']) }}">{{ $page['name_' . $locale] }}</a></li>
+									@endforeach
 								</ul>
 							</li>
 							<li class="dropdown">
