@@ -84,7 +84,7 @@ class LawyerController extends Controller {
 
         Lawyer::create($params);
 
-        return redirect()->route('lawyers');
+        return redirect()->route('lawyers', $params['type']);
 	}
 
 	/**
@@ -147,7 +147,7 @@ class LawyerController extends Controller {
         $lawyer->fill($params);
         $lawyer->save();
 
-        return redirect()->route('lawyers');
+        return redirect()->route('lawyers', $params['type']);
 	}
 
 	/**

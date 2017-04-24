@@ -50,12 +50,16 @@ class WelcomeController extends Controller {
 
 	public function abogadoasociados()
 	{
-		return view('abogadoasociados');
+        $asociados = Lawyer::where('type', 2)->get();
+        $locale = $this->locale;
+		return view('abogadoasociados', compact('asociados', 'locale'));
 	}
 
 	public function abogadoconsultores()
 	{
-		return view('abogadoconsultores');
+        $consultores = Lawyer::where('type', 3)->get();
+        $locale = $this->locale;
+		return view('abogadoconsultores', compact('consultores', 'locale'));
 	}
 
 	public function abogadosocios()
