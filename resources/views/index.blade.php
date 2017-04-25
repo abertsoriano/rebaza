@@ -18,9 +18,9 @@
                             <h6 class="text-normal text-bold sinespacioti">{{ trans('index.title2') }}</h6>
                             @foreach($articles as $article)
                                 <div class="seccion-row">
-                                    <h6>{{ $article['title' . $locale] }}</h6>
+                                    <h6>{{ $article['title_' . $locale] }}</h6>
                                     <div class="content-text">
-                                        <p class="sinespacio">{!! strip_tags($article['desc' . $locale]) !!}</p>
+                                        <p class="sinespacio">{!! strip_tags($article['desc_' . $locale]) !!}</p>
                                     </div>
                                 </div>
                             @endforeach
