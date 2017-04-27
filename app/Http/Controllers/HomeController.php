@@ -30,6 +30,7 @@ class HomeController extends Controller {
 	public function index()
 	{
 	    $homePage = Page::find(1);
+
 		return view('admin.home', compact('homePage'));
 	}
 

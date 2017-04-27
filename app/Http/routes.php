@@ -39,6 +39,14 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin'], function ($route) 
     $route->post('pages/store', ['as' => 'storeArea', 'uses' => 'PageController@store']);
     $route->post('pages/{id}/update', ['as' => 'areaEdit', 'uses' => 'PageController@edit']);
     $route->get('pages/{id}/delete', ['as' => 'areaDelete', 'uses' => 'PageController@destroy']);
+
+    // Quotes
+    $route->get('testimonios', ['as' => 'quoteIndex', 'uses' => 'QuoteController@index']);
+    $route->get('testimonios/form-admin', ['as' => 'quoteAdmin', 'uses' => 'QuoteController@create']);
+    $route->post('testimonios/store', ['as' => 'quoteStore', 'uses' => 'QuoteController@store']);
+    $route->get('testimonios/{id}/edit', ['as' => 'quoteEdit', 'uses' => 'QuoteController@edit']);
+    $route->post('testimonios/{id}/update', ['as' => 'quoteUpdate', 'uses' => 'QuoteController@update']);
+    $route->get('testimonios/{id}/delete', ['as' => 'quoteDelete', 'uses' => 'QuoteController@destroy']);
 });
 
 $locale = 'es';

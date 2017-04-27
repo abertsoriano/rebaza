@@ -47,7 +47,7 @@ return [
 	'quota6' => [
 		'message' => '“Our professional values, passion for work and empathy with the needs of our clients have made us what we are today, a first level firm that offers a unique service in the Peruvian market.”',
 		'name' => 'Gonzalo Soriano',
-		'alter' => '(Senior Associate)'
+            'alter' => '(Senior Associate)'
 	],
 
 	'quota7' => [

@@ -44,6 +44,16 @@
 			background-position: 50% 50%;
 			background-size: cover;
 		}
+		.padded {
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+		.list-quotes .row+.row {
+			border-top: 1px solid #d2d2d2;
+		}
+		blockquote small {
+			display: inline-block;
+		}
 	</style>
 </head>
 <body>
@@ -62,6 +72,7 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li><a href="{{ route('home') }}">Home</a></li>
+					<li><a href="{{ route('quoteIndex') }}">Testimonios</a></li>
 					<li><a href="{{ route('articles') }}">Articulos</a></li>
 					<li><a href="{{ route('lawyers', 1) }}">Abogados</a></li>
 					<li><a href="{{ route('pageIndex', 'estudio') }}">Estudio</a></li>

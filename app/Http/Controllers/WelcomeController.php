@@ -1,5 +1,6 @@
 <?php namespace App\Http\Controllers;
 
+use App\Quotes;
 use Illuminate\Http\Request;
 use Cache;
 use App\Article;
@@ -55,7 +56,9 @@ class WelcomeController extends Controller {
 	    $locale = $this->locale;
 	    $pages = $this->pages;
 
-		return view('index', compact('articles', 'locale', 'homeData', 'pages'));
+        $quotes = Quotes::latest()->get();
+
+		return view('index', compact('articles', 'locale', 'homeData', 'pages', 'quotes'));
 	}
 
 	public function abogadoasociados()
@@ -84,97 +87,6 @@ class WelcomeController extends Controller {
 
 		return view('abogadosocios', compact('socios', 'locale', 'pages'));
 	}
-
-	/*public function areaconseciones()
-	{
-		return view('areaconseciones');
-	}
-
-	public function areacorporativo()
-	{
-		return view('areacorporativo');
-	}
-
-	public function areafinanciamientos()
-	{
-		return view('areafinanciamientos');
-	}
-
-	public function areafunciones()
-	{
-		return view('areafunciones');
-	}
-
-	public function arealaboral()
-	{
-		return view('arealaboral');
-	}
-
-	public function arealibre()
-	{
-		return view('arealibre');
-	}
-
-	public function arealitigios()
-	{
-		return view('arealitigios');
-	}
-
-	public function areamercado()
-	{
-		return view('areamercado');
-	}
-
-	public function areamineria()
-	{
-		return view('areamineria');
-	}
-
-	public function areaprivate()
-	{
-		return view('areaprivate');
-	}
-
-	public function areapropiedad()
-	{
-		return view('areapropiedad');
-	}
-
-	public function arearegulacion()
-	{
-		return view('arearegulacion');
-	}
-
-	public function arearestructuracion()
-	{
-		return view('arearestructuracion');
-	}
-
-	public function areatributario()
-	{
-		return view('areatributario');
-	}
-
-	public function areawhitecollarcrime()
-	{
-		return view('areawhitecollarcrime');
-	}
-
-	public function estudiodiferencia()
-	{
-		return view('estudiodiferencia');
-	}
-
-	public function areaventure() {
-		return view('areaventure');
-	}
-
-	public function estudiopresentacion()
-	{
-	    $locale = $this->locale;
-        $page = Page::where('page_slug', 'estudiopresentacion')->first();
-		return view('estudiopresentacion', compact('page', 'locale'));
-	}*/
 
     public function pages($page_slug)
     {

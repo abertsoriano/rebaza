@@ -36,7 +36,7 @@ class LawyerController extends Controller {
 	 */
 	public function index($type)
 	{
-	    $lawyers = Lawyer::where('type', $type)->paginate(20, ['id', 'email', 'name', 'job_es', 'updated_at', 'image']);
+	    $lawyers = Lawyer::where('type', $type)->paginate(21, ['id', 'email', 'name', 'job_es', 'updated_at', 'image']);
 		return view('admin.lawyers', compact('lawyers', 'type'));
 	}
 

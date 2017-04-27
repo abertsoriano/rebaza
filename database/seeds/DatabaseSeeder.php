@@ -3,6 +3,7 @@
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
 use App\User;
+use App\Quotes;
 
 class DatabaseSeeder extends Seeder {
 
@@ -18,6 +19,7 @@ class DatabaseSeeder extends Seeder {
 		$this->call('UserTableSeeder');
 		$this->call('LawyerTableSeeder');
 		$this->call('PageTableSeeder');
+		$this->call('QuoteTableSeeder');
 	}
 
 }
@@ -82,5 +84,47 @@ class PageTableSeeder extends Seeder {
                 <p style="box-sizing: border-box; margin: 10px 0px 0px; text-align: justify; line-height: 1.1; padding-bottom: 0px; color: #111111; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; font-size: 13.6px; background-color: #fdfdfd;">We advised together with Sullivan and Cromwell LLP and Goodmans LLP in New York in the emission of a series of bonds worth US $ 1 billion for the Canadian mining company HudBay.</p>
                 <p style="box-sizing: border-box; margin: 10px 0px 0px; text-align: justify; line-height: 1.1; padding-bottom: 0px; color: #111111; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; font-size: 13.6px; background-color: #fdfdfd;">We advise JP Morgan to obtain authorization to operate as an investment bank in our country.</p>'
         ]);
+    }
+}
+
+
+class QuoteTableSeeder extends Seeder {
+
+    public function run()
+    {
+        $inserts = [
+            [
+                'name' => 'Alberto Rebaza',
+                'message_es' => '“Nuestro temperamento es un factor diferencial muy importante; pues poseemos una verdadera pasión y energía por lo que hacemos”',
+                'message_en' => '“Our temperament is a very important differential factor, because we put real passion and energy for what we do”',
+                'rol_es' => '(Socio Principal)',
+                'rol_en' => '(Main Partner)',
+            ],
+            [
+                'name' => 'Rafael Alcázar',
+                'message_es' => '“Nuestro trabajo tiene como cimiento la profesionalidad a la vez que cuidar de los intereses de nuestros clientes”',
+                'message_en' => '“Our work is based on professionalism while taking care of the clients’ interests.”',
+                'rol_es' => '(Socio Principal)',
+                'rol_en' => '(Main Partner)',
+            ],
+            [
+                'name' => 'Gonzalo De las Casas',
+                'message_es' => '“Somos una organización que se enorgullece del servicio que brinda a sus clientes.”',
+                'message_en' => '“We are an organization that is very proud of the service we  provide to our clients”',
+                'rol_es' => '(Socio Principal)',
+                'rol_en' => '(Main Partner)',
+            ],
+            [
+                'name' => 'Daniela Urquiza',
+                'message_es' => '“Formar parte del RAD ha elevado mi estándar profesional. Brindar un servicio legal integral, de calidad, e innovador es nuestra prioridad.”',
+                'message_en' => '“Being part of the Firm has raised my professional standards. Providing a comprehensive, quality and innovative legal service is our priority.”',
+                'rol_es' => '(Asociada)',
+                'rol_en' => '(Associate)',
+            ]
+        ];
+
+        foreach ($inserts as $insert) {
+            Quotes::create($insert);
+        }
     }
 }

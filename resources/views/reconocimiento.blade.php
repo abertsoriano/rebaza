@@ -19,7 +19,7 @@
 						<div class="row content-articles">
 							<div class="col-sm-6">
 							@foreach($articles->toArray()['data'] as $i => $article)
-								@if ($i%2 == 1)
+								@if ($i%2 == 0)
 									<article>
 									@if ($article['title_' . $locale] != '')
 									<h6>{{ $article['title_' . $locale] }}</h6>
@@ -31,7 +31,7 @@
 							</div>
 							<div class="col-sm-6">
 							@foreach($articles->toArray()['data'] as $i => $article)
-								@if ($i%2 == 0)
+								@if ($i%2 == 1)
 									<article>
 									@if ($article['title_' . $locale] != '')
 										<h6>{{ $article['title_' . $locale] }}</h6>
