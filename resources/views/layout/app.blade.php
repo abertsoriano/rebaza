@@ -127,7 +127,12 @@
 
 	    $('#lawyer-type').on('change', function (e) {
 			var value = $(e.currentTarget).val();
-            location.assign(location.href.substr(0, location.href.length - 1) + value);
+			var url = (location.origin + location.pathname).split('/');
+			url = url.slice(0, 5);
+			url.push(value);
+			url = url.join('/');
+
+            location.assign(url);
         });
 	</script>
 	@yield('lawyers_js')
