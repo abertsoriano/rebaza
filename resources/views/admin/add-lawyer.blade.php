@@ -282,7 +282,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <a href="{{ route('lawyers') }}" class="btn btn-danger pull-left btn-lg">Cancelar</a>
+                            <a href="{{ route('lawyers', $lawyer->type) }}" class="btn btn-danger pull-left btn-lg">Cancelar</a>
                             <button class="btn btn-primary btn-lg pull-right">Guardar</button>
                         </div>
                     </form>

@@ -53,7 +53,7 @@
                     <div class="col-sm-4">
                         <article class="news-socios">
                             <img src="{{ asset('images/abogados/' . $socio->image) }}" alt="Image" class="img-responsive">
-                            @if ($socio->download_cv_es != '' || $asociado->download_cv_en != '')
+                            @if ($socio->download_cv_es != '' || $socio->download_cv_en != '')
                             <p class="txtblue text-bold">
                                 <a target="_blank" href="{{ asset('cv/' . $socio['download_cv_' . $locale]) }}">{{ $socio['download_txt_' . $locale] }}</a>
                             </p>

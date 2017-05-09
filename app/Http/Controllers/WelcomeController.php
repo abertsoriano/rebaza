@@ -63,7 +63,7 @@ class WelcomeController extends Controller {
 
 	public function abogadoasociados()
 	{
-        $asociados = Lawyer::where('type', 2)->get();
+        $asociados = Lawyer::where('type', 2)->orderBy('name')->get();
         $locale = $this->locale;
         $pages = $this->pages;
 
@@ -72,7 +72,7 @@ class WelcomeController extends Controller {
 
 	public function abogadoconsultores()
 	{
-        $consultores = Lawyer::where('type', 3)->get();
+        $consultores = Lawyer::where('type', 3)->orderBy('name')->get();
         $locale = $this->locale;
         $pages = $this->pages;
 
@@ -81,7 +81,7 @@ class WelcomeController extends Controller {
 
 	public function abogadosocios()
 	{
-	    $socios = Lawyer::where('type', 1)->get();
+	    $socios = Lawyer::where('type', 1)->orderBy('name')->get();
         $locale = $this->locale;
         $pages = $this->pages;
 
