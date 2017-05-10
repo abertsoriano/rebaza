@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Validator;
 
 class LawyerController extends Controller {
 
-    private $path_img_lawyer = '/images/abogados';
+    private $path_img_lawyer = 'images/abogados';
     private $defaultRules = [
         'name' => 'required',
         'email' => 'required|email',
@@ -26,7 +26,7 @@ class LawyerController extends Controller {
     ];
 
     public function __construct() {
-        $this->path_img_lawyer = public_path() . $this->path_img_lawyer;
+        $this->path_img_lawyer = $this->path_img_lawyer;
     }
 
 	/**
