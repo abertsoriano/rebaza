@@ -33,7 +33,10 @@ class WelcomeController extends Controller {
     {
         if (Cache::has('locale')) {
             $this->locale = Cache::get('locale') == 'en' ? Cache::get('locale') : 'es';
-        }
+        } else {
+			$this->locale = 'es';
+			Cache::forever('locale', $this->locale, 17200);
+		}
 
         $pages = Page::all(['id', 'page_slug', 'name_es', 'name_en', 'type']);
 
@@ -151,7 +154,7 @@ class WelcomeController extends Controller {
 	{
 		$locale = $request->input('locale');
 
-		Cache::forever('locale', $locale, 7200);
+		Cache::forever('locale', $locale, 17200);
 
 		return redirect()->back();
 	}
