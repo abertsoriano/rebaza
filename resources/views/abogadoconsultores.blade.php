@@ -65,13 +65,20 @@
                     </div>
                     <div class="col-sm-8">
                         <ul class="accordion">
-                            @foreach(json_decode($consultor['list_' . $locale], true) as $list)
+							<?php
+							$values = [
+								'es' => ['Áreas', 'Educación', 'Distinciones', 'Idiomas'],
+								'en' => ['Practices', 'Education', 'Distinctions', 'Languages']
+							];
+							$listItems = json_decode($consultor['list_' . $locale], true);
+							?>
+							@foreach($values[$locale] as $v => $list)
                                 <li class="current">
-                                    <a href="#">{{ $list['list'] }}</a>
+                                    <a href="#">{{ $list }}</a>
                                     <div class="bloqueMostrar" style="display: none;">
                                         <ul style="display: none;">
-                                            @if (!empty($list['items_' . $locale]))
-                                                @foreach($list['items_' . $locale] as $item)
+                                            @if (!empty($listItems[$v]['items_' . $locale]))
+                                                @foreach($listItems[$v]['items_' . $locale] as $item)
                                                     <li><p>{!! $item !!}</p></li>
                                                 @endforeach
                                             @endif
