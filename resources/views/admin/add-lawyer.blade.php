@@ -300,7 +300,7 @@
                                     <ul class="list-test_en list-unstyled">
                                     <?php
                                         $id_en = 1;
-                                        $values = ['Practiques', 'Education', 'Distinctions', 'Languages'];
+                                        $values = ['Practices', 'Education', 'Distinctions', 'Languages'];
                                         $listItems = json_decode($list_en, true);
                                     ?>
                                     @foreach ($values as $v => $list)
