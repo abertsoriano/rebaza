@@ -31,7 +31,19 @@ class CustomHelpers
                 $items = [];
                 $i++;
             }
-        }
+        } else if (!$dataList) {
+        	for ($j = 1; $j <= 4; $j++) {
+				$result[$j] = ['list' => '', 'items_' . $lang => []];
+				if (isset($dataItem['list_' . $j])) {
+					foreach ($dataItem['list_' . $j] as $item) {
+						$items[] = $item;
+					}
+				}
+
+				$result[$j]['items_' . $lang] = $items;
+				$items = [];
+			}
+		}
 
         return json_encode($result);
     }
