@@ -22,6 +22,8 @@ class AuthController extends Controller {
 
 	protected $redirectTo = '/';
 
+	protected $loginPath = '';
+
 	/**
 	 * Create a new authentication controller instance.
 	 *
@@ -33,6 +35,7 @@ class AuthController extends Controller {
 	{
 		$this->auth = $auth;
 		$this->registrar = $registrar;
+		$this->loginPath = route('login');
 
 		$this->middleware('guest', ['except' => 'getLogout']);
 	}

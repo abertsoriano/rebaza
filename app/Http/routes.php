@@ -55,7 +55,7 @@ if (Cache::has('locale')) {
 	App::setLocale($locale);
 }
 
-Route::get('/user-intranet/CS90PRD/cmd=login', 'Auth\AuthController@getLogin');
+Route::get('/user-intranet/CS90PRD/cmd=login', ['as' => 'login', 'uses' => 'Auth\AuthController@getLogin']);
 Route::post('login', 'Auth\AuthController@postLogin');
 
 // Password reset
