@@ -9,22 +9,26 @@
 				<div class="panel-body">
 					@if (session('status'))
 						<div class="alert alert-success">
-							{{ session('status') }}
+							{{ trans(session('status')) }}
 						</div>
 					@endif
 
 					@if (count($errors) > 0)
 						<div class="alert alert-danger">
-							<strong>Whoops!</strong> There were some problems with your input.<br><br>
+							<strong>Error!</strong> There were some problems with your input.<br><br>
+							@if ($errors->all()[0] !== 'passwords.user')
 							<ul>
 								@foreach ($errors->all() as $error)
-									<li>{{ $error }}</li>
+								<li>{{ $error }}</li>
 								@endforeach
 							</ul>
+							@else
+								<p>{{ trans($errors->all()[0]) }}</p>
+							@endif
 						</div>
 					@endif
 
-					<form class="form-horizontal" role="form" method="POST" action="{{ url('/password/email') }}">
+					<form class="form-horizontal" role="form" method="POST" action="{{ route('send-pass-recovery') }}">
 						<input type="hidden" name="_token" value="{{ csrf_token() }}">
 
 						<div class="form-group">

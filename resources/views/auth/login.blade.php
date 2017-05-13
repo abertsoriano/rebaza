@@ -50,6 +50,11 @@
 								<button type="submit" class="btn btn-primary">Entrar</button>
 							</div>
 						</div>
+						<div class="form-group">
+							<div class="col-md-6 col-md-offset-4 text-right">
+								<a href="{{ route('pass-recovery') }}">Olvidé mi contraseña?</a>
+							</div>
+						</div>
 					</form>
 				</div>
 			</div>

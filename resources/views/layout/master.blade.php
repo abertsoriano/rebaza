@@ -1,4 +1,5 @@
 <?php
+$currentUri = Request::path();
 $linkTxt = 'English Version';
 $localeChange = 'en';
 
@@ -16,8 +17,7 @@ if ($locale === 'en') {
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Rebaza @yield('title', '')</title>
-	<link href="https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+	<title>Rebaza, Alcazar @yield('title', '')</title>
 	<link href="{{ asset('css/main.css') }}" rel="stylesheet">
 	<!--[if lt IE 9]>
 	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -32,7 +32,9 @@ if ($locale === 'en') {
 
 					<div class="col-sm-12">
 						<ul class="list-unstyled list-inline top-links">
-							<li data-scroll-reveal="enter left and move 50px over 1.8s" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true"><a href="{{ route('changeLocale') }}?locale={{ $localeChange }}">{{ $linkTxt }}</a></li>
+							<li>
+								<a href="{{ route('changeLocale') }}?locale={{ $localeChange }}">{{ $linkTxt }}</a>
+							</li>
 						</ul>
 					</div>
 					<div class="col-sm-12 col-xs-12 text-center center-block">
@@ -59,7 +61,9 @@ if ($locale === 'en') {
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">{{ trans('links.nav_1') }}</a>
 								<ul class="dropdown-menu">
 								@foreach($pages['estudios'] as $page)
-									<li><a href="{{ route('pagesByUrl', $page['page_slug']) }}">{{ $page['name_' . $locale] }}</a></li>
+									<li class="{{ $currentUri === $page['page_slug'] ? 'active' : '' }}">
+										<a href="{{ route('pagesByUrl', $page['page_slug']) }}">{{ $page['name_' . $locale] }}</a>
+									</li>
 								@endforeach
 								</ul>
 							</li>
@@ -67,21 +71,35 @@ if ($locale === 'en') {
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">{{ trans('links.nav_2') }}</a>
 								<ul class="dropdown-menu">
 									@foreach($pages['areas'] as $page)
-									<li><a href="{{ route('pagesByUrl', $page['page_slug']) }}">{{ $page['name_' . $locale] }}</a></li>
+									<li class="{{ $currentUri === $page['page_slug'] ? 'active' : '' }}">
+										<a href="{{ route('pagesByUrl', $page['page_slug']) }}">{{ $page['name_' . $locale] }}</a>
+									</li>
 									@endforeach
 								</ul>
 							</li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">{{ trans('links.nav_3') }}</a>
 								<ul class="dropdown-menu">
-									<li><a href="{{ route('abogadosocios') }}">{{ trans('links.sub_3_1') }}</a></li>
-									<li><a href="{{ route('abogadoasociados') }}">{{ trans('links.sub_3_2') }}</a></li>
-									<li><a style="border:none;" href="{{ route('abogadoconsultores') }}">{{ trans('links.sub_3_3') }}</a></li>
+									<li class="{{ $currentUri === 'abogadosocios' ? 'active' : '' }}">
+										<a href="{{ route('abogadosocios') }}">{{ trans('links.sub_3_1') }}</a>
+									</li>
+									<li class="{{ $currentUri === 'abogadoasociados' ? 'active' : '' }}">
+										<a href="{{ route('abogadoasociados') }}">{{ trans('links.sub_3_2') }}</a>
+									</li>
+									<li class="{{ $currentUri === 'abogadoconsultores' ? 'active' : '' }}">
+										<a style="border:none;" href="{{ route('abogadoconsultores') }}">{{ trans('links.sub_3_3') }}</a>
+									</li>
 								</ul>
 							</li>
-							<li><a href="{{ route('reconocimiento') }}">{{ trans('links.nav_4') }}</a></li>
-							<li><a href="{{ route('oficinas') }}">{{ trans('links.nav_5') }}</a></li>
-							<li><a href="{{ route('trabaja') }}">{{ trans('links.nav_6') }}</a></li>
+							<li class="{{ $currentUri === 'reconocimiento' ? 'active' : '' }}">
+								<a href="{{ route('reconocimiento') }}">{{ trans('links.nav_4') }}</a>
+							</li>
+							<li class="{{ $currentUri === 'oficinas' ? 'active' : '' }}">
+								<a href="{{ route('oficinas') }}">{{ trans('links.nav_5') }}</a>
+							</li>
+							<li class="{{ $currentUri === 'trabaja' ? 'active' : '' }}">
+								<a href="{{ route('trabaja') }}">{{ trans('links.nav_6') }}</a>
+							</li>
 						</ul>
 					</div>
 				</div>

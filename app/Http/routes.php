@@ -11,6 +11,10 @@
 |
 */
 
+Route::get('/test', function () {
+	echo bcrypt('123456');
+});
+
 Route::group(['middleware' => ['auth'], 'prefix' => 'admin'], function ($route) {
 
     $route->get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
@@ -55,8 +59,14 @@ if (Cache::has('locale')) {
 	App::setLocale($locale);
 }
 
-Route::get('/login', 'Auth\AuthController@getLogin');
+Route::get('/user-intranet/CS90PRD/cmd=login', 'Auth\AuthController@getLogin');
 Route::post('login', 'Auth\AuthController@postLogin');
+
+// Password reset
+Route::get('/user-intranet/CS90PRD/password-recovery', ['as' => 'pass-recovery', 'uses' => 'Auth\PasswordController@getEmail']);
+Route::post('/record-intranet/PFHE5RD/send-password-recovery', ['as' => 'send-pass-recovery', 'uses' => 'Auth\PasswordController@postEmail']);
+Route::get('/user-intranet/WS90U4D/{token}/recovery', ['as' => 'get-token', 'uses' => 'Auth\PasswordController@getReset']);
+Route::post('/user-intranet/CS90QTR/reset-password', ['as' => 'reset-token', 'uses' => 'Auth\PasswordController@postReset']);
 
 Route::get('language', ['as' => 'changeLocale', 'uses' => 'WelcomeController@changeLocale']);
 
