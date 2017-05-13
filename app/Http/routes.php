@@ -11,11 +11,7 @@
 |
 */
 
-Route::get('/test', function () {
-	echo bcrypt('123456');
-});
-
-Route::group(['middleware' => ['auth'], 'prefix' => 'admin'], function ($route) {
+Route::group(['middleware' => ['auth'], 'prefix' => 'private'], function ($route) {
 
     $route->get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
     $route->post('update-home-info', ['as' => 'updateHomeInfo', 'uses' => 'HomeController@updateHomeData']);
@@ -80,7 +76,6 @@ Route::get('galeria', ['as' => 'galeria', 'uses' => 'WelcomeController@galeria']
 Route::get('oficinas', ['as' => 'oficinas', 'uses' => 'WelcomeController@oficinas']);
 Route::get('reconocimiento', ['as' => 'reconocimiento', 'uses' => 'WelcomeController@reconocimiento']);
 Route::get('responsabilidadsocial', ['as' => 'responsabilidadsocial', 'uses' => 'WelcomeController@responsabilidadsocial']);
-Route::get('trabaja', ['as' => 'trabaja', 'uses' => 'WelcomeController@trabaja']);
 Route::get('trabajaformulario', ['as' => 'trabajaformulario', 'uses' => 'WelcomeController@trabajaformulario']);
 
 Route::get('{page}', ['as' => 'pagesByUrl', 'uses' => 'WelcomeController@pages']);

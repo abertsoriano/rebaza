@@ -42,8 +42,9 @@ class WelcomeController extends Controller {
 
         $areas = $pages->where('type', 'AREAS')->toArray();
         $estudios = $pages->where('type', 'ESTUDIO')->toArray();
+        $trabaja = $pages->find(30)->toArray();
 
-        $this->pages = ['estudios' => $estudios, 'areas' => $areas];
+        $this->pages = ['estudios' => $estudios, 'areas' => $areas, 'trabaja' => $trabaja];
     }
 
     /**

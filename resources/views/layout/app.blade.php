@@ -74,10 +74,11 @@
 				<ul class="nav navbar-nav">
 					<li><a href="{{ route('home') }}">Experiencia Reciente</a></li>
 					<li><a href="{{ route('quoteIndex') }}">Quotes</a></li>
-					<li><a href="{{ route('articles') }}">Ultimas noticias</a></li>
-					<li><a href="{{ route('lawyers', 1) }}">Abogados</a></li>
 					<li><a href="{{ route('pageIndex', 'estudio') }}">Estudio</a></li>
 					<li><a href="{{ route('pageIndex', 'areas') }}">Areas</a></li>
+					<li><a href="{{ route('lawyers', 1) }}">Abogados</a></li>
+					<li><a href="{{ route('articles') }}">Reconocimientos y noticias</a></li>
+					<li><a href="{{ route('areaShow', ['trabaja', 30]) }}">Trabaja con nosotros</a></li>
 				</ul>
 				@endif
 

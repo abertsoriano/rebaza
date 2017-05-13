@@ -67,7 +67,9 @@
                         </div>
                         <div class="form-group">
                             <div class="col-sm-12">
-                                <a href="{{ route('pageIndex', $type) }}" class="btn btn-lg btn-danger pull-left">Cancelar</a>
+                                @if ($type !== 'trabaja')
+                                    <a href="{{ route('pageIndex', $type) }}" class="btn btn-lg btn-danger pull-left">Cancelar</a>
+                                @endif
                                 <button class="btn btn-lg btn-success pull-right">Guardar</button>
                             </div>
                         </div>

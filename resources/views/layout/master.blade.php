@@ -98,7 +98,7 @@ if ($locale === 'en') {
 								<a href="{{ route('oficinas') }}">{{ trans('links.nav_5') }}</a>
 							</li>
 							<li class="{{ $currentUri === 'trabaja' ? 'active' : '' }}">
-								<a href="{{ route('trabaja') }}">{{ trans('links.nav_6') }}</a>
+								<a href="{{ route('pagesByUrl', $pages['trabaja']['page_slug']) }}">{{ $pages['trabaja']['name_' .$locale] }}</a>
 							</li>
 						</ul>
 					</div>

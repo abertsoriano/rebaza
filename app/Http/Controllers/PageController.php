@@ -12,7 +12,7 @@ class PageController extends Controller {
         'name_es' => 'required',
         'name_en' => 'required',
         'page_slug' => 'required',
-        'type' => 'in:AREAS,ESTUDIO',
+        'type' => 'in:AREAS,ESTUDIO,TRABAJA',
         'text_en' => 'required',
         'text_en' => 'required'
     ];
@@ -125,7 +125,11 @@ class PageController extends Controller {
         $page->fill($params);
         $page->save();
 
-        return redirect()->route('pageIndex', strtolower($params['type']));
+        if ($params['type'] === 'TRABAJA') {
+			return redirect()->back();
+		} else {
+			return redirect()->route('pageIndex', strtolower($params['type']));
+		}
 	}
 
 	/**
