@@ -4,6 +4,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
 use App\User;
 use App\Quotes;
+use App\Office;
 
 class DatabaseSeeder extends Seeder {
 
@@ -20,10 +21,10 @@ class DatabaseSeeder extends Seeder {
 		$this->call('LawyerTableSeeder');
 		$this->call('PageTableSeeder');
 		$this->call('QuoteTableSeeder');
+		$this->call('OfficeTableSeeder');
 	}
 
 }
-
 
 class UserTableSeeder extends Seeder {
 
@@ -87,7 +88,6 @@ class PageTableSeeder extends Seeder {
     }
 }
 
-
 class QuoteTableSeeder extends Seeder {
 
     public function run()
@@ -127,4 +127,23 @@ class QuoteTableSeeder extends Seeder {
             Quotes::create($insert);
         }
     }
+}
+
+class OfficeTableSeeder extends Seeder {
+
+	public function run()
+	{
+		Office::create([
+			'place' => 'Lima',
+			'info_es' => 'Canaval y Moreyra 452 pisos 9, 14, 15 y 17<br> 
+						San Isidro - Lima 27 <br>
+						Teléfono (511) 442-5100<br> 
+						Fax (511) 442-5100 - 237',
+
+			'info_en' => 'Canaval y Moreyra 452 floors 9, 14, 15 y 17<br> 
+						San Isidro - Lima 27 <br>
+						Phone (511) 442-5100<br> 
+						Fax (511) 442-5100 - 237'
+		]);
+	}
 }

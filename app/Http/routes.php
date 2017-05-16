@@ -47,6 +47,14 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'private'], function ($route
     $route->get('testimonios/{id}/edit', ['as' => 'quoteEdit', 'uses' => 'QuoteController@edit']);
     $route->post('testimonios/{id}/update', ['as' => 'quoteUpdate', 'uses' => 'QuoteController@update']);
     $route->get('testimonios/{id}/delete', ['as' => 'quoteDelete', 'uses' => 'QuoteController@destroy']);
+
+	// Offices
+	$route->get('offices', ['as' => 'officesIndex', 'uses' => 'OfficeController@index']);
+	$route->get('offices/create', ['as' => 'addOffice', 'uses' => 'OfficeController@create']);
+	$route->post('offices/store', ['as' => 'storeOffice', 'uses' => 'OfficeController@store']);
+	$route->get('offices/{id}/edit', ['as' => 'editOffice', 'uses' => 'OfficeController@edit']);
+	$route->post('offices/{id}/update', ['as' => 'updateOffice', 'uses' => 'OfficeController@update']);
+	$route->get('offices/{id}/delete', ['as' => 'deleteOffice', 'uses' => 'OfficeController@destroy']);
 });
 
 $locale = 'es';

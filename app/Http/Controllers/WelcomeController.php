@@ -1,5 +1,6 @@
 <?php namespace App\Http\Controllers;
 
+use App\Office;
 use App\Quotes;
 use Illuminate\Http\Request;
 use Cache;
@@ -114,7 +115,9 @@ class WelcomeController extends Controller {
         $locale = $this->locale;
         $pages = $this->pages;
 
-		return view('oficinas', compact('locale', 'pages'));
+        $offices = Office::all();
+
+		return view('oficinas', compact('locale', 'pages', 'offices'));
 	}
 
 	public function reconocimiento()

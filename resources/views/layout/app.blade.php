@@ -54,6 +54,15 @@
 		blockquote small {
 			display: inline-block;
 		}
+		.list-offices .info-content {
+			padding: 10px;
+		}
+		.list-offices .caption hr {
+			margin-top: 5px;
+		}
+		.no-margin-bottom {
+			margin-bottom: 0 !important;
+		}
 	</style>
 </head>
 <body>
@@ -78,6 +87,7 @@
 					<li><a href="{{ route('pageIndex', 'areas') }}">Areas</a></li>
 					<li><a href="{{ route('lawyers', 1) }}">Abogados</a></li>
 					<li><a href="{{ route('articles') }}">Reconocimientos y noticias</a></li>
+					<li><a href="{{ route('officesIndex') }}">Oficinas</a></li>
 					<li><a href="{{ route('areaShow', ['trabaja', 30]) }}">Trabaja con nosotros</a></li>
 				</ul>
 				@endif

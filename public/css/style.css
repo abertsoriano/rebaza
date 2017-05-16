@@ -121,7 +121,10 @@ h6 { font-size: 18px; }
 		margin-top: 20px;
 	}
 		.news-event-teaser .oficina {
-			margin-top: 50px;
+			margin-top: 25px;
+		}
+		.news-event-teaser .oficina p:last-child {
+			height: 106px;
 		}
 
 		.news-event-teaser .itemreco{

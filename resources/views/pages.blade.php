@@ -20,6 +20,10 @@
                             <article class="news-block">
                                 {!! $page['text_' . $locale] !!}
                             </article>
+                            @if ($page->type === 'TRABAJA')
+                                <br/>
+                                <a class="btn_mediano" href="trabajaformulario">{{ trans('trabaja.button') }}</a>
+                            @endif
                         </article>
                     </div>
                 </div>
