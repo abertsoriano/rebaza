@@ -9,10 +9,10 @@ $(function() {
     function setLegend(position) {
         var data = legend[position];
 
-        $('#title').text(data.title);
-        $('#artist').text(data.artist);
-        $('#type').text(data.type);
-        $('#measure').text(data.measure);
+        $('#title').html(data.title);
+        $('#artist').html(data.artist);
+        $('#type').html(data.type);
+        $('#measure').html(data.measure);
     }
 
     function initialize() {
@@ -95,81 +95,6 @@ $(function() {
 
 	var $slickGallery = $('div.slick-gallery');
 	if ($slickGallery.length) {
-		var legend = [
-			{
-				title: 'S/T',
-				artist: 'Jorge Cabieses',
-				type: 'Digital/Acrilico/Serigrafía',
-				measure: '140 x 150 cm'
-			},
-			{
-				title: 'Diálogo del sol y la boa (1999)',
-				artist: 'Armando Williams',
-				type: 'Díptico – Óleo sobre tela',
-				measure: '136 x 136 cm'
-			},
-			{
-				title: 'N-N',
-				artist: '',
-				type: '',
-				measure: ''
-			},
-			{
-				title: 'S/T (2000)',
-				artist: 'Toto Fernández Ampuero',
-				type: 'Óleo',
-				measure: '28 x 28 cm'
-			},
-			{
-				title: 'S/T (2006)',
-				artist: 'Maricel Delgado',
-				type: 'Fotografía sobre soporte baritado',
-				measure: '70 x 100 cm'
-			},
-			{
-				title: 'Estación (2005) (en la visión de Petro-Perú)',
-				artist: 'Alberto Borea',
-				type: 'Mixta sobre tela',
-				measure: '122 x 185 cm'
-			},
-			{
-				title: 'N-N',
-				artist: '',
-				type: '',
-				measure: ''
-			},
-			{
-				title: 'N-N',
-				artist: '',
-				type: '',
-				measure: ''
-			},
-			{
-				title: 'Oriente y Occidente (2005)',
-				artist: 'Jorge Cabieses',
-				type: 'Mixta sobre tela',
-				measure: '150 x 170 cm'
-			},
-			{
-				title: 'City scene from the roof top with Wall Street Journal (2001)',
-				artist: 'L.A. Willette',
-				type: 'Acrílico y Collage sobre',
-				measure: '72 x 130 cm'
-			},
-			{
-				title: 'S/T',
-				artist: 'Patricia Villanueva',
-				type: 'Tríptico – Óleo sobre tela',
-				measure: '90 x 180 cm'
-			},
-			{
-				title: 'S/T',
-				artist: 'Maciel Delgado',
-				type: 'Fotografía',
-				measure: ''
-			}
-		];
-
 		$slickGallery.slick({
 			infinite: true,
 			slidesToShow: 7,
@@ -203,8 +128,6 @@ $(function() {
 		});
 		setLegend(0);
 	}
-
-	$('div.overlay-gallery').css('height', ($(document).outerHeight(true) - 155) + 'px');
 
 	$('section.search-area').slick({
 		infinite: true,

@@ -179,7 +179,7 @@ h6 { font-size: 18px; }
 			color: #36A9E1;
 		}
 		.news-event-teaser h4 {
-			font-size: 1.5em; /*2.2em;*/
+			font-size: 1.3em;
 			color: #36A9E1;
 			padding: 1px 0px;
 		}
@@ -483,9 +483,9 @@ a.nohover, a.nohover:hover {
 	padding-bottom: 0;
 }
 .slick-gallery {
-	margin-top: 240px;
+	margin-top: 66px;
 	z-index: 1;
-	margin-bottom: 120px !important;
+	margin-bottom: 100px !important;
 }
 .content-legend {
 	background-color: rgba(51, 51, 51, 0.6);
@@ -493,7 +493,6 @@ a.nohover, a.nohover:hover {
 	color: #fff;
 	overflow: hidden;
 	padding: 12px;
-	margin-top: 15px
 }
 .content-legend h4 {
 	margin-top: 0;

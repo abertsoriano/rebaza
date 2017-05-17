@@ -5,7 +5,7 @@
 @section('content')
 <section class="news-event-teaser">
 	<div class="overlay-gallery"></div>
-	<img src="images/gallery/01.jpg" alt="" class="bg-gallery">
+	<img src="images/gallery/{{ $galleries->first()->image }}" alt="" class="bg-gallery">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-7 col-md-5" style="z-index: 1;">
@@ -23,18 +23,9 @@
 			</div>
 		</div>
 		<div class="slick-gallery">
-			<div><img src="images/gallery/thumb/01.jpg" alt="" class="img-responsive"></div>
-			<div><img src="images/gallery/thumb/02.jpg" alt="" class="img-responsive"></div>
-			<div><img src="images/gallery/thumb/03.jpg" alt="" class="img-responsive"></div>
-			<div><img src="images/gallery/thumb/04.jpg" alt="" class="img-responsive"></div>
-			<div><img src="images/gallery/thumb/07.jpg" alt="" class="img-responsive"></div>
-			<div><img src="images/gallery/thumb/08.jpg" alt="" class="img-responsive"></div>
-			<div><img src="images/gallery/thumb/09.jpg" alt="" class="img-responsive"></div>
-			<div><img src="images/gallery/thumb/10.jpg" alt="" class="img-responsive"></div>
-			<div><img src="images/gallery/thumb/11.jpg" alt="" class="img-responsive"></div>
-			<div><img src="images/gallery/thumb/12.jpg" alt="" class="img-responsive"></div>
-			<div><img src="images/gallery/thumb/13.jpg" alt="" class="img-responsive"></div>
-			<div><img src="images/gallery/thumb/14.jpg" alt="" class="img-responsive"></div>
+			@foreach($galleries as $gallery)
+				<div><img src="images/gallery/thumb/{{ $gallery->image }}" alt="" class="img-responsive"></div>
+			@endforeach
 		</div>
 	</div>
 </section>
@@ -44,10 +35,26 @@
 			<div class="modal-body">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				<div class="row">
-					<img src="images/gallery/01.jpg" alt="" class="modal-img-gallery img-responsive center-block">
+					<img src="images/gallery/{{ $galleries->first()->image }}" alt="" class="modal-img-gallery img-responsive center-block">
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+@endsection
+
+@section('scripts')
+<script>
+	var legend = [
+		@foreach($galleries as $gallery)
+			<?php $data = json_decode($gallery->data, true)?>
+			{
+				title: '{{ $gallery->name }}',
+				artist: '{{ $data[0] }}',
+				type: '{{ $data[1] }}',
+				measure: '{{ $data[2] }}'
+			},
+		@endforeach
+	];
+</script>
 @endsection

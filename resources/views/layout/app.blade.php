@@ -9,7 +9,7 @@
 	<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 
 	<!-- Fonts -->
-	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+	<!-- <link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'> -->
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -44,6 +44,9 @@
 			background-position: 50% 50%;
 			background-size: cover;
 		}
+		.image-content.gallery-height {
+			height: 210px !important;
+		}
 		.padded {
 			padding-top: 15px;
 			padding-bottom: 15px;
@@ -62,6 +65,9 @@
 		}
 		.no-margin-bottom {
 			margin-bottom: 0 !important;
+		}
+		.list-gallery .caption h4 {
+			height: 38px;
 		}
 	</style>
 </head>
@@ -89,6 +95,7 @@
 					<li><a href="{{ route('articles') }}">Reconocimientos y noticias</a></li>
 					<li><a href="{{ route('officesIndex') }}">Oficinas</a></li>
 					<li><a href="{{ route('areaShow', ['trabaja', 30]) }}">Trabaja con nosotros</a></li>
+					<li><a href="{{ route('gaIndex') }}">Galería</a></li>
 				</ul>
 				@endif
 

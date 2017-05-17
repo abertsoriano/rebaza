@@ -129,6 +129,7 @@ if ($locale === 'en') {
 				</div>
 			</div>
 		</footer>
+		@yield('scripts')
 		<script src="{{ asset('js/jquery-1.11.3.min.js') }}"></script>
 		<script src="{{ asset('js/bootstrap.min.js') }}"></script>
 		<script src="{{ asset('js/plugins/owl-carousel/owl.carousel.js') }}"></script>

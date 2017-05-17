@@ -1,5 +1,6 @@
 <?php namespace App\Http\Controllers;
 
+use App\Gallery;
 use App\Office;
 use App\Quotes;
 use Illuminate\Http\Request;
@@ -107,7 +108,9 @@ class WelcomeController extends Controller {
         $locale = $this->locale;
         $pages = $this->pages;
 
-		return view('galeria', compact('locale', 'pages'));
+        $galleries = Gallery::all();
+
+		return view('galeria', compact('locale', 'pages', 'galleries'));
 	}
 
 	public function oficinas()
