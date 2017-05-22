@@ -8,12 +8,12 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="row">
-					<div class="col-sm-3">
+					<div class="col-sm-3 col-xs-12">
 						<article class="news-block">
 							<img src="images/abogados.jpg" alt="FoodBingo" class="logo img-responsive">
 						</article>
 					</div>
-					<div class="col-sm-9">
+					<div class="col-sm-9 col-xs-12">
 						<article class="news-block">
 							<h6 class="text-normal text-bold">{{ trans('abogadoAsociados.title') }}</h6>
 							<h4 class="text-normal text-bold">
@@ -21,7 +21,7 @@
                             </h4>
 						</article>
 					</div>
-					<div class="col-sm-8">
+					<div class="col-sm-8 col-xs-12">
 						<ul class="news-block">
 						@foreach($asociados as $asociado)
 							<li class="col-md-6 col-sm-12">
