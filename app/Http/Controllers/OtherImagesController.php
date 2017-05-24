@@ -21,8 +21,13 @@ class OtherImagesController extends Controller {
 	{
 		$others = OtherImages::all();
 
-		$sidebarImages = $others->where('type', 1);
-		$socialIcons = $others->where('type', 2);
+		$sidebarImages = $others->filter(function($image) {
+			return $image['type'] == 1;
+		});
+
+		$socialIcons = $others->filter(function($image) {
+			return $image['type'] == 2;
+		});
 
 		return view('admin.others.index', compact('sidebarImages', 'socialIcons'));
 	}

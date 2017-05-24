@@ -49,18 +49,11 @@
                       <br><a href="{{ url('responsabilidadsocial') }}">RSE</a>
                       <br><a target="_blank" href="https://aplicaciones.rebaza-alcazar.com/Citrix/XenApp/auth/login.aspx">RAD Login</a>
                     </h2>
-                    <article class="news-block">
-                      <img src="images/premios/chambers2016.png" alt="FoodBingo" class="img-responsive">
-                    </article>
-                    <article class="news-block">
-                      <img src="images/latin.png" alt="FoodBingo" class="img-responsive">
-                    </article>
-                    <article class="news-block">
-                      <img src="images/iflr.jpg" alt="FoodBingo" class="img-responsive">
-                    </article>
-                    <article class="news-block">
-                      <img src="images/1000.jpg" alt="FoodBingo" class="img-responsive">
-                    </article>
+                    @foreach($sidebarImages as $image)
+                        <article class="news-block">
+                            <img src="images/{{ $image->image }}" alt="{{ $image->image }}" class="img-responsive">
+                        </article>
+                    @endforeach
                 </div>
                 <div class="col-sm-12">
                     <div class="row">

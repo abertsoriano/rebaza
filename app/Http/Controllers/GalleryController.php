@@ -64,7 +64,7 @@ class GalleryController extends Controller {
 			$params['image'] = str_slug(substr($image->getClientOriginalName(), 0, strlen($image->getClientOriginalName()) - 4), '_')
 				.'.'.$image->getClientOriginalExtension();
 			$params['images'] = $image;
-			$rules['images'] = 'image|size:1500';
+			$rules['images'] = 'image|max:1500';
 		}
 
 		$v = Validator::make($params, $rules);
@@ -133,7 +133,7 @@ class GalleryController extends Controller {
 			$params['image'] = str_slug(substr($image->getClientOriginalName(), 0, strlen($image->getClientOriginalName()) - 4), '_')
 				.'.'.$image->getClientOriginalExtension();
 			$params['images'] = $image;
-			$rules['images'] = 'image|size:1500';
+			$rules['images'] = 'image|max:1500';
 		}
 
 		$v = Validator::make($params, $rules);

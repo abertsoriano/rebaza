@@ -118,9 +118,11 @@ if ($locale === 'en') {
 					<div id="pie_izq" class="col-sm-6">
 						<span>
 							&copy; Copyright Todos los Derechos Reservados &nbsp;
-							<a href="https://www.linkedin.com/company/rebaza-alcazar-&-de-las-casas-abogados-financieros?trk=biz-companies-cym" target="_blank">
-								<img src="{{ asset('images/logo_linkedin.png') }}" style="width: 20px;height: 20px;">
+							@foreach($socialIcons as $social)
+							<a href="{{ $social->link }}" target="_blank">
+								<img src="{{ asset('images/' . $social->image) }}" style="width: 20px;height: 20px;">
 							</a>
+							@endforeach
 						</span>
 					</div>
 					<div id="pie_der" class="col-sm-6">
