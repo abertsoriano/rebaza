@@ -96,6 +96,7 @@
 					<li><a href="{{ route('officesIndex') }}">Oficinas</a></li>
 					<li><a href="{{ route('areaShow', ['trabaja', 30]) }}">Trabaja con nosotros</a></li>
 					<li><a href="{{ route('gaIndex') }}">Galería</a></li>
+					<li><a href="{{ route('othersIndex') }}">Otros</a></li>
 				</ul>
 				@endif
 

@@ -189,10 +189,9 @@ class LawyerController extends Controller {
         if ($request->hasFile('image')) {
             $image = $request->file('image');
 
-            $params['image'] = str_slug(substr($image->getClientOriginalName(), 0, strlen($image->getClientOriginalName()) - 4), '_')
-                .'.'.$image->getClientOriginalExtension();
+            $params['image'] = str_slug(substr($image->getClientOriginalName(), 0, strlen($image->getClientOriginalName()) - 4), '_').'.'.$image->getClientOriginalExtension();
             $params['images'] = $image;
-            $rules['images'] = 'image';
+            $rules['images'] = 'image|size:1500';
         }
 
         if ($request->hasFile('download_cv_es')) {

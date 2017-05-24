@@ -5,6 +5,7 @@ use Illuminate\Database\Eloquent\Model;
 use App\User;
 use App\Quotes;
 use App\Office;
+use App\OtherImages;
 
 class DatabaseSeeder extends Seeder {
 
@@ -22,6 +23,7 @@ class DatabaseSeeder extends Seeder {
 		$this->call('PageTableSeeder');
 		$this->call('QuoteTableSeeder');
 		$this->call('OfficeTableSeeder');
+		$this->call('OtherImagesSeeder');
 	}
 
 }
@@ -146,4 +148,26 @@ class OfficeTableSeeder extends Seeder {
 						Fax (511) 442-5100 - 237'
 		]);
 	}
+}
+
+class OtherImagesSeeder extends Seeder {
+
+	public function run()
+	{
+		$params = [
+			// Sidebar right images
+			['image' => 'chambers2016.png', 'type' => 1],
+			['image' => 'latin.png', 'type' => 1],
+			['image' => 'iflr.jpg', 'type' => 1],
+			['image' => '1000.jpg', 'type' => 1],
+
+			// Logos
+			['image' => 'logo_linkedin.png', 'type' => 2, 'link' => 'https://www.linkedin.com/company/rebaza-alcazar-&-de-las-casas-abogados-financieros']
+		];
+
+		foreach ($params as $value) {
+			OtherImages::create($value);
+		}
+	}
+
 }

@@ -63,6 +63,12 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'private'], function ($route
 	$route->get('gallery/{id}/edit', ['as' => 'editGallery', 'uses' => 'GalleryController@edit']);
 	$route->post('gallery/{id}/update', ['as' => 'updateGallery', 'uses' => 'GalleryController@update']);
 	$route->get('gallery/{id}/destroy', ['as' => 'deleteGallery', 'uses' => 'GalleryController@destroy']);
+
+	// Others Images
+	$route->get('others-images', ['as' => 'othersIndex', 'uses' => 'OtherImagesController@index']);
+	$route->get('others-images/{id}/delete', ['as' => 'othersDelete', 'uses' => 'OtherImagesController@destroy']);
+	$route->post('others-images/store', ['as' => 'othersStore', 'uses' => 'OtherImagesController@store']);
+	$route->post('others-images/{id}/update', ['as' => 'othersUpdate', 'uses' => 'OtherImagesController@update']);
 });
 
 $locale = 'es';
