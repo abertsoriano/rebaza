@@ -36,7 +36,7 @@ class LawyerController extends Controller {
 	 */
 	public function index($type)
 	{
-	    $lawyers = Lawyer::where('type', $type)->paginate(21, ['id', 'email', 'name', 'job_es', 'updated_at', 'image']);
+	    $lawyers = Lawyer::withTrashed()->where('type', $type)->paginate(21, ['id', 'email', 'name', 'job_es', 'updated_at', 'image', 'deleted_at']);
 		return view('admin.lawyers', compact('lawyers', 'type'));
 	}
 
@@ -97,7 +97,7 @@ class LawyerController extends Controller {
 	{
         $types = $this->getTypes();
 
-		$lawyer = Lawyer::find($id);
+		$lawyer = Lawyer::withTrashed()->find($id);
 
         $action = route('editLawyer', $lawyer->id);
 
@@ -112,7 +112,7 @@ class LawyerController extends Controller {
 	 */
 	public function edit(Request $request, $id)
 	{
-        $lawyer = Lawyer::find($id);
+        $lawyer = Lawyer::withTrashed()->find($id);
         list($v, $params) = $this->customValidate($request);
 
         if ($v->fails()) {
@@ -151,14 +151,15 @@ class LawyerController extends Controller {
 	}
 
 	/**
-	 * Update the specified resource in storage.
+	 * Active the specified Lawyer in storage.
 	 *
 	 * @param  int  $id
 	 * @return Response
 	 */
 	public function update($id)
 	{
-		//
+		Lawyer::withTrashed()->find($id)->restore();
+		return redirect()->back();
 	}
 
 	/**

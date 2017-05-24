@@ -31,6 +31,7 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'private'], function ($route
     $route->post('lawyers/{id}/edit', ['as' => 'editLawyer', 'uses' => 'LawyerController@edit']);
 
     $route->get('lawyers/{id}/delete', ['as' => 'deleteLawyer', 'uses' => 'LawyerController@destroy']);
+    $route->get('lawyers/{id}/activate', ['as' => 'activateLawyer', 'uses' => 'LawyerController@update']);
 
     // Pages
     $route->get('page/{page}', ['as' => 'pageIndex', 'uses' => 'PageController@index']);

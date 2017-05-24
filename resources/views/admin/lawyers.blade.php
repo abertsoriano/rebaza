@@ -22,7 +22,7 @@
                         <div class="row">
                         @foreach($lawyers as $lawyer)
                             <div class="col-sm-4">
-                                <div class="thumbnail">
+                                <div class="thumbnail {{ $lawyer->deleted_at ? 'item-deleted' : '' }}">
                                     <div style="background-image: url('{{ asset('images/abogados/' . $lawyer->image) }}')" class="image-content"></div>
                                     <div class="caption">
                                         <h4>{{ $lawyer->name }}</h4>
@@ -30,7 +30,11 @@
                                         <p><small>Ultima actualización: {{ $lawyer->updated_at }}</small></p>
                                         <div>
                                             <a href="{{ route('showLawyer', $lawyer->id) }}" class="btn btn-success btn-sm">Editar</a>
-                                            <a href="{{ route('deleteLawyer', $lawyer->id) }}" class="btn btn-danger btn-sm confirm-delete">Eliminar</a>
+                                            @if ($lawyer->deleted_at)
+                                                <a href="{{ route('activateLawyer', $lawyer->id) }}" class="btn btn-warning btn-sm activate-lawyer">Activar</a>
+                                            @else
+                                                <a href="{{ route('deleteLawyer', $lawyer->id) }}" class="btn btn-danger btn-sm confirm-delete" data-role="inactivate">Inactivar</a>
+                                            @endif
                                         </div>
                                     </div>
                                 </div>

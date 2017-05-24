@@ -70,6 +70,10 @@
 		.list-gallery .caption h4 {
 			height: 38px;
 		}
+		.item-deleted {
+			border-color: red;
+			opacity: .6;
+		}
 	</style>
 </head>
 <body>
@@ -140,7 +144,13 @@
 	        }
 		});
 	    $('div.container').on('click', '.confirm-delete', function (e) {
-			if (!confirm('Seguro de eliminar esto?')) {
+	    	var type = $(e.currentTarget).data('role');
+	    	var confirmMessage = 'Seguro de eliminar esto?';
+
+	    	if (type === 'inactivate') {
+				confirmMessage = 'Seguro de inactivarlo?';
+			}
+			if (!confirm(confirmMessage)) {
                 e.preventDefault();
 			}
         });
