@@ -92,8 +92,15 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				@if (Auth::check())
 				<ul class="nav navbar-nav">
-					<li><a href="{{ route('home') }}">Experiencia Reciente</a></li>
-					<li><a href="{{ route('quoteIndex') }}">Quotes</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="{{ route('home') }}">Experiencia Reciente</a></li>
+							<li><a href="{{ route('quoteIndex') }}">Quotes</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="{{ route('othersIndex') }}">Imagenes redes sociales y Otros</a></li>
+						</ul>
+					</li>
 					<li><a href="{{ route('pageIndex', 'estudio') }}">Estudio</a></li>
 					<li><a href="{{ route('pageIndex', 'areas') }}">Areas</a></li>
 					<li><a href="{{ route('lawyers', 1) }}">Abogados</a></li>
@@ -101,7 +108,6 @@
 					<li><a href="{{ route('officesIndex') }}">Oficinas</a></li>
 					<li><a href="{{ route('areaShow', ['trabaja', 30]) }}">Trabaja con nosotros</a></li>
 					<li><a href="{{ route('gaIndex') }}">Galería</a></li>
-					<li><a href="{{ route('othersIndex') }}">Otros</a></li>
 				</ul>
 				@endif
 
