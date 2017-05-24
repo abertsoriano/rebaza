@@ -119,9 +119,13 @@
                                                     <li>
                                                         <div class="col-sm-10 txt-item">{!! $item !!}</div>
                                                         <div class="col-sm-12 edit-input hidden">
-                                                            <input type="text" class="form-control">
-                                                            <button type="button" class="btn-sm btn btn-success btn-save-edit-list">Guardar</button>
-                                                            <button type="button" class="btn-sm btn btn-danger btn-cancel-edit-list">Cancelar</button>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control input-sm">
+                                                                <div class="input-group-btn">
+                                                                    <button type="button" class="btn-sm btn btn-success btn-save-edit-list">Guardar</button>
+                                                                    <button type="button" class="btn-sm btn btn-danger btn-cancel-edit-list">Cancelar</button>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                         <div class="col-sm-2 content-edit">
                                                             <a href="#" class="btn-add-link-item" data-id="1" id="txt_item1_es{{ $n_item_es }}" data-item="{{ $n_item_es }}">Link</a> |
