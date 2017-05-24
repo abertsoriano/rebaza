@@ -26,6 +26,7 @@
 		}
 		.content-items li {
 			padding: 5px 0;
+			overflow: hidden;
 		}
 		.content-items li+li {
 			border-top: 1px solid #d7d7d7;

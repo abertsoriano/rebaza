@@ -110,8 +110,7 @@
                                         <li id="li_title_es1" data-id="1">
                                             <strong>Áreas</strong>
                                             <div class="list-actions-buttons">
-                                                <input type="button" class="btn btn-xs btn-primary btn-add-item"
-                                                       data-id="1" value="Agregar Item">
+                                                <input type="button" class="btn btn-xs btn-primary btn-add-item" data-id="1" value="Agregar Item">
                                             </div>
                                             <ul class="content-items">
                                                 @if ($lista)
@@ -119,10 +118,15 @@
                                                 @foreach($lista[0]['items_es'] as $item)
                                                     <li>
                                                         <div class="col-sm-10 txt-item">{!! $item !!}</div>
-                                                        <div class="col-sm-2">
-                                                            <a href="#" class="btn-add-link-item" id="txt_item1_es{{ $n_item_es }}" data-id="1" data-item="{{ $n_item_es }}">Link</a> |
-                                                            <a href="#" class="btn-delete-item-created" data-id="1"
-                                                               data-item="{{ $n_item_es }}">Elminar</a>
+                                                        <div class="col-sm-12 edit-input hidden">
+                                                            <input type="text" class="form-control">
+                                                            <button type="button" class="btn-sm btn btn-success btn-save-edit-list">Guardar</button>
+                                                            <button type="button" class="btn-sm btn btn-danger btn-cancel-edit-list">Cancelar</button>
+                                                        </div>
+                                                        <div class="col-sm-2 content-edit">
+                                                            <a href="#" class="btn-add-link-item" data-id="1" id="txt_item1_es{{ $n_item_es }}" data-item="{{ $n_item_es }}">Link</a> |
+                                                            <a href="#" class="btn-delete-item-created" data-id="1" data-item="{{ $n_item_es }}">Elminar</a> |
+                                                            <a href="#" class="btn-edit-item" data-id="1" data-item="{{ $n_item_es }}">Editar</a>
                                                         </div>
                                                     </li>
 													<?php $n_item_es++ ?>
@@ -142,9 +146,7 @@
                                         <li id="li_title_es2" data-id="2">
                                             <strong>Educación</strong>
                                             <div class="list-actions-buttons">
-                                                <input type="button" class="btn btn-xs btn-primary btn-add-item"
-                                                       data-id="2"
-                                                       value="Agregar Item">
+                                                <input type="button" class="btn btn-xs btn-primary btn-add-item" data-id="2" value="Agregar Item">
                                             </div>
                                             <ul class="content-items">
                                                 @if ($lista)
@@ -152,10 +154,15 @@
                                                 @foreach($lista[1]['items_es'] as $item)
                                                     <li>
                                                         <div class="col-sm-10 txt-item">{!! $item !!}</div>
-                                                        <div class="col-sm-2">
+                                                        <div class="col-sm-12 edit-input hidden">
+                                                            <input type="text" class="form-control">
+                                                            <button type="button" class="btn-sm btn btn-success btn-save-edit-list">Guardar</button>
+                                                            <button type="button" class="btn-sm btn btn-danger btn-cancel-edit-list">Cancelar</button>
+                                                        </div>
+                                                        <div class="col-sm-2 content-edit">
                                                             <a href="#" class="btn-add-link-item" id="txt_item2_es{{ $n_item_es }}" data-id="2" data-item="{{ $n_item_es }}">Link</a> |
-                                                            <a href="#" class="btn-delete-item-created" data-id="2"
-                                                               data-item="{{ $n_item_es }}">Elminar</a>
+                                                            <a href="#" class="btn-delete-item-created" data-id="2" data-item="{{ $n_item_es }}">Elminar</a> |
+                                                            <a href="#" class="btn-edit-item" data-id="2" data-item="{{ $n_item_es }}">Editar</a>
                                                         </div>
                                                     </li>
 													<?php $n_item_es++ ?>
@@ -175,8 +182,7 @@
                                         <li id="li_title_es3" data-id="3">
                                             <strong>Distinciones</strong>
                                             <div class="list-actions-buttons">
-                                                <input type="button" class="btn btn-xs btn-primary btn-add-item"
-                                                       data-id="3" value="Agregar Item">
+                                                <input type="button" class="btn btn-xs btn-primary btn-add-item" data-id="3" value="Agregar Item">
                                             </div>
                                             <ul class="content-items">
                                                 @if ($lista)
@@ -184,10 +190,15 @@
                                                 @foreach($lista[2]['items_es'] as $item)
                                                     <li>
                                                         <div class="col-sm-10 txt-item">{!! $item !!}</div>
-                                                        <div class="col-sm-2">
+                                                        <div class="col-sm-12 edit-input hidden">
+                                                            <input type="text" class="form-control">
+                                                            <button type="button" class="btn-sm btn btn-success btn-save-edit-list">Guardar</button>
+                                                            <button type="button" class="btn-sm btn btn-danger btn-cancel-edit-list">Cancelar</button>
+                                                        </div>
+                                                        <div class="col-sm-2 content-edit">
                                                             <a href="#" class="btn-add-link-item" id="txt_item3_es{{ $n_item_es }}" data-id="3" data-item="{{ $n_item_es }}">Link</a> |
-                                                            <a href="#" class="btn-delete-item-created" data-id="3"
-                                                               data-item="{{ $n_item_es }}">Elminar</a>
+                                                            <a href="#" class="btn-delete-item-created" data-id="3" data-item="{{ $n_item_es }}">Elminar</a> |
+                                                            <a href="#" class="btn-edit-item" data-id="3" data-item="{{ $n_item_es }}">Editar</a>
                                                         </div>
                                                     </li>
 													<?php $n_item_es++ ?>
@@ -197,7 +208,7 @@
                                             <ul class="hidden form-group-sm">
                                                 <li>
                                                     <div class="col-sm-6">
-                                                        <input type="text" class="form-control">
+                                                        <input type="text" class="form-control" placeholder="Escriba aquí...">
                                                     </div>
                                                     <input type="button" class="btn btn-sm btn-success btn-create-item" value="Agregar">
                                                     <input type="button" class="btn btn-sm btn-del-item" value="Cancelar">
@@ -207,8 +218,7 @@
                                         <li id="li_title_es4" data-id="4">
                                             <strong>Idiomas</strong>
                                             <div class="list-actions-buttons">
-                                                <input type="button" class="btn btn-xs btn-primary btn-add-item"
-                                                       data-id="4" value="Agregar Item">
+                                                <input type="button" class="btn btn-xs btn-primary btn-add-item" data-id="4" value="Agregar Item">
                                             </div>
                                             <ul class="content-items">
                                                 @if ($lista)
@@ -216,10 +226,15 @@
                                                 @foreach($lista[3]['items_es'] as $item)
                                                     <li>
                                                         <div class="col-sm-10 txt-item">{!! $item !!}</div>
-                                                        <div class="col-sm-2">
+                                                        <div class="col-sm-12 edit-input hidden">
+                                                            <input type="text" class="form-control">
+                                                            <button type="button" class="btn-sm btn btn-success btn-save-edit-list">Guardar</button>
+                                                            <button type="button" class="btn-sm btn btn-danger btn-cancel-edit-list">Cancelar</button>
+                                                        </div>
+                                                        <div class="col-sm-2 content-edit">
                                                             <a href="#" class="btn-add-link-item" id="txt_item4_es{{ $n_item_es }}" data-id="4" data-item="{{ $n_item_es }}">Link</a> |
-                                                            <a href="#" class="btn-delete-item-created" data-id="4"
-                                                               data-item="{{ $n_item_es }}">Elminar</a>
+                                                            <a href="#" class="btn-delete-item-created" data-id="4" data-item="{{ $n_item_es }}">Elminar</a> |
+                                                            <a href="#" class="btn-edit-item" data-id="4" data-item="{{ $n_item_es }}">Editar</a>
                                                         </div>
                                                     </li>
 													<?php $n_item_es++ ?>
@@ -237,15 +252,6 @@
                                             </ul>
                                         </li>
                                     </ul>
-                                    {{--<div class="form-group-sm">
-                                        <div class="col-sm-6">
-                                            <input type="text" class="form-control">
-                                        </div>
-                                        <div class="col-sm-2">
-                                            <input class="btn btn-sm btn-add-one" type="button" value="Agregar">
-                                        </div>
-                                        <div class="clearfix"></div>
-                                    </div>--}}
                                 </div>
                                 <hr>
                                 <div class="form-group">
@@ -316,9 +322,15 @@
                                                 @foreach($listItems[$v]['items_en'] as $item)
                                                     <li>
                                                         <div class="col-sm-10 txt-item">{!! $item !!}</div>
-                                                        <div class="col-sm-2">
+                                                        <div class="col-sm-12 edit-input hidden">
+                                                            <input type="text" class="form-control">
+                                                            <button type="button" class="btn-sm btn btn-success btn-save-edit-list">Guardar</button>
+                                                            <button type="button" class="btn-sm btn btn-danger btn-cancel-edit-list">Cancelar</button>
+                                                        </div>
+                                                        <div class="col-sm-2 content-edit">
                                                             <a href="#" class="btn-add-link-item" id="txt_item{{ $id_en }}_en{{ $n_item_en }}" data-id="{{ $id_en }}" data-item="{{ $n_item_en }}">Link</a> |
-                                                            <a href="#" class="btn-delete-item-created" data-id="{{ $id_en }}" data-item="{{ $n_item_en }}">Elminar</a>
+                                                            <a href="#" class="btn-delete-item-created" data-id="{{ $id_en }}" data-item="{{ $n_item_en }}">Elminar</a> |
+                                                            <a href="#" class="btn-edit-item" data-id="{{ $id_en }}" data-item="{{ $n_item_en }}">Editar</a>
                                                         </div>
                                                     </li>
                                                     <?php $n_item_en++ ?>
@@ -454,14 +466,43 @@
             }
         });
 
-        // EDIT
+        // EDIT btn-edit-item
+        var params = {
+        	link: '',
+        	id: 0,
+        	id_item: 0
+        };
         $listContent.on('click', '.btn-edit-item', function (e) {
             e.preventDefault();
-            var $li = $(e.currentTarget).closest('li');
-            $li.children('strong').addClass('hidden');
-            $li.children('.content-edit').removeClass('hidden');
-            $li.children('.list-actions-buttons').addClass('hidden');
+            var $button = $(e.currentTarget);
+            var $li = $button.closest('li');
+
+            params.id = $button.data('id');
+            params.id_item = $button.data('item');
+
+            if ($li.children('.txt-item').children('a').length) {
+				params.link = $li.children('.txt-item').children('a').prop('href');
+            }
+            $li.children('.txt-item').addClass('hidden');
+			$li.find('.edit-input').removeClass('hidden').children('input').val($li.children('.txt-item').text().trim());
+            $('#tab_es, #tab_en').find('.content-edit').addClass('hidden');
         });
+
+        $listContent.on('click', '.btn-save-edit-list', function (e) {
+            e.preventDefault();
+
+            var $content = $(e.currentTarget).parent();
+            var value = $content.children('input').val();
+            var lang = $(e.currentTarget).closest('.form-group').data('lang');
+
+            if (params.link != '') {
+				value = '<a href="' + params.link + '">' + value + '</a>';
+            }
+            $('#item' + params.id + '_' + lang + params.id_item).val(value);
+			$(e.currentTarget).closest('li').children('.txt-item').html(value);
+
+			showListContent($(e.currentTarget).closest('li'));
+		});
 
         $listContent.on('click', '.btn-cancel-edit-list', function (e) {
             e.preventDefault();
@@ -510,9 +551,13 @@
         });
 
         function showListContent($li) {
-            $li.children('strong').removeClass('hidden');
-            $li.children('.content-edit').addClass('hidden');
-            $li.children('.list-actions-buttons').removeClass('hidden');
+            $li.children('.txt-item').removeClass('hidden');
+			$li.children('.edit-input').addClass('hidden')
+			$('#tab_es, #tab_en').find('.content-edit').removeClass('hidden');
+
+			params.id_item = '';
+			params.link = '';
+			params.id = '';
         }
     </script>
 @endsection
