@@ -6,7 +6,7 @@
 		<div class="col-md-12">
 			<div class="panel panel-default">
 				<div class="panel-heading">OFICINAS &nbsp; | &nbsp; <a href="{{ route('addOffice') }}" class="btn
-				btn-primary">Nuevo	Articulo</a></div>
+				btn-primary">Nueva	Oficina</a></div>
 
 				<div class="panel-body list-offices">
 					<div class="row">
