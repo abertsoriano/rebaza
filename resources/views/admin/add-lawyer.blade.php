@@ -159,9 +159,13 @@
                                                     <li>
                                                         <div class="col-sm-10 txt-item">{!! $item !!}</div>
                                                         <div class="col-sm-12 edit-input hidden">
-                                                            <input type="text" class="form-control">
-                                                            <button type="button" class="btn-sm btn btn-success btn-save-edit-list">Guardar</button>
-                                                            <button type="button" class="btn-sm btn btn-danger btn-cancel-edit-list">Cancelar</button>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control input-sm">
+                                                                <div class="input-group-btn">
+                                                                    <button type="button" class="btn-sm btn btn-success btn-save-edit-list">Guardar</button>
+                                                                    <button type="button" class="btn-sm btn btn-danger btn-cancel-edit-list">Cancelar</button>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                         <div class="col-sm-2 content-edit">
                                                             <a href="#" class="btn-add-link-item" id="txt_item2_es{{ $n_item_es }}" data-id="2" data-item="{{ $n_item_es }}">Link</a> |
@@ -195,9 +199,13 @@
                                                     <li>
                                                         <div class="col-sm-10 txt-item">{!! $item !!}</div>
                                                         <div class="col-sm-12 edit-input hidden">
-                                                            <input type="text" class="form-control">
-                                                            <button type="button" class="btn-sm btn btn-success btn-save-edit-list">Guardar</button>
-                                                            <button type="button" class="btn-sm btn btn-danger btn-cancel-edit-list">Cancelar</button>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control input-sm">
+                                                                <div class="input-group-btn">
+                                                                    <button type="button" class="btn-sm btn btn-success btn-save-edit-list">Guardar</button>
+                                                                    <button type="button" class="btn-sm btn btn-danger btn-cancel-edit-list">Cancelar</button>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                         <div class="col-sm-2 content-edit">
                                                             <a href="#" class="btn-add-link-item" id="txt_item3_es{{ $n_item_es }}" data-id="3" data-item="{{ $n_item_es }}">Link</a> |
@@ -231,9 +239,13 @@
                                                     <li>
                                                         <div class="col-sm-10 txt-item">{!! $item !!}</div>
                                                         <div class="col-sm-12 edit-input hidden">
-                                                            <input type="text" class="form-control">
-                                                            <button type="button" class="btn-sm btn btn-success btn-save-edit-list">Guardar</button>
-                                                            <button type="button" class="btn-sm btn btn-danger btn-cancel-edit-list">Cancelar</button>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control input-sm">
+                                                                <div class="input-group-btn">
+                                                                    <button type="button" class="btn-sm btn btn-success btn-save-edit-list">Guardar</button>
+                                                                    <button type="button" class="btn-sm btn btn-danger btn-cancel-edit-list">Cancelar</button>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                         <div class="col-sm-2 content-edit">
                                                             <a href="#" class="btn-add-link-item" id="txt_item4_es{{ $n_item_es }}" data-id="4" data-item="{{ $n_item_es }}">Link</a> |
@@ -327,9 +339,13 @@
                                                     <li>
                                                         <div class="col-sm-10 txt-item">{!! $item !!}</div>
                                                         <div class="col-sm-12 edit-input hidden">
-                                                            <input type="text" class="form-control">
-                                                            <button type="button" class="btn-sm btn btn-success btn-save-edit-list">Guardar</button>
-                                                            <button type="button" class="btn-sm btn btn-danger btn-cancel-edit-list">Cancelar</button>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control input-sm">
+                                                                <div class="input-group-btn">
+                                                                    <button type="button" class="btn-sm btn btn-success btn-save-edit-list">Guardar</button>
+                                                                    <button type="button" class="btn-sm btn btn-danger btn-cancel-edit-list">Cancelar</button>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                         <div class="col-sm-2 content-edit">
                                                             <a href="#" class="btn-add-link-item" id="txt_item{{ $id_en }}_en{{ $n_item_en }}" data-id="{{ $id_en }}" data-item="{{ $n_item_en }}">Link</a> |
@@ -446,7 +462,16 @@
                 var item_id = '' + id + '_' + lang + total;
                 var hiddenInput = '<input type="hidden" name="items_' + lang + '[list_' + id +'][]" id="item' + item_id + '" class="item_val_'+ id +'" value="' + $input.val() + '">';
                 var listItem = '<li><div class="col-sm-10 txt-item">' + $input.val() + '</div>' +
-                    '<div class="col-sm-2"><a href="#" class="btn-add-link-item" id="txt_item'+ item_id+'" data-id="'+ id +'" data-item="'+total +'">Link</a> |<a href="#" class="btn-delete-item-created" data-id="'+ id + '" data-item="' + total + '">Elminar</a></div></li>';
+                    '<div class="col-sm-12 edit-input hidden"><div class="input-group">'+
+					    '<input type="text" class="form-control input-sm">'+
+					    '<div class="input-group-btn">'+
+					        '<button type="button" class="btn-sm btn btn-success btn-save-edit-list">Guardar</button>'+
+					        '<button type="button" class="btn-sm btn btn-danger btn-cancel-edit-list">Cancelar</button>'+
+                        '</div>'+
+					'</div></div>'+
+                    '<div class="col-sm-2 content-edit"><a href="#" class="btn-add-link-item" id="txt_item'+ item_id+'" data-id="'+ id +'" data-item="'+total +'">Link</a> | ' +
+                    '<a href="#" class="btn-delete-item-created" data-id="'+ id + '" data-item="' + total + '">Elminar</a> | ' +
+                    '<a href="#" class="btn-edit-item" data-id="'+ id + '" data-item="' + total + '">Editar</a></div></li>';
 
                 $input.closest('ul').prev('.content-items').append(listItem);
                 $('#li_title_' + lang + id + ' .btn-del-title').addClass('hidden');
@@ -488,14 +513,14 @@
 				params.link = $li.children('.txt-item').children('a').prop('href');
             }
             $li.children('.txt-item').addClass('hidden');
-			$li.find('.edit-input').removeClass('hidden').children('input').val($li.children('.txt-item').text().trim());
+			$li.find('.edit-input').removeClass('hidden').find('input').val($li.children('.txt-item').text().trim());
             $('#tab_es, #tab_en').find('.content-edit').addClass('hidden');
         });
 
         $listContent.on('click', '.btn-save-edit-list', function (e) {
             e.preventDefault();
 
-            var $content = $(e.currentTarget).parent();
+            var $content = $(e.currentTarget).parents('.input-group');
             var value = $content.children('input').val();
             var lang = $(e.currentTarget).closest('.form-group').data('lang');
 
