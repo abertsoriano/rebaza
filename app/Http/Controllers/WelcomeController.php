@@ -61,7 +61,7 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		$articles = Article::where('status', 1)->latest()->get($this->fields)->take(4)->toArray();
+		$articles = Article::where('status', 2)->latest()->get($this->fields)->toArray();
 		$homeData = Page::find(1);
 
 		$locale = $this->locale;

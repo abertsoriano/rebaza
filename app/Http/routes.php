@@ -15,7 +15,7 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'private'], function ($route
 
     $route->get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
     $route->post('update-home-info', ['as' => 'updateHomeInfo', 'uses' => 'HomeController@updateHomeData']);
-    $route->get('articles', ['as' => 'articles', 'uses' => 'HomeController@articles']);
+    $route->get('articles/{status}/status', ['as' => 'articles', 'uses' => 'HomeController@articles']);
     $route->get('add-article', ['as' => 'addArticle', 'uses' => 'HomeController@add']);
     $route->post('add-article', ['as' => 'storeArticle', 'uses' => 'HomeController@store']);
 
@@ -23,6 +23,10 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'private'], function ($route
     $route->post('update-article/{id}', ['as' => 'updateArticle', 'uses' => 'HomeController@update']);
     $route->get('delete-article/{id}', ['as' => 'deleteArticle', 'uses' => 'HomeController@delete']);
     $route->get('logout', ['as' => 'logout', 'uses' => 'Auth\AuthController@getLogout']);
+
+    // Noticias Home
+	$route->get('home-notices/create', ['as' => 'addNotice', 'uses' => 'HomeController@homeCreate']);
+	$route->get('home-notices/{id}/view', ['as' => 'editNotice', 'uses' => 'HomeController@homeArticlesView']);
 
     // Lawyer
     $route->get('lawyers/{type}', ['as' => 'lawyers', 'uses' => 'LawyerController@index']);

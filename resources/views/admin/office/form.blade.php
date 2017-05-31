@@ -27,13 +27,11 @@
 								</div>
 								<div class="col-sm-6">
 									<h3>Dirección en Español</h3>
-									<textarea name="info_es" id="info_es" class="form-control" rows="5">{{ old
-									('info_es', $office->info_es) }}</textarea>
+									<textarea name="info_es" id="info_es" class="form-control" rows="5">{{ old('info_es', $office->info_es) }}</textarea>
 								</div>
 								<div class="col-sm-6">
 									<h3>Dirección en Inglés</h3>
-									<textarea name="info_en" id="info_en" class="form-control" rows="5">{{ old
-									('info_en', $office->info_en) }}</textarea>
+									<textarea name="info_en" id="info_en" class="form-control" rows="5">{{ old('info_en', $office->info_en) }}</textarea>
 								</div>
 							</div>
 							<div class="form-group">

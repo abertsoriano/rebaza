@@ -97,6 +97,7 @@
 						<ul class="dropdown-menu">
 							<li><a href="{{ route('home') }}">Experiencia Reciente</a></li>
 							<li><a href="{{ route('quoteIndex') }}">Quotes</a></li>
+							<li><a href="{{ route('articles', 2) }}">Ultimas Noticias</a></li>
 							<li role="separator" class="divider"></li>
 							<li><a href="{{ route('othersIndex') }}">Imagenes redes sociales y Otros</a></li>
 						</ul>
@@ -104,7 +105,7 @@
 					<li><a href="{{ route('pageIndex', 'estudio') }}">Estudio</a></li>
 					<li><a href="{{ route('pageIndex', 'areas') }}">Areas</a></li>
 					<li><a href="{{ route('lawyers', 1) }}">Abogados</a></li>
-					<li><a href="{{ route('articles') }}">Reconocimientos y noticias</a></li>
+					<li><a href="{{ route('articles', 1) }}">Reconocimientos y noticias</a></li>
 					<li><a href="{{ route('officesIndex') }}">Oficinas</a></li>
 					<li><a href="{{ route('areaShow', ['trabaja', 30]) }}">Trabaja con nosotros</a></li>
 					<li><a href="{{ route('gaIndex') }}">Galería</a></li>

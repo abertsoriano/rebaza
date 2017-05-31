@@ -45,10 +45,16 @@ class HomeController extends Controller {
         return redirect()->back();
     }
 
-    public function articles()
+    public function articles($status)
     {
-        $articles = Article::latest()->paginate(20);
-        return view('admin.articles.index', compact('articles'));
+        $articles = Article::latest()->where('status', $status)->paginate(20);
+
+        $pathView = 'admin.articles.index';
+        if ($status == 2) {
+			$pathView = 'admin.home_notice.index';
+		}
+
+        return view($pathView, compact('articles'));
     }
 
 	public function add()
@@ -73,12 +79,12 @@ class HomeController extends Controller {
 
 	        $params[self::IMAGE] = $newName;
         } else {
-            $params[self::IMAGE] = '';
+            $params[self::IMAGE] = ' ';
         }
 
         Article::create($params);
 
-        return redirect()->route('articles');
+        return redirect()->route('articles', $params['status']);
 	}
 
 	public function update(Request $request, $id)
@@ -104,7 +110,7 @@ class HomeController extends Controller {
 
         $article->save();
 
-        return redirect()->route('articles');
+        return redirect()->route('articles', $params['status']);
     }
 
     public function delete($id)
@@ -114,4 +120,21 @@ class HomeController extends Controller {
 
         return redirect()->back();
     }
+
+    // Home notices
+	public function homeCreate() {
+
+		$notice = new Article;
+		$action = route('storeArticle');
+
+		return view('admin.home_notice.form', compact('action', 'notice'));
+	}
+
+	public function homeArticlesView($id) {
+
+		$notice = Article::find($id);
+		$action = route('updateArticle', $id);
+
+		return view('admin.home_notice.form', compact('action', 'notice'));
+	}
 }
