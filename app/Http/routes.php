@@ -24,16 +24,17 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'private'], function ($route
     $route->get('delete-article/{id}', ['as' => 'deleteArticle', 'uses' => 'HomeController@delete']);
     $route->get('logout', ['as' => 'logout', 'uses' => 'Auth\AuthController@getLogout']);
 
+    // Lawyer
     $route->get('lawyers/{type}', ['as' => 'lawyers', 'uses' => 'LawyerController@index']);
     $route->get('lawyers/create/{type}', ['as' => 'addLawyer', 'uses' => 'LawyerController@create']);
     $route->post('lawyers/store', ['as' => 'storeLawyer', 'uses' => 'LawyerController@store']);
     $route->get('lawyers/{id}/view', ['as' => 'showLawyer', 'uses' => 'LawyerController@show']);
     $route->post('lawyers/{id}/edit', ['as' => 'editLawyer', 'uses' => 'LawyerController@edit']);
+	$route->get('lawyers/{id}/activate', ['as' => 'activateLawyer', 'uses' => 'LawyerController@update']);
+	$route->get('lawyers/{id}/inactivate', ['as' => 'inactivateLawyer', 'uses' => 'LawyerController@inactivate']);
+	$route->get('lawyers/{id}/force-delete', ['as' => 'destroyLawyer', 'uses' => 'LawyerController@destroy']);
 
-    $route->get('lawyers/{id}/delete', ['as' => 'deleteLawyer', 'uses' => 'LawyerController@destroy']);
-    $route->get('lawyers/{id}/activate', ['as' => 'activateLawyer', 'uses' => 'LawyerController@update']);
-
-    // Pages
+	// Pages
     $route->get('page/{page}', ['as' => 'pageIndex', 'uses' => 'PageController@index']);
     $route->get('pages/create-{type}', ['as' => 'pageCreate', 'uses' => 'PageController@create']);
     $route->get('pages/{type}/{id}/show', ['as' => 'areaShow', 'uses' => 'PageController@show']);

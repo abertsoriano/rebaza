@@ -163,15 +163,33 @@ class LawyerController extends Controller {
 	}
 
 	/**
-	 * Remove the specified resource from storage.
+	 * Inactivate specified resource from storage.
 	 *
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function destroy($id)
+	public function inactivate($id)
 	{
 		$lawyer = Lawyer::find($id);
 		$lawyer->delete();
+
+		return redirect()->back();
+	}
+
+	/**
+	 * Elimina definitivamente el abogado de la bade de datos
+	 *
+	 * @param $id
+	 * @return RedirectResponse
+	 */
+	public function destroy($id)
+	{
+		$lawyer = Lawyer::withTrashed()->find($id);
+		if ($lawyer->image) {
+			File::delete($this->path_img_lawyer . '/' . $lawyer->image);
+		}
+
+		$lawyer->forceDelete();
 
 		return redirect()->back();
 	}

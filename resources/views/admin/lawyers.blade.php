@@ -33,8 +33,11 @@
                                             @if ($lawyer->deleted_at)
                                                 <a href="{{ route('activateLawyer', $lawyer->id) }}" class="btn btn-warning btn-sm activate-lawyer">Activar</a>
                                             @else
-                                                <a href="{{ route('deleteLawyer', $lawyer->id) }}" class="btn btn-danger btn-sm confirm-delete" data-role="inactivate">Inactivar</a>
+                                                <a href="{{ route('inactivateLawyer', $lawyer->id) }}" class="btn btn-danger btn-sm confirm-delete" data-role="inactivate">Inactivar</a>
                                             @endif
+                                            <a href="{{ route('destroyLawyer', $lawyer->id) }}" class="btn btn-danger btn-sm confirm-delete pull-right" title="Eliminar Definitivamente">
+                                                <i class="glyphicon glyphicon-trash"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
