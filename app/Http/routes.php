@@ -75,6 +75,14 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'private'], function ($route
 	$route->get('others-images/{id}/delete', ['as' => 'othersDelete', 'uses' => 'OtherImagesController@destroy']);
 	$route->post('others-images/store', ['as' => 'othersStore', 'uses' => 'OtherImagesController@store']);
 	$route->post('others-images/{id}/update', ['as' => 'othersUpdate', 'uses' => 'OtherImagesController@update']);
+
+	// Rse Gallery
+	$route->get('rse-images', ['as' => 'rseIndex', 'uses' => 'RseController@index']);
+	$route->get('rse-images/create', ['as' => 'rseCreate', 'uses' => 'RseController@create']);
+	$route->post('rse-images/store', ['as' => 'rseStore', 'uses' => 'RseController@store']);
+	$route->get('rse-images/{id}/edit', ['as' => 'rseShow', 'uses' => 'RseController@show']);
+	$route->post('rse-images/{id}/update', ['as' => 'rseUpdate', 'uses' => 'RseController@edit']);
+	$route->get('rse-images/{id}/delete', ['as' => 'rseDelete', 'uses' => 'RseController@destroy']);
 });
 
 $locale = 'es';

@@ -3,6 +3,7 @@
 use App\Gallery;
 use App\Office;
 use App\Quotes;
+use App\RseGallery;
 use Illuminate\Http\Request;
 use Cache;
 use App\Article;
@@ -150,11 +151,13 @@ class WelcomeController extends Controller {
 
 	public function responsabilidadsocial()
 	{
+		$rseGalleries = RseGallery::all();
+
         $locale = $this->locale;
         $pages = $this->pages;
 		$socialIcons = $this->socials;
 
-		return view('responsabilidadsocial', compact('locale', 'pages', 'socialIcons'));
+		return view('responsabilidadsocial', compact('locale', 'pages', 'socialIcons', 'rseGalleries'));
 	}
 
 	public function trabaja()

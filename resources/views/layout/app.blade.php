@@ -74,6 +74,12 @@
 			border-color: red;
 			opacity: .6;
 		}
+		.rse-gallery-content {
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			padding-top: 15px;
+			background-color: whitesmoke;
+		}
 	</style>
 </head>
 <body>
@@ -109,6 +115,7 @@
 					<li><a href="{{ route('officesIndex') }}">Oficinas</a></li>
 					<li><a href="{{ route('areaShow', ['trabaja', 30]) }}">Trabaja con nosotros</a></li>
 					<li><a href="{{ route('gaIndex') }}">Galería</a></li>
+					<li><a href="{{ route('rseIndex') }}">RSE</a></li>
 				</ul>
 				@endif
 
