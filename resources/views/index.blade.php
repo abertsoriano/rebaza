@@ -20,7 +20,7 @@
                                 <div class="seccion-row">
                                     <h6>{{ $article['title_' . $locale] }}</h6>
                                     <div class="content-text">
-                                        <p class="sinespacio">{!! strip_tags($article['desc_' . $locale]) !!}</p>
+                                        <p class="sinespacio">{!! $article['desc_' . $locale] !!}</p>
                                     </div>
                                 </div>
                             @endforeach
