@@ -18,7 +18,9 @@
                             <h6 class="text-normal text-bold sinespacioti">{{ trans('index.title2') }}</h6>
                             @foreach($articles as $article)
                                 <div class="seccion-row">
-                                    <h6>{{ $article['title_' . $locale] }}</h6>
+                                    @if (trim($article['title_' . $locale]) != '')
+                                        <h6>{{ $article['title_' . $locale] }}</h6>
+                                    @endif
                                     <div class="content-text">
                                         <p class="sinespacio">{!! $article['desc_' . $locale] !!}</p>
                                     </div>
