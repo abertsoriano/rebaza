@@ -55,11 +55,6 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 
 /* Main Menu Styles Starts */
-	.navbar-nav {
-		float: none;
-		margin: 0 auto;
-		width: 756px;
-	}
 	.main-menu .navbar-nav > li > a {
 		padding-left: 15px;
 		padding-right: 15px;
@@ -129,9 +124,11 @@
 	/* Main Menu Styles Starts */
 
 	.main-menu .navbar-nav > li > a {
-		padding-left: 6px;
-		padding-right: 6px;
+		padding-left: 15px !important;
+		padding-right: 15px !important;
 		font-size: 13px;
+
+
 	}
 		.main-menu .navbar-nav > li > a .fa {
 			margin-left: 3px;
@@ -298,5 +295,13 @@
 	.img-center-xs {
 		margin-left: auto;
 		margin-right: auto;
+	}
+}
+
+@media (min-width: 1024px) {
+	.navbar-nav {
+		width: 907px;
+		margin: 0 auto;
+		float: none;
 	}
 }
