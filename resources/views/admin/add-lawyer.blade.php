@@ -74,7 +74,12 @@
                                             <label for="#">
                                                 <span>Cv</span>
                                                 @if ($lawyer->download_cv_es !== '')
-                                                    <small><a href="{{ asset('abogados_cv/' . $lawyer->download_cv_es) }}">{{ $lawyer->download_cv_es }}</a></small>
+                                                    <span>
+                                                        <a href="{{ asset('abogados_cv/' . $lawyer->download_cv_es) }}">
+                                                            {{ $lawyer->download_cv_es }}
+                                                            <i class="glyphicon glyphicon-download-alt"></i>
+                                                        </a>
+                                                    </span>
                                                 @endif
                                             </label>
                                             <input type="file" name="download_cv_es" class="form-control">
@@ -288,7 +293,12 @@
                                             <label for="#">
                                                 <span>Cv</span>
                                                 @if ($lawyer->download_cv_en !== '')
-                                                    <small><a href="{{ asset('abogados_cv/' . $lawyer->download_cv_en) }}">{{ $lawyer->download_cv_en }}</a></small>
+                                                    <span>
+                                                        <a href="{{ asset('abogados_cv/' . $lawyer->download_cv_en) }}">
+                                                            {{ $lawyer->download_cv_en }}
+                                                            <i class="glyphicon glyphicon-download-alt"></i>
+                                                        </a>
+                                                    </span>
                                                 @endif
                                             </label>
                                             <input type="file" name="download_cv_en" class="form-control">
