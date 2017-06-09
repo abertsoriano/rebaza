@@ -58,7 +58,7 @@
                             <img src="{{ asset('images/abogados/' . $consultor->image) }}" alt="Image" class="img-responsive">
                             @if ($consultor->download_cv_es != '' || $consultor->download_cv_en != '')
                             <p class="txtblue text-bold">
-                                <a target="_blank" href="{{ asset('cv/' . $consultor['download_cv_' . $locale]) }}">{{ $consultor['download_txt_' . $locale] }}</a>
+                                <a target="_blank" href="{{ asset('abogados_cv/' . $consultor['download_cv_' . $locale]) }}">{{ $consultor['download_txt_' . $locale] }}</a>
                             </p>
                             @endif
                         </article>

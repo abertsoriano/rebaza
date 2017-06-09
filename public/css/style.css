@@ -215,20 +215,16 @@ h6 { font-size: 18px; }
 	.news-socios {
 		margin-top:0px;
 		margin-bottom: 15px;
+		color: #111111;
 	}
 	.news-socios p {
 		margin-top: 11px;
-		text-align: justify;
 		padding: 0px;
 		margin-bottom: 0px;
 	    font-size: 11px;
 	    line-height: 1.6;
 	    font-family: Verdana, Geneva, sans-serif;
-    }
-	.news-socios p  span{
-		font-size: 11px;
-		color: #999999;
-		}
+	}
 	.news-socios li {
 	    font-size: 11px;
 	    color: #212121;

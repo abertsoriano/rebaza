@@ -143,9 +143,12 @@
 	    tinymce.DOM.addClass(tinymce.DOM.select('table'), 'table table-bordered');
 	    tinymce.init({
 			selector: '.paq_descripcion, .txt-lawyers',
+			menubar: 'format table',
 	        height: 350,
-			plugins: 'preview table lists textcolor code link',
-	        toolbar: 'undo redo | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | forecolor link | preview code',
+			plugins: 'preview table lists textcolor code link paste',
+			paste_word_valid_elements: "b,strong,i,em,h1,h2,h3,ul,ol,p,a",
+	        toolbar: 'undo redo bold italic strikethrough forecolor fontsizeselect link | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat preview code',
+			fontsize_formats: '8px 10px 11px 12px 13px 14px 16px 18px 24px',
 	        content_css: '/css/tinymce-custom.css',
 	        init_instance_callback: function (editor) {
 	            editor.on('BeforeSetContent', function (e) {
