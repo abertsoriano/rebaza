@@ -52,7 +52,7 @@ class WelcomeController extends Controller {
 
         $this->pages = ['estudios' => $estudios, 'areas' => $areas, 'trabaja' => $trabaja];
 
-        $this->socials = OtherImages::where('type', 2)->get(['link', 'image']);
+        $this->socials = OtherImages::where('type', 2)->latest()->get(['link', 'image']);
     }
 
     /**

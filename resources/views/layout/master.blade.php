@@ -57,7 +57,7 @@ if ($locale === 'en') {
 					</div>
 					<div class="collapse navbar-collapse navbar-cat-collapse">
 						<ul class="nav navbar-nav">
-							<li class="dropdown">
+							<li class="dropdown {{ !is_bool(array_search($currentUri, array_column($pages['estudios'], 'page_slug'))) ? 'active' : '' }}">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">{{ trans('links.nav_1') }}</a>
 								<ul class="dropdown-menu">
 								@foreach($pages['estudios'] as $page)
@@ -67,7 +67,7 @@ if ($locale === 'en') {
 								@endforeach
 								</ul>
 							</li>
-							<li class="dropdown">
+							<li class="dropdown {{ !is_bool(array_search($currentUri, array_column($pages['areas'], 'page_slug'))) ? 'active' : '' }}">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">{{ trans('links.nav_2') }}</a>
 								<ul class="dropdown-menu">
 									@foreach($pages['areas'] as $page)
@@ -77,7 +77,7 @@ if ($locale === 'en') {
 									@endforeach
 								</ul>
 							</li>
-							<li class="dropdown">
+							<li class="dropdown {{ ($currentUri == 'abogadosocios' || $currentUri == 'abogadoasociados' || $currentUri == 'abogadoconsultores' ) ? 'active' : '' }}">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">{{ trans('links.nav_3') }}</a>
 								<ul class="dropdown-menu">
 									<li class="{{ $currentUri === 'abogadosocios' ? 'active' : '' }}">

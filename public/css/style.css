@@ -9,14 +9,6 @@ hr { border-color: #d8d8d8; }
 
 /* Heading Styles Starts */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: Verdana;
-}
 h1 { font-size: 60px; }
 h2 { font-size: 48px; }
 h3 { font-size: 36px; }
@@ -44,12 +36,10 @@ h6 { font-size: 18px; }
 		.top-links li + li {
 			padding-left: 15px;
 			font-size: 14px;
-    		font-family: verdana;
 		}
 			.top-links li a {
 				color: #36A9E1;
 			    font-size: 13px;
-    			font-family: verdana;
 			}
 
 /* Main Menu Styles Starts */
@@ -59,7 +49,6 @@ h6 { font-size: 18px; }
 	background-color: #030305;
 	border: solid #030305;
 	border-width: 0 0 0 0;
-	font-family: Verdana;
     font-size: 14px;
     padding-top: 20px;
 }
@@ -95,7 +84,6 @@ h6 { font-size: 18px; }
 			}
 			.main-menu .dropdown-menu > li > a .fa {
 				margin-right: 5px;
-				font-family: Verdana, Geneva, sans-serif;
     			font-size: 15px;
 			}
 			.main-menu .dropdown-menu > li:hover > a,
@@ -223,7 +211,6 @@ h6 { font-size: 18px; }
 		margin-bottom: 0px;
 	    font-size: 11px;
 	    line-height: 1.6;
-	    font-family: Verdana, Geneva, sans-serif;
 	}
 	.news-socios li {
 	    font-size: 11px;
@@ -381,7 +368,6 @@ h6 { font-size: 18px; }
 	padding:5px 0 5px 0;
 	font-size:13px;
 	color:#000;
-	font-family:Verdana, Geneva, sans-serif;
 	margin: 0;
 	float: left;
 	display: block;
@@ -543,7 +529,6 @@ a.nohover, a.nohover:hover {
 	float:left;
 	color:#737373;
 	font-size:10px;
-	font-family:Verdana, Geneva, sans-serif;
 	width:205px;
 	margin:0 30px 30px 200px;}
 
@@ -556,7 +541,6 @@ a.nohover, a.nohover:hover {
 #contenido_int{
 	width:710px;
 	float:left;
-	font-family:Verdana, Geneva, sans-serif;
 	overflow:hidden;
 	margin-top:20px;
 }
@@ -622,7 +606,6 @@ a.nohover, a.nohover:hover {
 
 #pie {
 	background:url(../images/fondo_pie_sup.png) no-repeat top center;
-	font-family:Verdana, Geneva, sans-serif;
 	font-size:10px;
 	padding: 10px 5px;
 }
@@ -676,7 +659,6 @@ a.nohover, a.nohover:hover {
 	border:none;
 	background:#d7d7d7;
 	width:250px;
-	font-family:Verdana, Geneva, sans-serif;
 	font-size:11px;}
 
 .areadetexto{
@@ -687,19 +669,16 @@ a.nohover, a.nohover:hover {
 	padding:5px;
 	width:250px;
 	height:150px;
-	font-family:Verdana, Geneva, sans-serif;
 	font-size:11px;}
 .error{
 	background:url(../imagenes/x.png) no-repeat 0 2px;
 	padding-left:15px;
-	font-family:Verdana, Geneva, sans-serif;
 	font-size:11px;
 	color:#00ccff;}
 
 .nota{
 	background:url(../imagenes/asterisco.png) no-repeat 0 2px;
 	padding-left:15px;
-	font-family:Verdana, Geneva, sans-serif;
 	font-size:11px;
 	color:#737373;}
 
