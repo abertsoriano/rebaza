@@ -10,7 +10,9 @@
                     <div class="col-sm-6 col-xs-12">
                         <article class="news-block">
                             <h6 class="text-normal text-bold sinespacioti">{{ $homeData['name_' . $locale] }}</h6>
-                            <div class="sinespacio">{!! $homeData['text_' . $locale] !!}</div>
+                            <div class="content-text">
+                                <div class="sinespacio">{!! $homeData['text_' . $locale] !!}</div>
+                            </div>
                         </article>
                     </div>
                     <div class="navbarbarra col-sm-6 col-xs-12">
@@ -22,7 +24,7 @@
                                         <h6>{{ $article['title_' . $locale] }}</h6>
                                     @endif
                                     <div class="content-text">
-                                        <p class="sinespacio">{!! $article['desc_' . $locale] !!}</p>
+                                        {!! $article['desc_' . $locale] !!}
                                     </div>
                                 </div>
                             @endforeach

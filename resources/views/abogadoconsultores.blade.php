@@ -24,7 +24,7 @@
 							</h4>
 						</article>
 					</div>
-					<div class="col-sm-8 col-xs-12">
+					<div class="col-sm-9 col-xs-12">
 						<ul class="news-block">
                         @foreach($consultores as $consultor)
                             <li class="col-md-6 col-sm-12">

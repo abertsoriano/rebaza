@@ -1,9 +1,25 @@
-a { color: #36A9E1; }
-a:hover,
-a:focus {
-	color: #b4321e;
+/**
+ * Basic styling
+ */
+body {
+	font: 16px/1.5 Verdana, Helvetica, Arial, sans-serif;
+	color: #111;
+	background-color: #fdfdfd;
+	-webkit-text-size-adjust: 100%;
 }
-a:focus { outline: none; }
+
+/**
+ * Links
+ */
+a {
+	color: #111;}
+a:focus {
+	text-decoration: none;
+	outline: none;
+}
+a:hover {
+	color: #36A9E1 !important;
+	text-decoration: none; }
 
 hr { border-color: #d8d8d8; }
 
@@ -190,7 +206,7 @@ h6 { font-size: 18px; }
 			color: #36A9E1;
 		}
 		.news-event-teaser .sinespacio, .news-block .content-text p {
-			line-height: 1.1;
+			line-height: 1.2;
 			padding-bottom: 0px;
 			margin-bottom: 0px;
 		}
@@ -203,7 +219,6 @@ h6 { font-size: 18px; }
 	.news-socios {
 		margin-top:0px;
 		margin-bottom: 15px;
-		color: #111111;
 	}
 	.news-socios p {
 		margin-top: 11px;
@@ -228,15 +243,15 @@ h6 { font-size: 18px; }
 		margin-top: 10px;
 		text-align: justify;
 		margin-bottom: 0px;
-		line-height: 1.6;
+		line-height: 1.5;
 	}
 	.modal .panel-title p {
 		margin-top: 0 !important;
 	}
-	.news-block p  span{
+	/*.news-block p span{
 		font-size: 14px;
 		color: #999999;
-		}
+		}*/
 
 	.bullet{
 		list-style:none;
@@ -244,22 +259,10 @@ h6 { font-size: 18px; }
 		padding:0px;
 		}
 	.news-block li {
-	    font-size: 15px;
-	    color: #474747;
         list-style: url(../images/bullet.gif);
         margin-bottom: 12px;
 		padding-left: 0;
 	}
-
-	.news-block  a:hover,
-	.news-block li a:hover,
-	.news-block li .fa,
-	.news-block li a:hover,
-	.news-block li a:focus,
-	.news-block li a:active {
-		color: #36A9E1;
-        text-decoration: none;
-    }
 
 	.news-block .der{
 		text-align:right;
@@ -367,7 +370,6 @@ h6 { font-size: 18px; }
 	list-style-type: none;
 	padding:5px 0 5px 0;
 	font-size:13px;
-	color:#000;
 	margin: 0;
 	float: left;
 	display: block;
@@ -384,7 +386,6 @@ h6 { font-size: 18px; }
 
 .accordion a {
 	text-decoration: none;
-	color:#000;
 	display: block;
 	cursor: pointer;
 	background:url(../images/flecha_abogados.gif) no-repeat 2px 4px;
@@ -687,9 +688,6 @@ a.nohover, a.nohover:hover {
     font-weight: bold;
     font-size: 1.1em;
     color: #333;
-}
-.content-text a {
-    color: #2828e2;
 }
 .content-articles {
     color: #474747;
