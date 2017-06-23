@@ -50,9 +50,16 @@ class OtherImagesController extends Controller {
 	public function store(Request $request)
 	{
 		$params = $request->all();
-		$v = Validator::make($params, [
+		$rules = [
 			'image' => 'required|image|max:1500',
-			'link' => 'required|url'
+		];
+
+		if ($params['type'] == 2) {
+			$rules['link'] = 'required|url';
+		}
+
+		$v = Validator::make($params, [
+			'image' => 'required|image|max:1500'
 		]);
 
 		if ($v->fails()) {

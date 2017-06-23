@@ -70,7 +70,7 @@ class WelcomeController extends Controller {
 
 		$quotes = Quotes::latest()->get();
 
-		$sidebarImages = OtherImages::where('type', 1)->get(['image']);
+		$sidebarImages = OtherImages::where('type', 1)->latest()->get(['image']);
 		$socialIcons = $this->socials;
 
 		return view('index', compact('articles', 'locale', 'homeData', 'pages', 'quotes', 'sidebarImages', 'socialIcons'));

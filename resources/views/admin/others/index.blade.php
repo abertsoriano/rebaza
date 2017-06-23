@@ -9,7 +9,10 @@
 
 				<div class="panel-body list-others">
 					@include('errors.show-errors')
-					<h2>Página de Inicio</h2>
+					<h2>
+						Página de Inicio -
+						<a href="#modal-others-img" class="btn btn-sm btn-primary" data-type="1" data-toggle="modal">Nueva imagen</a>
+					</h2>
 					@foreach($sidebarImages as $images)
 						<div class="col-sm-3">
 							<div class="thumbnail">
