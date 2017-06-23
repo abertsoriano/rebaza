@@ -1,3 +1,26 @@
+body {
+	font: 13px/1.3 Verdana;
+	color: #111111;
+	background-color: #fdfdfd;
+	margin: 8px;
+}
+
+h6 { font-size: 18px; }
+
+a {
+	color: #111111;
+	text-decoration: none;
+}
+a:hover {
+	color: #36A9E1 !important;
+	text-decoration: none; }
+
+li {
+	font-size: 12px;
+	margin-top: 3px;
+	list-style-image: url(../../images/bullet.gif)
+}
+
 .mce-content-body table{width:100%;border-spacing:0;border-collapse:separate;border:1px solid #aaa}
 .mce-content-body table tr:nth-child(even){background:#FAFAFA}
 .mce-content-body table caption,.mce-content-body table td,.mce-content-body table th{padding:15px 7px;font:inherit}

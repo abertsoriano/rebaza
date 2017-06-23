@@ -145,11 +145,29 @@
 			selector: '.paq_descripcion, .txt-lawyers',
 			menubar: 'format table',
 	        height: 350,
-			plugins: 'preview table lists textcolor code link paste',
-			paste_word_valid_elements: "b,strong,i,em,h1,h2,h3,ul,ol,p,a",
-	        toolbar: 'undo redo bold italic strikethrough forecolor fontsizeselect link | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat preview code',
+			style_formats: [
+				{title: 'Color Celeste', inline: 'span', styles: { color: '#36A9E1' }},
+				{title: 'Color Gris', inline: 'span', styles: { color: '#999999' }},
+				{title: 'Parrafo', block: 'p'},
+
+				{ title: 'Headers', items: [
+					{title: 'Header 3', block: 'h3'},
+					{title: 'Header 4', block: 'h4'},
+					{title: 'Header 5', block: 'h5'},
+					{title: 'Header 6', block: 'h6'}
+				]},
+				{ title: 'Containers', items: [
+					{ title: 'div', block: 'div', wrapper: true, merge_siblings: false},
+					{ title: 'section', block: 'section', wrapper: true, merge_siblings: false },
+					{ title: 'article', block: 'article', wrapper: true, merge_siblings: false },
+					{ title: 'blockquote', block: 'blockquote', wrapper: true }
+				] }
+			],
+			plugins: 'preview table lists code link paste contextmenu',
+			paste_word_valid_elements: "b,strong,i,em,h1,h2,h3,h4,h5,h6,ul,ol,p,a",
+	        toolbar: 'undo redo bold italic strikethrough fontsizeselect link | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat preview code',
 			fontsize_formats: '8px 10px 11px 12px 13px 14px 16px 18px 24px',
-	        content_css: '/css/tinymce-custom.css',
+	        content_css: ['/css/bootstrap.min.css', '/css/tinymce-custom.css'],
 	        init_instance_callback: function (editor) {
 	            editor.on('BeforeSetContent', function (e) {
 	                if (e.content.match('table')) {
@@ -158,7 +176,8 @@
 	                    e.content = e.content + '';
 					}
 	            });
-	        }
+	        },
+			contextmenu: 'bold italic link strikethrough | removeformat | formats'
 		});
 	    $('div.container').on('click', '.confirm-delete', function (e) {
 	    	var type = $(e.currentTarget).data('role');
