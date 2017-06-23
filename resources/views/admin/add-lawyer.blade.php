@@ -73,13 +73,17 @@
                                         <div class="col-sm-6">
                                             <label for="#">
                                                 <span>Cv</span>
-                                                @if ($lawyer->download_cv_es !== '')
+                                                @if ($lawyer->download_cv_es !== '' && !is_null($lawyer->download_cv_es))
                                                     <span>
                                                         <a href="{{ asset('abogados_cv/' . $lawyer->download_cv_es) }}">
                                                             {{ $lawyer->download_cv_es }}
                                                             <i class="glyphicon glyphicon-download-alt"></i>
                                                         </a>
                                                     </span>
+                                                    &nbsp;
+                                                    <a href="{{ route('destroyLawyerCv', [$lawyer->id, 'es']) }}" class="btn btn-xs btn-danger confirm-delete" role="button">
+                                                        ELIMINAR CV <i class="glyphicon glyphicon-remove"></i>
+                                                    </a>
                                                 @endif
                                             </label>
                                             <input type="file" name="download_cv_es" class="form-control">
@@ -292,13 +296,17 @@
                                         <div class="col-sm-6">
                                             <label for="#">
                                                 <span>Cv</span>
-                                                @if ($lawyer->download_cv_en !== '')
+                                                @if ($lawyer->download_cv_en !== '' && !is_null($lawyer->download_cv_en))
                                                     <span>
                                                         <a href="{{ asset('abogados_cv/' . $lawyer->download_cv_en) }}">
                                                             {{ $lawyer->download_cv_en }}
                                                             <i class="glyphicon glyphicon-download-alt"></i>
                                                         </a>
                                                     </span>
+                                                    &nbsp;
+                                                    <a href="{{ route('destroyLawyerCv', [$lawyer->id, 'en']) }}" class="btn btn-xs btn-danger confirm-delete" role="button">
+                                                        ELIMINAR CV <i class="glyphicon glyphicon-remove"></i>
+                                                    </a>
                                                 @endif
                                             </label>
                                             <input type="file" name="download_cv_en" class="form-control">

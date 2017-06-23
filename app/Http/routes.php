@@ -37,6 +37,7 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'private'], function ($route
 	$route->get('lawyers/{id}/activate', ['as' => 'activateLawyer', 'uses' => 'LawyerController@update']);
 	$route->get('lawyers/{id}/inactivate', ['as' => 'inactivateLawyer', 'uses' => 'LawyerController@inactivate']);
 	$route->get('lawyers/{id}/force-delete', ['as' => 'destroyLawyer', 'uses' => 'LawyerController@destroy']);
+	$route->get('lawyers/{id}/delete-cv/{lang}', ['as' => 'destroyLawyerCv', 'uses' => 'LawyerController@deleteCv']);
 
 	// Pages
     $route->get('page/{page}', ['as' => 'pageIndex', 'uses' => 'PageController@index']);

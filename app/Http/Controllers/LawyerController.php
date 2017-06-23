@@ -194,6 +194,23 @@ class LawyerController extends Controller {
 		return redirect()->back();
 	}
 
+	public function deleteCv($id, $lang) {
+
+		$lawyer = Lawyer::find($id);
+
+		if ($lang == 'es') {
+			File::delete('abogados_cv/' . $lawyer->download_cv_es);
+			$lawyer->download_cv_es = null;
+		} else {
+			File::delete('abogados_cv/' . $lawyer->download_cv_en);
+			$lawyer->download_cv_en = null;
+		}
+
+		$lawyer->save();
+
+		return redirect()->back();
+	}
+
 	private function getTypes() {
 	    return [['id' => '', 'name' => 'Seleccione'], ['id' => 1, 'name' => 'Socio'], ['id' => 2, 'name' => 'Asociados'], ['id' => 3, 'name' => 'Consultores']];
 	}
