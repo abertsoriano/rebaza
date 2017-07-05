@@ -10,7 +10,7 @@
 				<div class="row">
 					<div class="col-sm-3 col-xs-12">
 						<article class="news-block">
-							<img src="images/abogados.jpg" alt="FoodBingo" class="logo img-responsive">
+							<img src="images/abogados.jpg" alt="Abogados" class="logo img-responsive">
 						</article>
 					</div>
 					<div class="col-sm-9 col-xs-12">

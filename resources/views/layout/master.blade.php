@@ -9,13 +9,13 @@ if ($locale === 'en') {
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="author" content="Rebaza, Alcazar & De Las Casas">
 
 	<title>Rebaza, Alcazar @yield('title', '')</title>
 	<link href="{{ asset('css/main.css') }}?c={{ time() }}" rel="stylesheet">
@@ -39,9 +39,11 @@ if ($locale === 'en') {
 						</ul>
 					</div>
 					<div class="col-sm-12 col-xs-12 text-center center-block">
-						<a href="{{ route('index') }}">
-							<img src="{{ asset('images/logo.png') }}" alt="Rebaza, Alcázar &amp; De Las Casas" class="img-responsive img-center-sm img-center-xs">
-						</a>
+						<h1 class="main-title">
+							<a href="{{ route('index') }}">
+								<img src="{{ asset('images/logo.png') }}" alt="Rebaza, Alcázar &amp; De Las Casas" class="img-responsive">
+							</a>
+						</h1>
 					</div>
 
 				</div>
@@ -125,6 +127,8 @@ if ($locale === 'en') {
 							</a>
 							@endforeach
 						</span>
+						<br>
+						<span>Contacto: lorena.luna@rebaza-alcazar.com</span>
 					</div>
 					<div id="pie_der" class="col-sm-6">
 						<span>Diseñado por <a href="http://www.agenciacranium.com/" target="_blank">Agencia Cranium</a></span>
@@ -137,10 +141,6 @@ if ($locale === 'en') {
 		<script src="{{ asset('js/bootstrap.min.js') }}"></script>
 		<script src="{{ asset('js/plugins/owl-carousel/owl.carousel.js') }}"></script>
 		<script src="{{ asset('js/plugins/slick/slick.min.js') }}"></script>
-		<script src="{{ asset('js/wow.js') }}"></script>
-		<script>
-			new WOW().init();
-		</script>
 		<script src="{{ asset('js/acordeon/jquery.accordion.js') }}"></script>
 		<script src="{{ asset('js/acordeon/jquery.accordion.source.js') }}"></script>
 		<script src="{{ asset('js/custom.js') }}"></script>

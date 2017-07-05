@@ -11,7 +11,7 @@
                 <div class="row">
                     <div class="col-sm-3 col-xs-12">
                         <article class="news-block ">
-                            <img src="{{ asset('images/' . strtolower($page->type) . '/' . $page->image) }}" alt="FoodBingo" class="logo img-responsive">
+                            <img src="{{ asset('images/' . strtolower($page->type) . '/' . $page->image) }}" alt="{{ $page->image}}" class="logo img-responsive">
                         </article>
                     </div>
                     <div class="col-sm-9 col-xs-12">

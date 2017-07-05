@@ -24,7 +24,7 @@
 		</div>
 		<div class="slick-gallery">
 			@foreach($galleries as $gallery)
-				<div><img src="images/gallery/thumb/{{ $gallery->image }}" alt="" class="img-responsive"></div>
+				<div><img src="images/gallery/thumb/{{ $gallery->image }}" alt="{{ $gallery->image }}" class="img-responsive"></div>
 			@endforeach
 		</div>
 	</div>
@@ -35,7 +35,7 @@
 			<div class="modal-body">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				<div class="row">
-					<img src="images/gallery/{{ $galleries->first()->image }}" alt="" class="modal-img-gallery img-responsive center-block">
+					<img src="images/gallery/{{ $galleries->first()->image }}" alt="{{ $galleries->first()->image }}" class="modal-img-gallery img-responsive center-block">
 				</div>
 			</div>
 		</div>

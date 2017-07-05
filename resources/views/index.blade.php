@@ -55,7 +55,7 @@
                     </h2>
                     @foreach($sidebarImages as $image)
                         <article class="news-block">
-                            <img src="images/{{ $image->image }}" alt="{{ $image->image }}" class="img-responsive">
+                            <img src="images/{{ $image->image }}" alt="{{ $image->image }}" class="img-responsive" alt="{{ $image->image }}">
                         </article>
                     @endforeach
                 </div>

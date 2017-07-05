@@ -11,7 +11,7 @@
 				<div class="row">
 					<div class="col-sm-3 col-xs-12">
 						<article class="news-block ">
-							<img src="images/trabajaconnosotros.png" alt="FoodBingo" class="logo img-responsive">
+							<img src="images/trabajaconnosotros.png" alt="Trabaja Con Nosotros" class="logo img-responsive">
 						</article>
 					</div>
 					<div class="col-sm-8 col-md-6">
