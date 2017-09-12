@@ -79,7 +79,7 @@
 				<h4 class="modal-title">Terminnos y Condiciones</h4>
 			</div>
 			<div class="modal-body">
-				<p>Mediante el envío de su información, está autorizando expresamente a Rebaza & Alcázar S.Civil de R.L. el tratamiento de sus datos personales para las finalidades dadas a conocer en la Política de Privacidad y Protección de Datos Personales que está disponible <a href="https://drive.google.com/file/d/0B8ifxhMM61zuXzF4d3F1cHRWQ2s/view" target="_blank">en este enlace</a></p>
+				<p>Mediante el envío de su información, está autorizando expresamente a Rebaza & Alcázar S.Civil de R.L. el tratamiento de sus datos personales para las finalidades dadas a conocer en la Política de Privacidad y Protección de Datos Personales que está disponible <a href="https://drive.google.com/file/d/0B8ifxhMM61zuXzF4d3F1cHRWQ2s/view" style="color: #36A9E1; text-decoration: underline;" target="_blank">en este enlace</a></p>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-default" data-dismiss="modal">No Enviar</button>
