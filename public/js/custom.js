@@ -138,4 +138,31 @@ $(function() {
 		autoplay: true,
 		arrows: false
 	});
+
+	var $frmTrabaja = $('#frmTrabajaConNosotros');
+	if ($frmTrabaja.length) {
+		var $modal = $('#modalTerminos');
+		var agreed = false;
+
+		$('#isOk').click(function() {
+			agreed = true;
+			$modal.modal('hide');
+		});
+		$frmTrabaja.on('submit', function(e) {
+			if (!agreed) {
+				e.preventDefault();
+				$modal.modal({backdrop: 'static', keyboard: false, show: true});
+
+				return;
+			}
+
+			$('#btnEnviar').val('Enviando...').prop('disabled', true);
+		});
+
+		$modal.on('hidden.bs.modal', function(e) {
+			if (agreed) {
+				$frmTrabaja.submit();
+			}
+		});
+	}
 });
