@@ -27,7 +27,7 @@ return [
 		'sub_3_2' => 'Asociados',
 		'sub_3_3' => 'Consultores',
 
-	'nav_4' => 'Reconocimentos y Noticias',
+	'nav_4' => 'Blog RAD',
 	'nav_5' => 'Oficinas',
 	'nav_6' => 'Trabaja con Nosotros',
 

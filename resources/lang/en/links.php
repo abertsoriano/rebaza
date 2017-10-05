@@ -27,7 +27,7 @@ return [
 		'sub_3_2' => 'Associates',
 		'sub_3_3' => 'Counsel',
 
-	'nav_4' => 'Awards & News',
+	'nav_4' => 'Blog RAD',
 	'nav_5' => 'Offices',
 	'nav_6' => 'Recruiting',
 
