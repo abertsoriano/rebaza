@@ -37,8 +37,8 @@
                         <div class="item">
                             <article class="news-block col-sm-12">
                                 <h5 class="text-justify">
-                                    {{ $quote['message_' . $locale] }}
-                                    <br>{{ $quote['name'] }} <span>{{ $quote['rol_' . $locale] }}</span>
+                                    {!! $quote['message_' . $locale] !!}
+                                    <div>{{ $quote['name'] }} <span>{{ $quote['rol_' . $locale] }}</span></div>
                                 </h5>
                             </article>
                         </div>

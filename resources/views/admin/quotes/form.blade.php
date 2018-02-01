@@ -38,14 +38,14 @@
                                 <div class="col-sm-12">
                                     <hr>
                                     <h3>Contenido en Español</h3>
-                                    <textarea name="message_es" id="message_es" class="form-control" rows="4">{{ old('message_es', $quote->message_es) }}</textarea>
+                                    <textarea name="message_es" id="message_es" class="form-control paq_descripcion" rows="4">{{ old('message_es', $quote->message_es) }}</textarea>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-12">
                                     <hr>
                                     <h3>Contenido en Inglés</h3>
-                                    <textarea name="message_en" id="message_en" class="form-control" rows="4">{{ old('message_en', $quote->message_en) }}</textarea>
+                                    <textarea name="message_en" id="message_en" class="form-control paq_descripcion" rows="4">{{ old('message_en', $quote->message_en) }}</textarea>
                                 </div>
                             </div>
                             <div class="form-group">

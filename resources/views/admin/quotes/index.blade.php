@@ -13,7 +13,7 @@
                         <div class="row">
                             <div class="padded">
                                 <blockquote>
-                                    {{ $quote->message_es }}
+                                    {!! $quote->message_es !!}
                                     <h5>{{ $quote->name }} <small>{{ $quote->rol_es }}</small></h5>
                                 </blockquote>
                                 <div>
