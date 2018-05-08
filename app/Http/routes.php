@@ -86,12 +86,6 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'private'], function ($route
 	$route->get('rse-images/{id}/delete', ['as' => 'rseDelete', 'uses' => 'RseController@destroy']);
 });
 
-$locale = 'es';
-if (Cache::has('locale')) {
-	$locale = Cache::get('locale');
-	App::setLocale($locale);
-}
-
 Route::get('/user-intranet/CS90PRD/cmd=login', ['as' => 'login', 'uses' => 'Auth\AuthController@getLogin']);
 Route::post('login', 'Auth\AuthController@postLogin');
 

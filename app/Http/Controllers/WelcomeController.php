@@ -11,6 +11,7 @@ use App\Lawyer;
 use App\OtherImages;
 use App\Http\Requests\SendCvRequest;
 use File;
+use App;
 use Mail;
 use App\Page;
 
@@ -43,6 +44,7 @@ class WelcomeController extends Controller {
 			$this->locale = 'es';
 			Cache::forever('locale', $this->locale, 17200);
 		}
+		App::setLocale($this->locale);
 
         $pages = Page::all(['id', 'page_slug', 'name_es', 'name_en', 'type']);
 

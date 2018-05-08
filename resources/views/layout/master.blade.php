@@ -32,6 +32,15 @@ if ($locale === 'en') {
 				<div class="row">
 
 					<div class="col-sm-12">
+						<ul class="list-unstyled pull-left">
+							@foreach($socialIcons as $social)
+								<li style="display: inline-block">
+									<a href="{{ $social->link }}" target="_blank">
+										<img src="{{ asset('images/' . $social->image) }}" style="width: 25px;height: 25px;">
+									</a>
+								</li>
+							@endforeach
+						</ul>
 						<ul class="list-unstyled list-inline top-links">
 							<li>
 								<a href="{{ route('changeLocale') }}?locale={{ $localeChange }}">{{ $linkTxt }}</a>
@@ -121,17 +130,11 @@ if ($locale === 'en') {
 					<div id="pie_izq" class="col-sm-6">
 						<span>
 							&copy; Copyright Todos los Derechos Reservados &nbsp;
-							@foreach($socialIcons as $social)
-							<a href="{{ $social->link }}" target="_blank">
-								<img src="{{ asset('images/' . $social->image) }}" style="width: 20px;height: 20px;">
-							</a>
-							@endforeach
 						</span>
 						<br>
-						<span>Contacto: lorena.luna@rebaza-alcazar.com</span>
+						<span>Contacto: consultas@rebaza-alcazar.com</span>
 					</div>
 					<div id="pie_der" class="col-sm-6">
-						<span>Diseñado por <a href="http://www.agenciacranium.com/" target="_blank">Agencia Cranium</a></span>
 					</div>
 				</div>
 			</div>
