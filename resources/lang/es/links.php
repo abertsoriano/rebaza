@@ -25,7 +25,8 @@ return [
 	'nav_3' => 'Abogados',
 		'sub_3_1' => 'Socios',
 		'sub_3_2' => 'Asociados',
-		'sub_3_3' => 'Consultores',
+		'sub_3_3' => 'Consejeros',
+		'sub_3_4' => 'Consejeros Externos',
 
 	'nav_4' => 'Blog RAD',
 	'nav_5' => 'Oficinas',

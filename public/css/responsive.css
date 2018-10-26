@@ -296,6 +296,11 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	#titulo_mudanza {
+		margin-top: 26px;
+		margin-bottom: 28px;
+	}
 }
 
 @media (min-width: 1024px) {

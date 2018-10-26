@@ -99,8 +99,8 @@ Route::get('language', ['as' => 'changeLocale', 'uses' => 'WelcomeController@cha
 
 Route::get('/', ['as' => 'index', 'uses' => 'WelcomeController@index']);
 Route::get('abogadoasociados', ['as' => 'abogadoasociados', 'uses' => 'WelcomeController@abogadoasociados']);
-Route::get('abogadoconsultores', ['as' => 'abogadoconsultores', 'uses' => 'WelcomeController@abogadoconsultores']);
 Route::get('abogadosocios', ['as' => 'abogadosocios', 'uses' => 'WelcomeController@abogadosocios']);
+Route::get('abogadoconsejeros', ['as' => 'abogadoconsejeros', 'uses' => 'WelcomeController@abogadoconsejeros']);
 
 Route::get('estudiodiferencia', ['as' => 'estudiodiferencia', 'uses' => 'WelcomeController@estudiodiferencia']);
 Route::get('galeria', ['as' => 'galeria', 'uses' => 'WelcomeController@galeria']);

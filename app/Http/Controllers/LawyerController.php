@@ -212,7 +212,13 @@ class LawyerController extends Controller {
 	}
 
 	private function getTypes() {
-	    return [['id' => '', 'name' => 'Seleccione'], ['id' => 1, 'name' => 'Socio'], ['id' => 2, 'name' => 'Asociados'], ['id' => 3, 'name' => 'Consultores']];
+	    return [
+	    	['id' => '', 'name' => 'Seleccione'],
+		    ['id' => 1, 'name' => 'Socio'],
+		    ['id' => 2, 'name' => 'Asociados'],
+		    ['id' => 3, 'name' => 'Consejeros'],
+		    ['id' => 4, 'name' => 'Consejeros Externos']
+	    ];
 	}
 
 	private function customValidate($request) {

@@ -98,8 +98,8 @@ if ($locale === 'en') {
 									<li class="{{ $currentUri === 'abogadoasociados' ? 'active' : '' }}">
 										<a href="{{ route('abogadoasociados') }}">{{ trans('links.sub_3_2') }}</a>
 									</li>
-									<li class="{{ $currentUri === 'abogadoconsultores' ? 'active' : '' }}">
-										<a style="border:none;" href="{{ route('abogadoconsultores') }}">{{ trans('links.sub_3_3') }}</a>
+									<li class="{{ $currentUri === 'abogadoconsejeros' ? 'active' : '' }}">
+										<a href="{{ route('abogadoconsejeros') }}" style="border:none;">{{ trans('links.sub_3_3') }}</a>
 									</li>
 								</ul>
 							</li>

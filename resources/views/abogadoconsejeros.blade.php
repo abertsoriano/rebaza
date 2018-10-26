@@ -1,6 +1,6 @@
 @extends('layout.master')
 
-@section('title', '- Abogados Consultores')
+@section('title', '- Abogados Consejeros')
 
 @section('content')
 <section class="news-event-teaser section text-center-xs">
@@ -16,23 +16,39 @@
 					</div>
 					<div class="col-sm-9">
 						<article class="news-block">
-							<h6 class="text-normal text-bold">{{ trans('abogadoConsultores.title') }}</h6>
+							<h6 class="text-normal text-bold">{{ trans('abogadoConsejeros.title') }}</h6>
 							<h4 class="text-normal text-bold">
-								<a class="abogados" href="{{ route('abogadosocios') }}">{{ trans('abogadoConsultores.title_1') }}</a>
-								<a class="abogados" href="{{ route('abogadoasociados') }}">{{ trans('abogadoConsultores.title_2') }}</a>
-                                {{ trans('abogadoConsultores.title_3') }}
+								<a class="abogados" href="{{ route('abogadosocios') }}">{{ trans('abogadoConsejeros.title_1') }}</a>
+								<a class="abogados" href="{{ route('abogadoasociados') }}">{{ trans('abogadoConsejeros.title_2') }}</a>
+                                {{ trans('abogadoConsejeros.title_3') }}
 							</h4>
 						</article>
 					</div>
 					<div class="col-sm-9 col-xs-12">
-						<ul class="news-block">
-                        @foreach($consultores as $consultor)
-                            <li class="col-md-6 col-sm-12">
-                                <a href="#{{ str_slug($consultor->name, '_') }}" data-toggle="modal">{{ $consultor->name }}</a>
-                                <div>{{ $consultor->email }}</div>
-                            </li>
-                        @endforeach
-						</ul>
+						<div class="row">
+							<div class="col-md-6">
+								<h4 class="text-bold">{{ trans('abogadoConsejeros.sub_title_1') }}</h4>
+								<ul class="news-block">
+									@foreach($consultores as $consultor)
+										<li>
+											<a href="#{{ str_slug($consultor->name, '_') }}" data-toggle="modal">{{ $consultor->name }}</a>
+											<div>{{ $consultor->email }}</div>
+										</li>
+									@endforeach
+								</ul>
+							</div>
+							<div class="col-md-6">
+								<h4 class="text-bold">{{ trans('abogadoConsejeros.sub_title_2') }}</h4>
+								<ul class="news-block">
+									@foreach($consultoresExternos as $consultor)
+										<li>
+											<a href="#{{ str_slug($consultor->name, '_') }}" data-toggle="modal">{{ $consultor->name }}</a>
+											<div>{{ $consultor->email }}</div>
+										</li>
+									@endforeach
+								</ul>
+							</div>
+						</div>
 					</div>
 
 				</div>

@@ -78,6 +78,21 @@ class WelcomeController extends Controller {
 		return view('index', compact('articles', 'locale', 'homeData', 'pages', 'quotes', 'sidebarImages', 'socialIcons'));
 	}
 
+	public function indexDemo() {
+		$articles = Article::where('status', 2)->latest()->get($this->fields)->toArray();
+		$homeData = Page::find(1);
+
+		$locale = $this->locale;
+		$pages = $this->pages;
+
+		$quotes = Quotes::latest()->get();
+
+		$sidebarImages = OtherImages::where('type', 1)->latest()->get(['image']);
+		$socialIcons = $this->socials;
+
+		return view('index-demo', compact('articles', 'locale', 'homeData', 'pages', 'quotes', 'sidebarImages', 'socialIcons'));
+	}
+
 	public function abogadoasociados()
 	{
         $asociados = Lawyer::where('type', 2)->orderBy('name')->get();
@@ -88,14 +103,15 @@ class WelcomeController extends Controller {
 		return view('abogadoasociados', compact('asociados', 'locale', 'pages', 'socialIcons'));
 	}
 
-	public function abogadoconsultores()
+	public function abogadoconsejeros()
 	{
         $consultores = Lawyer::where('type', 3)->orderBy('name')->get();
+        $consultoresExternos = Lawyer::where('type', 4)->orderBy('name')->get();
         $locale = $this->locale;
         $pages = $this->pages;
 		$socialIcons = $this->socials;
 
-		return view('abogadoconsultores', compact('consultores', 'locale', 'pages', 'socialIcons'));
+		return view('abogadoconsejeros', compact('consultores', 'locale', 'pages', 'socialIcons', 'consultoresExternos'));
 	}
 
 	public function abogadosocios()

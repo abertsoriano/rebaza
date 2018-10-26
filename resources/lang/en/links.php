@@ -25,7 +25,8 @@ return [
 	'nav_3' => 'Lawyers',
 		'sub_3_1' => 'Partners',
 		'sub_3_2' => 'Associates',
-		'sub_3_3' => 'Counsel',
+		'sub_3_3' => 'Counsels',
+		'sub_3_4' => 'Off Counsels',
 
 	'nav_4' => 'Blog RAD',
 	'nav_5' => 'Offices',

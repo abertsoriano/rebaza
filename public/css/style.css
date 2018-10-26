@@ -698,3 +698,8 @@ a.nohover, a.nohover:hover {
 	border-top: 1px solid #f1f1f1;
 	padding-top: 10px;
 }
+#titulo_mudanza {
+	font-weight: bold;
+	margin-top: 58px;
+	margin-bottom: 60px
+}

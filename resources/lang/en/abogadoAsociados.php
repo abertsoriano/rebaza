@@ -7,7 +7,7 @@
  */
  return [
      'title' => 'Lawyers',
-     'sub_title' => '<a class="abogados" href="abogadosocios">Partners</a> Associates <a class="abogados" href="abogadoconsultores">Counsel</a>',
+     'sub_title' => '<a class="abogados" href="abogadosocios">Partners</a> Associates <a class="abogados" href="abogadoconsejeros">Counsels</a>',
 
      'modal_title' => 'Associate',
      'modal_title_f' => 'Associate',

@@ -10,7 +10,8 @@
                             <select class="form-control" id="lawyer-type">
                                 <option value="1" {{ $type == 1 ? 'selected' : '' }}>SOCIOS</option>
                                 <option value="2" {{ $type == 2 ? 'selected' : '' }}>ASOCIADOS</option>
-                                <option value="3" {{ $type == 3 ? 'selected' : '' }}>CONSULTORES</option>
+                                <option value="3" {{ $type == 3 ? 'selected' : '' }}>CONSEJEROS</option>
+                                <option value="4" {{ $type == 4 ? 'selected' : '' }}>CONSEJEROS EXTERNOS</option>
                             </select>
                         </div>
                         | &nbsp; <a href="{{ route('addLawyer', $type) }}" class="btn btn-primary">Nuevo Abogado</a></div>

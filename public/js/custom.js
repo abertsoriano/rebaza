@@ -165,4 +165,6 @@ $(function() {
 			}
 		});
 	}
+
+	$('#modal_mudanza').modal('show');
 });

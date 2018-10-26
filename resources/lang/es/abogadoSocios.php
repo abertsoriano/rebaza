@@ -10,7 +10,7 @@ return [
     'title' => 'Abogados',
     'sub_title' => 'Socios
                     <a class="abogados" href="abogadoasociados">Asociados</a>
-                    <a class="abogados" href="abogadoconsultores">Consultores</a>',
+                    <a class="abogados" href="abogadoconsejeros">Consejeros</a>',
 
     'list_1' => '<li>
                     <a href="#terminos" data-toggle="modal">Alberto Rebaza</a>

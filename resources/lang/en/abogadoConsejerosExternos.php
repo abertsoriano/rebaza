@@ -11,7 +11,7 @@ return [
 
     'title_1' => 'Partners',
     'title_2' => 'Associates',
-    'title_3' => 'Counsel',
+    'title_3' => 'Off Counsels',
 
     'txt' => 'Counsel',
     'download' => 'Download Bio',
