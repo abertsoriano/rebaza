@@ -57,7 +57,7 @@
 	</div>
 </section>
 
-@foreach($consultores as $consultor)
+@foreach($all as $consultor)
 <div class="modal fade" id="{{ str_slug($consultor->name, '_') }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content row">

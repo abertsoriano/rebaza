@@ -12,8 +12,8 @@ return [
     'title_1' => 'Socios',
     'title_2' => 'Asociados',
     'title_3' => 'Consejeros',
-	'sub_title_1' => 'Consejero',
-	'sub_title_2' => 'Consejero Externo',
+	'sub_title_1' => 'Consejeros',
+	'sub_title_2' => 'Consejeros Externos',
 
     'txt' => 'Consultor',
     'download' => 'Descargar Bio',

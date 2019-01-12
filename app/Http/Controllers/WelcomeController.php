@@ -110,8 +110,9 @@ class WelcomeController extends Controller {
         $locale = $this->locale;
         $pages = $this->pages;
 		$socialIcons = $this->socials;
+		$all = $consultores->merge($consultoresExternos);
 
-		return view('abogadoconsejeros', compact('consultores', 'locale', 'pages', 'socialIcons', 'consultoresExternos'));
+		return view('abogadoconsejeros', compact('consultores', 'locale', 'pages', 'socialIcons', 'consultoresExternos', 'all'));
 	}
 
 	public function abogadosocios()

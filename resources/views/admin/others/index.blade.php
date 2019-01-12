@@ -21,8 +21,8 @@
 									<div>
 										<hr>
 										<a href="#modal-others-img" class="btn btn-primary" data-toggle="modal" data-type="1" data-id="{{ $images->id }}" data-img="{{ $images->image }}">Editar</a>
-										{{--<a href="{{ route('othersDelete', $images->id) }}" class="btn btn-danger
-									confirm-delete pull-right" role="button">Eliminar</a> --}}
+										<a href="{{ route('othersDelete', $images->id) }}" class="btn btn-danger
+									confirm-delete pull-right" role="button">Eliminar</a>
 									</div>
 								</div>
 							</div>
