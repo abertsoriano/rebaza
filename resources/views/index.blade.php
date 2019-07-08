@@ -85,32 +85,4 @@
     </div>
 </section>
 
-<div class="modal fade" id="modal_mudanza" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content row">
-            <div class="modal-body" style="padding-top: 0;padding-bottom: 0;border: 3px solid #000000;">
-                <div class="row">
-                    <div class="col-md-5" style="padding: 0;">
-                        <img src="{{ asset('images/popup_mudanza.jpg') }}" alt="Mudanza" style="width: 100%;border-right: 3px solid #000000">
-                    </div>
-                    <div class="col-md-7" style="padding: 0;">
-                        <img src="{{ asset('images/titulo_mudanza.jpg') }}" alt="Titulo mudanza" style="width: 100%">
-                        <div style="padding: 20px">
-                            <h2 class="text-center" id="titulo_mudanza">¡NOS MUDAMOS!</h2>
-                            <p>A partir del 14 de mayo, estaremos atendiendo en nuestras nuevas oficinas en el Edificio Real 2: el primer edificio del Perú diseñado por Jean Nouvel, galardonado con el premio Pritzker de arquitectura.</p>
-                            <p>El Real 2 ha sido considerado como uno de los mejores diseños para oficinas a nivel mundial y tiene los más altos estándares de calidad, alineándose perfectamente con nuestras expectativas, ambiciones y manera de proyectarnos hacia nuestros clientes.</p>
-                            <p>Estamos convencidos de que estas nuevas oficinas nos traerán mucha alegría y renovarán nuestro compromiso con la excelencia de nuestro servicio</p>
-                            <br><br>
-                            <p class="text-center" style="padding: 0 45px;">Gracias por ser parte de nuestro crecimiento y por acompañarnos en esta nueva etapa</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-default" type="button" data-dismiss="modal">Cerrar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
 @endsection
