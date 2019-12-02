@@ -9,12 +9,12 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="row">
-					<div class="col-sm-3 col-xs-12">
+					<div class="col-sm-4 col-xs-12">
 						<article class="news-block">
 							<img src="images/oficinas.jpg" alt="Oficinas" class="logo img-responsive">
 						</article>
 					</div>
-					<div class="col-sm-9 col-xs-12">
+					<div class="col-sm-8 col-xs-12">
 						<article class="nes-block">
 							<h4 class="text-bold titu">{{ trans('oficinas.title') }}</h4>
 						</article>
