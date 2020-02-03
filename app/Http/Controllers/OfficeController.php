@@ -1,12 +1,16 @@
 <?php namespace App\Http\Controllers;
 
 use App\Http\Requests\OfficeRequest;
-use App\Http\Controllers\Controller;
 
 use App\Office;
+use App\OfficeGallery;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Validator;
 
 class OfficeController extends Controller {
+
+	private $path_img_galery = 'images/oficinas';
 
 	/**
 	 * Display a listing of the resource.
@@ -16,7 +20,9 @@ class OfficeController extends Controller {
 	public function index()
 	{
 		$offices = Office::all();
-		return view('admin.office.index', compact('offices'));
+		$galleryOffices = OfficeGallery::all();
+
+		return view('admin.office.index', compact('offices', 'galleryOffices'));
 	}
 
 	/**
@@ -97,4 +103,42 @@ class OfficeController extends Controller {
 		return redirect()->back();
 	}
 
+	// Office Gallery
+	public function createGallery() {
+		$action = route('storeGalleryOffice');
+
+		return view('admin.office.gallery-form', compact('action'));
+	}
+
+	public function storeGallery(Request $request) {
+		$params = $request->all();
+		$rules = [
+			'name' => 'required',
+			'image' => 'required|image|max:1500'
+		];
+
+		$v = Validator::make($params, $rules);
+		if ($v->fails()) {
+			return redirect()->back()->withInput($params)->withErrors($v->errors());
+		}
+
+		$image = $request->file('image');
+		$params['image'] = str_slug(substr($image->getClientOriginalName(), 0, strlen($image->getClientOriginalName()) - 4), '_')
+			.'.'.$image->getClientOriginalExtension();
+
+		$request->file('image')->move($this->path_img_galery, $params['image']);
+
+		OfficeGallery::create($params);
+
+		return redirect()->route('officesIndex');
+	}
+
+	public function deleteGallery($id) {
+		$galleryOffice = OfficeGallery::find($id);
+
+		File::delete($this->path_img_galery . '/' . $galleryOffice->image);
+		$galleryOffice->delete();
+
+		return redirect()->back();
+	}
 }

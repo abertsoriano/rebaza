@@ -28,6 +28,26 @@
 						</div>
 					@endforeach
 					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<hr>
+							<h2>Galería | <a href="{{ route('addGalleryOffice') }}" class="btn btn-primary">Agregar Imagen</a></h2>
+						</div>
+						@foreach($galleryOffices as $galleryOffice)
+						<div class="col-sm-3">
+							<div class="thumbnail">
+								<form action="{{ route('deleteGalleryOffice', $galleryOffice->id) }}" method="post">
+									<input type="hidden" name="_method" value="DELETE">
+									<input type="hidden" name="_token" value="{{ csrf_token() }}">
+									<div class="image-content gallery-height" style="background-image: url('{{ asset('images/oficinas/' . $galleryOffice->image)  }}');"></div>
+									<div class="caption">
+										<button class="btn btn-danger" role="button">Eliminar</button>
+									</div>
+								</form>
+							</div>
+						</div>
+						@endforeach
+					</div>
 				</div>
 			</div>
 		</div>

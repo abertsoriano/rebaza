@@ -32,7 +32,7 @@ class UserTableSeeder extends Seeder {
 
     public function run()
     {
-        User::create(['name' => 'Admin Rebaza', 'password' => bcrypt('admin'), 'email' => 'admin@rebaza.com']);
+        User::create(['name' => 'Admin Rebaza', 'password' => bcrypt('123456'), 'email' => 'admin@rebaza.com']);
     }
 }
 

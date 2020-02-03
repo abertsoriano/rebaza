@@ -125,28 +125,26 @@ h1.main-title {
 	.news-block {
 		margin-top: 20px;
 	}
+
+	.office-list-gallery a {
+		margin-bottom: 30px;
+		height: 170px;
+		border: 1px solid #ccc;
+		padding: 2px;
+		border-radius: 4px;
+	}
+	.office-list-gallery a div {
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+	}
 		.news-event-teaser .oficina {
 			margin-top: 25px;
 		}
 		.news-event-teaser .oficina p:last-child {
 			height: 106px;
-		}
-
-		.news-event-teaser .itemreco{
-			font-size:12px;
-			width:325px;
-			margin:5px 0 0 0;
-			/*height:155px;*/
-			overflow:hidden;
-			float:left;
-			display:block;
-			color:#474747;
-			padding:0 1px 0 1px;
-			-webkit-transition:all 0.5s ease-out;
-			-o-transition:all 0.5s ease-out;
-			-moz-transition:all 0.5s ease-out;
-			-ms-transition:all 0.5s ease-out;
-			transition:all 0.5s ease-out;
 		}
 
 		.news-event-teaser .titu {
@@ -184,9 +182,9 @@ h1.main-title {
 			color: #36A9E1;
 		}
 		.news-event-teaser h4 {
-			font-size: 1.3em;
+			font-size: 1.46em;
 			color: #36A9E1;
-			padding: 1px 0px;
+			padding: 1px 0;
 		}
 		.news-event-teaser h4 span{
 			font-size: .7em;
@@ -249,10 +247,6 @@ h1.main-title {
 	.modal .panel-title p {
 		margin-top: 0 !important;
 	}
-	/*.news-block p span{
-		font-size: 14px;
-		color: #999999;
-		}*/
 
 	.bullet{
 		list-style:none;
@@ -498,93 +492,6 @@ a.nohover, a.nohover:hover {
     transform: scale(1.25);
 }
 
-
-
-#contenido_int .item strong{
-	display:block;}
-
-#contenido_int .item{
-	font-size:12px;
-	width:345px;
-	margin:10px 20px 0 0;
-	height:85px;
-	overflow:hidden;
-	float:left;
-	display:block;
-	color:#474747;
-	-webkit-transition:all 0.5s ease-out;
-	-o-transition:all 0.5s ease-out;
-	-moz-transition:all 0.5s ease-out;
-	-ms-transition:all 0.5s ease-out;
-	transition:all 0.5s ease-out;}
-
-#contenido_int .item:hover{
-	font-size:12px;
-	color:#00ccff;
-	-webkit-transition:all 0.5s ease-out;
-	-o-transition:all 0.5s ease-out;
-	-moz-transition:all 0.5s ease-out;
-	-ms-transition:all 0.5s ease-out;
-	transition:all 0.5s ease-out;}
-
-#columna_foto{
-	float:left;
-	color:#737373;
-	font-size:10px;
-	width:205px;
-	margin:0 30px 30px 200px;}
-
-#columna_foto img{
-	display:block;
-	margin-bottom:5px;
-	margin-top: 20px;
-	}
-
-#contenido_int{
-	width:710px;
-	float:left;
-	overflow:hidden;
-	margin-top:20px;
-}
-
-#contenido_int .pagina{
-	width:710px;
-	overflow:hidden;
-	margin-left:-10px;
-}
-
-#contenido_int .oculto{ display:none;}
-
-#contenido_int .pagina .item strong{
-	display:block;}
-
-#contenido_int .pagina .item{
-	font-size:12px;
-	width:325px;
-	margin:10px 0 0 0;
-	height:85px;
-	overflow:hidden;
-	float:left;
-	display:block;
-	color:#474747;
-	padding:0 10px 0 10px;
-	-webkit-transition:all 0.5s ease-out;
-	-o-transition:all 0.5s ease-out;
-	-moz-transition:all 0.5s ease-out;
-	-ms-transition:all 0.5s ease-out;
-	transition:all 0.5s ease-out;}
-
-#contenido_int .pagina .item:hover{
-	font-size:12px;
-	color:#00ccff;
-	-webkit-transition:all 0.5s ease-out;
-	-o-transition:all 0.5s ease-out;
-	-moz-transition:all 0.5s ease-out;
-	-ms-transition:all 0.5s ease-out;
-	transition:all 0.5s ease-out;}
-
-
-
 #cont_contenido h2{
 	color:#00ccff;
 	font-weight:normal;
@@ -627,7 +534,6 @@ a.nohover, a.nohover:hover {
 	background: url('../images/seccion-bg3.jpg');
 }
 
-
 .btn_mediano{
 	background:url(../images/btn_grande_fondo.png) no-repeat;
 	text-align:center;
@@ -648,41 +554,6 @@ a.nohover, a.nohover:hover {
 
 /*--------------------------------formularios--------------------------------*/
 /*----------------------------------------------------------------*/
-
-.titulo{
-	text-align:right;
-	vertical-align:top;
-	font-size:12px;
-	padding-top:5px;}
-
-.campo{
-	margin: 0px 10px 20px 10px;
-    padding: 8px 20px;
-	border:none;
-	background:#d7d7d7;
-	width:250px;
-	font-size:11px;}
-
-.areadetexto{
-	margin: 20px 10px 20px 10px;
-    padding: 8px 20px;
-	border:none;
-	background:#d7d7d7;
-	padding:5px;
-	width:250px;
-	height:150px;
-	font-size:11px;}
-.error{
-	background:url(../imagenes/x.png) no-repeat 0 2px;
-	padding-left:15px;
-	font-size:11px;
-	color:#00ccff;}
-
-.nota{
-	background:url(../imagenes/asterisco.png) no-repeat 0 2px;
-	padding-left:15px;
-	font-size:11px;
-	color:#737373;}
 
 .seccion-row h6, .content-articles h6 {
     margin-bottom: 2px;

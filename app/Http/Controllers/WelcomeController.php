@@ -152,9 +152,10 @@ class WelcomeController extends Controller {
         $pages = $this->pages;
 
         $offices = Office::all();
+        $galleryOffices = App\OfficeGallery::all();
 		$socialIcons = $this->socials;
 
-		return view('oficinas', compact('locale', 'pages', 'offices', 'socialIcons'));
+		return view('oficinas', compact('locale', 'pages', 'offices', 'socialIcons', 'galleryOffices'));
 	}
 
 	public function reconocimiento()

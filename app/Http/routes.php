@@ -62,6 +62,9 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'private'], function ($route
 	$route->get('offices/{id}/edit', ['as' => 'editOffice', 'uses' => 'OfficeController@edit']);
 	$route->post('offices/{id}/update', ['as' => 'updateOffice', 'uses' => 'OfficeController@update']);
 	$route->get('offices/{id}/delete', ['as' => 'deleteOffice', 'uses' => 'OfficeController@destroy']);
+	$route->get('offices/gallery/create', ['as' => 'addGalleryOffice', 'uses' => 'OfficeController@createGallery']);
+	$route->post('offices/gallery/store', ['as' => 'storeGalleryOffice', 'uses' => 'OfficeController@storeGallery']);
+	$route->delete('offices/gallery/{id}/delete', ['as' => 'deleteGalleryOffice', 'uses' => 'OfficeController@deleteGallery']);
 
 	// Gallery
 	$route->get('gallery', ['as' => 'gaIndex', 'uses' => 'GalleryController@index']);
