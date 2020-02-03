@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var cleanCSS = require('gulp-clean-css');
 var elixir = require('laravel-elixir');
+var rename = require("gulp-rename");
 
 elixir.config.sourcemaps = false;
 
@@ -18,7 +19,8 @@ elixir.config.sourcemaps = false;
 gulp.task('minify', function () {
 	gulp.src('public/css/app.css')
 		.pipe(cleanCSS())
-		.pipe(gulp.dest('public/css/app.min.css', {'overwrite': true}));
+		.pipe(rename('app.min.css'))
+		.pipe(gulp.dest('public/css/', {'overwrite': true}));
 });
 
 elixir(function(mix) {
