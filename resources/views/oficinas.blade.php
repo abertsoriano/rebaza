@@ -16,11 +16,11 @@
 					</div>--}}
 					<div class="col-xs-12">
 						<article class="nes-block">
-							<h4 class="text-bold titu text-center">{{ trans('oficinas.title') }}</h4>
+							<h4 class="text-bold titu">{{ trans('oficinas.title') }}</h4>
 						</article>
 						<div class="row">
 						@foreach($offices as $office)
-							<div class="col-sm-6 col-xs-12">
+							<div class="col-sm-6 col-md-4 col-xs-12">
 								<article class="news-block oficina">
 									<p class="text-bold">{{ $office->place }}</p>
 									<p>{!! nl2br($office['info_' . $locale]) !!}</p>

@@ -158,6 +158,6 @@ if ($locale === 'en') {
 		<script src="{{ asset('js/acordeon/jquery.accordion.js') }}"></script>
 		<script src="{{ asset('js/acordeon/jquery.accordion.source.js') }}"></script>
 		<script src="{{ asset('js/ekko-lightbox5.3.0.min.js') }}"></script>
-		<script src="{{ asset('js/custom.js') }}"></script>
+		<script src="{{ asset('js/custom.js') }}?v=223"></script>
 	</body>
 </html>
