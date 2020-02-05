@@ -7,6 +7,7 @@ class Gallery extends Model {
 	protected $fillable = [
 		'image',
 		'name',
-		'data'
+		'data',
+		'size_type'
 	];
 }

@@ -17,13 +17,9 @@ class CreateGalleriesTable extends Migration {
 			$table->increments('id');
 			$table->string('image');
 			$table->string('name');
-//			$table->string('name_en');
-
 			$table->string('data');
-//			$table->string('data_en');
+			$table->string('size_type');
 			$table->timestamps();
-
-			$table->softDeletes();
 		});
 	}
 

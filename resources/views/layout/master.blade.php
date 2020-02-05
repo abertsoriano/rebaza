@@ -19,6 +19,7 @@ if ($locale === 'en') {
 
 	<title>Rebaza, Alcazar @yield('title', '')</title>
 	<link href="{{ asset('css/app.min.css') }}?c={{ time() }}" rel="stylesheet">
+	<link href="{{ asset('css/lightcase.css') }}?c={{ time() }}" rel="stylesheet">
 	<!--[if lt IE 9]>
 	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -102,8 +103,8 @@ if ($locale === 'en') {
 									</li>
 								</ul>
 							</li>
-							<li class="{{ $currentUri === 'reconocimiento' ? 'active' : '' }}">
-								<a href="{{ route('reconocimiento') }}">{{ trans('links.nav_4') }}</a>
+							<li>
+								<a href="/blog">{{ trans('links.nav_4') }}</a>
 							</li>
 							<li class="{{ $currentUri === 'oficinas' ? 'active' : '' }}">
 								<a href="{{ route('oficinas') }}">{{ trans('links.nav_5') }}</a>
@@ -158,6 +159,7 @@ if ($locale === 'en') {
 		<script src="{{ asset('js/acordeon/jquery.accordion.js') }}"></script>
 		<script src="{{ asset('js/acordeon/jquery.accordion.source.js') }}"></script>
 		<script src="{{ asset('js/ekko-lightbox5.3.0.min.js') }}"></script>
-		<script src="{{ asset('js/custom.js') }}?v=223"></script>
+		@yield('js_extend')
+		<script src="{{ asset('js/custom.js') }}?v=223a3"></script>
 	</body>
 </html>

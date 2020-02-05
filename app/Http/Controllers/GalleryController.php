@@ -55,16 +55,8 @@ class GalleryController extends Controller {
 		$params = $request->all();
 		$rules = [
 			'name' => 'required',
+			'image' => 'required|image|max:1500'
 		];
-
-		if ($request->hasFile('image')) {
-			$image = $request->file('image');
-
-			$params['image'] = str_slug(substr($image->getClientOriginalName(), 0, strlen($image->getClientOriginalName()) - 4), '_')
-				.'.'.$image->getClientOriginalExtension();
-			$params['images'] = $image;
-			$rules['images'] = 'image|max:1500';
-		}
 
 		$v = Validator::make($params, $rules);
 
@@ -72,12 +64,12 @@ class GalleryController extends Controller {
 			return redirect()->back()->withInput($params)->withErrors($v->errors());
 		}
 
-		if ($request->hasFile('image')) {
+		$image = $request->file('image');
 
-			$request->file('image')->move($this->path_img_galery, $params['image']);
-			File::copy($this->path_img_galery . '/' . $params['image'], $this->path_img_galery_thumb . '/' . $params['image']);
+		$params['image'] = str_slug(substr($image->getClientOriginalName(), 0, strlen($image->getClientOriginalName()) - 4), '_')
+			.'.'.$image->getClientOriginalExtension();
 
-		}
+		$request->file('image')->move($this->path_img_galery, $params['image']);
 
 		$params['data'] = json_encode($params['_data']);
 

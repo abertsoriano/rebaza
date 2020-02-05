@@ -27,37 +27,43 @@
 									@endif
 								</div>
 								<div class="col-sm-8">
-									<div class="row">
-										<div class="col-sm-12">
-											<label class="col-sm-3 control-label">Nombre</label>
-											<div class="col-sm-9">
-												<input type="text" class="form-control" name="name" value="{{ old
-										('name', $gallery->name) }}" placeholder="Nombre">
-											</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label">Nombre</label>
+										<div class="col-sm-9">
+											<input type="text" class="form-control" name="name" value="{{ old
+									('name', $gallery->name) }}" placeholder="Nombre">
 										</div>
-										<br><br><br>
-										<div class="col-sm-12">
-											<label class="col-sm-3 control-label">Artista</label>
-											<div class="col-sm-9">
-												<input type="text" class="form-control" name="_data[]" value="{{
-												isset($data[0]) ? $data[0] : ''  }}">
-											</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label">Tamaño</label>
+										<div class="col-sm-9">
+											<select class="form-control" name="size_type">
+												<option value="" {{ '' == old('size_type', $gallery->size_type) ? 'selected' : '' }}>Ninguno</option>
+												<option value="tall" {{ 'tall' == old('size_type', $gallery->size_type) ? 'selected' : '' }}>Alto</option>
+												<option value="wide" {{ 'wide' == old('size_type', $gallery->size_type) ? 'selected' : '' }}>Ancho</option>
+												<option value="tall wide" {{ 'tall wide' == old('size_type', $gallery->size_type) ? 'selected' : '' }}>Alto y Ancho</option>
+											</select>
 										</div>
-										<br><br>
-										<div class="col-sm-12">
-											<label class="col-sm-3 control-label">Tipo Obra</label>
-											<div class="col-sm-9">
-												<input type="text" class="form-control" name="_data[]" value="{{
-												isset($data[1]) ? $data[1] : '' }}">
-											</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label">Artista</label>
+										<div class="col-sm-9">
+											<input type="text" class="form-control" name="_data[]" value="{{
+											isset($data[0]) ? $data[0] : ''  }}">
 										</div>
-										<br><br>
-										<div class="col-sm-12">
-											<label class="col-sm-3 control-label">Medidas</label>
-											<div class="col-sm-9">
-												<input type="text" class="form-control" name="_data[]" value="{{
-												isset($data[2]) ? $data[2] : '' }}">
-											</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label">Tipo Obra</label>
+										<div class="col-sm-9">
+											<input type="text" class="form-control" name="_data[]" value="{{
+											isset($data[1]) ? $data[1] : '' }}">
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label">Medidas</label>
+										<div class="col-sm-9">
+											<input type="text" class="form-control" name="_data[]" value="{{
+											isset($data[2]) ? $data[2] : '' }}">
 										</div>
 									</div>
 								</div>
