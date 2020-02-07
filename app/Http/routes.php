@@ -28,6 +28,12 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'private'], function ($route
 	$route->get('home-notices/create', ['as' => 'addNotice', 'uses' => 'HomeController@homeCreate']);
 	$route->get('home-notices/{id}/view', ['as' => 'editNotice', 'uses' => 'HomeController@homeArticlesView']);
 
+	// Banners Home
+	$route->get('home-banners', ['as' => 'bannerImages', 'uses' => 'HomeController@homeBannerIndex']);
+	$route->get('home-banners/create', ['as' => 'createBannerImages', 'uses' => 'HomeController@homeBannerCreate']);
+	$route->post('home-banners/store', ['as' => 'storeBannerImages', 'uses' => 'HomeController@homeBannerStore']);
+	$route->delete('home-banners/{id}/delete', ['as' => 'deleteBannerImages', 'uses' => 'HomeController@homeBannerDelete']);
+
     // Lawyer
     $route->get('lawyers/{type}', ['as' => 'lawyers', 'uses' => 'LawyerController@index']);
     $route->get('lawyers/create/{type}', ['as' => 'addLawyer', 'uses' => 'LawyerController@create']);

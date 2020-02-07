@@ -106,6 +106,7 @@
 							<li><a href="{{ route('articles', 2) }}">Ultimas Noticias</a></li>
 							<li role="separator" class="divider"></li>
 							<li><a href="{{ route('othersIndex') }}">Imagenes redes sociales y Otros</a></li>
+							<li><a href="{{ route('bannerImages') }}">Banners</a></li>
 						</ul>
 					</li>
 					<li><a href="{{ route('pageIndex', 'estudio') }}">Estudio</a></li>

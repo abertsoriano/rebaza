@@ -6,15 +6,6 @@ $(function() {
     // si se coloca en la misma public_html deberia ir vacio ''
     var ALT_PATH = '';
 
-    function setLegend(position) {
-        var data = legend[position];
-
-        $('#title').html(data.title);
-        $('#artist').html(data.artist);
-        $('#type').html(data.type);
-        $('#measure').html(data.measure);
-    }
-
     function initialize() {
         var mapOptions = {
             zoom: 8,
@@ -61,16 +52,16 @@ $(function() {
 	}
 
 	//MAGNIFIC POPUP
-	var $galleryGrid = $(".gallery-grid");
-	if ($galleryGrid.length) {
-		$galleryGrid.magnificPopup({
-			delegate: 'a.zoom',
-			type: 'image',
-			gallery: {
-				enabled: true
-			}
-		});
-	}
+	// var $galleryGrid = $(".gallery-grid");
+	// if ($galleryGrid.length) {
+	// 	$galleryGrid.magnificPopup({
+	// 		delegate: 'a.zoom',
+	// 		type: 'image',
+	// 		gallery: {
+	// 			enabled: true
+	// 		}
+	// 	});
+	// }
 
 	// Date Picker
 	var $datepicker = $(".datepickerInput");
@@ -91,42 +82,6 @@ $(function() {
 		$google.height(440);
 		initialize();
 		google.maps.event.addDomListener(window, 'load', initialize);
-	}
-
-	var $slickGallery = $('div.slick-gallery');
-	if ($slickGallery.length) {
-		$slickGallery.slick({
-			infinite: true,
-			slidesToShow: 7,
-			slidesToScroll: 1,
-			focusOnSelect: true,
-			centerMode: true,
-			responsive: [{
-				breakpoint: 992,
-				settings: {
-					slidesToShow: 5
-				}
-			},
-			{
-				breakpoint: 767,
-				settings: {
-					slidesToShow: 1
-				}
-			}]
-		});
-
-		$slickGallery.on('afterChange', function(e, v) {
-			var position = v.getCurrent();
-			var $image = $(v.$slides.get(position)).children();
-			var src = location.origin + ALT_PATH + '/images/gallery/' + $image.prop('src').split('/').pop();
-			var $bgImage = $('img.bg-gallery');
-			var $modalImage = $('img.modal-img-gallery');
-
-			$bgImage.prop('src', src);
-			$modalImage.prop('src', src);
-			setLegend(position);
-		});
-		setLegend(0);
 	}
 
 	$('section.search-area').slick({

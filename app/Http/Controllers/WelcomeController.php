@@ -36,6 +36,8 @@ class WelcomeController extends Controller {
 
 	private $socials;
 
+	private $banners;
+
 	public function __construct()
     {
         if (Cache::has('locale')) {
@@ -55,6 +57,7 @@ class WelcomeController extends Controller {
         $this->pages = ['estudios' => $estudios, 'areas' => $areas, 'trabaja' => $trabaja];
 
         $this->socials = OtherImages::where('type', 2)->latest()->get(['link', 'image']);
+        $this->banners = OtherImages::where('type', 3)->latest()->get(['image']);
     }
 
     /**
@@ -74,8 +77,9 @@ class WelcomeController extends Controller {
 
 		$sidebarImages = OtherImages::where('type', 1)->latest()->get(['image']);
 		$socialIcons = $this->socials;
+		$banners = $this->banners;
 
-		return view('index', compact('articles', 'locale', 'homeData', 'pages', 'quotes', 'sidebarImages', 'socialIcons'));
+		return view('index', compact('articles', 'locale', 'homeData', 'pages', 'quotes', 'sidebarImages', 'socialIcons', 'banners'));
 	}
 
 	public function indexDemo() {
@@ -89,8 +93,9 @@ class WelcomeController extends Controller {
 
 		$sidebarImages = OtherImages::where('type', 1)->latest()->get(['image']);
 		$socialIcons = $this->socials;
+		$banners = $this->banners;
 
-		return view('index-demo', compact('articles', 'locale', 'homeData', 'pages', 'quotes', 'sidebarImages', 'socialIcons'));
+		return view('index-demo', compact('articles', 'locale', 'homeData', 'pages', 'quotes', 'sidebarImages', 'socialIcons', 'banners'));
 	}
 
 	public function abogadoasociados()
@@ -99,8 +104,9 @@ class WelcomeController extends Controller {
         $locale = $this->locale;
         $pages = $this->pages;
 		$socialIcons = $this->socials;
+		$banners = $this->banners;
 
-		return view('abogadoasociados', compact('asociados', 'locale', 'pages', 'socialIcons'));
+		return view('abogadoasociados', compact('asociados', 'locale', 'pages', 'socialIcons', 'banners'));
 	}
 
 	public function abogadoconsejeros()
@@ -110,9 +116,10 @@ class WelcomeController extends Controller {
         $locale = $this->locale;
         $pages = $this->pages;
 		$socialIcons = $this->socials;
+		$banners = $this->banners;
 		$all = $consultores->merge($consultoresExternos);
 
-		return view('abogadoconsejeros', compact('consultores', 'locale', 'pages', 'socialIcons', 'consultoresExternos', 'all'));
+		return view('abogadoconsejeros', compact('consultores', 'locale', 'pages', 'socialIcons', 'consultoresExternos', 'all', 'banners'));
 	}
 
 	public function abogadosocios()
@@ -121,8 +128,9 @@ class WelcomeController extends Controller {
         $locale = $this->locale;
         $pages = $this->pages;
 		$socialIcons = $this->socials;
+		$banners = $this->banners;
 
-		return view('abogadosocios', compact('socios', 'locale', 'pages', 'socialIcons'));
+		return view('abogadosocios', compact('socios', 'locale', 'pages', 'socialIcons', 'banners'));
 	}
 
     public function pages($page_slug)
@@ -131,8 +139,9 @@ class WelcomeController extends Controller {
         $page = Page::where('page_slug', $page_slug)->first();
         $pages = $this->pages;
 		$socialIcons = $this->socials;
+		$banners = $this->banners;
 
-        return view('pages', compact('page', 'locale', 'pages', 'socialIcons'));
+        return view('pages', compact('page', 'locale', 'pages', 'socialIcons', 'banners'));
     }
 
 	public function galeria()
@@ -142,8 +151,9 @@ class WelcomeController extends Controller {
 
         $galleries = Gallery::all();
 		$socialIcons = $this->socials;
+		$banners = $this->banners;
 
-		return view('galeria', compact('locale', 'pages', 'galleries', 'socialIcons'));
+		return view('galeria', compact('locale', 'pages', 'galleries', 'socialIcons', 'banners'));
 	}
 
 	public function oficinas()
@@ -154,8 +164,9 @@ class WelcomeController extends Controller {
         $offices = Office::all();
         $galleryOffices = App\OfficeGallery::all();
 		$socialIcons = $this->socials;
+		$banners = $this->banners;
 
-		return view('oficinas', compact('locale', 'pages', 'offices', 'socialIcons', 'galleryOffices'));
+		return view('oficinas', compact('locale', 'pages', 'offices', 'socialIcons', 'galleryOffices', 'banners'));
 	}
 
 	public function reconocimiento()
@@ -165,8 +176,9 @@ class WelcomeController extends Controller {
         $locale = $this->locale;
         $pages = $this->pages;
 		$socialIcons = $this->socials;
+		$banners = $this->banners;
 
-		return view('reconocimiento', compact('articles', 'locale', 'pages', 'socialIcons'));
+		return view('reconocimiento', compact('articles', 'locale', 'pages', 'socialIcons', 'banners'));
 	}
 
 	public function responsabilidadsocial()
@@ -176,8 +188,9 @@ class WelcomeController extends Controller {
         $locale = $this->locale;
         $pages = $this->pages;
 		$socialIcons = $this->socials;
+		$banners = $this->banners;
 
-		return view('responsabilidadsocial', compact('locale', 'pages', 'socialIcons', 'rseGalleries'));
+		return view('responsabilidadsocial', compact('locale', 'pages', 'socialIcons', 'rseGalleries', 'banners'));
 	}
 
 	public function trabaja()
@@ -185,8 +198,9 @@ class WelcomeController extends Controller {
         $locale = $this->locale;
         $pages = $this->pages;
 		$socialIcons = $this->socials;
+		$banners = $this->banners;
 
-		return view('trabaja', compact('locale', 'pages', 'socialIcons'));
+		return view('trabaja', compact('locale', 'pages', 'socialIcons', 'banners'));
 	}
 
 	public function trabajaformulario()
@@ -194,8 +208,9 @@ class WelcomeController extends Controller {
         $locale = $this->locale;
         $pages = $this->pages;
 		$socialIcons = $this->socials;
+		$banners = $this->banners;
 
-		return view('trabajaformulario', compact('locale', 'pages', 'socialIcons'));
+	 	return view('trabajaformulario', compact('locale', 'pages', 'socialIcons', 'banners'));
 	}
 
 	public function changeLocale(Request $request)

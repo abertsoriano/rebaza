@@ -121,8 +121,9 @@ if ($locale === 'en') {
 			</nav>
 		</header>
 		<section class="search-area fix-bg">
-			<div class="banners bg-uno"></div>
-			<div class="banners bg-dos"></div>
+			@foreach($banners as $banner)
+				<div class="banners" style="background: url('images/banners/{{ $banner->image }}');"></div>
+			@endforeach
 		</section>
 		@section('content')
 

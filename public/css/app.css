@@ -4367,12 +4367,6 @@ a.nohover, a.nohover:hover {
 	height: 80px !important;
 	margin: 0;
 }
-.bg-uno {
-	background: url('../images/section-bg2.jpg');
-}
-.bg-dos {
-	background: url('../images/seccion-bg3.jpg');
-}
 
 .btn_mediano{
 	background:url(../images/btn_grande_fondo.png) no-repeat;

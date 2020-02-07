@@ -58,9 +58,7 @@ class OtherImagesController extends Controller {
 			$rules['link'] = 'required|url';
 		}
 
-		$v = Validator::make($params, [
-			'image' => 'required|image|max:1500'
-		]);
+		$v = Validator::make($params, $rules);
 
 		if ($v->fails()) {
 			return redirect()->back()->withInput($params)->withErrors($v->errors());

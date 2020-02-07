@@ -1,7 +1,8 @@
 <?php namespace App\Http\Controllers;
 
+use App\OtherImages;
 use App\Page;
-use Illuminate\Contracts\Filesystem\Filesystem;
+use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\Request;
 use App\Article;
 use File;
@@ -136,5 +137,52 @@ class HomeController extends Controller {
 		$action = route('updateArticle', $id);
 
 		return view('admin.home_notice.form', compact('action', 'notice'));
+	}
+
+	// Home Banners
+	public function homeBannerIndex() {
+		$banners = OtherImages::where('type', 3)->get(['id', 'image']);
+
+		return view('admin.home_banner.index', compact('banners'));
+	}
+
+	public function homeBannerCreate()
+	{
+		return view('admin.home_banner.create');
+	}
+
+	public function homeBannerStore(Request $req)
+	{
+		$params = $req->all();
+		$params['type'] = 3;
+
+		$rules = [
+			'image' => 'required|image|max:1500'
+		];
+
+		$v = Validator::make($params, $rules);
+
+		if ($v->fails()) {
+			return redirect()->back()->withInput($params)->withErrors($v->errors());
+		}
+
+		$image = $req->file('image');
+		$params['image'] = str_slug(substr($image->getClientOriginalName(), 0, strlen($image->getClientOriginalName()) - 4), '_')
+			.'.'.$image->getClientOriginalExtension();
+		$req->file('image')->move('images/banners', $params['image']);
+
+		OtherImages::create($params);
+
+		return redirect()->route('bannerImages');
+	}
+
+	public function homeBannerDelete($id)
+	{
+		$image = OtherImages::find($id);
+
+		File::delete('images/banners/' . $image->image);
+		$image->delete();
+
+		return redirect()->back();
 	}
 }
