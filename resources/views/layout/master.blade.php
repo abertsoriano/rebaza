@@ -161,6 +161,6 @@ if ($locale === 'en') {
 		<script src="{{ asset('js/acordeon/jquery.accordion.source.js') }}"></script>
 		<script src="{{ asset('js/ekko-lightbox5.3.0.min.js') }}"></script>
 		@yield('js_extend')
-		<script src="{{ asset('js/custom.js') }}?v=223a3"></script>
+		<script src="{{ asset('js/custom.js') }}?v=223a38"></script>
 	</body>
 </html>
