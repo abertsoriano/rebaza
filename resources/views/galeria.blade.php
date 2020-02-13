@@ -10,7 +10,7 @@
 				<?php $data = json_decode($gallery->data);?>
 				<div class="grid-item {{ $gallery->size_type }}">
 					<a href="{{ asset('images/gallery/' . $gallery->image) }}"
-					   data-rel="lightcase:gallery"
+					   data-rel="lightcase:gallery:slideshow"
 					   title="{{ $gallery->name }}"
 					   data-lc-caption="{{ $data[0] }}<br>{{ $data[1] }}<br>{{ $data[2] }}">
 						<div class="img" data-background="{{ asset('images/gallery/' . $gallery->image) }}"></div>
